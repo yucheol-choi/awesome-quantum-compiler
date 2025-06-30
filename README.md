@@ -6,16 +6,23 @@ The workflow of quantum compilation is categorized into six major stages, provid
 There are also plans to tag each paper with keywords according to the target quantum architecture.
 
 
-+ Papers
-  + General Quantum Compiler
-  + High-Level Representation 
++ Research Papers
+  + Quantum Compilation Surveys
+  + Front-end IR / High-Level Representation
+  + Quantum Program Optimization
+  + Quantum IR
   + Circuit Transformation 
   + Routing and Mapping 
-  + Optimization and Scheduling 
-  + Error Mitigation and Correction 
-  + Hardware Execution
-  + Verification and Evaluation
-  + Simulation and Testing
+  + Optimization and Scheduling
+  + Quantum Circuit Optimisation
+  + Quantum Circuit Scheduling
+  + Quantum Instruction Scheduling
+  + Quantum Circuit Analysis
+  + Error Mitigation and Correction
+  + Hardware Execution & Runtime Scheduler 
+  + Verification 
+  + Benchmarking / Evaluation
+  + Simulation + Debug/Test
 + Books
 + Related-Repo & Post
 + Benchmarks and Datasets
@@ -26,25 +33,27 @@ There are also plans to tag each paper with keywords according to the target qua
 
 
 
-# Papers
+### Research Papers
 
-## General Research
-
+#### Quantum Compilation Surveys
++ [Quantum Compilation Process: A Survey](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) - F. Javier Cardama, Jorge Vázquez-Pérez, Tomás F. Pena, Juan C. Pichel & Andrés Gómez, 2025
++ [Quantum Compiler Design for Qubit Mapping and Routing](https://arxiv.org/pdf/2505.16891) - Chenghong zhu et al., 2025.
++ [A Comprehensive Review of Quantum Circuit Optimization: Current Trends and Future Directions](https://www.mdpi.com/2624-960X/7/1/2) - Krishnageetha Karuppasamy et al., 2025.
++ [Quantum Circuit Synthesis and Compilation Optimization: Overview and Prospects](https://arxiv.org/html/2407.00736v1) - Ge Yan et al., 2024.
 + [Quantum Compiling](https://arxiv.org/abs/2112.00187) - Marco Maronese, Lorenzo Moro, Lorenzo Rocutto, Enrico Prati, 2021
-+ [Quantum circuit optimization with AlphaTensor](https://www.nature.com/articles/s42256-025-01001-1) - Francisco J. R. Ruiz, Nature Machine Intelligence, 2025
-+ [Learning high-accuracy error decoding for quantum processors](https://www.nature.com/articles/s41586-024-08148-8) - Johannes Bausch et al, Nature, 2024
 + [Quantum compiling by deep reinforcement learning](https://www.nature.com/articles/s42005-021-00684-3) - Lorenzo Moro, Matteo G. A. Paris, Marcello Restelli, Enrico Prati, Nature, 2021
 + [Programming languages and compiler design for realistic quantum hardware](https://www.nature.com/articles/nature23459) - Frederic T. Chong, Diana Franklin, Margaret Martonosi, Nature, 2017
 
 
 
 </br></br>
-## 1. High-Level Representation (Program Optimization, Program Representation, Intermediate Representation)
-**Keywords** : QASM, High-level synthesis, IR Design, Program synthesis, High-level abstraction, Loop optimization, Program transformation
+#### Front-end IR / High-Level Representation ####
+#### QASM, High-level synthesis, IR Design, Program synthesis, High-level abstraction, Loop optimization, Program transformation
 
-### 🔹 Quantum Program Representation 🔹 ### 
-+ [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) - David Ittah, Thomas Häner, Vadym Kliuchnikov, Torsten Hoefler, ACM Transactions on Quantum Computing, 2021 
-### 🔹 Quantum Program Optimization 🔹 ### 
+####  Quantum Program Representation #### 
++ [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) - David Ittah, Thomas Häner, Vadym Kliuchnikov, Torsten Hoefler, ACM Transactions on Quantum Computing, 2021.
+  
+####  Quantum Program Optimization #### 
 + [SuperstaQ: Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) - Campbell, Colin, et al. ,QCE, 2023
 + [Paulihedral: a generalized block-wise compiler optimization framework for Quantum simulation kernels](https://arxiv.org/abs/2109.03371) - Gushu Li, Anbang Wu, Yunong Shi, Ali Javadi-Abhari, Yufei Ding, Yuan Xie, 2021
 + [Enabling Dataflow Optimization for Quantum Programs](https://arxiv.org/abs/2101.11030) - David Ittah, Thomas Häner, Vadym Kliuchnikov, Torsten Hoefler, CoRR, 2021
@@ -57,7 +66,8 @@ Quantum Science and Technology, 2016
 + [Assertion-Based Optimization of Quantum Programs](https://arxiv.org/abs/1810.00375) - Häner, Thomas, Hoefler, Torsten, Troyer, Matthias, OOPSLA, 2013
 + [Repeat-until-Success: Non-Deterministic Decomposition of Single-Qubit Unitaries](https://arxiv.org/abs/1311.1074) - Adam Paetznick, Krysta M. Svore, Quantum Information & Computation, 2013
 + [Circuit for Shor’s Algorithm Using 2n+3 Qubits](https://arxiv.org/abs/quant-ph/0205095) - Stephane Beauregard, Quantum Information and Computation, Quantum Information and Computation, 2002
-### 🔹 Quantum IR 🔹 ### 
+  
+#### Quantum IR #### 
 + [A Cross-Platform Execution Engine for the Quantum Intermediate Representation](https://arxiv.org/pdf/2404.14299) - Elaine Wong et al., 2024
 + [InQuIR: Intermediate Representation for Interconnected Quantum Computers](https://arxiv.org/abs/2302.00267) - Shin Nishio, Ryo Wakizaka, 2023
 + [QSSA: an SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) - Anurudh Peduri, Siddharth Bhat, CC, 2022
@@ -70,8 +80,8 @@ Quantum Science and Technology, 2016
 
 
 </br></br>
-## 2. Circuit Transformation (Gate Decomposition, Basis gate conversion)
-**Keywords** : Gate synthesis, Gate decomposition, Basis gates
+#### Circuit Transformation ####
+#### Gate Synthesis, Gate Decomposition, Basis Gates
 
 + [Hybrid discrete-continuous compilation of trapped-ion quantum circuits with deep reinforcement learning](https://arxiv.org/abs/2307.05744) - Francesco Preti,. Quantum, 2024
 + [Geyser: a compilation framework for quantum computing with neutral atoms](https://dl.acm.org/doi/abs/10.1145/3470496.3527428) - T. Patel et al., ISCA, 2022
@@ -80,9 +90,8 @@ Quantum Science and Technology, 2016
 </br></br>
 
 
-## 3. Routing and Mapping (Qubit Mapping, Routing, Circuit Partitioning)
-**Keywords** : Qubit mapping, SWAP optimization, Connectivity constraints
-### 🔹 Qubit Mapping 🔹 ### 
+#### SWAP optimization, Connectivity constraints, Circuit Partitioning
+#### Qubit Routing and Mapping #### 
 + [Compiling quantum circuits for dynamically field-programmable neutral atoms array processors](https://arxiv.org/pdf/2306.03487.pdf) - D. B. Tan et al., 2024
 + [Qubit mapping for reconfigurable atom arrays](https://dl.acm.org/doi/abs/10.1145/3508352.3549331) - B. Tan et al, ICCAD, 2022
 + [Qubit Mapping Toward Quantum Advantage](https://arxiv.org/pdf/2210.01306v1.pdf) - Chin-Yi Cheng et al., 2022
@@ -97,26 +106,28 @@ Quantum Science and Technology, 2016
 
 
 </br></br>
-## 4. Optimization and Scheduling (Circuit Scheduling Instruction Scheduling, Circuit Optimization, Resource Estimation, Circuit Analysis)
-**Keywords** : Circuit depth reduction, Parallel execution, Gate scheduling, Resource estimation
+#### Optimisation and Scheduling 
+#### Circuit Depth Reduction, Gate Scheduling, Resource estimation, Circuit Scheduling, Circuit Optimization
 
++ [Quantum circuit optimization with AlphaTensor](https://www.nature.com/articles/s42256-025-01001-1) - Francisco J. R. Ruiz, Nature Machine Intelligence, 2025
 + [Q-Pilot: Field Programmable Qubit Array Compilation with Flying Ancillas](https://arxiv.org/abs/2311.16190) - Hanrui Wang., DAC, 2024
 + [Automated Generation of Shuttling Sequences for a Linear Segmented Ion Trap Quantum Computer](https://arxiv.org/abs/2208.04881) - Jonathan Durandau, Quantum, 2023
-
 + [Quantum optimization of maximum independent set using Rydberg atom arrays](https://arxiv.org/abs/2202.09372) - S.Ebadi et al., Science, 2022
 + [Full-stack quantum computing systems in the NISQ era: algorithm-driven and hardware-aware compilation techniques](https://arxiv.org/abs/2204.06369) - Mendina Bandic, DATE, 2022
 + [Software-hardware co-optimization for computational chemistry on superconducting quantum processors](https://arxiv.org/abs/2105.07127) - GushuLi, YunongShi, and AliJavadi-Abhari, ISCA, 2021
 
-### 🔹 Quantum Circuit Optimization 🔹 ### 
+#### Quantum Circuit Optimisation #### 
 + [Quarl: A Learning-Based Quantum Circuit Optimizer](https://dl.acm.org/doi/abs/10.1145/3649831) - Zikun Li et al., OOPSLA, 2024
 + [Machine Learning Optimization of Quantum Circuit Layouts](https://dl.acm.org/doi/full/10.1145/3565271) - Alexandru Pale et al., ACM Transactions on Quantum Computing, 2023
 + [Synthesizing Quantum-Circuit Optimizers](https://dl.acm.org/doi/abs/10.1145/3591254) - Amanda Xu et al., PLDI, 2023 
 + [Monte Carlo Graph Search for Quantum Circuit Optimization](https://arxiv.org/abs/2307.07353) - Bodo Rosenhahn, Tobias J. Osborne, 2023
-### 🔹 Quantum Circuit Scheduling 🔹 ### 
+
+#### Quantum Circuit Scheduling #### 
 + [Quantum circuit scheduler for QPUs usage optimization](https://arxiv.org/html/2404.01055v1) - Javier Romero-Alvarez et al. 2024
 + [Scheduling of Operations in Quantum Compiler](https://arxiv.org/pdf/2011.04936) - Toshinari Itoko, Takashi Imamichi, QCE, 2020
 + [Two-step approach to scheduling quantum circuits](https://arxiv.org/abs/1708.00023) - Gian Giacomo Guerreschi, Jongsoo Park, Quantum Sci journal, 2017
-### 🔹 Quantum Instruction Scheduling 🔹 ### 
+
+#### Quantum Instruction Scheduling #### 
 + [SCIM MILQ: An HPC Quantum Scheduler](https://arxiv.org/abs/2404.03512) - Philipp Seitz, Manuel Geiger, Christian Ufrecht, Axel Plinge, Christopher Mutschler, Daniel D. Scherer, Christian B. Mendl, Quantum Week, 2024
 + [DISQ: Dynamic Iteration Skipping for Variational Quantum Algorithms](https://arxiv.org/abs/2308.06634) - Junyao Zhang, Hanrui Wang, Gokul Subramanian Ravi, Frederic T. Chong, Song Han, Frank Mueller, Yiran Chen, QCE, 2023
 + [Let Each Quantum Bit Choose Its Basis Gates](https://arxiv.org/abs/2208.13380) - Sophia Fuhui Lin, Sara Sussman, Casey Duckering, Pranav S. Mundada, Jonathan M. Baker, Rohan S. Kumar, Andrew A. Houck, Frederic T. Chong, MICRO, 2022
@@ -125,70 +136,80 @@ Quantum Science and Technology, 2016
 + [EQC: ensembled quantum computing for variational quantum algorithms](https://arxiv.org/abs/2111.14940) - Samuel Stein, Yufei Ding, Nathan Wiebe, Bo Peng, Karol Kowalski, Nathan Baker, James Ang, Ang Li, ISCA, 2022
 + [Software mitigation of crosstalk on noisy intermediate-scale quantum computers](https://arxiv.org/abs/2001.02826) - Prakash Murali, David C. McKay, Margaret Martonosi, Ali Javadi-Abhari, ASPLOS, 2020
 + [TILT: Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/abs/2010.15876) - Xin-Chuan Wu, Dripto M. Debroy, Yongshan Ding, Jonathan M. Baker, Yuri Alexeev, Kenneth R. Brown, Frederic T. Chong, HPCA, 2020
-### 🔹 Quantum Circuit Analysis 🔹 ### 
+
+#### Quantum Circuit Analysis #### 
 + [QuCT: A Framework for Analyzing Quantum Circuit by Extracting Contextual and Topological Features](https://dl.acm.org/doi/10.1145/3613424.3614274) - Siwei Tan et al., MICRO, 2023
 + [Quantum Vulnerability Analysis to Guide Robust Quantum Computing System Design](https://arxiv.org/pdf/2207.14446) - Fang Qi et al., 2023
-
-
-
 </br></br>
-## 5. Error Mitigation and Correction (Quantum Error Correction, Noise-Aware Compilation)
-**Keywords** : Surface code, Fault tolerance, Noise modeling
 
+
+#### Error Mitigation and Correction ####
+
++ [Learning high-accuracy error decoding for quantum processors](https://www.nature.com/articles/s41586-024-08148-8) - Johannes Bausch et al, Nature, 2024
 + [TISCC: A Surface Code Compiler and Resource Estimator for Trapped-Ion Processors](https://dl.acm.org/doi/abs/10.1145/3624062.3624214) - Tyler Leblond, Ryan S. Bennink, Justin G. Lietz, and Christopher M. Seck, SC, 2023
 + [Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Quantum Architectures](https://arxiv.org/pdf/2111.06469.pdf) -  Jonathan M. Baker, et al. ISCA, 2021
 + [TILT: Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/pdf/2010.15876v3.pdf) - Xin-Chuan Wu, Dripto M Debroy, Yongshan Ding, Jonathan M Baker, Yuri Alexeev, Kenneth R Brown, and Frederic T Chong, HPCA, 2020
 + [Systematic Cross talk Mitigation for Superconducting Qubits via Frequency-Aware Compilation](https://arxiv.org/abs/2008.09503), Yongshan Ding, Pranav Gokhale, Sophia Fuhui Lin, Richard Rines, Thomas Propson, Frederic T. Chong, MICRO, 2020
-
 </br></br>
-## 6. Hardware Execution (Pulse-Level Control, Hardware-aware compilation, Quantum ISA Design)
-**Keywords** : Pulse scheduling, Optimal control, Fidelity optimization, Quantum ISA
+
+#### Noise-Aware Compilation ####
+
+#### Hardware Execution & Runtime Scheduler 
+#### Pulse scheduling, Optimal control, Fidelity optimization, Pulse-Level Control, Hardware-aware compilation
 
 + [Architecting Noisy Intermediate-Scale Trapped Ion Quantum Computers](https://arxiv.org/abs/2004.04706) - Prakash Murali, Dripto M. Debroy, Kenneth R. Brown, and Margaret Martonosi, ISCA, 2020
 
-### 🔹 Quantum ISA 🔹 ### 
+#### Quantum ISA #### 
 + [OpenQASM 3: A Broader and Deeper Quantum Assembly Language](https://dl.acm.org/doi/10.1145/3505636) - Andrew cross, et al., Transactions on Quantum Computing, 2022
 + [Open quantum assembly language](https://arxiv.org/abs/1707.03429) - Andrew W. Cross, Lev S. Bishop, John A. Smolin, Jay M. Gambetta, 2017
 + [A Practical Quantum Instruction Set Architecture](https://arxiv.org/abs/1608.03355) - Robert S. Smith, Michael J. Curtis, William J. Zeng, 2017
 
 
 </br></br>
-## Verification and Evaluation
+#### Verification ####
++ [AutoQ 2.0: From Verification of Quantum Circuits to Verification of Quantum Programs](https://arxiv.org/abs/2411.09121) - Yu-Fang Chen, Kai-Min Chung, Min-Hsiu Hsieh, Wei-Jia Huang, Ondřej Lengál, Jyun-Ao Lin, Wei-Lun Tsai, TACAS, 2025.
++ [Verification of Quantum Circuits through Barrier Certificates using a Scenario Approach](https://arxiv.org/abs/2506.07635) - Siwei Hu, Victor Lopata, Sadegh Soudjani, Paolo Zuliani, QSW, 2025.
++ [MQT-QCEC v3.0](https://mqt.readthedocs.io/en/latest/)
 
-- Quantum Circuit Verification: Circuit verification, Formal verification
-- Quantum Compiler Benchmarking: Compiler benchmarking, Performance evaluation
 
+#### Benchmarking / Evaluation ####
++ [Benchmarking the performance of quantum computing software for quantum circuit creation, manipulation and compilation](https://www.nature.com/articles/s43588-025-00792-y) - Paul D. Nation, Abdullah Ash Saki, Sebastian Brandhofer, Luciano Bello, Shelly Garion, Matthew Treinish & Ali Javadi-Abhari, 2025
++ [QASMBench 1.4](https://github.com/pnnl/QASMBench) - TQC-2024.
++ [Azure QDK VS-Code Debugger](https://learn.microsoft.com/en-us/azure/quantum/testing-debugging) - 2024.
 </br></br>
-## Simulation and Testing
 
-- Quantum Circuit Simulation: Circuit simulation, Statevector simulation
+
+#### Simulation + Debug/Test ####
++ [Cirq v1.4 simulators](https://quantumai.google/cirq/simulate/simulation)
++ [Qiskit SDK 0.50 primitives](https://docs.quantum.ibm.com/guides/simulate-with-qiskit-sdk-primitives)
++ [Bloq](https://arxiv.org/abs/2506.18458) - Noah H. Oldfield, Christoph Laaber, Shaukat Ali, 2025.
++ [MQT-Debugger framework](https://arxiv.org/abs/2412.12269) - Damian Rovara, Lukas Burgholzer, Robert Wille, 2024.
 </br></br>
 
 
 
-## Related-repos
-+ [Awesome-Quantum-Computing](https://github.com/desireevl/awesome-quantum-computing)
-+ [Awesome-Quantum-Computation](https://github.com/hsavit1/Awesome-Quantum-Computation)
-+ [Awesome-Quantum-Software](https://github.com/qosf/awesome-quantum-software?tab=readme-ov-file#quantum-compilers)
-+ [Awesome-Quantum-Machine-Leaning](https://krishnakumarsekar.github.io/awesome-quantum-machine-learning/)
-+ [Awesome-Post-Quantum](https://github.com/veorq/awesome-post-quantum)
+#### Books ####
++ [Quantum Computer Systems: Research for Noisy Intermediate-Scale Quantum Computers](https://www.amazon.co.uk/Quantum-Computer-Synthesis-Lectures-Architecture/dp/168173866X) Yongshan ding, 2020
++ [Quantum Computing for Computer Architects, Second Edition](https://link.springer.com/book/10.1007/978-3-031-01731-5] - Tzvetan S. Metodi , Arvin I. Faruque , Frederic T. Chong, 2011.
 
 
-## Books
-+ [Quantum Computer Systems Research for Noisy Intermediate-Scale Quantum Computers (Synthesis Lectures on Computer Architecture)-Morgan & Claypool Publishers (2020)](https://www.amazon.com/Quantum-Computer-Systems-Intermediate-Scale-Architecture/dp/168173866X/ref=sr_1_1?crid=2K59KWTC2A6IG&dib=eyJ2IjoiMSJ9.FgRSqqg5BPKkIMPcNZN4SDxi0rLadqKNi_gKEwfnfdbx3NVbf-QqRugr0cm0gkqz.IP3MXubP83FTCTx1iDY4mGPq-3PRGX21K_rEV4QrWHU&dib_tag=se&keywords=Quantum+Computer+Systems+Research+for+Noisy+Intermediate-Scale+Quantum+Computers&qid=1711388706&s=books&sprefix=quantum+computer+systems+research+for+noisy+intermediate-scale+quantum+computers%2Cstripbooks-intl-ship%2C337&sr=1-1)
-
-
-## Useful Learning Resources and Articles
+#### Learning Resources and Blogs ####
++ [Qauntum Computing Systems - Yufei ding](https://cseweb.ucsd.edu/~yufeiding/CSE291QC/)
++ [Quantum Computing - Luca Trevisan](https://cs.stanford.edu/people/trevisan/quantum/)
 + [QuTech Academic](https://www.qutube.nl/)
 + [The Quantum Insider](https://thequantuminsider.com/) 
 + [Google Quantum AI](https://quantumai.google/)
++ [IBM Quantum Blog](https://www.ibm.com/quantum/blog)
++ [Nvidia Quantum Computing](https://developer.nvidia.com/blog/tag/quantum-computing/)
++ [Quantinuum Blog](https://www.quantinuum.com/news/blog)
 
-## Conference
+  
+#### Conference
  + HPCA, ASPLOS, ISCA, MICRO, ICCAD, DAC, CC, PLDI </br>
  + QCE(Quantum Computing and Engineering) </br>
  + CF(Computing Frontiers)
 
-## Journal
+#### Journal
  + IEEE Transactions on Quantum Engineering </br>
  + Quantum Information & Computation </br>
  + Quantum Science and Technology </br>
