@@ -1,27 +1,4 @@
-# Awesome-Quantum-Compilers
-
-0. Quantum Compilation Surveys
-1. Front-end & High-level IR
-   1a. Languages & IR design (QASM, Program Synthesis, High-level Abstraction)
-   1b. Loop & program transforms
-   1c. Circuit Analysis (static metrics, cost models)
-2. Middle-end Optimisations & Scheduling
-   2a. Quantum Circuit Scheduling (gate/cycle level)
-   2b. Gate/Cycle Scheduling. Logic-level (depth, T-count, synthesis)
-   2c. Layout-level passes (mapping, SWAP, connectivity, partitioning)
-3. Back-end & Hardware Execution / Runtime
-   3a. Cycle/Gate Scheduling (ISA layer)
-   3b. Control-level (pulse scheduling, optimal control)
-   3c. Runtime & ISA (Hardware-aware compilation, Quantum ISA)
-4. Verification & Benchmark / Simul & Debug 
-   4a. Verification & Benchmark
-   4b. Evaluation & Simulation 
-   4c. Debug & Test 
-
-5. Error Mitigate and Correction
-
-Gate/Cycle Scheduling
-
+## Awesome-Quantum-Compilers
 
 #### Quantum Compilation Surveys
 + [Quantum Compilation Process: A Survey](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) - F. Javier Cardama, Jorge Vázquez-Pérez, Tomás F. Pena, Juan C. Pichel & Andrés Gómez, 2025
@@ -29,12 +6,19 @@ Gate/Cycle Scheduling
 + [A Comprehensive Review of Quantum Circuit Optimization: Current Trends and Future Directions](https://www.mdpi.com/2624-960X/7/1/2) - Krishnageetha Karuppasamy et al., 2025.
 + [Quantum Circuit Synthesis and Compilation Optimization: Overview and Prospects](https://arxiv.org/html/2407.00736v1) - Ge Yan et al., 2024.
 + [Quantum Compiling](https://arxiv.org/abs/2112.00187) - Marco Maronese, Lorenzo Moro, Lorenzo Rocutto, Enrico Prati, 2021
-+ [Quantum compiling by deep reinforcement learning](https://www.nature.com/articles/s42005-021-00684-3) - Lorenzo Moro, Matteo G. A. Paris, Marcello Restelli, Enrico Prati, Nature, 2021
 + [Programming languages and compiler design for realistic quantum hardware](https://www.nature.com/articles/nature23459) - Frederic T. Chong, Diana Franklin, Margaret Martonosi, Nature, 2017
 </br>
 
 
-### Front-end IR & High-Level IR 
+#### Layer 1. (Language & Logical IR)
+A. High level language and modeling
+B. Cross-Language Transpiler
+C. SSA-Based IR Design
+D. Multi-Level / MLIR-Based IR
+E. Domain-Specific Pauli / Mathematical IR
+F. Retargetable / Cross-Platform Execution IR
+G. Distributed / Network-Aware IR
+
 + [LinguaQuanta: Towards a Quantum Transpiler Between OpenQASM and Quipper](https://arxiv.org/pdf/2404.08147) - Scott Wesley, 2024.
 + [Design and synthesis of scalable quantum programs](https://arxiv.org/abs/2412.07372) - Tomer Goldfriend et al., 2025.
 + [PHOENIX: Pauli-Based High-Level Optimization Engine for Instruction Execution on NISQ Devices](https://arxiv.org/abs/2504.03529) - Zhaohui Yang et al.,2025.
@@ -63,11 +47,9 @@ Gate/Cycle Scheduling
 </br>
 
 
-### 2. Middle-end Optimisations & Scheduling
-
-
+#### Layer 2. (Logical Optimization)
 #### Quantum Program Optimization #### 
-+ [SuperstaQ: Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) - Campbell, Colin, et al. ,QCE, 2023
++ [SuperstaQ: Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) - Campbell, Colin, et al., QCE, 2023.
 + [Paulihedral: a generalized block-wise compiler optimization framework for Quantum simulation kernels](https://arxiv.org/abs/2109.03371) - Gushu Li, Anbang Wu, Yunong Shi, Ali Javadi-Abhari, Yufei Ding, Yuan Xie, 2021
 + [Enabling Dataflow Optimization for Quantum Programs](https://arxiv.org/abs/2101.11030) - David Ittah, Thomas Häner, Vadym Kliuchnikov, Torsten Hoefler, CoRR, 2021
 + [A Meet-in-the-Middle Algorithm for Fast Synthesis of Depth Optimal Quantum Circuits](https://arxiv.org/abs/1206.0758) - Matthew Amy, Dmitri Maslov, Michele Mosca, Martin Roetteler, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2021
@@ -100,7 +82,7 @@ Gate/Cycle Scheduling
 </br>
 
 
-### 3. Back-end & Hardware Execution / Runtime
+#### Layer 3. (Physical Mapping & Scheduling)
 
 #### Circuit Optimisation ####
 + [A Resource-Allocating Compiler for Lattice Surgery](https://arxiv.org/abs/2506.04620) - Alan Robertson, Haowen Gao, Yuval R. Sanders, 2025.
@@ -116,11 +98,11 @@ Gate/Cycle Scheduling
 + [Monte Carlo Graph Search for Quantum Circuit Optimization](https://arxiv.org/abs/2307.07353) - Bodo Rosenhahn, Tobias J. Osborne, 2023
 
 #### Circuit Scheduling #### 
-+ [Quantum circuit scheduler for QPUs usage optimization](https://arxiv.org/html/2404.01055v1) - Javier Romero-Alvarez et al. 2024
++ [Quantum circuit scheduler for QPUs usage optimization](https://arxiv.org/html/2404.01055v1) - Javier Romero-Alvarez et al., 2024
 + [Scheduling of Operations in Quantum Compiler](https://arxiv.org/pdf/2011.04936) - Toshinari Itoko, Takashi Imamichi, QCE, 2020
 + [Two-step approach to scheduling quantum circuits](https://arxiv.org/abs/1708.00023) - Gian Giacomo Guerreschi, Jongsoo Park, Quantum Sci journal, 2017
 
-#### Instruction Scheduling #### 
+#### Instruction-Level Scheduling / Micro-architectural Mitigation
 + [SCIM MILQ: An HPC Quantum Scheduler](https://arxiv.org/abs/2404.03512) - Philipp Seitz, Manuel Geiger, Christian Ufrecht, Axel Plinge, Christopher Mutschler, Daniel D. Scherer, Christian B. Mendl, Quantum Week, 2024
 + [DISQ: Dynamic Iteration Skipping for Variational Quantum Algorithms](https://arxiv.org/abs/2308.06634) - Junyao Zhang, Hanrui Wang, Gokul Subramanian Ravi, Frederic T. Chong, Song Han, Frank Mueller, Yiran Chen, QCE, 2023
 + [Let Each Quantum Bit Choose Its Basis Gates](https://arxiv.org/abs/2208.13380) - Sophia Fuhui Lin, Sara Sussman, Casey Duckering, Pranav S. Mundada, Jonathan M. Baker, Rohan S. Kumar, Andrew A. Houck, Frederic T. Chong, MICRO, 2022
@@ -129,10 +111,10 @@ Gate/Cycle Scheduling
 + [EQC: ensembled quantum computing for variational quantum algorithms](https://arxiv.org/abs/2111.14940) - Samuel Stein, Yufei Ding, Nathan Wiebe, Bo Peng, Karol Kowalski, Nathan Baker, James Ang, Ang Li, ISCA, 2022
 + [Software mitigation of crosstalk on noisy intermediate-scale quantum computers](https://arxiv.org/abs/2001.02826) - Prakash Murali, David C. McKay, Margaret Martonosi, Ali Javadi-Abhari, ASPLOS, 2020
 + [TILT: Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/abs/2010.15876) - Xin-Chuan Wu, Dripto M. Debroy, Yongshan Ding, Jonathan M. Baker, Yuri Alexeev, Kenneth R. Brown, Frederic T. Chong, HPCA, 2020
+</br>
 
-#### Control level backend (Pulse scheduling, Optimal control, Fidelity optimisation, Pulse-level control, Hardware-aware compilation)
 
-+ [Fast & Robust Gates via Hybrid Pulse Scheduling]
+#### Layer 4. (Pulse Compilation & Control)
 + [A Time-Optimisation Framework Enabling Fast and Robust Gates in One Circuit](https://arxiv.org/pdf/2412.18533) - Eduardo Willwock Lussi et al., 2024.
 + [Short Two-Qubit Pulse Sequences for Exchange-Only Spin Qubits](https://arxiv.org/html/2412.14918v3) - Jason D. Chadwick et al., 2025.
 + [CCMap: Hardware-Aware Compilation for Chip-to-Chip Coupler-Connected QPUs](https://arxiv.org/abs/2505.09036) - Zefan Du, Shuwen Kan, Samuel Stein, Zhiding Liang, Ang Li, Ying Mao, 2025.
@@ -142,25 +124,34 @@ Gate/Cycle Scheduling
 + [Pulse-Family Optimisation via Spectral Clustering](https://arxiv.org/abs/2408.00119) - Robert de Keijzer, Jurgen Snijders, André Carvalho, Servaas Kokkelmans, Quantum, 2024. 
 + [Architecting Noisy Intermediate-Scale Trapped Ion Quantum Computers](https://arxiv.org/abs/2004.04706) - Prakash Murali, Dripto M. Debroy, Kenneth R. Brown, and Margaret Martonosi, ISCA, 2020
 
-#### Quantum ISA 
-> "Bridging layer between Layout and Control"
-+ [Design the Quantum Instruction Set with the Cartan Coordinate Analysis Framework](https://arxiv.org/abs/2410.04008) - Anbang Wu, Jingwen Leng, Minyi Guo, 2024.
-+ [OpenQASM 3: A Broader and Deeper Quantum Assembly Language](https://dl.acm.org/doi/10.1145/3505636) - Andrew cross, et al., Transactions on Quantum Computing, 2022
-+ [Open quantum assembly language](https://arxiv.org/abs/1707.03429) - Andrew W. Cross, Lev S. Bishop, John A. Smolin, Jay M. Gambetta, 2017
-+ [A Practical Quantum Instruction Set Architecture](https://arxiv.org/abs/1608.03355) - Robert S. Smith, Michael J. Curtis, William J. Zeng, 2017
 </br>
 
 
-### 4. Verification & Benchmark / Simul & Debug 
+#### Layer 5. Runtime & Dynamic Execution
+####  Dynamic-Circuit & Feed-Forward Support
+Real-time fan-out with feed-forward on superconducting qubits
+XACC — service-oriented runtime for heterogeneous quantum-classical acceleration
+SCIM MILQ — HPC meta-scheduler integrating circuit cutting, interacts directly with cluster schedulers
+#### Hybrid QC/HPC Middleware & Job Runtimes
+
+Control-Stack Orchestration & Calibration Runtimes
+Qibolab — pulse-level driver stack integrated with Qibo OS for in-lab hardware
+#### High-Performance Simulation Back-Ends Used as Runtimes
+QuEST — MPI & GPU-accelerated state-vector runtime, often coupled with ProjectQ & XACC for on-the-fly JIT compilation
+
+</br>
+
+
+
+
+
 #### Verification & Benchmark
 + [AutoQ 2.0: From Verification of Quantum Circuits to Verification of Quantum Programs](https://arxiv.org/abs/2411.09121) - Yu-Fang Chen, Kai-Min Chung, Min-Hsiu Hsieh, Wei-Jia Huang, Ondřej Lengál, Jyun-Ao Lin, Wei-Lun Tsai, TACAS, 2025.
 + [Verification of Quantum Circuits through Barrier Certificates using a Scenario Approach](https://arxiv.org/abs/2506.07635) - Siwei Hu, Victor Lopata, Sadegh Soudjani, Paolo Zuliani, QSW, 2025.
-+ [MQT-QCEC v3.0](https://mqt.readthedocs.io/en/latest/)
-#### Evaluation & Simulation 
++ [MQT-QCEC v3.0](https://mqt.readthedocs.io/en/latest/) 
 + [Benchmarking the performance of quantum computing software for quantum circuit creation, manipulation and compilation](https://www.nature.com/articles/s43588-025-00792-y) - Paul D. Nation, Abdullah Ash Saki, Sebastian Brandhofer, Luciano Bello, Shelly Garion, Matthew Treinish & Ali Javadi-Abhari, 2025
 + [QASMBench 1.4](https://github.com/pnnl/QASMBench) - TQC-2024.
 + [Azure QDK VS-Code Debugger](https://learn.microsoft.com/en-us/azure/quantum/testing-debugging) - 2024.
-#### Debug & Test
 + [Cirq v1.4 simulators](https://quantumai.google/cirq/simulate/simulation)
 + [Qiskit SDK 0.50 primitives](https://docs.quantum.ibm.com/guides/simulate-with-qiskit-sdk-primitives)
 + [Bloq](https://arxiv.org/abs/2506.18458) - Noah H. Oldfield, Christoph Laaber, Shaukat Ali, 2025.
@@ -168,8 +159,8 @@ Gate/Cycle Scheduling
 </br>
 
 
-#### Error Mitigation and Correction 
-> “Originally, it was part of the compiler stack, but because of the topic’s importance, I separated it"
+Axis A: Cost Model & Profiling
+Axis B: Error Mitigate & Correction
 + [Resource-Efficient Context-Aware Dynamical Decoupling Embedding for Arbitrary Large-Scale Quantum Algorithms](https://link.aps.org/doi/10.1103/PRXQuantum.6.010332), Paul Coote et al., PRX Quantum, 2025
 + [Learning high-accuracy error decoding for quantum processors](https://www.nature.com/articles/s41586-024-08148-8) - Johannes Bausch et al., Nature, 2024
 + [Error Propagation-Aware Routing: A New Routing Strategy to Improve Success Rates of Quantum Circuits](https://dl.acm.org/doi/pdf/10.1145/3649476.3658790), Lu Fang et al., ICCAD, 2024 
@@ -190,10 +181,7 @@ Gate/Cycle Scheduling
 + [Not All Qubits Are Created Equal: Variation-Aware Qubit Allocation in NISQ-Era Quantum Computers](https://dl.acm.org/doi/10.1145/3297858.3304007), Swamit Tannu & Moinuddin Qureshi, ASPLOS, 2019
 + [Practical Quantum Error Mitigation for Near-Future Applications](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509), Suguru Endo et al., Phys. Rev. X, 2018.  
 + [Error Mitigation for Short-Depth Quantum Circuits](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509), Kristan Temme et al., Phys. Rev. Lett., 2017.
-
 </br>
-
-
 
 
 #### 🔬 Academic & Research Labs
@@ -250,6 +238,9 @@ Gate/Cycle Scheduling
 
 
 #### 📰 Journals
++ [Nature](https://www.nature.com/) – Occasional landmark papers on scalable compilation and error correction.  
++ [Nature Physics](https://www.nature.com/nphys) – Hardware/​software co-design breakthroughs.  
++ [Nature Communications](https://www.nature.com/ncomms) – Open-access venue for interdisciplinary quantum-compiler work.
 + [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8780379) – Hardware-aware compilation and systems papers.  
 + [Quantum Information & Computation](http://www.rintonpress.com/journals/qic.html) – Algorithms, complexity and optimisation studies.  
 + [Quantum Science and Technology](https://iopscience.iop.org/journal/2058-9565) – Experimental and theoretical advances, incl. compiler tooling.  
@@ -260,13 +251,10 @@ Gate/Cycle Scheduling
 + [Computing Research Repository (CoRR)](https://arxiv.org/corr) – Pre-prints; quickest way to track new transpilation work.  
 + [npj Quantum Information)[https://www.nature.com/npjqi) – Nature-branded, high-impact quantum-software and algorithms.  
 + [PRX Quantum](https://journals.aps.org/prxquantum) – APS open-access journal for architecture and optimisation breakthroughs.  
-+ [Quantum](https://quantum-journal.org/)– Overlay journal; steady flow of compiler and language articles.  
++ [Quantum](https://quantum-journal.org/) – Overlay journal; steady flow of compiler and language articles.  
 + [Quantum Engineering](https://onlinelibrary.wiley.com/journal/26395307) – Engineering-oriented studies of full-stack toolchains.  
 + [Quantum Machine Intelligence](https://link.springer.com/journal/42484) – ML-driven layout, scheduling and heuristic optimisation.  
-+ [Advanced Quantum Technologies](https://onlinelibrary.wiley.com/journal/2511902X) – Experimental control-level compilation and pulse studies.  
-+ [Nature](https://www.nature.com/) – Occasional landmark papers on scalable compilation and error correction.  
-+ [Nature Physics](https://www.nature.com/nphys) – Hardware/​software co-design breakthroughs.  
-+ [Nature Communications](https://www.nature.com/ncomms) – Open-access venue for interdisciplinary quantum-compiler work.  
++ [Advanced Quantum Technologies](https://onlinelibrary.wiley.com/journal/2511902X) – Experimental control-level compilation and pulse studies.    
 + [OOPSLA – Proc. of the ACM on Programming Languages, OOPSLA issue](https://conf.researchr.org/series/oopsla) – Object-oriented languages & optimisation; now features quantum PL papers.  
 
 
