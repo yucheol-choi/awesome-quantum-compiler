@@ -13,10 +13,7 @@
    3a. Cycle/Gate Scheduling (ISA layer)
    3b. Control-level (pulse scheduling, optimal control)
    3c. Runtime & ISA (Hardware-aware compilation, Quantum ISA)
-   측정 결과에 따른 실시간 분기나 feedforward 제어는 런타임 단계에서 중요성이 커지고 있어 (dynamic circuit)
-   LLVM MLIR 기반의 qe-compiler처럼 하드웨어 특성에 맞춘 코드 생성·실행 모듈
 4. Verification & Benchmark / Simul & Debug 
-전체 파이프라인 신뢰성을 확보하기 위한 후처리 단계
    4a. Verification & Benchmark
    4b. Evaluation & Simulation 
    4c. Debug & Test 
@@ -24,9 +21,7 @@
 5. Error Mitigate and Correction
 
 Gate/Cycle Scheduling
-연산 횟수 및 회로 깊이를 줄여 노이즈 민감도를 낮추는 작업
 
-LLVM MLIR 기반의 qe-compiler처럼 하드웨어 특성에 맞춘 코드 생성·실행 모듈
 
 #### Quantum Compilation Surveys
 + [Quantum Compilation Process: A Survey](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) - F. Javier Cardama, Jorge Vázquez-Pérez, Tomás F. Pena, Juan C. Pichel & Andrés Gómez, 2025
