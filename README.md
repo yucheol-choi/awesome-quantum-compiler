@@ -10,47 +10,52 @@
 </br>
 
 #### Layer 1. (Language & Logical IR)
-+ [LinguaQuanta: Towards a Quantum Transpiler Between OpenQASM and Quipper](https://arxiv.org/pdf/2404.08147) - Scott Wesley et al., 2024.
-+ [Design and synthesis of scalable quantum programs](https://arxiv.org/abs/2412.07372) - Tomer Goldfriend et al., 2025.
-+ [PHOENIX: Pauli-Based High-Level Optimization Engine for Instruction Execution on NISQ Devices](https://arxiv.org/abs/2504.03529) - Zhaohui Yang et al.,2025.
-+ [Practical and efficient quantum circuit synthesis and transpiling with Reinforcement Learning](https://arxiv.org/abs/2405.13196) - David Kremer et al.,2025.
-+ [Qmod: Expressive High-Level Quantum Modeling](https://arxiv.org/html/2502.19368v1) - Matan Vax et al., 2025. 
-+ [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) - David Ittah, Thomas Häner, Vadym Kliuchnikov, Torsten Hoefler, ACM Transactions on Quantum Computing, 2021.
-+ [A Cross-Platform Execution Engine for the Quantum Intermediate Representation](https://arxiv.org/pdf/2404.14299) - Elaine Wong et al., 2024
-+ [InQuIR: Intermediate Representation for Interconnected Quantum Computers](https://arxiv.org/abs/2302.00267) - Shin Nishio, Ryo Wakizaka, 2023
-+ [QSSA: an SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) - Anurudh Peduri, Siddharth Bhat, CC, 2022
+
+#### IR Design & Transpilation Frameworks
++ [LinguaQuanta: Towards a Quantum Transpiler Between OpenQASM and Quipper](https://arxiv.org/pdf/2404.08147) - Scott Wesley et al., 2024  - [GitHub](https://github.com/onestruggler/qasm-quipper)  
++ [Design and synthesis of scalable quantum programs](https://arxiv.org/abs/2412.07372) - Tomer Goldfriend et al., 2025
++ [PHOENIX: Pauli-Based High-Level Optimization Engine for Instruction Execution on NISQ Devices](https://arxiv.org/abs/2504.03529) - Zhaohui Yang et al., 2025  - [GitHub](https://github.com/iqubit-org/phoenix)  
++ [Practical and efficient quantum circuit synthesis and transpiling with Reinforcement Learning](https://arxiv.org/abs/2405.13196) - David Kremer et al., 2025  - [GitHub](https://github.com/Qiskit/qiskit-ibm-transpiler)  
++ [Qmod: Expressive High-Level Quantum Modeling](https://arxiv.org/html/2502.19368v1) - Matan Vax et al., 2025  - [GitHub](https://github.com/Classiq/classiq-library)  
++ [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) - David Ittah et al., 2021  - [GitHub](https://github.com/dime10/QIRO)  
++ [A Cross-Platform Execution Engine for the Quantum Intermediate Representation](https://arxiv.org/pdf/2404.14299) - Elaine Wong et al., 2024  - [GitHub](https://github.com/ORNL-QCI/qiree)  
++ [InQuIR: Intermediate Representation for Interconnected Quantum Computers](https://arxiv.org/abs/2302.00267) - Shin Nishio, Ryo Wakizaka, 2023  - [GitHub](https://github.com/team-InQuIR/InQuIR)  
++ [QSSA: an SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) - Anurudh Peduri, Siddharth Bhat, CC 2022  - [GitHub](https://github.com/opencompl/QMLIR)  
 + [Quantum circuit transformations with a multi-level intermediate representation compiler](https://arxiv.org/abs/2112.10677) - T. Nguyen et al., 2021
 + [Enabling Retargetable Optimizing Compilers for Quantum Accelerators via a Multi-Level Intermediate Representation](https://arxiv.org/abs/2109.00506) - Thien Nguyen, Alexander McCaskey, 2021
-+ [A MLIR Dialect for Quantum Assembly Languages](https://arxiv.org/abs/2101.11365) - Alexander McCaskey, Thien Nguyen, QCE, 2021
-+ [ScaffCC: A Framework for Compilation and Analysis of Quantum Computing Programs](https://arxiv.org/abs/1507.01902) - Ali JavadiAbhari, Shruti Patil, Daniel Kudrow, Jeff Heckey, Alexey Lvov, Frederic T. Chong, Margaret Martonosi, Parallel Comput, CF, 2014
-+ [Introducing Quantum Intermediate Representation (QIR)](https://devblogs.microsoft.com/qsharp/introducing-quantum-intermediate-representation-qir/)
++ [A MLIR Dialect for Quantum Assembly Languages](https://arxiv.org/abs/2101.11365) - Alexander McCaskey, Thien Nguyen, QCE 2021
++ [ScaffCC: A Framework for Compilation and Analysis of Quantum Computing Programs](https://arxiv.org/abs/1507.01902) - Ali JavadiAbhari et al., 2014  - [GitHub](https://github.com/epiqc/ScaffCC)  
++ [Introducing Quantum Intermediate Representation (QIR)](https://devblogs.microsoft.com/qsharp/introducing-quantum-intermediate-representation-qir/)  - [GitHub](https://github.com/qir-alliance/qir-spec)  
 
-#### Loop & Program Transforms ####
+
+#### Loop & Control-Flow Transforms ####
 + [Thoughts on Adopting the Quantum Intermediate Representation (QIR)](https://arxiv.org/pdf/2411.18682) – Ynnick Stade et al., 2024
-+ [The Limits of Control Flow in Quantum Programming](https://arxiv.org/abs/2304.15000) – Charles Yuan, Agnes Villanyi, Michael Carbin, 2023
-+ [Software Pipelining for Quantum Loop Programs](https://arxiv.org/abs/2012.12700) – Jingzhe Guo, Mingsheng Ying, IEEE TSE, 2023. 
-+ [Exploring the Impact of Affine Loop Transformations in Qubit Allocation](https://arxiv.org/pdf/2010.11999) - Martin Kong, 2020.
++ [The Limits of Control Flow in Quantum Programming](https://arxiv.org/abs/2304.15000) – Charles Yuan et al., 2023
++ [Software Pipelining for Quantum Loop Programs](https://arxiv.org/abs/2012.12700) – Jingzhe Guo, Mingsheng Ying, IEEE TSE 2023
++ [Exploring the Impact of Affine Loop Transformations in Qubit Allocation](https://arxiv.org/pdf/2010.11999) – Martin Kong, 2020
+
 
 #### Quantum Circuit Analysis #### 
-+ [Character Complexity: A Novel Measure for Quantum Circuit Analysis](https://arxiv.org/abs/2408.09641) - Daksh Shami, 2024.
-+ [QuCT: A Framework for Analyzing Quantum Circuit by Extracting Contextual and Topological Features](https://dl.acm.org/doi/10.1145/3613424.3614274) - Siwei Tan et al., MICRO, 2023
++ [Character Complexity: A Novel Measure for Quantum Circuit Analysis](https://arxiv.org/abs/2408.09641) - Daksh Shami, 2024
++ [QuCT: A Framework for Analyzing Quantum Circuit by Extracting Contextual and Topological Features](https://dl.acm.org/doi/10.1145/3613424.3614274) - Siwei Tan et al., MICRO 2023  - [GitHub](https://github.com/JanusQ/QuCT-Micro2023) 
 + [Quantum Vulnerability Analysis to Guide Robust Quantum Computing System Design](https://arxiv.org/pdf/2207.14446) - Fang Qi et al., 2023
 </br>
 
 
 #### Layer 2. (Logical Optimization)
 #### Quantum Program Optimization #### 
-+ [SuperstaQ: Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) - Campbell, Colin, et al., QCE, 2023.
-+ [Paulihedral: a generalized block-wise compiler optimization framework for Quantum simulation kernels](https://arxiv.org/abs/2109.03371) - Gushu Li, Anbang Wu, Yunong Shi, Ali Javadi-Abhari, Yufei Ding, Yuan Xie, 2021
-+ [Enabling Dataflow Optimization for Quantum Programs](https://arxiv.org/abs/2101.11030) - David Ittah, Thomas Häner, Vadym Kliuchnikov, Torsten Hoefler, CoRR, 2021
-+ [A Meet-in-the-Middle Algorithm for Fast Synthesis of Depth Optimal Quantum Circuits](https://arxiv.org/abs/1206.0758) - Matthew Amy, Dmitri Maslov, Michele Mosca, Martin Roetteler, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2021
-+ [Automated optimization of large quantum circuits with continuous parameters](https://arxiv.org/abs/1710.07345) - Yunseong Nam, Neil J. Ross, Yuan Su, Andrew M. Childs, Dmitri Maslov, Nature npj Quantum Information, 2017
-+ [A software methodology for compiling quantum programs](https://arxiv.org/abs/1604.01401) - Thomas Häner, Damian S. Steiger, Krysta Svore, Matthias Troyer,Quantum Science and Technology, 2016
-+ [Exact synthesis of single-qubit unitaries over Clifford-cyclotomic gate sets](https://arxiv.org/abs/1501.04944) - Simon Forest, David Gosset, Vadym Kliuchnikov, David McKinnon, Journal of Mathematical Physics, 2015
-+ [Polynomial-TimeT-Depth Optimization of Clifford+T Circuits Via Matroid Partitionin](https://arxiv.org/abs/1303.2042) - Matthew Amy, Dmitri Maslov, Michele Mosca, TCAD, 2013
-+ [Assertion-Based Optimization of Quantum Programs](https://arxiv.org/abs/1810.00375) - Häner, Thomas, Hoefler, Torsten, Troyer, Matthias, OOPSLA, 2013
-+ [Repeat-until-Success: Non-Deterministic Decomposition of Single-Qubit Unitaries](https://arxiv.org/abs/1311.1074) - Adam Paetznick, Krysta M. Svore, Quantum Information & Computation, 2013
-+ [Circuit for Shor’s Algorithm Using 2n+3 Qubits](https://arxiv.org/abs/quant-ph/0205095) - Stephane Beauregard, Quantum Information and Computation, Quantum Information and Computation, 2002
++ [SuperstaQ: Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) - Campbell et al., QCE 2023  - [GitHub](https://github.com/Infleqtion/client-superstaq)  
++ [Paulihedral: a generalized block-wise compiler optimization framework for Quantum simulation kernels](https://arxiv.org/abs/2109.03371) - Gushu Li et al., 2021
++ [Enabling Dataflow Optimization for Quantum Programs](https://arxiv.org/abs/2101.11030) - David Ittah et al., 2021
++ [A Meet-in-the-Middle Algorithm for Fast Synthesis of Depth-Optimal Quantum Circuits](https://arxiv.org/abs/1206.0758) - Matthew Amy et al., 2021
++ [Automated optimization of large quantum circuits with continuous parameters](https://arxiv.org/abs/1710.07345) - Yunseong Nam et al., 2017  - [GitHub](https://github.com/njross/optimizer)  
++ [A software methodology for compiling quantum programs](https://arxiv.org/abs/1604.01401) - Thomas Häner et al., 2016
++ [Exact synthesis of single-qubit unitaries over Clifford-cyclotomic gate sets](https://arxiv.org/abs/1501.04944) - Simon Forest et al., 2015
++ [Polynomial-Time T-Depth Optimization of Clifford+T Circuits Via Matroid Partitioning](https://arxiv.org/abs/1303.2042) - Matthew Amy et al., 2013
++ [Assertion-Based Optimization of Quantum Programs](https://arxiv.org/abs/1810.00375) - Häner, Hoefler, Troyer, OOPSLA 2013
++ [Repeat-until-Success: Non-Deterministic Decomposition of Single-Qubit Unitaries](https://arxiv.org/abs/1311.1074) - Adam Paetznick, Krysta Svore, 2013  - [GitHub (sample)](https://github.com/microsoft/Quantum/tree/main/samples/algorithms/repeat-until-success)  
++ [Circuit for Shor’s Algorithm Using 2n+3 Qubits](https://arxiv.org/abs/quant-ph/0205095) - Stephane Beauregard, 2002
+
 
 #### Circuit Transformation ####
 + [Hybrid discrete-continuous compilation of trapped-ion quantum circuits with deep reinforcement learning](https://arxiv.org/abs/2307.05744) - Francesco Preti,. Quantum, 2024
@@ -76,76 +81,76 @@
 #### Layer 3. (Physical Mapping & Scheduling)
 
 #### Circuit Optimisation ####
-+ [A Resource-Allocating Compiler for Lattice Surgery](https://arxiv.org/abs/2506.04620) - Alan Robertson, Haowen Gao, Yuval R. Sanders, 2025.
-+ [Quantum circuit optimization with AlphaTensor](https://www.nature.com/articles/s42256-025-01001-1) - Francisco J. R. Ruiz, Nature Machine Intelligence, 2025.
++ [A Resource-Allocating Compiler for Lattice Surgery](https://arxiv.org/abs/2506.04620) - Alan Robertson, Haowen Gao, Yuval R. Sanders, 2025.  - [GitHub](https://github.com/latticesurgery-com/lattice-surgery-compiler)  
++ [Quantum circuit optimization with AlphaTensor](https://www.nature.com/articles/s42256-025-01001-1) - Francisco J. R. Ruiz, Nature Machine Intelligence, 2025.  - [GitHub](https://github.com/google-deepmind/alphatensor_quantum)  
 + [Q-Pilot: Field Programmable Qubit Array Compilation with Flying Ancillas](https://arxiv.org/abs/2311.16190) - Hanrui Wang., DAC, 2024.
-+ [Automated Generation of Shuttling Sequences for a Linear Segmented Ion Trap Quantum Computer](https://arxiv.org/abs/2208.04881) - Jonathan Durandau, Quantum, 2023.
-+ [Quantum optimization of maximum independent set using Rydberg atom arrays](https://arxiv.org/abs/2202.09372) - S.Ebadi et al., Science, 2022.
++ [Automated Generation of Shuttling Sequences for a Linear Segmented Ion Trap Quantum Computer](https://arxiv.org/abs/2208.04881) - Jonathan Durandau, Quantum, 2023.  - [GitHub](https://github.com/cda-tum/mqt-ion-shuttler)  [oai_citation:2‡GitHub](https://github.com/cda-tum/mqt-ion-shuttler?utm_source=chatgpt.com)
++ [Quantum optimization of maximum independent set using Rydberg atom arrays](https://arxiv.org/abs/2202.09372) - S. Ebadi et al., Science, 2022.  - [GitHub](https://github.com/QuEraComputing/Bloqade.jl)  
 + [Full-stack quantum computing systems in the NISQ era: algorithm-driven and hardware-aware compilation techniques](https://arxiv.org/abs/2204.06369) - Mendina Bandic, DATE, 2022.
-+ [Software-hardware co-optimization for computational chemistry on superconducting quantum processors](https://arxiv.org/abs/2105.07127) - GushuLi, YunongShi, and AliJavadi-Abhari, ISCA, 2021.
-+ [Quarl: A Learning-Based Quantum Circuit Optimizer](https://dl.acm.org/doi/abs/10.1145/3649831) - Zikun Li et al., OOPSLA, 2024
-+ [Machine Learning Optimization of Quantum Circuit Layouts](https://dl.acm.org/doi/full/10.1145/3565271) - Alexandru Pale et al., ACM Transactions on Quantum Computing, 2023
-+ [Synthesizing Quantum-Circuit Optimizers](https://dl.acm.org/doi/abs/10.1145/3591254) - Amanda Xu et al., PLDI, 2023 
++ [Software-hardware co-optimization for computational chemistry on superconducting quantum processors](https://arxiv.org/abs/2105.07127) - Gushu Li et al., ISCA, 2021.
++ [Quarl: A Learning-Based Quantum Circuit Optimizer](https://dl.acm.org/doi/abs/10.1145/3649831) - Zikun Li et al., OOPSLA, 2024.  - [GitHub](https://github.com/quantum-compiler/Quarl) 
++ [Machine Learning Optimization of Quantum Circuit Layouts](https://dl.acm.org/doi/full/10.1145/3565271) - Alexandru Pale et al., ACM TQC, 2023.  - [GitHub](https://github.com/alexandrupaler/qxx)  
++ [Synthesizing Quantum-Circuit Optimizers](https://dl.acm.org/doi/abs/10.1145/3591254) - Amanda Xu et al., PLDI, 2023.  - [GitHub](https://github.com/qqq-wisc/queso)
 + [Monte Carlo Graph Search for Quantum Circuit Optimization](https://arxiv.org/abs/2307.07353) - Bodo Rosenhahn, Tobias J. Osborne, 2023
 
 #### Circuit Scheduling #### 
-+ [Quantum circuit scheduler for QPUs usage optimization](https://arxiv.org/html/2404.01055v1) - Javier Romero-Alvarez et al., 2024
++ [Quantum circuit scheduler for QPUs usage optimization](https://arxiv.org/html/2404.01055v1) - Javier Romero-Alvarez et al., 2024.  - [GitHub](https://github.com/Qcraft-UEx/QCRAFT-AutoScheduler)  
 + [Scheduling of Operations in Quantum Compiler](https://arxiv.org/pdf/2011.04936) - Toshinari Itoko, Takashi Imamichi, QCE, 2020
-+ [Two-step approach to scheduling quantum circuits](https://arxiv.org/abs/1708.00023) - Gian Giacomo Guerreschi, Jongsoo Park, Quantum Sci journal, 2017
++ [Two-step approach to scheduling quantum circuits](https://arxiv.org/abs/1708.00023) - Gian Giacomo Guerreschi, Jongsoo Park, Quantum Sci, 2017
 
 #### Instruction-Level Scheduling ####
-+ [SCIM MILQ: An HPC Quantum Scheduler](https://arxiv.org/abs/2404.03512) - Philipp Seitz, Manuel Geiger, Christian Ufrecht, Axel Plinge, Christopher Mutschler, Daniel D. Scherer, Christian B. Mendl, Quantum Week, 2024
-+ [DISQ: Dynamic Iteration Skipping for Variational Quantum Algorithms](https://arxiv.org/abs/2308.06634) - Junyao Zhang, Hanrui Wang, Gokul Subramanian Ravi, Frederic T. Chong, Song Han, Frank Mueller, Yiran Chen, QCE, 2023
-+ [Let Each Quantum Bit Choose Its Basis Gates](https://arxiv.org/abs/2208.13380) - Sophia Fuhui Lin, Sara Sussman, Casey Duckering, Pranav S. Mundada, Jonathan M. Baker, Rohan S. Kumar, Andrew A. Houck, Frederic T. Chong, MICRO, 2022
-+ [Software-hardwareco-optimization for computational chemistry on superconducting quantum processors](https://arxiv.org/abs/2105.07127) - Gushu Li, Yunong Shi, Ali Javadi-Abhari, ISCA 2021
-+ [Error Mitigation in Quantum Computers through Instruction Scheduling](https://arxiv.org/abs/2105.01760) - Kaitlin N. Smith, Gokul Subramanian Ravi, Prakash Murali, Jonathan M. Baker, Nathan Earnest, Ali Javadi-Abhari, Frederic T. Chong, 2021
-+ [EQC: ensembled quantum computing for variational quantum algorithms](https://arxiv.org/abs/2111.14940) - Samuel Stein, Yufei Ding, Nathan Wiebe, Bo Peng, Karol Kowalski, Nathan Baker, James Ang, Ang Li, ISCA, 2022
-+ [Software mitigation of crosstalk on noisy intermediate-scale quantum computers](https://arxiv.org/abs/2001.02826) - Prakash Murali, David C. McKay, Margaret Martonosi, Ali Javadi-Abhari, ASPLOS, 2020
-+ [TILT: Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/abs/2010.15876) - Xin-Chuan Wu, Dripto M. Debroy, Yongshan Ding, Jonathan M. Baker, Yuri Alexeev, Kenneth R. Brown, Frederic T. Chong, HPCA, 2020
++ [SCIM MILQ: An HPC Quantum Scheduler](https://arxiv.org/abs/2404.03512) - Philipp Seitz et al., Quantum Week, 2024.  - [GitHub](https://github.com/qc-tum/milq)  
++ [DISQ: Dynamic Iteration Skipping for Variational Quantum Algorithms](https://arxiv.org/abs/2308.06634) - Junyao Zhang et al., QCE, 2023
++ [Let Each Quantum Bit Choose Its Basis Gates](https://arxiv.org/abs/2208.13380) - Sophia Fuhui Lin et al., MICRO, 2022
++ [Software-hardware co-optimization for computational chemistry on superconducting quantum processors](https://arxiv.org/abs/2105.07127) - Gushu Li et al., ISCA 2021
++ [Error Mitigation in Quantum Computers through Instruction Scheduling](https://arxiv.org/abs/2105.01760) - Kaitlin N. Smith et al., 2021
++ [EQC: ensembled quantum computing for variational quantum algorithms](https://arxiv.org/abs/2111.14940) - Samuel Stein et al., ISCA, 2022.  - [GitHub](https://github.com/pnnl/eqc)  
++ [Software mitigation of crosstalk on noisy intermediate-scale quantum computers](https://arxiv.org/abs/2001.02826) - Prakash Murali et al., ASPLOS, 2020
++ [TILT: Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/abs/2010.15876) - Xin-Chuan Wu et al., HPCA, 2020
+
 </br>
 
 
 #### Layer 4. (Pulse Compilation & Control)
-+ [Short Two-Qubit Pulse Sequences for Exchange-Only Spin Qubits in 2D Layouts](https://arxiv.org/abs/2412.14918) - Jason D. Chadwick et al., arXiv, 2025   
-+ [CCMap: Hardware-Aware Compilation for Chip-to-Chip Coupler-Connected QPUs](https://arxiv.org/abs/2505.09036) - Zefan Du et al., arXiv, 2025
-+ [Virtual-Z Gates and Symmetric Gate Compilation](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.020348) - Arian Vezvaee et al., PRX Quantum 6, 2025
-+ [Selective Excitation of Superconducting Qubits with a Shared Control Line through Pulse Shaping](https://arxiv.org/pdf/2501.10710) - Ryo Matsuda et al., arXiv, 2025  
-+ [Short Two-Qubit Pulse Sequences for Exchange-Only Spin Qubits](https://arxiv.org/html/2412.14918v3) - Jason D. Chadwick et al., 2025.
-+ [CCMap: Hardware-Aware Compilation for Chip-to-Chip Coupler-Connected QPUs](https://arxiv.org/abs/2505.09036) - Zefan Du, Shuwen Kan, Samuel Stein, Zhiding Liang, Ang Li, Ying Mao, 2025.
-+ [Qibosoq: RFSoC Control Software for Self-Hosted Quantum Hardware via QICK](https://arxiv.org/abs/2310.05851) - Andrea Pasquale et al., arXiv, 2025
-+ [QUAlibrate: Open-Source Framework that Cuts Calibration from Hours to Minutes](https://www.prnewswire.com/il/news-releases/quantum-machines-launches-qualibrate-an-open-source-framework-that-cuts-quantum-computer-calibration-from-hours-to-minutes-302458926.html) - Quantum Machines Team, Press Release, 2025  
-+ [Qibolab: An Open-Source Hybrid Quantum Operating System](https://quantum-journal.org/papers/q-2024-02-12-1247/) - Stavros Efthymiou et al., Quantum, 2024  
-+ [Sensitivity-Adapted Closed-Loop Optimization for High-Fidelity Controlled-Z Gates in Superconducting Qubits](https://arxiv.org/abs/2412.17454) - Niklas J. Glaser et al., arXiv, 2024 
-+ [Pulse Family Optimization for Parametrized Quantum Gates Using Spectral Clustering](https://arxiv.org/abs/2408.00119) - Robert de Keijzer et al., arXiv, 2024   
-+ [Graph-Based Pulse Representation for Diverse Quantum Control Hardware](https://arxiv.org/abs/2409.08407) - Aniket S. Dalvi et al., arXiv, 2024  
-+ [Pulse-Based Variational Quantum Optimization and Metalearning in Superconducting Circuits](https://arxiv.org/abs/2407.12636) - Yapeng Wang et al., arXiv, 2024  
-+ [Implementing Fast and High-Fidelity Quantum Operations Using Open-Loop Optimal Control](https://arxiv.org/abs/2410.22603) - (LBNL collaboration) et al., arXiv, 2024  
-+ [Direct Pulse-Level Compilation of Arbitrary Quantum Logic Gates on Superconducting Qutrits](https://arxiv.org/abs/2303.04261) - Yujin Cho et al., Phys. Rev. Applied* 23, 2024 (rev. 2024)
-+ [Qibocal: An Open-Source Framework for Calibration of Self-Hosted Quantum Devices](https://arxiv.org/abs/2410.00101) - Andrea Pasquale et al., arXiv, 2024      
-+ [A Time-Optimisation Framework Enabling Fast and Robust Gates in One Circuit](https://arxiv.org/pdf/2412.18533) - Eduardo Willwock Lussi et al., 2024.
-+ [A Time Optimization Framework for the Implementation of Robust and Low-Latency Quantum Circuits](https://arxiv.org/abs/2412.18533) - Eduardo W. Lussi et al., arXiv, 2024  
-+ [Qibolab: Pulse-Oriented Drivers for Custom Hardware](https://quantum-journal.org/papers/q-2024-02-12-1247/) - Stavros Efthymiou et al., Quantum, 2024.
-+ [Pulse-Family Optimisation via Spectral Clustering](https://arxiv.org/abs/2408.00119) - Robert de Keijzer, Jurgen Snijders, André Carvalho, Servaas Kokkelmans, Quantum, 2024. 
-+ [Architecting Noisy Intermediate-Scale Trapped Ion Quantum Computers](https://arxiv.org/abs/2004.04706) - Prakash Murali, Dripto M. Debroy, Kenneth R. Brown, and Margaret Martonosi, ISCA, 2020
++ [Short Two-Qubit Pulse Sequences for Exchange-Only Spin Qubits in 2D Layouts](https://arxiv.org/abs/2412.14918) - Jason D. Chadwick et al., 2025
++ [CCMap: Hardware-Aware Compilation for Chip-to-Chip Coupler-Connected QPUs](https://arxiv.org/abs/2505.09036) - Zefan Du et al., 2025
++ [Virtual-Z Gates and Symmetric Gate Compilation](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.020348) - Arian Vezvaee et al., 2025
++ [Selective Excitation of Superconducting Qubits with a Shared Control Line through Pulse Shaping](https://arxiv.org/pdf/2501.10710) - Ryo Matsuda et al., 2025
++ [Short Two-Qubit Pulse Sequences for Exchange-Only Spin Qubits](https://arxiv.org/html/2412.14918v3) - Jason D. Chadwick et al., 2025
++ [CCMap: Hardware-Aware Compilation for Chip-to-Chip Coupler-Connected QPUs](https://arxiv.org/abs/2505.09036) - Zefan Du et al., 2025
++ [Qibosoq: RFSoC Control Software for Self-Hosted Quantum Hardware via QICK](https://arxiv.org/abs/2310.05851) - Andrea Pasquale et al., 2025  - [GitHub](https://github.com/qiboteam/qibosoq)  [oai_citation:0‡GitHub](https://github.com/qiboteam/qibosoq?utm_source=chatgpt.com)
++ [QUAlibrate: Open-Source Framework that Cuts Calibration from Hours to Minutes](https://www.prnewswire.com/il/news-releases/quantum-machines-launches-qualibrate-an-open-source-framework-that-cuts-quantum-computer-calibration-from-hours-to-minutes-302458926.html) - Quantum Machines Team, 2025  - [GitHub](https://github.com/qua-platform/qualibrate)  [oai_citation:1‡GitHub](https://github.com/qua-platform/qualibrate?utm_source=chatgpt.com)
++ [Qibolab: An Open-Source Hybrid Quantum Operating System](https://quantum-journal.org/papers/q-2024-02-12-1247/) - Stavros Efthymiou et al., 2024  - [GitHub](https://github.com/qiboteam/qibolab)  [oai_citation:2‡GitHub](https://github.com/qiboteam/qibolab?utm_source=chatgpt.com)
++ [Sensitivity-Adapted Closed-Loop Optimization for High-Fidelity CZ Gates](https://arxiv.org/abs/2412.17454) - Niklas J. Glaser et al., 2024
++ [Pulse Family Optimization for Parametrized Quantum Gates Using Spectral Clustering](https://arxiv.org/abs/2408.00119) - Robert de Keijzer et al., 2024
++ [Graph-Based Pulse Representation for Diverse Quantum Control Hardware](https://arxiv.org/abs/2409.08407) - Aniket S. Dalvi et al., 2024
++ [Pulse-Based Variational Quantum Optimization and Metalearning in Superconducting Circuits](https://arxiv.org/abs/2407.12636) - Yapeng Wang et al., 2024
++ [Implementing Fast and High-Fidelity Quantum Operations Using Open-Loop Optimal Control](https://arxiv.org/abs/2410.22603) - LBNL Collaboration, 2024
++ [Direct Pulse-Level Compilation of Arbitrary Quantum Logic Gates on Superconducting Qutrits](https://arxiv.org/abs/2303.04261) - Yujin Cho et al., 2024
++ [Qibocal: An Open-Source Framework for Calibration of Self-Hosted Quantum Devices](https://arxiv.org/abs/2410.00101) - Andrea Pasquale et al., 2024  - [GitHub](https://github.com/qiboteam/qibocal)  [oai_citation:3‡GitHub](https://github.com/qiboteam/qibocal?utm_source=chatgpt.com)
++ [A Time-Optimisation Framework Enabling Fast and Robust Gates in One Circuit](https://arxiv.org/pdf/2412.18533) - Eduardo W. Lussi et al., 2024
++ [A Time Optimization Framework for Robust and Low-Latency Quantum Circuits](https://arxiv.org/abs/2412.18533) - Eduardo W. Lussi et al., 2024
++ [Qibolab: Pulse-Oriented Drivers for Custom Hardware](https://quantum-journal.org/papers/q-2024-02-12-1247/) - Stavros Efthymiou et al., 2024  - [GitHub](https://github.com/qiboteam/qibolab)  [oai_citation:4‡GitHub](https://github.com/qiboteam/qibolab?utm_source=chatgpt.com)
++ [Pulse-Family Optimisation via Spectral Clustering](https://arxiv.org/abs/2408.00119) - Robert de Keijzer et al., 2024
 </br>
 
 
 #### Layer 5. Runtime & Dynamic Execution ####
-+ [Extending the OmpSs-2 Programming Model for Hybrid Quantum-Classical Programming](https://arxiv.org/abs/2502.21104) - Philip Döbler et al. (arXiv / HPC Europe) (2025). [OpenSource](https://github.com/bsc-pm/ompss-2-releases)
-+ [Qibosoq: RFSoC Control Software for Self-Hosted Quantum Hardware via QICK](https://cds.cern.ch/record/2875598) - Andrea Pasquale et al. (arXiv) (2025) - [OpenSource](https://github.com/qiboteam/qibosoq)
-+ [Building a Software Stack for Quantum-HPC Integration](https://arxiv.org/abs/2503.01787) - Amir Shehata et al. (arXiv / FGCS) (2025)
-+ [SLURM Heterogeneous Jobs for Hybrid Classical-Quantum Workflows](https://arxiv.org/abs/2506.03846) - Aniello Esposito & Utz-Uwe Haus, (arXiv) (2025)
-+ [phase2: Full-State Vector Simulation of Quantum Time Evolution at Scale](https://doi.org/10.21203/rs.3.rs-6620681/v1) - Marek Miller et al. (Preprint) (2025) - [OpenSource](https://github.com/Quantum-for-Life/phase2) 
-+ [Realization of Constant-Depth Fan-Out with Real-Time Feedforward on a Superconducting Quantum Processor](https://arxiv.org/abs/2409.06989) - Yongxin Song et al. (Preprint) (2024)
-+ [Demonstrating Real-Time and Low-Latency Quantum Error Correction with Superconducting Qubits](https://arxiv.org/abs/2410.05202) - Laura Caune et al. (arXiv) (2024) ￼
-+ [SCIM MILQ: An HPC Quantum Scheduler](https://arxiv.org/abs/2404.03512) - Philipp Seitz et al. (arXiv) (2024)   ￼
-+ [Qibolab: An Open-Source Hybrid Quantum Operating System](https://quantum-journal.org/papers/q-2024-02-12-1247/) - Stavros Efthymiou et al. (Quantum) (2024) - [OpenSource](https://github.com/qiboteam/qibolab)  ￼
-+ [Multi-GPU-Enabled Hybrid Quantum-Classical Workflow in Quantum-HPC Middleware](https://arxiv.org/abs/2403.05828) - Kuan-Cheng Chen et al. (arXiv) (2024) - [OpenSource](https://github.com/Louisanity/cuPhastLearn)  ￼
-+ [Combining Quantum Processors with Real-Time Classical Communication](https://www.nature.com/articles/s41586-024-08178-2) - Almudena Carrera Vazquez et al. (Nature) (2024) - [OpenSource](https://github.com/eggerdj/cut_graph_state_data)
-+ [Pilot-Quantum: A Middleware for Quantum-HPC Resource, Workload and Task Management](https://arxiv.org/abs/2412.18519) - (Pradeep Mantha et al. (arXiv) (2024) - [OpenSource](https://github.com/radical-cybertools/pilot-quantum)
-+ [A Pragma-Based C++ Framework for Hybrid Quantum/Classical Computation](https://arxiv.org/abs/2309.02605) - Agnieszka Gazda et al. (Science of Computer Programming) (2024)   ￼
-+ [Scaling Quantum Computing with Dynamic Circuits](https://arxiv.org/abs/2402.17833) - Almudena Carrera Vazquez et al. (arXiv) (2024)
-+ [Energy Efficiency of Quantum Statevector Simulation at Scale](https://arxiv.org/pdf/2308.07402) - Jakub Adamski et al. (SC-W 2023 Workshops) (2023) - [OpenSource](https://github.com/jjacobx/arb23)    ￼
++ [Extending the OmpSs-2 Programming Model for Hybrid Quantum-Classical Programming](https://arxiv.org/abs/2502.21104) - Philip Döbler et al., 2025  - [GitHub](https://github.com/bsc-pm/ompss-2-releases)  [oai_citation:12‡GitHub](https://github.com/bsc-pm/ompss-2-releases?utm_source=chatgpt.com)
++ [Qibosoq: RFSoC Control Software for Self-Hosted Quantum Hardware via QICK](https://cds.cern.ch/record/2875598) - Andrea Pasquale et al., 2025  - [GitHub](https://github.com/qiboteam/qibosoq)  [oai_citation:13‡GitHub](https://github.com/qiboteam/qibosoq?utm_source=chatgpt.com)
++ [Building a Software Stack for Quantum-HPC Integration](https://arxiv.org/abs/2503.01787) - Amir Shehata et al., 2025
++ [SLURM Heterogeneous Jobs for Hybrid Classical-Quantum Workflows](https://arxiv.org/abs/2506.03846) - Aniello Esposito & Utz-Uwe Haus, 2025
++ [phase2: Full-State Vector Simulation of Quantum Time Evolution at Scale](https://doi.org/10.21203/rs.3.rs-6620681/v1) - Marek Miller et al., 2025  - [GitHub](https://github.com/Quantum-for-Life/phase2)  [oai_citation:14‡GitHub](https://github.com/Quantum-for-Life/phase2)
++ [Realization of Constant-Depth Fan-Out with Real-Time Feed-forward on a Superconducting Processor](https://arxiv.org/abs/2409.06989) - Yongxin Song et al., 2024
++ [Demonstrating Real-Time & Low-Latency Quantum Error Correction](https://arxiv.org/abs/2410.05202) - Laura Caune et al., 2024
++ [SCIM MILQ: An HPC Quantum Scheduler](https://arxiv.org/abs/2404.03512) - Philipp Seitz et al., 2024  - [GitHub](https://github.com/qc-tum/milq)  [oai_citation:15‡GitHub](https://github.com/qc-tum/milq?utm_source=chatgpt.com)
++ [Qibolab: An Open-Source Hybrid Quantum Operating System](https://quantum-journal.org/papers/q-2024-02-12-1247/) - Stavros Efthymiou et al., 2024  - [GitHub](https://github.com/qiboteam/qibolab)  [oai_citation:16‡GitHub](https://github.com/qiboteam/qibolab?utm_source=chatgpt.com)
++ [Multi-GPU-Enabled Hybrid Quantum-Classical Workflow in Quantum-HPC Middleware](https://arxiv.org/abs/2403.05828) - Kuan-Cheng Chen et al., 2024  - [GitHub](https://github.com/Louisanity/cuPhastLearn)  [oai_citation:17‡GitHub](https://github.com/Louisanity/cuPhastLearn?utm_source=chatgpt.com)
++ [Combining Quantum Processors with Real-Time Classical Communication](https://www.nature.com/articles/s41586-024-08178-2) - Almudena Carrera Vazquez et al., 2024  - [GitHub](https://github.com/eggerdj/cut_graph_state_data)  [oai_citation:18‡GitHub](https://github.com/eggerdj/cut_graph_state_data?utm_source=chatgpt.com)
++ [Pilot-Quantum: A Middleware for Quantum-HPC Resource & Task Management](https://arxiv.org/abs/2412.18519) - Pradeep Mantha et al., 2024  - [GitHub](https://github.com/radical-cybertools/pilot-quantum)  [oai_citation:19‡GitHub](https://github.com/radical-cybertools/pilot-quantum?utm_source=chatgpt.com)
++ [A Pragma-Based C++ Framework for Hybrid Quantum / Classical Computation](https://arxiv.org/abs/2309.02605) - Agnieszka Gazda et al., 2024
++ [Scaling Quantum Computing with Dynamic Circuits](https://arxiv.org/abs/2402.17833) - Almudena Carrera Vazquez et al., 2024
++ [Energy Efficiency of Quantum State-Vector Simulation at Scale](https://arxiv.org/pdf/2308.07402) - Jakub Adamski et al., 2023  - [GitHub](https://github.com/jjacobx/arb23)  [oai_citation:20‡GitHub](https://github.com/jjacobx/arb23?utm_source=chatgpt.com)
 
 </br>
 
