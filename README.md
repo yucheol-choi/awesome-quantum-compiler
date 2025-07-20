@@ -262,7 +262,7 @@ Axis B: Error Mitigate & Correction
 + [IEEE Transactions on CAD of Integrated Circuits & Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43) – Placement, routing and design-automation for quantum chips.  
 + [ACM Transactions on Quantum Computing](https://dl.acm.org/journal/tqc) – Dedicated venue for compiler, runtime and architecture papers.  
 + [Computing Research Repository (CoRR)](https://arxiv.org/corr) – Pre-prints; quickest way to track new transpilation work.  
-+ [npj Quantum Information)[https://www.nature.com/npjqi) – Nature-branded, high-impact quantum-software and algorithms.  
++ [npj Quantum Information](https://www.nature.com/npjqi) – Nature-branded, high-impact quantum-software and algorithms.  
 + [PRX Quantum](https://journals.aps.org/prxquantum) – APS open-access journal for architecture and optimisation breakthroughs.  
 + [Quantum](https://quantum-journal.org/) – Overlay journal; steady flow of compiler and language articles.  
 + [Quantum Engineering](https://onlinelibrary.wiley.com/journal/26395307) – Engineering-oriented studies of full-stack toolchains.  
