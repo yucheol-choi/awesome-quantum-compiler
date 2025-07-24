@@ -1,8 +1,8 @@
 ## Awesome-Quantum-Compilers
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Maintenaned](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDeen.js/graphs/commit-activity)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yucheol-choi/)
 
 #### Quantum Compilation Surveys
 + [Quantum Compilation Process: A Survey](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) - F. Javier Cardama, Jorge Vázquez-Pérez, Tomás F. Pena, Juan C. Pichel & Andrés Gómez, 2025
@@ -17,7 +17,9 @@
 ## Part A: Vertical Compilation Flow — From Algorithm to Pulse
 
 
-#### IR Design & Transpilation Frameworks
+#### Language & Logical IR 
+
+> IR Design & Transpilation Frameworks
 + [LinguaQuanta: Towards a Quantum Transpiler Between OpenQASM and Quipper](https://arxiv.org/pdf/2404.08147) - Scott Wesley et al., 2024  - [GitHub](https://github.com/onestruggler/qasm-quipper)  
 + [Design and synthesis of scalable quantum programs](https://arxiv.org/abs/2412.07372) - Tomer Goldfriend et al., 2025
 + [PHOENIX: Pauli-Based High-Level Optimization Engine for Instruction Execution on NISQ Devices](https://arxiv.org/abs/2504.03529) - Zhaohui Yang et al., 2025  - [GitHub](https://github.com/iqubit-org/phoenix)  
@@ -32,8 +34,6 @@
 + [A MLIR Dialect for Quantum Assembly Languages](https://arxiv.org/abs/2101.11365) - Alexander McCaskey, Thien Nguyen, QCE 2021
 + [ScaffCC: A Framework for Compilation and Analysis of Quantum Computing Programs](https://arxiv.org/abs/1507.01902) - Ali JavadiAbhari et al., 2014  - [GitHub](https://github.com/epiqc/ScaffCC)  
 + [Introducing Quantum Intermediate Representation (QIR)](https://devblogs.microsoft.com/qsharp/introducing-quantum-intermediate-representation-qir/)  - [GitHub](https://github.com/qir-alliance/qir-spec)  
-
-
 </br>
 
 > Loop & Control-Flow Transforms 
@@ -84,7 +84,7 @@
 + [Machine Learning Optimization of Quantum Circuit Layouts](https://dl.acm.org/doi/full/10.1145/3565271) - Alexandru Pale et al., ACM TQC, 2023.  - [GitHub](https://github.com/alexandrupaler/qxx)  
 + [Synthesizing Quantum-Circuit Optimizers](https://dl.acm.org/doi/abs/10.1145/3591254) - Amanda Xu et al., PLDI, 2023.  - [GitHub](https://github.com/qqq-wisc/queso)
 + [Monte Carlo Graph Search for Quantum Circuit Optimization](https://arxiv.org/abs/2307.07353) - Bodo Rosenhahn, Tobias J. Osborne, 2023
-
+</br>
 
 
 
@@ -132,25 +132,6 @@
 + [Noise-adaptive compiler mappings for noisy intermediate-scale quantum computers.](https://arxiv.org/abs/1901.11054) - Prakash Murali, Jonathan M. Baker, Ali Javadi Abhari, Frederic T. Chong, Margaret Martonosi, ASPLOS, 2019
 </br>
 
-> runtime & dynamic execution
-+ [Extending the OmpSs-2 Programming Model for Hybrid Quantum-Classical Programming](https://arxiv.org/abs/2502.21104) - Philip Döbler et al., 2025  - [GitHub](https://github.com/bsc-pm/ompss-2-releases)  
-+ [Qibosoq: RFSoC Control Software for Self-Hosted Quantum Hardware via QICK](https://cds.cern.ch/record/2875598) - Andrea Pasquale et al., 2025  - [GitHub](https://github.com/qiboteam/qibosoq)  
-+ [Building a Software Stack for Quantum-HPC Integration](https://arxiv.org/abs/2503.01787) - Amir Shehata et al., 2025
-+ [SLURM Heterogeneous Jobs for Hybrid Classical-Quantum Workflows](https://arxiv.org/abs/2506.03846) - Aniello Esposito & Utz-Uwe Haus, 2025
-+ [phase2: Full-State Vector Simulation of Quantum Time Evolution at Scale](https://doi.org/10.21203/rs.3.rs-6620681/v1) - Marek Miller et al., 2025  - [GitHub](https://github.com/Quantum-for-Life/phase2)  
-+ [Realization of Constant-Depth Fan-Out with Real-Time Feed-forward on a Superconducting Processor](https://arxiv.org/abs/2409.06989) - Yongxin Song et al., 2024
-+ [Demonstrating Real-Time & Low-Latency Quantum Error Correction](https://arxiv.org/abs/2410.05202) - Laura Caune et al., 2024
-+ [SCIM MILQ: An HPC Quantum Scheduler](https://arxiv.org/abs/2404.03512) - Philipp Seitz et al., 2024  - [GitHub](https://github.com/qc-tum/milq)  
-+ [Qibolab: An Open-Source Hybrid Quantum Operating System](https://quantum-journal.org/papers/q-2024-02-12-1247/) - Stavros Efthymiou et al., 2024  - [GitHub](https://github.com/qiboteam/qibolab)  
-+ [Multi-GPU-Enabled Hybrid Quantum-Classical Workflow in Quantum-HPC Middleware](https://arxiv.org/abs/2403.05828) - Kuan-Cheng Chen et al., 2024  - [GitHub](https://github.com/Louisanity/cuPhastLearn)  
-+ [Combining Quantum Processors with Real-Time Classical Communication](https://www.nature.com/articles/s41586-024-08178-2) - Almudena Carrera Vazquez et al., 2024  - [GitHub](https://github.com/eggerdj/cut_graph_state_data) 
-+ [Pilot-Quantum: A Middleware for Quantum-HPC Resource & Task Management](https://arxiv.org/abs/2412.18519) - Pradeep Mantha et al., 2024  - [GitHub](https://github.com/radical-cybertools/pilot-quantum)  
-+ [A Pragma-Based C++ Framework for Hybrid Quantum / Classical Computation](https://arxiv.org/abs/2309.02605) - Agnieszka Gazda et al., 2024
-+ [Scaling Quantum Computing with Dynamic Circuits](https://arxiv.org/abs/2402.17833) - Almudena Carrera Vazquez et al., 2024
-+ [Energy Efficiency of Quantum State-Vector Simulation at Scale](https://arxiv.org/pdf/2308.07402) - Jakub Adamski et al., 2023  - [GitHub](https://github.com/jjacobx/arb23) 
-</br>
-
-
 #### Physical Layer: Pulse-Level Compilation and Control 
 
 > Instruction-Level Scheduling 
@@ -164,6 +145,23 @@
 + [TILT: Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/abs/2010.15876) - Xin-Chuan Wu et al., HPCA, 2020
 
 </br>
+
+#### Runtime & Dynamic Execution
++ [Extending the OmpSs-2 Programming Model for Hybrid Quantum-Classical Programming](https://arxiv.org/abs/2502.21104) - Philip Döbler et al., 2025  - [GitHub](https://github.com/bsc-pm/ompss-2-releases)  [oai_citation:12‡GitHub](https://github.com/bsc-pm/ompss-2-releases?utm_source=chatgpt.com)
++ [Qibosoq: RFSoC Control Software for Self-Hosted Quantum Hardware via QICK](https://cds.cern.ch/record/2875598) - Andrea Pasquale et al., 2025  - [GitHub](https://github.com/qiboteam/qibosoq)  [oai_citation:13‡GitHub](https://github.com/qiboteam/qibosoq?utm_source=chatgpt.com)
++ [Building a Software Stack for Quantum-HPC Integration](https://arxiv.org/abs/2503.01787) - Amir Shehata et al., 2025
++ [SLURM Heterogeneous Jobs for Hybrid Classical-Quantum Workflows](https://arxiv.org/abs/2506.03846) - Aniello Esposito & Utz-Uwe Haus, 2025
++ [phase2: Full-State Vector Simulation of Quantum Time Evolution at Scale](https://doi.org/10.21203/rs.3.rs-6620681/v1) - Marek Miller et al., 2025  - [GitHub](https://github.com/Quantum-for-Life/phase2)  [oai_citation:14‡GitHub](https://github.com/Quantum-for-Life/phase2)
++ [Realization of Constant-Depth Fan-Out with Real-Time Feed-forward on a Superconducting Processor](https://arxiv.org/abs/2409.06989) - Yongxin Song et al., 2024
++ [Demonstrating Real-Time & Low-Latency Quantum Error Correction](https://arxiv.org/abs/2410.05202) - Laura Caune et al., 2024
++ [SCIM MILQ: An HPC Quantum Scheduler](https://arxiv.org/abs/2404.03512) - Philipp Seitz et al., 2024  - [GitHub](https://github.com/qc-tum/milq)  [oai_citation:15‡GitHub](https://github.com/qc-tum/milq?utm_source=chatgpt.com)
++ [Qibolab: An Open-Source Hybrid Quantum Operating System](https://quantum-journal.org/papers/q-2024-02-12-1247/) - Stavros Efthymiou et al., 2024  - [GitHub](https://github.com/qiboteam/qibolab)  [oai_citation:16‡GitHub](https://github.com/qiboteam/qibolab?utm_source=chatgpt.com)
++ [Multi-GPU-Enabled Hybrid Quantum-Classical Workflow in Quantum-HPC Middleware](https://arxiv.org/abs/2403.05828) - Kuan-Cheng Chen et al., 2024  - [GitHub](https://github.com/Louisanity/cuPhastLearn)  [oai_citation:17‡GitHub](https://github.com/Louisanity/cuPhastLearn?utm_source=chatgpt.com)
++ [Combining Quantum Processors with Real-Time Classical Communication](https://www.nature.com/articles/s41586-024-08178-2) - Almudena Carrera Vazquez et al., 2024  - [GitHub](https://github.com/eggerdj/cut_graph_state_data)  [oai_citation:18‡GitHub](https://github.com/eggerdj/cut_graph_state_data?utm_source=chatgpt.com)
++ [Pilot-Quantum: A Middleware for Quantum-HPC Resource & Task Management](https://arxiv.org/abs/2412.18519) - Pradeep Mantha et al., 2024  - [GitHub](https://github.com/radical-cybertools/pilot-quantum)  [oai_citation:19‡GitHub](https://github.com/radical-cybertools/pilot-quantum?utm_source=chatgpt.com)
++ [A Pragma-Based C++ Framework for Hybrid Quantum / Classical Computation](https://arxiv.org/abs/2309.02605) - Agnieszka Gazda et al., 2024
++ [Scaling Quantum Computing with Dynamic Circuits](https://arxiv.org/abs/2402.17833) - Almudena Carrera Vazquez et al., 2024
++ [Energy Efficiency of Quantum State-Vector Simulation at Scale](https://arxiv.org/pdf/2308.07402) - Jakub Adamski et al., 2023  - [GitHub](https://github.com/jjacobx/arb23)  [oai_citation:20‡GitHub](https://github.com/jjacobx/arb23?utm_source=chatgpt.com)
 
 
 ## Part B: Cross-Cutting Concerns and Supporting Methodologies
