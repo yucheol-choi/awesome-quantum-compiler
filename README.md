@@ -1,10 +1,29 @@
-## Awesome-Quantum-Compilers
+## Awesome Quantum Compiler
+
+### Description
+For those who are either new to or currently researching in the field of quantum compilers, I will be regularly updating resources such as papers categorised by subtopics, open-source code, learning materials(currently planning to create it myself) on quantum compilers, as well as my own personal research paper reviews.
+
+As I have only just begun my first year as a PhD student, there are still many areas where I may fall short. Therefore, I would greatly appreciate any feedback or suggestions from those who are more experienced.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yucheol-choi/)
 
-#### Quantum Compilation Surveys
+### Table of Contents
+
+
+
+0. [Survey Papers](#Survey Papers)    
+1. [Compilation Flow — From Algorithm to Pulse](#Part A: Compilation Flow — From Algorithm to Pulse)
+   - [Language & Logical IR](#Language & Logical IR)
+   - [Hardware-Agnostic Optimization](#Hardware-Agnostic Optimization)
+   - [Hardware-Aware Compilation and Mapping](#Hardware-Aware Compilation & Mapping)
+   - [Physical Layer: Pulse-Level Compilation and Control](#Physical Layer: Pulse-Level Compilation & Control)
+   - [Runtime & Dynamic Execution](#Runtime & Dynamic Execution)
+2. [Cross-Cutting Concerns and Supporting Methodologies](#Part B: Cross-Cutting Concerns and Supporting Methodologies)
+   
+
+#### Survey papers
 + [Quantum Compilation Process: A Survey](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) - F. Javier Cardama, Jorge Vázquez-Pérez, Tomás F. Pena, Juan C. Pichel & Andrés Gómez, 2025
 + [Quantum Compiler Design for Qubit Mapping and Routing](https://arxiv.org/pdf/2505.16891) - Chenghong zhu et al., 2025.
 + [A Comprehensive Review of Quantum Circuit Optimization: Current Trends and Future Directions](https://www.mdpi.com/2624-960X/7/1/2) - Krishnageetha Karuppasamy et al., 2025.
@@ -14,7 +33,7 @@
 </br>
 
 
-## Part A: Vertical Compilation Flow — From Algorithm to Pulse
+## Part A: Compilation Flow — From Algorithm to Pulse
 
 
 #### Language & Logical IR 
@@ -88,7 +107,7 @@
 
 
 
-#### Hardware-Aware Compilation and Mapping
+#### Hardware-Aware Compilation & Mapping
 
 + [Short Two-Qubit Pulse Sequences for Exchange-Only Spin Qubits in 2D Layouts](https://arxiv.org/abs/2412.14918) - Jason D. Chadwick et al., 2025
 + [CCMap: Hardware-Aware Compilation for Chip-to-Chip Coupler-Connected QPUs](https://arxiv.org/abs/2505.09036) - Zefan Du et al., 2025
@@ -132,7 +151,7 @@
 + [Noise-adaptive compiler mappings for noisy intermediate-scale quantum computers.](https://arxiv.org/abs/1901.11054) - Prakash Murali, Jonathan M. Baker, Ali Javadi Abhari, Frederic T. Chong, Margaret Martonosi, ASPLOS, 2019
 </br>
 
-#### Physical Layer: Pulse-Level Compilation and Control 
+#### Pulse-Level Compilation & Control 
 > Instruction-Level Scheduling 
 + [SCIM MILQ: An HPC Quantum Scheduler](https://arxiv.org/abs/2404.03512) - Philipp Seitz et al., Quantum Week, 2024.  - [GitHub](https://github.com/qc-tum/milq)  
 + [DISQ: Dynamic Iteration Skipping for Variational Quantum Algorithms](https://arxiv.org/abs/2308.06634) - Junyao Zhang et al., QCE, 2023
