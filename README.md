@@ -1,13 +1,13 @@
 ## Awesome Quantum Compiler
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yucheol-choi/)
 
 ### Description
 For those who are either new to or currently researching in the field of quantum compilers, I will be regularly updating resources such as papers categorised by subtopics, open-source code, learning materials(currently planning to create it myself) on quantum compilers, as well as my own personal research paper reviews.
 
 As I have only just begun my first year as a PhD student, there are still many areas where I may fall short. Therefore, I would greatly appreciate any feedback or suggestions from those who are more experienced.
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yucheol-choi/)
 
 
 #### Survey papers
