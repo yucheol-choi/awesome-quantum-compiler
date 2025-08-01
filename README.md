@@ -9,19 +9,6 @@ As I have only just begun my first year as a PhD student, there are still many a
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yucheol-choi/)
 
-### Table of Contents
-
-
-
-0. [Survey Papers](#Survey Papers)    
-1. [Compilation Flow — From Algorithm to Pulse](#Part A: Compilation Flow — From Algorithm to Pulse)
-   - [Language & Logical IR](#Language & Logical IR)
-   - [Hardware-Agnostic Optimization](#Hardware-Agnostic Optimization)
-   - [Hardware-Aware Compilation and Mapping](#Hardware-Aware Compilation & Mapping)
-   - [Physical Layer: Pulse-Level Compilation and Control](#Physical Layer: Pulse-Level Compilation & Control)
-   - [Runtime & Dynamic Execution](#Runtime & Dynamic Execution)
-2. [Cross-Cutting Concerns and Supporting Methodologies](#Part B: Cross-Cutting Concerns and Supporting Methodologies)
-   
 
 #### Survey papers
 + [Quantum Compilation Process: A Survey](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) - F. Javier Cardama, Jorge Vázquez-Pérez, Tomás F. Pena, Juan C. Pichel & Andrés Gómez, 2025
