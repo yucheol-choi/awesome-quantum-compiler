@@ -21,8 +21,6 @@ As I have only just begun my first year as a PhD student, there are still many a
 
 
 ## Part A: Compilation Flow — From Algorithm to Pulse
-
-
 #### Language & Logical IR 
 
 > IR Design & Transpilation Frameworks
@@ -168,11 +166,7 @@ As I have only just begun my first year as a PhD student, there are still many a
 + [Energy Efficiency of Quantum State-Vector Simulation at Scale](https://arxiv.org/pdf/2308.07402) - Jakub Adamski et al., 2023  - [GitHub](https://github.com/jjacobx/arb23) 
 
 
-## Part B: Cross-Cutting Concerns and Supporting Methodologies
-</br>
-
-
-#### Verification, Validation, and Debugging 
+#### Quantum Verification, Validation, and Debugging 
 + [AutoQ 2.0: From Verification of Quantum Circuits to Verification of Quantum Programs](https://arxiv.org/abs/2411.09121) - Yu-Fang Chen, Kai-Min Chung, Min-Hsiu Hsieh, Wei-Jia Huang, Ondřej Lengál, Jyun-Ao Lin, Wei-Lun Tsai, TACAS, 2025.
 + [Verification of Quantum Circuits through Barrier Certificates using a Scenario Approach](https://arxiv.org/abs/2506.07635) - Siwei Hu, Victor Lopata, Sadegh Soudjani, Paolo Zuliani, QSW, 2025.
 + [MQT-QCEC v3.0](https://mqt.readthedocs.io/en/latest/) 
@@ -187,11 +181,16 @@ As I have only just begun my first year as a PhD student, there are still many a
 
 
 
-#### Performance Analysis and Resource Estimation
-</br>
-
-#### Simulation in the Compiler Lifecycle
-</br>
+#### Quantum Secure Compilation
++ [Split Compilation for Security of Quantum Circuits](https://pure.psu.edu/en/publications/split-compilation-for-security-of-quantum-circuits) — Abdullah Ash Saki, Aakarshitha Suresh, Rasit Onur Topaloglu, Swaroop Ghosh. ICCAD 2021.  ￼
++ [A Quantum Circuit Obfuscation Methodology for Security and Privacy](https://arxiv.org/abs/2104.05943) — Aakarshitha Suresh, Abdullah Ash Saki, Mahabubul Alam, Rasit Onur Topaloglu, Swaroop Ghosh. HASP @ MICRO 2021.  ￼
++ [OpaQue: Program Output Obfuscation for Quantum Software Circuits in Quantum Clouds](https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-32.pdf) — Tirthak Patel, Aditya Ranjan, Daniel Silver, Harshitta Gandhi, William Cutler, Devesh Tiwari. ICS 2025.  ￼
++ [TetrisLock: Quantum Circuit Split Compilation with Interlocking Patterns](https://arxiv.org/abs/2503.11982) — Qian Wang, Jayden John, Ben Dong, Yuntao Liu. arXiv 2025 (preprint).  ￼
++ [OPAQUE: Obfuscating Phase in Quantum Circuit Compilation for Efficient IP Protection](https://www.arxiv.org/abs/2502.16605) — Anees Rehman, Vincent Langford, Yuntao Liu. ISQED 2025.  ￼
++ [Encrypted-state quantum compilation scheme based on quantum circuit obfuscation](https://arxiv.org/abs/2507.17589) (ECQCO) — Chenyi Zhang, Tao Shang, Xueyi Guo, Yuanjing Zhang. arXiv 2025.  ￼
++ [Classical Obfuscation of Quantum Circuits via Publicly-Verifiable QFHE](https://arxiv.org/abs/2510.08400) — James Bartusek, Aparna Gupte, Saachi Mutreja, Omri Shmueli. arXiv 2025 (preprint).  ￼
++ [Quantum Homomorphic Encryption for Circuits of Low T-gate Complexity](https://link.springer.com/chapter/10.1007/978-3-662-48000-7_30) — Anne Broadbent, Stacey Jeffery. CRYPTO 2015.  ￼
++ [Unconditionally Verifiable Blind Quantum Computation](https://journals.aps.org/pra/pdf/10.1103/PhysRevA.96.012303) — Joseph F. Fitzsimons, Elham Kashefi. Physical Review A, 2017. 
 
 
 
