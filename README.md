@@ -18,6 +18,8 @@ For those who are either new to or currently researching in the field of quantum
 - [Part B: Quantum Compiler Ecosystem](#part-b-quantum-compiler-ecosystem)
   - [Quantum Verification and Debugging](#verification-and-debugging)
   - [Quantum Secure Compilation](#quantum-secure-compilation)
+  - [QEC-aware Compilation](#qec-aware-compilation)
+- [Part C: Quantum Study Resource](#quantum-study-resource)  
   - [Tech blogs](#tech-blogs)
   - [Books](#books)
   - [Blogs of Luminaries](#blogs-of-luminaries)
@@ -199,6 +201,32 @@ For those who are either new to or currently researching in the field of quantum
 + [MQT-Debugger framework](https://arxiv.org/abs/2412.12269) - Damian Rovara, Lukas Burgholzer, Robert Wille, 2024.
 
 
+<h4 id="qec-aware compilation">QEC-Aware Compilation</h4>
+
++ [Resource-Efficient Context-Aware Dynamical Decoupling Embedding for Arbitrary Large-Scale Quantum Algorithms](https://link.aps.org/doi/10.1103/PRXQuantum.6.010332), Paul Coote et al., PRX Quantum, 2025
++ [Learning high-accuracy error decoding for quantum processors](https://www.nature.com/articles/s41586-024-08148-8) - Johannes Bausch et al., Nature, 2024
++ [Error Propagation-Aware Routing: A New Routing Strategy to Improve Success Rates of Quantum Circuits](https://dl.acm.org/doi/pdf/10.1145/3649476.3658790), Lu Fang et al., ICCAD, 2024 
++ [Learning How to Dynamically Decouple](https://arxiv.org/html/2405.08689v1), Arefur Rahman et al., arXiv, 2024.
++ [On the Use of Calibration Data in Error-Aware Compilation Techniques for NISQ Devices](https://arxiv.org/html/2407.21462v1), Handy Kurniawan et al., arXiv, 2024.
++ [TISCC: A Surface Code Compiler and Resource Estimator for Trapped-Ion Processors](https://dl.acm.org/doi/abs/10.1145/3624062.3624214) - Tyler Leblond, Ryan S. Bennink, Justin G. Lietz, and Christopher M. Seck, SC, 2023
++ [Analyzing Strategies for Dynamical Decoupling Insertion on IBM Quantum](https://arxiv.org/abs/2204.14251), Murphy Y. Niu & Daniel A. Lidar, arXiv, 2022
++ [Qubit Mapping and Routing via MaxSAT](https://pages.cs.wisc.edu/~amolavi/files/micro22.pdf), Maryam Amiri et al., MICRO, 2022.
++ [VAQEM: A Variational Approach to Quantum Error Mitigation](https://www.computer.org/csdl/proceedings-article/hpca/2022/202700a288/1Ds0fvoYbCw) - Gokul S. Ravi et al., HPCA, 2022
++ [Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Quantum Architectures](https://arxiv.org/pdf/2111.06469.pdf) - Jonathan M. Baker, et al., ISCA, 2021
++ [ADAPT: Mitigating Idling Errors in Qubits via Adaptive Dynamical Decoupling](https://dl.acm.org/doi/10.1145/3466752.3480059) - Poulami Das et al., MICRO, 2021
++ [A Noise-Aware Qubit Mapping Algorithm Evaluated via Qubit Interaction-Graph Criteria](https://www.researchgate.net/publication/350512755_A_Noise-Aware_Qubit_Mapping_Algorithm_Evaluated_via_Qubit_Interaction-Graph_Criteria) - Matthew Steinberg et al., arXiv, 2021.
++ [TILT: Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/pdf/2010.15876v3.pdf) - Xin-Chuan Wu, Dripto M Debroy, Yongshan Ding, Jonathan M Baker, Yuri Alexeev, Kenneth R Brown, and Frederic T Chong, HPCA, 2020
++ [Systematic Cross talk Mitigation for Superconducting Qubits via Frequency-Aware Compilation](https://arxiv.org/abs/2008.09503), Yongshan Ding, Pranav Gokhale, Sophia Fuhui Lin, Richard Rines, Thomas Propson, Frederic T. Chong, MICRO, 2020
++ [Digital Zero-Noise Extrapolation for Quantum Error Mitigation](https://arxiv.org/abs/2005.10921), Tudor Giurgica-Tiron et al., IEEE QCE, 2020 
++ [Noise-Adaptive Compiler Mappings for NISQ Computers](https://dl.acm.org/doi/10.1145/3297858.3304075), Prakash Murali et al., ASPLOS, 2019
++ [Near-Optimal Routing of Noisy Quantum States](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11134/111340A/Near-optimal-routing-of-noisy-quantum-states/10.1117/12.2526670.short), Kyle Cote et al., SPIE Proc., 2019.
++ [Not All Qubits Are Created Equal: Variation-Aware Qubit Allocation in NISQ-Era Quantum Computers](https://dl.acm.org/doi/10.1145/3297858.3304007), Swamit Tannu & Moinuddin Qureshi, ASPLOS, 2019
++ [Practical Quantum Error Mitigation for Near-Future Applications](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509), Suguru Endo et al., Phys. Rev. X, 2018.  
++ [Error Mitigation for Short-Depth Quantum Circuits](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509), Kristan Temme et al., Phys. Rev. Lett., 2017.
+</br>
+
+
+
 <h4 id="quantum secure compilation">Quantum Secure Compilation</h4>
 
 + [Split Compilation for Security of Quantum Circuits](https://pure.psu.edu/en/publications/split-compilation-for-security-of-quantum-circuits) — Abdullah Ash Saki, Aakarshitha Suresh, Rasit Onur Topaloglu, Swaroop Ghosh. ICCAD 2021.  ￼
@@ -211,6 +239,7 @@ For those who are either new to or currently researching in the field of quantum
 + [Quantum Homomorphic Encryption for Circuits of Low T-gate Complexity](https://link.springer.com/chapter/10.1007/978-3-662-48000-7_30) — Anne Broadbent, Stacey Jeffery. CRYPTO 2015.  ￼
 + [Unconditionally Verifiable Blind Quantum Computation](https://journals.aps.org/pra/pdf/10.1103/PhysRevA.96.012303) — Joseph F. Fitzsimons, Elham Kashefi. Physical Review A, 2017. 
 
+<h2 id="quantum-study-resource">Part C: Quantum-Study-Resource</h2>
 
 <h4 id="tech blogs">Tech Blogs</h4>
 
@@ -239,16 +268,14 @@ For those who are either new to or currently researching in the field of quantum
 
 <h4 id="blogs of luminaries">Blogs of Luminaries</h4>
 
-+ [Scott Aaronson — Shtetl-Optimized](https://scottaaronson.blog/) — **quantum complexity**, **foundations**, **commentary**  
-+ [John Preskill — Quantum Frontiers](https://quantumfrontiers.com/) — **quantum information**, **physics essays**  
-+ [Dave Bacon — The Quantum Pontiff](https://dabacon.org/pontiff/) — **QC culture**, **industry**, **theory**  
-+ [Gil Kalai — Combinatorics and more](https://gilkalai.wordpress.com/) — **quantum skepticism**, **combinatorics**, **theory**  
-+ [Michael Nielsen — Blog](https://michaelnielsen.org/blog/) — **quantum/AI essays**, **open science**  
-+ [John C. Baez — Azimuth](https://johncarlosbaez.wordpress.com/) — **math/physics**, **category theory**, **QC topics**  
-+ [Robert Harper — Existential Type](https://existentialtype.wordpress.com/) — **PL theory**, **types**, **semantics**  
-+ [Chris Lattner — Articles/Blog](https://www.nondot.org/sabre/) — **LLVM/MLIR**, **compilers**, **systems**  
-+ [John Regehr — Embedded in Academia](https://blog.regehr.org/) — **compiler correctness**, **undefined behavior**, **tooling**  
-+ [Philip Wadler — Wadler’s Blog](https://wadler.blogspot.com/) — **functional programming**, **type systems**  
++ [Scott Aaronson](https://scottaaronson.blog/) — **quantum complexity**, **foundations**, **commentary**  
++ [John Preskill](https://quantumfrontiers.com/) — **quantum information**, **physics essays**  
++ [Dave Bacon](https://dabacon.org/pontiff/) — **QC culture**, **industry**, **theory**  
++ [Gil Kalai](https://gilkalai.wordpress.com/) — **quantum skepticism**, **combinatorics**, **theory**  
++ [Michael Nielsen](https://michaelnielsen.org/blog/) — **quantum/AI essays**, **open science**  
++ [John C. Baez](https://johncarlosbaez.wordpress.com/) — **math/physics**, **category theory**, **QC topics**  
++ [Robert Harper](https://existentialtype.wordpress.com/) — **PL theory**, **types**, **semantics**  
++ [Chris Lattner](https://www.nondot.org/sabre/) — **LLVM/MLIR**, **compilers**, **systems**  
 
 <h4 id="conferences-symposia">Conferences & Symposia</h4>
 
@@ -280,7 +307,7 @@ For those who are either new to or currently researching in the field of quantum
 + [JMP](https://aip.scitation.org/journal/jmp) — **formal techniques** for **verification**/**synthesis**.  
 + [IEEE TCAD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43) — **placement**, **routing**, **design automation** for **quantum chips**. 
 + [ACM TQC](https://dl.acm.org/journal/tqc) — **compiler**, **runtime**, **architecture** papers.  
-+ [CoRR](https://arxiv.org/corr) — **preprints**; fastest to track new **transpilation** work.  
++ [CoRR](https://arxiv.org/corr) — fastest to track new **transpilation** work.  
 + [npj QI](https://www.nature.com/npjqi) — **high-impact** **quantum software**/**algorithms**.  
 + [PRX Quantum](https://journals.aps.org/prxquantum) — **open-access** **architecture**/**optimisation** breakthroughs.  
 + [Quantum](https://quantum-journal.org/) — **overlay journal** for **compiler**/**language** articles.  
