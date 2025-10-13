@@ -6,11 +6,27 @@
 ### Description
 For those who are either new to or currently researching in the field of quantum compilers, I will be regularly updating resources such as papers categorised by subtopics, open-source code, learning materials(currently planning to create it myself) on quantum compilers, as well as my own personal research paper reviews.
 
-As I have only just begun my first year as a PhD student, there are still many areas where I may fall short. Therefore, I would greatly appreciate any feedback or suggestions from those who are more experienced.
 
+## Table of Contents
+- [Survey papers](#survey-papers)
+- [Part A: Compilation Flow — From Algorithm to Pulse](#part-a-compilation-flow--from-algorithm-to-pulse)
+  - [Language & Logical IR](#language-logical-ir)
+  - [Hardware-Agnostic Optimization](#hardware-agnostic-optimization)
+  - [Hardware-Aware Compilation & Mapping](#hardware-aware-compilation--mapping)
+  - [Pulse-Level Compilation & Control](#pulse-level-compilation--control)
+  - [Runtime & Dynamic Execution](#runtime--dynamic-execution)
+- [Part B: Quantum Compiler Ecosystem](#part-b-quantum-compiler-ecosystem)
+  - [Quantum Verification and Debugging](#verification-and-debugging)
+  - [Quantum Secure Compilation](#quantum-secure-compilation)
+  - [Tech blogs](#tech-blogs)
+  - [Books](#books)
+  - [Blogs of Luminaries](#blogs-of-luminaries)
+  - [Conferences & Symposia](#conferences--symposia)
+  - [Journals](#journals)
+</br>
 
+<h2 id="survey-papers">Survey papers</h2>
 
-#### Survey papers
 + [Quantum Compilation Process: A Survey](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) - F. Javier Cardama, Jorge Vázquez-Pérez, Tomás F. Pena, Juan C. Pichel & Andrés Gómez, 2025
 + [Quantum Compiler Design for Qubit Mapping and Routing](https://arxiv.org/pdf/2505.16891) - Chenghong zhu et al., 2025.
 + [A Comprehensive Review of Quantum Circuit Optimization: Current Trends and Future Directions](https://www.mdpi.com/2624-960X/7/1/2) - Krishnageetha Karuppasamy et al., 2025.
@@ -21,7 +37,8 @@ As I have only just begun my first year as a PhD student, there are still many a
 
 
 ## Part A: Compilation Flow — From Algorithm to Pulse
-#### Language & Logical IR 
+
+<h4 id="language-logical-ir">Language & Logical IR</h4>
 
 > IR Design & Transpilation Frameworks
 + [LinguaQuanta: Towards a Quantum Transpiler Between OpenQASM and Quipper](https://arxiv.org/pdf/2404.08147) - Scott Wesley et al., 2024  - [GitHub](https://github.com/onestruggler/qasm-quipper)  
@@ -54,7 +71,7 @@ As I have only just begun my first year as a PhD student, there are still many a
 </br>
 
 
-#### Hardware-Agnostic Optimization
+<h4 id="hardware-agnostic-optimization">Hardware-Agnostic Optimization</h4>
 
 > Quantum Program Optimization 
 + [SuperstaQ: Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) - Campbell et al., QCE 2023  - [GitHub](https://github.com/Infleqtion/client-superstaq)  
@@ -92,7 +109,7 @@ As I have only just begun my first year as a PhD student, there are still many a
 
 
 
-#### Hardware-Aware Compilation & Mapping
+<h4 id="hardware-aware-compilation-mapping">Hardware-Aware Compilation & Mapping</h4>
 
 + [Short Two-Qubit Pulse Sequences for Exchange-Only Spin Qubits in 2D Layouts](https://arxiv.org/abs/2412.14918) - Jason D. Chadwick et al., 2025
 + [CCMap: Hardware-Aware Compilation for Chip-to-Chip Coupler-Connected QPUs](https://arxiv.org/abs/2505.09036) - Zefan Du et al., 2025
@@ -136,8 +153,8 @@ As I have only just begun my first year as a PhD student, there are still many a
 + [Noise-adaptive compiler mappings for noisy intermediate-scale quantum computers.](https://arxiv.org/abs/1901.11054) - Prakash Murali, Jonathan M. Baker, Ali Javadi Abhari, Frederic T. Chong, Margaret Martonosi, ASPLOS, 2019
 </br>
 
-#### Pulse-Level Compilation & Control 
-> Instruction-Level Scheduling 
+<h4 id="pulse-level-compilation-control">Pulse-Level Compilation & Control</h4>
+
 + [SCIM MILQ: An HPC Quantum Scheduler](https://arxiv.org/abs/2404.03512) - Philipp Seitz et al., Quantum Week, 2024.  - [GitHub](https://github.com/qc-tum/milq)  
 + [DISQ: Dynamic Iteration Skipping for Variational Quantum Algorithms](https://arxiv.org/abs/2308.06634) - Junyao Zhang et al., QCE, 2023
 + [Let Each Quantum Bit Choose Its Basis Gates](https://arxiv.org/abs/2208.13380) - Sophia Fuhui Lin et al., MICRO, 2022
@@ -148,7 +165,8 @@ As I have only just begun my first year as a PhD student, there are still many a
 + [TILT: Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/abs/2010.15876) - Xin-Chuan Wu et al., HPCA, 2020
 </br>
 
-#### Runtime & Dynamic Execution
+<h4 id="runtime-dynamic-execution">Runtime & Dynamic Execution</h4>
+
 + [Extending the OmpSs-2 Programming Model for Hybrid Quantum-Classical Programming](https://arxiv.org/abs/2502.21104) - Philip Döbler et al., 2025  - [GitHub](https://github.com/bsc-pm/ompss-2-releases) 
 + [Qibosoq: RFSoC Control Software for Self-Hosted Quantum Hardware via QICK](https://cds.cern.ch/record/2875598) - Andrea Pasquale et al., 2025  - [GitHub](https://github.com/qiboteam/qibosoq)  
 + [Building a Software Stack for Quantum-HPC Integration](https://arxiv.org/abs/2503.01787) - Amir Shehata et al., 2025
@@ -165,8 +183,10 @@ As I have only just begun my first year as a PhD student, there are still many a
 + [Scaling Quantum Computing with Dynamic Circuits](https://arxiv.org/abs/2402.17833) - Almudena Carrera Vazquez et al., 2024
 + [Energy Efficiency of Quantum State-Vector Simulation at Scale](https://arxiv.org/pdf/2308.07402) - Jakub Adamski et al., 2023  - [GitHub](https://github.com/jjacobx/arb23) 
 
+<h2 id="part-b-quantum-compiler-ecosystem">Part B: Quantum Compiler Ecosystem</h2>
 
-#### Quantum Verification, Validation, and Debugging 
+<h4 id="verification-and-debugging">Quantum Verification and Debugging</h4>
+
 + [AutoQ 2.0: From Verification of Quantum Circuits to Verification of Quantum Programs](https://arxiv.org/abs/2411.09121) - Yu-Fang Chen, Kai-Min Chung, Min-Hsiu Hsieh, Wei-Jia Huang, Ondřej Lengál, Jyun-Ao Lin, Wei-Lun Tsai, TACAS, 2025.
 + [Verification of Quantum Circuits through Barrier Certificates using a Scenario Approach](https://arxiv.org/abs/2506.07635) - Siwei Hu, Victor Lopata, Sadegh Soudjani, Paolo Zuliani, QSW, 2025.
 + [MQT-QCEC v3.0](https://mqt.readthedocs.io/en/latest/) 
@@ -177,11 +197,10 @@ As I have only just begun my first year as a PhD student, there are still many a
 + [Qiskit SDK 0.50 primitives](https://docs.quantum.ibm.com/guides/simulate-with-qiskit-sdk-primitives)
 + [Bloq](https://arxiv.org/abs/2506.18458) - Noah H. Oldfield, Christoph Laaber, Shaukat Ali, 2025.
 + [MQT-Debugger framework](https://arxiv.org/abs/2412.12269) - Damian Rovara, Lukas Burgholzer, Robert Wille, 2024.
-</br>
 
 
+<h4 id="quantum secure compilation">Quantum Secure Compilation</h4>
 
-#### Quantum Secure Compilation
 + [Split Compilation for Security of Quantum Circuits](https://pure.psu.edu/en/publications/split-compilation-for-security-of-quantum-circuits) — Abdullah Ash Saki, Aakarshitha Suresh, Rasit Onur Topaloglu, Swaroop Ghosh. ICCAD 2021.  ￼
 + [A Quantum Circuit Obfuscation Methodology for Security and Privacy](https://arxiv.org/abs/2104.05943) — Aakarshitha Suresh, Abdullah Ash Saki, Mahabubul Alam, Rasit Onur Topaloglu, Swaroop Ghosh. HASP @ MICRO 2021.  ￼
 + [OpaQue: Program Output Obfuscation for Quantum Software Circuits in Quantum Clouds](https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-32.pdf) — Tirthak Patel, Aditya Ranjan, Daniel Silver, Harshitta Gandhi, William Cutler, Devesh Tiwari. ICS 2025.  ￼
@@ -193,20 +212,8 @@ As I have only just begun my first year as a PhD student, there are still many a
 + [Unconditionally Verifiable Blind Quantum Computation](https://journals.aps.org/pra/pdf/10.1103/PhysRevA.96.012303) — Joseph F. Fitzsimons, Elham Kashefi. Physical Review A, 2017. 
 
 
+<h4 id="tech blogs">Tech Blogs</h4>
 
-#### 🔬 Academic & Research Labs
-+ [EPiQC Expedition](https://www.epiqc.cs.uchicago.edu/) - Research expedition on algorithm–hardware co-design and compiler stacks.  
-+ [SIGPLAN Blog – “Verifying a Quantum Compiler”](https://blog.sigplan.org/2021/06/02/verifying-a-quantum-compiler/) - Deep dives into VOQC verified optimizations & proof techniques.  compiler/)  
-+ [Quantum Frontiers – Caltech IQIM](https://quantumfrontiers.com/) - Essays on circuit depth, mapping, and quantum complexity.  
-+ [QIR Alliance](https://www.qir-alliance.org/) - LLVM-based quantum IR spec & collaborative compiler tooling.   
-+ [Azure Quantum QIR Docs](https://learn.microsoft.com/en-us/azure/quantum/concepts-qir) - Official semantic reference for QIR and related LLVM passes.    
-+ [QIR Alliance GitHub](https://github.com/qir-alliance) - Open-source optimizers (QAT) and code-gen for QIR workflows.  
-+ [OpenQASM 3 MLIR Compiler – qe-compiler](https://github.com/openqasm/qe-compiler) - MLIR dialect pipeline targeting OpenQASM 3 and NISQ devices. 
-+ [Pandora – Aalto University](https://aaltodoc.aalto.fi/items/1d6b3201-b181-4a55-9eec-0e23119b1b38) - Million-gate optimization & equivalence-checking toolkit.   
-+ [Giallar Verification Toolkit](https://arxiv.org/abs/2205.00661) - Push-button semantic-preservation proofs for Qiskit passes.   
-+ [Composable Quantum Compiler – POPL’21 Paper](https://rand.cs.uchicago.edu/files/popl_2021_slides.pdf) - Coq-based SQIR/VOQC compositional compiler design.
-
-#### 💻 Tech-Giants & Start-ups
 + [TKET Developer Blog (Quantinuum)](https://docs.quantinuum.com/tket/blog/) - Updates on optimizer passes, SWAP-routing & new ISA back-ends.    
 + [Classiq Insights](https://www.classiq.io/insights) - Posts on high-level synthesis and automatic circuit generation.   
 + [AWS Quantum Technologies Blog](https://aws.amazon.com/blogs/quantum-computing/) - Notes on parametric compilation & hybrid-runtime transpilation.  
@@ -218,7 +225,8 @@ As I have only just begun my first year as a PhD student, there are still many a
 + [PsiQuantum Newsroom](https://www.psiquantum.com/news) - Photonic-specific compilation & mapping announcements (Omega chipset).  
 + [Quantum Circuits × NVIDIA Partnership](https://quantumcircuits.com/key-partnership-with-nvidia/) - CUDA-Q compiler integration for error-aware superconducting qubits. 
 
-#### 📚 Books
+<h4 id="books">Books</h4>
+
 + [Quantum Computer Systems: Research for Noisy Intermediate-Scale Quantum Computers](https://www.amazon.co.uk/Quantum-Computer-Synthesis-Lectures-Architecture/dp/168173866X) – NISQ-era architecture/​compiler co-design guide.  
 + [Quantum Computing for Computer Architects, 2e](https://link.springer.com/book/10.1007/978-3-031-01731-5) – ISA design, cost models and hardware-aware optimisation.  
 + [Programming Quantum Computers](https://www.oreilly.com/library/view/programming-quantum-computers/9781492039673/) – Hands-on circuit building, transpilation & benchmarking across Qiskit, Q# and PyQuil.  
@@ -229,42 +237,56 @@ As I have only just begun my first year as a PhD student, there are still many a
 + [Software Engineering for Quantum Computing](https://www.amazon.ca/Software-Engineering-Quantum-Computing-Publishing/dp/1446184668) – Design patterns, CI/CD and project workflows for NISQ projects.  
 
 
-#### 🗓️ Conferences & Symposia
-+ [HPCA – IEEE Int’l Symp. on High-Performance Computer Architecture](https://hpca-conf.org/) – Architecture-level optimisations, including quantum/classical co-design.  
-+ [ASPLOS – Architectural Support for Programming Languages & Operating Systems](https://www.asplos-conference.org/) – Cross-layer hardware/software studies.  
-+ [ISCA – Int’l Symp. on Computer Architecture](https://iscaconf.org/) – Next-gen processor and compiler interactions.  
-+ [MICRO – IEEE/ACM Int’l Symp. on Microarchitecture](https://www.microarch.org/) – Micro-architectural support for quantum accelerators.  
-+ [ICCAD – IEEE/ACM Int’l Conf. on CAD](https://iccad.com/) – EDA techniques and synthesis for quantum circuits.  
-+ [DAC – Design Automation Conference](https://www.dac.com/) – Tool flows, verification and design-automation research.  
-+ [CC – Int’l Conf. on Compiler Construction](https://conf.researchr.org/series/cc) – Classic compiler theory now extending to quantum IRs.  
-+ [PLDI – Programming Language Design & Implementation](https://conf.researchr.org/series/pldi) – Language semantics and optimisation passes.  
-+ [QCE – IEEE Quantum Week](https://qce.quantum.ieee.org/) – End-to-end quantum-computing stack with dedicated compiler tracks.  
-+ [CF – ACM Computing Frontiers](https://www.computingfrontiers.org/) – Emerging architectures, including quantum hardware/software.  
-+ [IEEE QSW – Int’l Conf. on Quantum Software](https://services.conferences.computer.org/2025/qsw/) – Quantum-software engineering, verification and toolchains.  
-+ [IQSOFT – Int’l Conf. on Quantum Software](https://iqsoft.scitevents.org/) – Six-track event focused on optimisation, runtime and testing.  
-+ [QIP – Quantum Information Processing](https://qipconference.org/) – Theory sessions on depth/T-count lower bounds and circuit optimisation.  
-+ [TQC – Theory of Quantum Computation, Communication & Cryptography](https://tqc-conference.org/) – Foundational results feeding compiler theory.  
-+ [QPL – Quantum Physics & Logic](https://qpl2025.github.io/) – Type systems, categorical semantics and verifiable quantum languages.  
+<h4 id="blogs of luminaries">Blogs of Luminaries</h4>
 
++ [Scott Aaronson — Shtetl-Optimized](https://scottaaronson.blog/) — **quantum complexity**, **foundations**, **commentary**  
++ [John Preskill — Quantum Frontiers](https://quantumfrontiers.com/) — **quantum information**, **physics essays**  
++ [Dave Bacon — The Quantum Pontiff](https://dabacon.org/pontiff/) — **QC culture**, **industry**, **theory**  
++ [Gil Kalai — Combinatorics and more](https://gilkalai.wordpress.com/) — **quantum skepticism**, **combinatorics**, **theory**  
++ [Michael Nielsen — Blog](https://michaelnielsen.org/blog/) — **quantum/AI essays**, **open science**  
++ [John C. Baez — Azimuth](https://johncarlosbaez.wordpress.com/) — **math/physics**, **category theory**, **QC topics**  
++ [Robert Harper — Existential Type](https://existentialtype.wordpress.com/) — **PL theory**, **types**, **semantics**  
++ [Chris Lattner — Articles/Blog](https://www.nondot.org/sabre/) — **LLVM/MLIR**, **compilers**, **systems**  
++ [John Regehr — Embedded in Academia](https://blog.regehr.org/) — **compiler correctness**, **undefined behavior**, **tooling**  
++ [Philip Wadler — Wadler’s Blog](https://wadler.blogspot.com/) — **functional programming**, **type systems**  
 
-#### 📰 Journals
-+ [Nature](https://www.nature.com/) – Occasional landmark papers on scalable compilation and error correction.  
-+ [Nature Physics](https://www.nature.com/nphys) – Hardware/​software co-design breakthroughs.  
-+ [Nature Communications](https://www.nature.com/ncomms) – Open-access venue for interdisciplinary quantum-compiler work.
-+ [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8780379) – Hardware-aware compilation and systems papers.  
-+ [Quantum Information & Computation](http://www.rintonpress.com/journals/qic.html) – Algorithms, complexity and optimisation studies.  
-+ [Quantum Science and Technology](https://iopscience.iop.org/journal/2058-9565) – Experimental and theoretical advances, incl. compiler tooling.  
-+ [Proceedings of the ACM on Programming Languages / PACMPL](https://dl.acm.org/journal/pacmpl) – PLDI & OOPSLA issues often feature quantum-language work.  
-+ [Journal of Mathematical Physics](https://aip.scitation.org/journal/jmp) – Formal techniques underlying verification and synthesis.  
-+ [IEEE Transactions on CAD of Integrated Circuits & Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43) – Placement, routing and design-automation for quantum chips.  
-+ [ACM Transactions on Quantum Computing](https://dl.acm.org/journal/tqc) – Dedicated venue for compiler, runtime and architecture papers.  
-+ [Computing Research Repository (CoRR)](https://arxiv.org/corr) – Pre-prints; quickest way to track new transpilation work.  
-+ [npj Quantum Information](https://www.nature.com/npjqi) – Nature-branded, high-impact quantum-software and algorithms.  
-+ [PRX Quantum](https://journals.aps.org/prxquantum) – APS open-access journal for architecture and optimisation breakthroughs.  
-+ [Quantum](https://quantum-journal.org/) – Overlay journal; steady flow of compiler and language articles.  
-+ [Quantum Engineering](https://onlinelibrary.wiley.com/journal/26395307) – Engineering-oriented studies of full-stack toolchains.  
-+ [Quantum Machine Intelligence](https://link.springer.com/journal/42484) – ML-driven layout, scheduling and heuristic optimisation.  
-+ [Advanced Quantum Technologies](https://onlinelibrary.wiley.com/journal/2511902X) – Experimental control-level compilation and pulse studies.    
-+ [OOPSLA – Proc. of the ACM on Programming Languages, OOPSLA issue](https://conf.researchr.org/series/oopsla) – Object-oriented languages & optimisation; now features quantum PL papers.  
+<h4 id="conferences-symposia">Conferences & Symposia</h4>
+
++ [HPCA](https://hpca-conf.org/) — **architecture-level optimisations**, **quantum/classical co-design**.  
++ [ASPLOS](https://www.asplos-conference.org/) — **cross-layer** **hardware/software** studies.  
++ [ISCA](https://iscaconf.org/) — **next-gen** **processor–compiler interactions**.  
++ [MICRO](https://www.microarch.org/) — **micro-architectural support** for **quantum accelerators**.  
++ [ICCAD](https://iccad.com/) — **EDA techniques** and **synthesis** for **quantum circuits**.  
++ [DAC](https://www.dac.com/) — **tool flows**, **verification**, **design automation** research.  
++ [CC](https://conf.researchr.org/series/cc) — **compiler theory** extending to **quantum IRs**.  
++ [PLDI](https://conf.researchr.org/series/pldi) — **language semantics** and **optimisation passes**.  
++ [QCE](https://qce.quantum.ieee.org/) — **end-to-end stack** with dedicated **compiler tracks**.  
++ [CF](https://www.computingfrontiers.org/) — **emerging architectures**, **quantum hardware/software**.  
++ [IEEE QSW](https://services.conferences.computer.org/2025/qsw/) — **quantum software engineering**, **verification**, **toolchains**.  
++ [IQSOFT](https://iqsoft.scitevents.org/) — **optimisation**, **runtime**, **testing**.  
++ [QIP](https://qipconference.org/) — **depth/T-count lower bounds**, **circuit optimisation** (theory).  
++ [TQC](https://tqc-conference.org/) — **foundational results** feeding **compiler theory**.  
++ [QPL](https://qpl2025.github.io/) — **type systems**, **categorical semantics**, **verifiable quantum languages**.  
+
+<h4 id="journals">Journals</h4>
+
++ [Nature](https://www.nature.com/) — **landmark papers**, **scalable compilation**, **error correction**.  
++ [Nature Physics](https://www.nature.com/nphys) — **hardware/software co-design** breakthroughs.  
++ [Nature Communications](https://www.nature.com/ncomms) — **open-access**, **interdisciplinary** compiler work.  
++ [IEEE TQE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8780379) — **hardware-aware compilation**, **systems** papers.  
++ [QIC](http://www.rintonpress.com/journals/qic.html) — **algorithms**, **complexity**, **optimisation**.  
++ [QST](https://iopscience.iop.org/journal/2058-9565) — **experimental**/**theoretical** advances, **compiler tooling**.  
++ [PACMPL](https://dl.acm.org/journal/pacmpl) — PLDI & OOPSLA issues, **quantum-language** work.  
++ [JMP](https://aip.scitation.org/journal/jmp) — **formal techniques** for **verification**/**synthesis**.  
++ [IEEE TCAD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43) — **placement**, **routing**, **design automation** for **quantum chips**. 
++ [ACM TQC](https://dl.acm.org/journal/tqc) — **compiler**, **runtime**, **architecture** papers.  
++ [CoRR](https://arxiv.org/corr) — **preprints**; fastest to track new **transpilation** work.  
++ [npj QI](https://www.nature.com/npjqi) — **high-impact** **quantum software**/**algorithms**.  
++ [PRX Quantum](https://journals.aps.org/prxquantum) — **open-access** **architecture**/**optimisation** breakthroughs.  
++ [Quantum](https://quantum-journal.org/) — **overlay journal** for **compiler**/**language** articles.  
++ [Quantum Engineering](https://onlinelibrary.wiley.com/journal/26395307) — **engineering-oriented**, **full-stack toolchains**.  
++ [QMI](https://link.springer.com/journal/42484) — **ML-driven** **layout**, **scheduling**, **heuristic optimisation**.  
++ [AQT](https://onlinelibrary.wiley.com/journal/2511902X) — **control-level compilation**, **pulse** studies.  
++ [OOPSLA (PACMPL)](https://conf.researchr.org/series/oopsla) — **object-oriented languages**, **optimisation**; **quantum PL** papers.  
 
 
