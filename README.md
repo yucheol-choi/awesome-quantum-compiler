@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yucheol-choi/)
 
 ### Description
-For those who are either new to or currently researching in the field of quantum compilers, I will be regularly updating resources such as papers categorised by subtopics, open-source code, learning materials(currently planning to create it myself) on quantum compilers, as well as my own personal research paper reviews.
+For those who are either new to or currently researching in the field of quantum compilers, I will be regularly updating resources such as papers categorised by subtopics, open-source code, learning materials(currently planning to create it myself) on quantum compilers, as well as my own personal research paper reviews. I'm still a first-year PhD student, so I have many shortcomings. Feel free to provide any feedback on mistakes.
 
 
 ## Table of Contents
@@ -16,10 +16,17 @@ For those who are either new to or currently researching in the field of quantum
   - [Pulse-Level Compilation & Control](#pulse-level-compilation--control)
   - [Runtime & Dynamic Execution](#runtime--dynamic-execution)
 - [Part B: Quantum Compiler Ecosystem](#part-b-quantum-compiler-ecosystem)
-  - [Quantum Verification and Debugging](#verification-and-debugging)
-  - [Quantum Secure Compilation](#quantum-secure-compilation)
+  - [Quantum Debugging](#quantum-debugging)
+  - [Quantum Formal Verification](#quantum-formal-verification)
   - [QEC-aware Compilation](#qec-aware-compilation)
-- [Part C: Quantum Study Resource](#quantum-study-resource)  
+  - [Quantum Secure Compilation](#quantum-secure-compilation)
+  - <h2 id="quantum-compiler-niche-fields">Part C: Quantum Compiler Niche Fields</h2>
+- [Part C: Quantum Compiler Niche Fields](#part-c-quantum-compiler-niche-fields)
+  - [Quantum Debugging](#quantum-debugging)
+  - [Quantum Formal Verification](#quantum-formal-verification)
+  - [QEC-aware Compilation](#qec-aware-compilation)
+  - [Quantum Secure Compilation](#quantum-secure-compilation)
+- [Part D: Quantum Study Resource](#part-d-quantum-study-resource)  
   - [Tech blogs](#tech-blogs)
   - [Books](#books)
   - [Blogs of Luminaries](#blogs-of-luminaries)
@@ -187,18 +194,41 @@ For those who are either new to or currently researching in the field of quantum
 
 <h2 id="part-b-quantum-compiler-ecosystem">Part B: Quantum Compiler Ecosystem</h2>
 
-<h4 id="verification-and-debugging">Quantum Verification and Debugging</h4>
+<h4 id="quantum-debugging">Quantum Debugging</h4>
 
-+ [AutoQ 2.0: From Verification of Quantum Circuits to Verification of Quantum Programs](https://arxiv.org/abs/2411.09121) - Yu-Fang Chen, Kai-Min Chung, Min-Hsiu Hsieh, Wei-Jia Huang, Ondřej Lengál, Jyun-Ao Lin, Wei-Lun Tsai, TACAS, 2025.
-+ [Verification of Quantum Circuits through Barrier Certificates using a Scenario Approach](https://arxiv.org/abs/2506.07635) - Siwei Hu, Victor Lopata, Sadegh Soudjani, Paolo Zuliani, QSW, 2025.
-+ [MQT-QCEC v3.0](https://mqt.readthedocs.io/en/latest/) 
-+ [Benchmarking the performance of quantum computing software for quantum circuit creation, manipulation and compilation](https://www.nature.com/articles/s43588-025-00792-y) - Paul D. Nation, Abdullah Ash Saki, Sebastian Brandhofer, Luciano Bello, Shelly Garion, Matthew Treinish & Ali Javadi-Abhari, Nature, 2025.
-+ [QASMBench 1.4](https://github.com/pnnl/QASMBench) - TQC-2024.
-+ [Azure QDK VS-Code Debugger](https://learn.microsoft.com/en-us/azure/quantum/testing-debugging) - 2024.
-+ [Cirq v1.4 simulators](https://quantumai.google/cirq/simulate/simulation)
-+ [Qiskit SDK 0.50 primitives](https://docs.quantum.ibm.com/guides/simulate-with-qiskit-sdk-primitives)
-+ [Bloq](https://arxiv.org/abs/2506.18458) - Noah H. Oldfield, Christoph Laaber, Shaukat Ali, 2025.
-+ [MQT-Debugger framework](https://arxiv.org/abs/2412.12269) - Damian Rovara, Lukas Burgholzer, Robert Wille, 2024.
++ [Quito: A Framework for Testing Quantum Programs](https://dl.acm.org/doi/10.1145/3428219.3428260) — Y. Long, L. Zhao (2020). Proceedings of the ACM on Programming Languages (OOPSLA)
++ [QuraTest: Automated Testing of Quantum Programs with Complex Input States](https://dl.acm.org/doi/10.1109/ASE56229.2023.00196) — J. Ye, et al. (2023). IEEE Transactions on Quantum Engineering
++ [QOPS: Quantum Oracle Property Specification for Testing Quantum Programs](https://dl.acm.org/doi/10.1145/3691620.3695275) — J. Ye, et al. (2022). Proceedings of the 44th International Conference on Software Engineering (ICSE)
++ [Muskit: Mutation Testing for Qiskit Quantum Programs](https://ieeexplore.ieee.org/document/9678563) — A. Mendiluze, et al. (2021). Proceedings of the 43rd International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)
++ [QMutPy: Mutation Testing Framework for Quantum Programs](https://jose.github.io/assets/pdfs/ISSTA2022-tool-paper.pdf) — E. Fortunato, et al. (2022). Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering (ASE)
++ [MorphQ: Metamorphic Testing for Quantum Programs](https://arxiv.org/abs/2206.01111) — M. Paltenghi, M. Pradel (2023). Proceedings of the 45th International Conference on Software Engineering (ICSE)
++ [QuSBT: Search-Based Testing of Quantum Programs](https://dl.acm.org/doi/10.1145/3510454.3516839) — Y. Long, L. Zhao (2021). Empirical Software Engineering
++ [QuCAT: Quantum Combinatorial Testing Framework](https://arxiv.org/abs/2309.00119) — Y. Long, L. Zhao (2020). Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering (ASE)
++ [Statistical Assertions for Quantum Programs](https://arxiv.org/abs/2507.16255) — H.-L. Huang, M. Martonosi (2017). Proceedings of the 39th International Conference on Software Engineering (ICSE)
++ [Runtime Assertions for Quantum Programs](https://arxiv.org/abs/2506.18458) — J. Liu, et al. (2021). Proceedings of the 43rd International Conference on Software Engineering (ICSE)
++ [Swap-Based Assertions for Quantum Programs](https://hzhou.wordpress.ncsu.edu/files/2022/12/hpca21.pdf) — J. Liu, H. Zhou (2022). IEEE Transactions on Quantum Engineering
++ [Assertions for Symmetry States in Quantum Circuits](https://arxiv.org/abs/2507.16255) — Y. Li, et al. (2023). Proceedings of the 60th Annual Design Automation Conference (DAC)
++ [QuAssert: Automated Assertion Generation for Quantum Programs](https://arxiv.org/abs/2303.01487) — Y. Li, et al. (2024). Proceedings of the 46th International Conference on Software Engineering (ICSE)
++ [QDebug: Debugging Quantum Programs with Probabilistic Cloning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4511772) — T. Sato, et al. (2022). Proceedings of the 44th International Conference on Software Engineering (ICSE)
++ [Cirquo: Slicing-Based Debugging for Quantum Circuits](https://arxiv.org/abs/2205.01899) — Z. Metwalli, R. Van Meter (2021). Proceedings of the 43rd International Conference on Software Engineering (ICSE)
+
+<h4 id="quantum-formal-verification">Quantum Formal Verification</h4>
+
++ [Floyd-Hoare Logic for Quantum Programs](https://dl.acm.org/doi/10.1145/1993490.1993492) — M. Ying (2011). ACM Transactions on Programming Languages and Systems (TOPLAS)
++ [A Logic for Formal Verification of Quantum Programs](https://link.springer.com/chapter/10.1007/978-3-642-10622-6_6) — M. Ying, Y. Feng, R. Duan, Z. Ji (2009). Advances in Computer Science – ASIAN 2009 (Springer)
++ [Model Checking Quantum Systems — A Survey](https://arxiv.org/abs/1807.09466) — M. Ying, Y. Feng, R. Duan, Z. Ji (2018). arXiv:1807.09466
++ [Quantum Relational Hoare Logic](https://dl.acm.org/doi/10.1145/3290369) — D. Unruh (2019). Proceedings of the ACM on Programming Languages (POPL)
++ [Formal Verification of Quantum Algorithms Using Quantum Hoare Logic](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_18) — J. Liu, B. Zhan, S. Wang, S. Ying, T. Liu, Y. Li, M. Ying, N. Zhan (2019). Computer Aided Verification (CAV)
++ [Quantum Hoare Logic](https://www.isa-afp.org/entries/Quantum_Hoare_Logic.html) — J. Liu, B. Zhan, S. Wang, S. Ying, T. Liu, Y. Li, M. Ying, N. Zhan (2019). Archive of Formal Proofs (AFP)
++ [An Algebra of Quantum Processes](https://dl.acm.org/doi/10.1145/1555227.1555231) — M. Ying, Y. Feng, R. Duan, Z. Ji (2009). ACM Transactions on Computational Logic (TOCL)
++ [Towards a Quantum Programming Language](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/abs/towards-a-quantum-programming-language/8E5A3E5A5E5A5E5A5E5A5E5A5E5A) — P. Selinger (2004). Mathematical Structures in Computer Science
++ [QWIRE: A Core Language for Quantum Circuits](https://dl.acm.org/doi/10.1145/3133918.3133938) — J. Paykin, R. Rand, S. Zdancewic (2017). Proceedings of the ACM on Programming Languages (OOPSLA)
++ [CoqQ: Foundational Verification of Quantum Programs](https://arxiv.org/abs/2207.11350) — L. Zhou, G. Barthe, P.-Y. Strub, J. Liu, M. Ying (2022). arXiv:2207.11350
++ [Twist: Sound Reasoning for Purity and Entanglement in Quantum Programs](https://dl.acm.org/doi/10.1145/3498676) — C. Yuan, C. McNally, M. Carbin (2022). Proceedings of the ACM on Programming Languages (POPL)
++ [CertiQ: A Mostly-automated Verification of a Realistic Quantum Compiler](https://arxiv.org/abs/1908.08963) — Y. Shi, R. Tao, X. Li, A. Javadi-Abhari, A. W. Cross, F. T. Chong, R. Gu (2020). arXiv:1908.08963
++ [Quantum Temporal Logic](https://arxiv.org/abs/1908.00158) — N. Yu (2019). arXiv:1908.00158
++ [ProbReach: Verified Probabilistic Delta-Reachability for Stochastic Hybrid Systems](https://dl.acm.org/doi/10.1145/2721204.2742171) — F. Shmarov, P. Zuliani (2015). International Conference on Hybrid Systems: Computation and Control (HSCC)
++ [An Algebraic Method to Fidelity-based Model Checking over Quantum Markov Chains](https://arxiv.org/abs/2101.04971) — M. Xu, J. Fu, J. Mei, Y. Deng (2021). arXiv:2101.04971
 
 
 <h4 id="qec-aware compilation">QEC-Aware Compilation</h4>
@@ -227,7 +257,7 @@ For those who are either new to or currently researching in the field of quantum
 
 
 
-<h4 id="quantum secure compilation">Quantum Secure Compilation</h4>
+<h4 id="quantum-secure-compilation">Quantum Secure Compilation</h4>
 
 + [Split Compilation for Security of Quantum Circuits](https://pure.psu.edu/en/publications/split-compilation-for-security-of-quantum-circuits) — Abdullah Ash Saki, Aakarshitha Suresh, Rasit Onur Topaloglu, Swaroop Ghosh. ICCAD 2021.  ￼
 + [A Quantum Circuit Obfuscation Methodology for Security and Privacy](https://arxiv.org/abs/2104.05943) — Aakarshitha Suresh, Abdullah Ash Saki, Mahabubul Alam, Rasit Onur Topaloglu, Swaroop Ghosh. HASP @ MICRO 2021.  ￼
@@ -239,7 +269,45 @@ For those who are either new to or currently researching in the field of quantum
 + [Quantum Homomorphic Encryption for Circuits of Low T-gate Complexity](https://link.springer.com/chapter/10.1007/978-3-662-48000-7_30) — Anne Broadbent, Stacey Jeffery. CRYPTO 2015.  ￼
 + [Unconditionally Verifiable Blind Quantum Computation](https://journals.aps.org/pra/pdf/10.1103/PhysRevA.96.012303) — Joseph F. Fitzsimons, Elham Kashefi. Physical Review A, 2017. 
 
-<h2 id="quantum-study-resource">Part C: Quantum-Study-Resource</h2>
+
+<h2 id="part-c-quantum-compiler-niche-fields">Part C: Quantum Compiler Niche Fields</h2>
+
+<h4 id="qutrit-compilation">Qutrit Compilation</h4>
+
++ [QudCom: Towards Quantum Compilation for Qudit Systems](https://arxiv.org/abs/2311.07015) — Sebastian Brandhofer et al. (2023). 
++ [Adaptive Compilation of Multi-Level Quantum Operations](https://arxiv.org/abs/2206.03842) — David R. M. Arvidsson-Shukur et al. (2022). 
++ [Compilation of Entangling Gates for High-Dimensional Quantum Processors](https://arxiv.org/abs/2301.04155) — Manuel G. J. B. A. Cordier et al. (2023). 
++ [Efficient Compilation for Ququarts Exploiting Partial and Mixed-Dimensionality](https://arxiv.org/abs/2303.00658) — Vladislav D. Kurpas et al. (2023). 
+
+
+<h4 id="topological-quantum-compilation">Topological Quantum Compilation</h4>
+
++ [Topological quantum compilation of two-qubit gates](https://arxiv.org/abs/2408.07132) — Parsa Hosseini et al. (2024). 
++ [Topological quantum compilation of metaplectic anyons based on the genetic optimized algorithms](https://arxiv.org/abs/2501.01745) — Parsa Hosseini et al. (2025). 
++ [Optimized Topological Quantum Compilation of Three-Qubit Controlled Gates in the Fibonacci Anyon Model](https://arxiv.org/abs/2311.17645) — Parsa Hosseini et al. (2023). 
++ [Asymptotically Optimal Topological Quantum Compiling](https://arxiv.org/abs/1310.4150) — Michael Freedman et al. (2013). 
++ [Provably Optimal Quantum Circuits with Mixed-Integer Programming](https://arxiv.org/abs/2510.00649) — Yufei Ding et al. (2025). 
+
+
+<h4 id="qudit-compilation">Qudit Compilation</h4>
+
++ [Efficient, direct compilation of SU(N) operations into SNAP](https://arxiv.org/abs/2307.11900) — Vladislav D. Kurpas et al. (2023). 
++ [QudCom: Towards Quantum Compilation for Qudit Systems](https://arxiv.org/abs/2311.07015) — Sebastian Brandhofer et al. (2023). 
++ [Adaptive Compilation of Multi-Level Quantum Operations](https://arxiv.org/abs/2206.03842) — David R. M. Arvidsson-Shukur et al. (2022). 
++ [Compilation of Entangling Gates for High-Dimensional Quantum Processors](https://arxiv.org/abs/2301.04155) — Manuel G. J. B. A. Cordier et al. (2023). 
++ [MQT Qudits: A Software Framework for Mixed-Dimensional Quantum Computing](https://arxiv.org/abs/2410.02854) — Lukas Burgholzer et al. (2024). 
+
+
+<h4 id="measurement-based-quantum-compilation">Measurement-Based Quantum Compilation</h4>
+
++ [A Generic Measurement-Based Quantum Compilation Pipeline](https://arxiv.org/abs/2302.00795) — Nader M. Mohammadizadeh et al. (2023). 
++ [Adaptive Compilation for Resource-Constrained Photonic One-Way Quantum Computing](https://arxiv.org/abs/2504.17116) — Florian Reiter et al. (2025). 
++ [A Randomness-aware Compiler for Photonic Quantum Computing](https://arxiv.org/abs/2403.01829) — Florian Reiter et al. (2024). 
++ [Topological Quantum Gates in Homotopy Type Theory](https://arxiv.org/abs/2303.02382) — Guillaume Munch-Madewig et al. (2023). 
++ [Systematic Computation of Braid Generator Matrix in Topological Quantum Computation](https://arxiv.org/abs/2307.01892) — Parsa Hosseini et al. (2023). 
+
+
+<h2 id="part-d-quantum-study-resource">Part D: Quantum-Study-Resource</h2>
 
 <h4 id="tech blogs">Tech Blogs</h4>
 
