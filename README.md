@@ -213,22 +213,21 @@ For those who are either new to or currently researching in the field of quantum
 
 <h4 id="quantum-formal-verification">Quantum Formal Verification</h4>
 
-+ [Floyd-Hoare Logic for Quantum Programs](https://dl.acm.org/doi/10.1145/1993490.1993492) — M. Ying (2011). ACM Transactions on Programming Languages and Systems (TOPLAS)
-+ [A Logic for Formal Verification of Quantum Programs](https://link.springer.com/chapter/10.1007/978-3-642-10622-6_6) — M. Ying, Y. Feng, R. Duan, Z. Ji (2009). Advances in Computer Science – ASIAN 2009 (Springer)
-+ [Model Checking Quantum Systems — A Survey](https://arxiv.org/abs/1807.09466) — M. Ying, Y. Feng, R. Duan, Z. Ji (2018). arXiv:1807.09466
-+ [Quantum Relational Hoare Logic](https://dl.acm.org/doi/10.1145/3290369) — D. Unruh (2019). Proceedings of the ACM on Programming Languages (POPL)
-+ [Formal Verification of Quantum Algorithms Using Quantum Hoare Logic](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_18) — J. Liu, B. Zhan, S. Wang, S. Ying, T. Liu, Y. Li, M. Ying, N. Zhan (2019). Computer Aided Verification (CAV)
-+ [Quantum Hoare Logic](https://www.isa-afp.org/entries/Quantum_Hoare_Logic.html) — J. Liu, B. Zhan, S. Wang, S. Ying, T. Liu, Y. Li, M. Ying, N. Zhan (2019). Archive of Formal Proofs (AFP)
-+ [An Algebra of Quantum Processes](https://dl.acm.org/doi/10.1145/1555227.1555231) — M. Ying, Y. Feng, R. Duan, Z. Ji (2009). ACM Transactions on Computational Logic (TOCL)
-+ [Towards a Quantum Programming Language](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/abs/towards-a-quantum-programming-language/8E5A3E5A5E5A5E5A5E5A5E5A5E5A) — P. Selinger (2004). Mathematical Structures in Computer Science
-+ [QWIRE: A Core Language for Quantum Circuits](https://dl.acm.org/doi/10.1145/3133918.3133938) — J. Paykin, R. Rand, S. Zdancewic (2017). Proceedings of the ACM on Programming Languages (OOPSLA)
-+ [CoqQ: Foundational Verification of Quantum Programs](https://arxiv.org/abs/2207.11350) — L. Zhou, G. Barthe, P.-Y. Strub, J. Liu, M. Ying (2022). arXiv:2207.11350
-+ [Twist: Sound Reasoning for Purity and Entanglement in Quantum Programs](https://dl.acm.org/doi/10.1145/3498676) — C. Yuan, C. McNally, M. Carbin (2022). Proceedings of the ACM on Programming Languages (POPL)
-+ [CertiQ: A Mostly-automated Verification of a Realistic Quantum Compiler](https://arxiv.org/abs/1908.08963) — Y. Shi, R. Tao, X. Li, A. Javadi-Abhari, A. W. Cross, F. T. Chong, R. Gu (2020). arXiv:1908.08963
-+ [Quantum Temporal Logic](https://arxiv.org/abs/1908.00158) — N. Yu (2019). arXiv:1908.00158
-+ [ProbReach: Verified Probabilistic Delta-Reachability for Stochastic Hybrid Systems](https://dl.acm.org/doi/10.1145/2721204.2742171) — F. Shmarov, P. Zuliani (2015). International Conference on Hybrid Systems: Computation and Control (HSCC)
-+ [An Algebraic Method to Fidelity-based Model Checking over Quantum Markov Chains](https://arxiv.org/abs/2101.04971) — M. Xu, J. Fu, J. Mei, Y. Deng (2021). arXiv:2101.04971
-
++ [CoqQ: Foundational Verification of Quantum Programs](https://arxiv.org/abs/2207.11350) — L. Zhou, G. Barthe, P.-Y. Strub, J. Liu, M. Ying (2022). 
++ [Twist: Sound Reasoning for Purity and Entanglement in Quantum Programs](https://arxiv.org/abs/2205.02287) — C. Yuan, C. McNally, M. Carbin (2022). Proceedings of the ACM on Programming Languages (POPL)
++ [An Algebraic Method to Fidelity-based Model Checking over Quantum Markov Chains](https://arxiv.org/abs/2101.04971) — M. Xu, J. Fu, J. Mei, Y. Deng (2021). 
++ [CertiQ: A Mostly-automated Verification of a Realistic Quantum Compiler](https://arxiv.org/pdf/1908.08963) — Y. Shi, R. Tao, X. Li, A. Javadi-Abhari, A. W. Cross, F. T. Chong, R. Gu (2020).  
++ [Quantum Relational Hoare Logic](https://arxiv.org/abs/1802.03188) — D. Unruh (2019). Proceedings of the ACM on Programming Languages (POPL)
++ [Quantum Temporal Logic](https://arxiv.org/abs/1908.00158) — N. Yu (2019). 
++ [ProbReach: Verified Probabilistic Delta-Reachability for Stochastic Hybrid Systems](https://arxiv.org/abs/1410.8060) — F. Shmarov, P. Zuliani (2015). (HSCC)
++ [Formal Verification of Quantum Algorithms Using Quantum Hoare Logic](https://link.springer.com/chapter/10.1007/978-3-030-25543-5_12) — J. Liu, B. Zhan, S. Wang, S. Ying, T. Liu, Y. Li, M. Ying, N. Zhan (2019). Computer Aided Verification (CAV)
++ [Quantum relational Hoare logic](https://dl.acm.org/doi/10.1145/3290346) — J. Liu, B. Zhan, S. Wang, S. Ying, T. Liu, Y. Li, M. Ying, N. Zhan (2019). (POPL)
++ [Model Checking Quantum Systems — A Survey](https://arxiv.org/abs/1807.09466) — M. Ying, Y. Feng, R. Duan, Z. Ji (2018).
++ [QWIRE: A Core Language for Quantum Circuits](https://dl.acm.org/doi/10.1145/3009837.3009894) — J. Paykin, R. Rand, S. Zdancewic (2017). Proceedings of the ACM on Programming Languages (POPL)
++ [Floyd-Hoare Logic for Quantum Programs](https://dl.acm.org/doi/10.1145/2049706.2049708) — M. Ying (2011). ACM Transactions on Programming Languages and Systems (TOPLAS)
++ [An Algebra of Quantum Processes](https://arxiv.org/abs/0707.0330) — M. Ying, Y. Feng, R. Duan, Z. Ji (2009) (TOCL)
++ [A Logic for Formal Verification of Quantum Programs](https://dl.acm.org/doi/10.1007/978-3-642-10622-4_7) — M. Ying, Y. Feng, R. Duan, Z. Ji (2009). Advances in Computer Science – ASIAN 2009 (Springer)
++ [Towards a Quantum Programming Language](https://dl.acm.org/doi/10.1017/S0960129504004256) — P. Selinger (2004). Mathematical Structures in Computer Science
 
 <h4 id="qec-aware compilation">QEC-Aware Compilation</h4>
 
