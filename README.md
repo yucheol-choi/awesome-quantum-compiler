@@ -20,12 +20,11 @@ For those who are either new to or currently researching in the field of quantum
   - [Quantum Formal Verification](#quantum-formal-verification)
   - [QEC-aware Compilation](#qec-aware-compilation)
   - [Quantum Secure Compilation](#quantum-secure-compilation)
-  - <h2 id="quantum-compiler-niche-fields">Part C: Quantum Compiler Niche Fields</h2>
 - [Part C: Quantum Compiler Niche Fields](#part-c-quantum-compiler-niche-fields)
-  - [Quantum Debugging](#quantum-debugging)
-  - [Quantum Formal Verification](#quantum-formal-verification)
-  - [QEC-aware Compilation](#qec-aware-compilation)
-  - [Quantum Secure Compilation](#quantum-secure-compilation)
+  - [Qutrit Compilation](#qutrit-compilation)
+  - [Topological Quantum Compilation](#topological-quantum-compilation)
+  - [Qudit Compilation](#qudit-compilation)
+  - [Measurement-Based Quantum Compilation](#measurement-based-quantum-compilation)
 - [Part D: Quantum Study Resource](#part-d-quantum-study-resource)  
   - [Tech blogs](#tech-blogs)
   - [Books](#books)
@@ -278,6 +277,7 @@ For those who are either new to or currently researching in the field of quantum
 + [Adaptive Compilation of Multi-Level Quantum Operations](https://arxiv.org/abs/2206.03842) — David R. M. Arvidsson-Shukur et al. (2022). 
 + [Compilation of Entangling Gates for High-Dimensional Quantum Processors](https://arxiv.org/abs/2301.04155) — Manuel G. J. B. A. Cordier et al. (2023). 
 + [Efficient Compilation for Ququarts Exploiting Partial and Mixed-Dimensionality](https://arxiv.org/abs/2303.00658) — Vladislav D. Kurpas et al. (2023). 
+
 
 
 <h4 id="topological-quantum-compilation">Topological Quantum Compilation</h4>
