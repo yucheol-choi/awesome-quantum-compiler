@@ -29,7 +29,7 @@ For those who are either new to or currently researching in the field of quantum
   - [Tech blogs](#tech-blogs)
   - [Books](#books)
   - [Blogs of Luminaries](#blogs-of-luminaries)
-  - [Conferences & Symposia](#conferences--symposia)
+  - [Conference Deadline From January to December](#conference-deadline)
   - [Journals](#journals)
 </br>
 
@@ -289,7 +289,11 @@ For those who are either new to or currently researching in the field of quantum
 
 <h4 id="quantum-circuit-obfuscation">Quantum Circuit Obfuscation</h4>
 
-to be continue..
++ [Quantum state obfuscation from classical oracles](https://dl.acm.org/doi/abs/10.1145/3618260.3649673) - J. Bartusek, Z. Brakerski, V. Vaikuntanathan, ACM Conference on Computer and Communications Security (CCS), 2024
++ [Obfuscation of pseudo-deterministic quantum circuits](https://dl.acm.org/doi/abs/10.1145/3564246.3585179) - J. Bartusek, F. Kitagawa, R. Nishimaki, ACM Symposium on Theory of Computing (STOC), 2023  
++ [Indistinguishability obfuscation of null quantum circuits and applications](https://arxiv.org/abs/2106.06094) - J. Bartusek, G. Malavolta, arXiv (preprint), 2021
++ [A quantum circuit obfuscation methodology for security and privacy](https://dl.acm.org/doi/abs/10.1145/3505253.3505260) - A. Suresh, A.A. Saki, M. Alam, R. Onur Topaloglu, S. Ghosh, ACM Journal on Emerging Technologies in Computing Systems, 2021  
++ [On quantum obfuscation](https://arxiv.org/abs/1602.01771) - G. Alagic, B. Fefferman  arXiv (preprint),  2016  
 
 <h4 id="measurement-based-quantum-compilation">Measurement-Based Quantum Compilation</h4>
 
@@ -318,13 +322,10 @@ to be continue..
 <h4 id="books">Books</h4>
 
 + [Quantum Computer Systems: Research for Noisy Intermediate-Scale Quantum Computers](https://www.amazon.co.uk/Quantum-Computer-Synthesis-Lectures-Architecture/dp/168173866X) – NISQ-era architecture/​compiler co-design guide.  
-+ [Quantum Computing for Computer Architects, 2e](https://link.springer.com/book/10.1007/978-3-031-01731-5) – ISA design, cost models and hardware-aware optimisation.  
-+ [Programming Quantum Computers](https://www.oreilly.com/library/view/programming-quantum-computers/9781492039673/) – Hands-on circuit building, transpilation & benchmarking across Qiskit, Q# and PyQuil.  
-+ [Quantum Computing: An Applied Approach, 2e](https://link.springer.com/book/10.1007/978-3-030-83274-2) – Tutorials on mapping, error mitigation and full-stack workflows.  
-+ [Quantum Software Engineering](https://link.springer.com/book/10.1007/978-3-031-05324-5) – Methods, metrics and tooling for the quantum-software life-cycle.  
-+ [Quantum Software: Aspects of Theory and System Design](https://link.springer.com/book/10.1007/978-3-031-64136-7) – Hardware-agnostic survey of optimisation and deployment patterns.  
-+ [Building Quantum Software with Python](https://www.manning.com/books/building-quantum-software-with-python) – Developer-centric guide to writing and transpiling circuits in Python.  
-+ [Software Engineering for Quantum Computing](https://www.amazon.ca/Software-Engineering-Quantum-Computing-Publishing/dp/1446184668) – Design patterns, CI/CD and project workflows for NISQ projects.  
++ [Quantum Computing for Computer Architects, 2e](https://link.springer.com/book/10.1007/978-3-031-01731-5) 
++ [Programming Quantum Computers](https://www.oreilly.com/library/view/programming-quantum-computers/9781492039673/) 
++ [Quantum Computing: An Applied Approach, 2e](https://link.springer.com/book/10.1007/978-3-030-83274-2) 
+
 
 
 <h4 id="blogs of luminaries">Blogs of Luminaries</h4>
@@ -338,43 +339,32 @@ to be continue..
 + [Robert Harper](https://existentialtype.wordpress.com/)
 + [Chris Lattner](https://www.nondot.org/sabre/)
 
-<h4 id="conferences">Quantum Compiler Conferences Submission Deadline</h4>
+<h4 id="conference-deadline">Conference Deadline From January to December</h4>
 
-+ [HPCA](https://hpca-conf.org/) 
-+ [ASPLOS](https://www.asplos-conference.org/) 
-+ [ISCA](https://iscaconf.org/)  
-+ [MICRO](https://www.microarch.org/) 
-+ [ICCAD](https://iccad.com/) 
-+ [DAC](https://www.dac.com/)   
-+ [CC](https://conf.researchr.org/series/cc)   
-+ [PLDI](https://conf.researchr.org/series/pldi)   
-+ [QCE](https://qce.quantum.ieee.org/)  
-+ [CF](https://www.computingfrontiers.org/) 
-+ [IEEE QSW](https://services.conferences.computer.org/2025/qsw/) 
-+ [IQSOFT](https://iqsoft.scitevents.org/)  
-+ [QIP](https://qipconference.org/) 
-+ [TQC](https://tqc-conference.org/)  
-+ [QPL](https://qpl2025.github.io/) 
++ [CF](https://www.computingfrontiers.org/) - Late Jan
++ [IQSOFT](https://iqsoft.scitevents.org/) - Mid Fed
++ [IEEE QSW](https://services.conferences.computer.org/2025/qsw/) - Early Mar [ASPLOS](https://www.asplos-conference.org/) - Early Mar [QPL](https://qpl2025.github.io/) - Early Mar [TQC](https://tqc-conference.org/) - Early Mar
++ [QCE](https://qce.quantum.ieee.org/) - Mid April [MICRO](https://www.microarch.org/) - Mid April [ICCAD](https://iccad.com/) - Mid April
++ [HPCA](https://hpca-conf.org/) - Mid Sep [QIP](https://qipconference.org/) - Mid Sep
++ [CC](https://conf.researchr.org/series/cc) - Early Nov [ISCA](https://iscaconf.org/) - Mid Nov [PLDI](https://conf.researchr.org/series/pldi) - Mid Nov [DAC](https://www.dac.com/) - Mid Nov  
+
 
 <h4 id="journals">Journals</h4>
 
+Impact Factor > 10
 + [Nature](https://www.nature.com/)
 + [Nature Physics](https://www.nature.com/nphys)  
-+ [Nature Communications](https://www.nature.com/ncomms) 
-+ [IEEE TQE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8780379) 
-+ [QIC](http://www.rintonpress.com/journals/qic.html)  
-+ [QST](https://iopscience.iop.org/journal/2058-9565)   
-+ [PACMPL](https://dl.acm.org/journal/pacmpl)   
-+ [JMP](https://aip.scitation.org/journal/jmp)   
-+ [IEEE TCAD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43) 
-+ [ACM TQC](https://dl.acm.org/journal/tqc)
-+ [CoRR](https://arxiv.org/corr) 
-+ [npj QI](https://www.nature.com/npjqi)  
++ [Nature Communications](https://www.nature.com/ncomms)
 + [PRX Quantum](https://journals.aps.org/prxquantum) 
-+ [Quantum](https://quantum-journal.org/)   
-+ [Quantum Engineering](https://onlinelibrary.wiley.com/journal/26395307)  
-+ [QMI](https://link.springer.com/journal/42484) 
-+ [AQT](https://onlinelibrary.wiley.com/journal/2511902X) 
-+ [OOPSLA (PACMPL)](https://conf.researchr.org/series/oopsla)
+
+Impact Factor > 3
++ [npj Quantum Information](https://www.nature.com/npjqi)
++ [ACM TQC](https://dl.acm.org/journal/tqc)
++ [Quantum](https://quantum-journal.org/)
++ [Quantum Science and Technology(QST)](https://iopscience.iop.org/journal/2058-9565)
++ [Quantum Machine Intelligence(QMI)](https://link.springer.com/journal/42484) 
++ [Advanced Quantum Technology(AQT)](https://onlinelibrary.wiley.com/journal/2511902X)
+
+  
 
 
