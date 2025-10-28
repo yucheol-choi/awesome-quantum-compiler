@@ -21,9 +21,9 @@ For those who are either new to or currently researching in the field of quantum
   - [QEC-aware Compilation](#qec-aware-compilation)
   - [Quantum Secure Compilation](#quantum-secure-compilation)
 - [Part C: Quantum Compiler Niche Fields](#part-c-quantum-compiler-niche-fields)
-  - [Qutrit Compilation](#qutrit-compilation)
   - [Topological Quantum Compilation](#topological-quantum-compilation)
   - [Qudit Compilation](#qudit-compilation)
+  - [Quantum Circuit Obfuscation](#quantum-circuit-obfuscation)
   - [Measurement-Based Quantum Compilation](#measurement-based-quantum-compilation)
 - [Part D: Quantum Study Resource](#part-d-quantum-study-resource)  
   - [Tech blogs](#tech-blogs)
@@ -270,15 +270,6 @@ For those who are either new to or currently researching in the field of quantum
 
 <h2 id="part-c-quantum-compiler-niche-fields">Part C: Quantum Compiler Niche Fields</h2>
 
-<h4 id="qutrit-compilation">Qutrit Compilation</h4>
-
-+ [QudCom: Towards Quantum Compilation for Qudit Systems](https://arxiv.org/abs/2311.07015) — Sebastian Brandhofer et al. (2023). 
-+ [Adaptive Compilation of Multi-Level Quantum Operations](https://arxiv.org/abs/2206.03842) — David R. M. Arvidsson-Shukur et al. (2022). 
-+ [Compilation of Entangling Gates for High-Dimensional Quantum Processors](https://arxiv.org/abs/2301.04155) — Manuel G. J. B. A. Cordier et al. (2023). 
-+ [Efficient Compilation for Ququarts Exploiting Partial and Mixed-Dimensionality](https://arxiv.org/abs/2303.00658) — Vladislav D. Kurpas et al. (2023). 
-
-
-
 <h4 id="topological-quantum-compilation">Topological Quantum Compilation</h4>
 
 + [Topological quantum compilation of two-qubit gates](https://arxiv.org/abs/2408.07132) — Parsa Hosseini et al. (2024). 
@@ -296,6 +287,9 @@ For those who are either new to or currently researching in the field of quantum
 + [Compilation of Entangling Gates for High-Dimensional Quantum Processors](https://arxiv.org/abs/2301.04155) — Manuel G. J. B. A. Cordier et al. (2023). 
 + [MQT Qudits: A Software Framework for Mixed-Dimensional Quantum Computing](https://arxiv.org/abs/2410.02854) — Lukas Burgholzer et al. (2024). 
 
+<h4 id="quantum-circuit-obfuscation">Quantum Circuit Obfuscation</h4>
+
+to be continue..
 
 <h4 id="measurement-based-quantum-compilation">Measurement-Based Quantum Compilation</h4>
 
@@ -335,52 +329,52 @@ For those who are either new to or currently researching in the field of quantum
 
 <h4 id="blogs of luminaries">Blogs of Luminaries</h4>
 
-+ [Scott Aaronson](https://scottaaronson.blog/) — **quantum complexity**, **foundations**, **commentary**  
-+ [John Preskill](https://quantumfrontiers.com/) — **quantum information**, **physics essays**  
-+ [Dave Bacon](https://dabacon.org/pontiff/) — **QC culture**, **industry**, **theory**  
-+ [Gil Kalai](https://gilkalai.wordpress.com/) — **quantum skepticism**, **combinatorics**, **theory**  
-+ [Michael Nielsen](https://michaelnielsen.org/blog/) — **quantum/AI essays**, **open science**  
-+ [John C. Baez](https://johncarlosbaez.wordpress.com/) — **math/physics**, **category theory**, **QC topics**  
-+ [Robert Harper](https://existentialtype.wordpress.com/) — **PL theory**, **types**, **semantics**  
-+ [Chris Lattner](https://www.nondot.org/sabre/) — **LLVM/MLIR**, **compilers**, **systems**  
++ [Scott Aaronson](https://scottaaronson.blog/) 
++ [John Preskill](https://quantumfrontiers.com/)  
++ [Dave Bacon](https://dabacon.org/pontiff/) 
++ [Gil Kalai](https://gilkalai.wordpress.com/) 
++ [Michael Nielsen](https://michaelnielsen.org/blog/)   
++ [John C. Baez](https://johncarlosbaez.wordpress.com/)
++ [Robert Harper](https://existentialtype.wordpress.com/)
++ [Chris Lattner](https://www.nondot.org/sabre/)
 
-<h4 id="conferences-symposia">Conferences & Symposia</h4>
+<h4 id="conferences">Quantum Compiler Conferences Submission Deadline</h4>
 
-+ [HPCA](https://hpca-conf.org/) — **architecture-level optimisations**, **quantum/classical co-design**.  
-+ [ASPLOS](https://www.asplos-conference.org/) — **cross-layer** **hardware/software** studies.  
-+ [ISCA](https://iscaconf.org/) — **next-gen** **processor–compiler interactions**.  
-+ [MICRO](https://www.microarch.org/) — **micro-architectural support** for **quantum accelerators**.  
-+ [ICCAD](https://iccad.com/) — **EDA techniques** and **synthesis** for **quantum circuits**.  
-+ [DAC](https://www.dac.com/) — **tool flows**, **verification**, **design automation** research.  
-+ [CC](https://conf.researchr.org/series/cc) — **compiler theory** extending to **quantum IRs**.  
-+ [PLDI](https://conf.researchr.org/series/pldi) — **language semantics** and **optimisation passes**.  
-+ [QCE](https://qce.quantum.ieee.org/) — **end-to-end stack** with dedicated **compiler tracks**.  
-+ [CF](https://www.computingfrontiers.org/) — **emerging architectures**, **quantum hardware/software**.  
-+ [IEEE QSW](https://services.conferences.computer.org/2025/qsw/) — **quantum software engineering**, **verification**, **toolchains**.  
-+ [IQSOFT](https://iqsoft.scitevents.org/) — **optimisation**, **runtime**, **testing**.  
-+ [QIP](https://qipconference.org/) — **depth/T-count lower bounds**, **circuit optimisation** (theory).  
-+ [TQC](https://tqc-conference.org/) — **foundational results** feeding **compiler theory**.  
-+ [QPL](https://qpl2025.github.io/) — **type systems**, **categorical semantics**, **verifiable quantum languages**.  
++ [HPCA](https://hpca-conf.org/) 
++ [ASPLOS](https://www.asplos-conference.org/) 
++ [ISCA](https://iscaconf.org/)  
++ [MICRO](https://www.microarch.org/) 
++ [ICCAD](https://iccad.com/) 
++ [DAC](https://www.dac.com/)   
++ [CC](https://conf.researchr.org/series/cc)   
++ [PLDI](https://conf.researchr.org/series/pldi)   
++ [QCE](https://qce.quantum.ieee.org/)  
++ [CF](https://www.computingfrontiers.org/) 
++ [IEEE QSW](https://services.conferences.computer.org/2025/qsw/) 
++ [IQSOFT](https://iqsoft.scitevents.org/)  
++ [QIP](https://qipconference.org/) 
++ [TQC](https://tqc-conference.org/)  
++ [QPL](https://qpl2025.github.io/) 
 
 <h4 id="journals">Journals</h4>
 
-+ [Nature](https://www.nature.com/) — **landmark papers**, **scalable compilation**, **error correction**.  
-+ [Nature Physics](https://www.nature.com/nphys) — **hardware/software co-design** breakthroughs.  
-+ [Nature Communications](https://www.nature.com/ncomms) — **open-access**, **interdisciplinary** compiler work.  
-+ [IEEE TQE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8780379) — **hardware-aware compilation**, **systems** papers.  
-+ [QIC](http://www.rintonpress.com/journals/qic.html) — **algorithms**, **complexity**, **optimisation**.  
-+ [QST](https://iopscience.iop.org/journal/2058-9565) — **experimental**/**theoretical** advances, **compiler tooling**.  
-+ [PACMPL](https://dl.acm.org/journal/pacmpl) — PLDI & OOPSLA issues, **quantum-language** work.  
-+ [JMP](https://aip.scitation.org/journal/jmp) — **formal techniques** for **verification**/**synthesis**.  
-+ [IEEE TCAD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43) — **placement**, **routing**, **design automation** for **quantum chips**. 
-+ [ACM TQC](https://dl.acm.org/journal/tqc) — **compiler**, **runtime**, **architecture** papers.  
-+ [CoRR](https://arxiv.org/corr) — fastest to track new **transpilation** work.  
-+ [npj QI](https://www.nature.com/npjqi) — **high-impact** **quantum software**/**algorithms**.  
-+ [PRX Quantum](https://journals.aps.org/prxquantum) — **open-access** **architecture**/**optimisation** breakthroughs.  
-+ [Quantum](https://quantum-journal.org/) — **overlay journal** for **compiler**/**language** articles.  
-+ [Quantum Engineering](https://onlinelibrary.wiley.com/journal/26395307) — **engineering-oriented**, **full-stack toolchains**.  
-+ [QMI](https://link.springer.com/journal/42484) — **ML-driven** **layout**, **scheduling**, **heuristic optimisation**.  
-+ [AQT](https://onlinelibrary.wiley.com/journal/2511902X) — **control-level compilation**, **pulse** studies.  
-+ [OOPSLA (PACMPL)](https://conf.researchr.org/series/oopsla) — **object-oriented languages**, **optimisation**; **quantum PL** papers.  
++ [Nature](https://www.nature.com/)
++ [Nature Physics](https://www.nature.com/nphys)  
++ [Nature Communications](https://www.nature.com/ncomms) 
++ [IEEE TQE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8780379) 
++ [QIC](http://www.rintonpress.com/journals/qic.html)  
++ [QST](https://iopscience.iop.org/journal/2058-9565)   
++ [PACMPL](https://dl.acm.org/journal/pacmpl)   
++ [JMP](https://aip.scitation.org/journal/jmp)   
++ [IEEE TCAD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43) 
++ [ACM TQC](https://dl.acm.org/journal/tqc)
++ [CoRR](https://arxiv.org/corr) 
++ [npj QI](https://www.nature.com/npjqi)  
++ [PRX Quantum](https://journals.aps.org/prxquantum) 
++ [Quantum](https://quantum-journal.org/)   
++ [Quantum Engineering](https://onlinelibrary.wiley.com/journal/26395307)  
++ [QMI](https://link.springer.com/journal/42484) 
++ [AQT](https://onlinelibrary.wiley.com/journal/2511902X) 
++ [OOPSLA (PACMPL)](https://conf.researchr.org/series/oopsla)
 
 
