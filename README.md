@@ -193,23 +193,19 @@ For those who are either new to or currently researching in the field of quantum
 
 <h2 id="part-b-quantum-compiler-ecosystem">Part B: Quantum Compiler Ecosystem</h2>
 
-<h4 id="quantum-debugging">Quantum Debugging</h4>
+<h4 id="quantum-debugging">Quantum Testing and Debugging</h4>
 
-+ [Quito: A Framework for Testing Quantum Programs](https://dl.acm.org/doi/10.1145/3428219.3428260) — Y. Long, L. Zhao (2020). Proceedings of the ACM on Programming Languages (OOPSLA)
-+ [QuraTest: Automated Testing of Quantum Programs with Complex Input States](https://dl.acm.org/doi/10.1109/ASE56229.2023.00196) — J. Ye, et al. (2023). IEEE Transactions on Quantum Engineering
-+ [QOPS: Quantum Oracle Property Specification for Testing Quantum Programs](https://dl.acm.org/doi/10.1145/3691620.3695275) — J. Ye, et al. (2022). Proceedings of the 44th International Conference on Software Engineering (ICSE)
-+ [Muskit: Mutation Testing for Qiskit Quantum Programs](https://ieeexplore.ieee.org/document/9678563) — A. Mendiluze, et al. (2021). Proceedings of the 43rd International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)
-+ [QMutPy: Mutation Testing Framework for Quantum Programs](https://jose.github.io/assets/pdfs/ISSTA2022-tool-paper.pdf) — E. Fortunato, et al. (2022). Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering (ASE)
-+ [MorphQ: Metamorphic Testing for Quantum Programs](https://arxiv.org/abs/2206.01111) — M. Paltenghi, M. Pradel (2023). Proceedings of the 45th International Conference on Software Engineering (ICSE)
-+ [QuSBT: Search-Based Testing of Quantum Programs](https://dl.acm.org/doi/10.1145/3510454.3516839) — Y. Long, L. Zhao (2021). Empirical Software Engineering
-+ [QuCAT: Quantum Combinatorial Testing Framework](https://arxiv.org/abs/2309.00119) — Y. Long, L. Zhao (2020). Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering (ASE)
-+ [Statistical Assertions for Quantum Programs](https://arxiv.org/abs/2507.16255) — H.-L. Huang, M. Martonosi (2017). Proceedings of the 39th International Conference on Software Engineering (ICSE)
-+ [Runtime Assertions for Quantum Programs](https://arxiv.org/abs/2506.18458) — J. Liu, et al. (2021). Proceedings of the 43rd International Conference on Software Engineering (ICSE)
-+ [Swap-Based Assertions for Quantum Programs](https://hzhou.wordpress.ncsu.edu/files/2022/12/hpca21.pdf) — J. Liu, H. Zhou (2022). IEEE Transactions on Quantum Engineering
-+ [Assertions for Symmetry States in Quantum Circuits](https://arxiv.org/abs/2507.16255) — Y. Li, et al. (2023). Proceedings of the 60th Annual Design Automation Conference (DAC)
-+ [QuAssert: Automated Assertion Generation for Quantum Programs](https://arxiv.org/abs/2303.01487) — Y. Li, et al. (2024). Proceedings of the 46th International Conference on Software Engineering (ICSE)
-+ [QDebug: Debugging Quantum Programs with Probabilistic Cloning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4511772) — T. Sato, et al. (2022). Proceedings of the 44th International Conference on Software Engineering (ICSE)
-+ [Cirquo: Slicing-Based Debugging for Quantum Circuits](https://arxiv.org/abs/2205.01899) — Z. Metwalli, R. Van Meter (2021). Proceedings of the 43rd International Conference on Software Engineering (ICSE)
++ [Testing and Debugging Quantum Programs: The Road to 2030](https://dl.acm.org/doi/10.1145/3715106) — Neilson Carlos Leite Ramalho et al, TOSEM, 2025.
++ [QuraTest: Automated Testing of Quantum Programs with Complex Input States](https://dl.acm.org/doi/10.1109/ASE56229.2023.00196) — Jiaming Ye et al. ASE 23.
++ [MorphQ: Metamorphic Testing for Quantum Programs](https://arxiv.org/abs/2206.01111) — Matteo Paltenghi, Michael Pradel ICSE 23. 
++ [QuCAT: Quantum Combinatorial Testing Framework](https://arxiv.org/abs/2309.00119) — Xinying Wang et al. ASE 23.
++ [QuSBT: Search-Based Testing of Quantum Programs](https://dl.acm.org/doi/10.1145/3510454.3516839) — Xinying Wang et al, ICSE 22.
++ [QMutPy: A Mutation Testing Tool for Quantum Algorithms and Applications in Qiskit](https://jose.github.io/assets/pdfs/ISSTA2022-tool-paper.pdf) — E. Fortunato, et al. ASE 22.
++ [Quito: a coverage-guided test generator for quantum programs](https://dl.acm.org/doi/abs/10.1109/ASE51524.2021.9678798) — Xinyi Wang et al. (2021). ASE 21.
++ [Muskit: Mutation Testing for Qiskit Quantum Programs](https://ieeexplore.ieee.org/document/9678563) — A. Mendiluze, et al. ASE 21 
++ [Statistical Assertions for Quantum Programs](https://arxiv.org/abs/1905.09721) — H.-L. Huang, M. Martonosi, ISCA 19.
++ [Projection-based runtime assertions for testing and debugging Quantum programs](https://dl.acm.org/doi/10.1145/3428218) — Gushu Li et al. OOPSLA 2020.
++ [Assertion-Based Optimization of Quantum Programs](https://arxiv.org/pdf/1810.00375) — Thomas Häner et al, OOPSLA, 2020
 
 <h4 id="quantum-formal-verification">Quantum Formal Verification</h4>
 
