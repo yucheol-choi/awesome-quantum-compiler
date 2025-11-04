@@ -30,7 +30,7 @@ For those who are either new to or currently researching in the field of quantum
   - [Top-tier Conference Deadline](#conference-deadline)
   - [Journals](#journals)
 </br>
- 
+
 <h2 id="survey-papers">Survey papers</h2>
 
 + [Quantum Compilation Process: A Survey](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) - F. Javier Cardama, Jorge Vázquez-Pérez, Tomás F. Pena, Juan C. Pichel & Andrés Gómez, 2025
@@ -159,7 +159,7 @@ Compilation Techniques
 
 + [Testing and Debugging Quantum Programs: The Road to 2030](https://dl.acm.org/doi/10.1145/3715106) — Neilson Carlos Leite Ramalho et al, TOSEM, 2025.
 + [QuraTest: Automated Testing of Quantum Programs with Complex Input States](https://dl.acm.org/doi/10.1109/ASE56229.2023.00196) — Jiaming Ye et al. ASE 23.
-+ [MorphQ: Metamorphic Testing for Quantum Programs](https://arxiv.org/abs/2206.01111) — Matteo Paltenghi, Michael Pradel ICSE 23. 
++ [MorphQ: Metamorphic Testing for Quantum Programs](https://arxiv.org/abs/2206.01111) — Matteo Paltenghi, Michael Pradel, ICSE 23. 
 + [QuCAT: Quantum Combinatorial Testing Framework](https://arxiv.org/abs/2309.00119) — Xinying Wang et al. ASE 23.
 + [QuSBT: Search-Based Testing of Quantum Programs](https://dl.acm.org/doi/10.1145/3510454.3516839) — Xinying Wang et al, ICSE 22.
 + [QMutPy: A Mutation Testing Tool for Quantum Algorithms and Applications in Qiskit](https://jose.github.io/assets/pdfs/ISSTA2022-tool-paper.pdf) — E. Fortunato, et al. ASE 22.
@@ -262,29 +262,28 @@ Compilation Techniques
 + [A Randomness-aware Compiler for Photonic Quantum Computing](https://arxiv.org/abs/2403.01829) — Florian Reiter et al. (2024).
   
 </br>
+
 <h2 id="part-d-conference-and-journal">Part D: Conference and Journal</h2>
 
 <h4 id="conference-deadline">Top-tier Conference Deadline</h4>
-+ January - [ICCAD](https://www.iccad-conf.com/) 
-+ March - [OOPSLA](https://2025.splashcon.org/track/OOPSLA), [TQC](https://tqc-conference.org/)
-+ April - [QCE](https://qce.quantum.ieee.org/), [MICRO](https://www.microarch.org/) 
-+ August - [ASPLOS](https://www.asplos-conference.org/) <summer cycle>
-+ September - [HPCA](https://hpca-conf.org/), [QIP](https://qipconference.org/)
-+ November - [CC](https://conf.researchr.org/series/cc) [ISCA](https://iscaconf.org/), [PLDI](https://conf.researchr.org/series/pldi), [DAC](https://www.dac.com/), [CGO](https://2026.cgo.org/) 
 
-**
-CCS(Conference on Computer and Communications Security
-STOC(ACM Symposium on Theory of Computing)
-JETC(ACM Journal on Emerging Technologies in Computing Systems)
-**
++ January - [ICCAD](https://www.iccad-conf.com/) [CCS](https://www.sigsac.org/ccs/CCS2026/)
++ March - [OOPSLA](https://2025.splashcon.org/track/OOPSLA) [TQC](https://tqc-conference.org/) [QCE](https://easychair.org/cfp/QCE25)
++ April - [QCE](https://qce.quantum.ieee.org/) [MICRO](https://www.microarch.org/) 
++ August - [ASPLOS](https://www.asplos-conference.org/) <summer cycle>
++ September - [HPCA](https://hpca-conf.org/) [QIP](https://qipconference.org/)
++ November - [CC](https://conf.researchr.org/series/cc) [ISCA](https://iscaconf.org/) [PLDI](https://conf.researchr.org/series/pldi) [DAC](https://www.dac.com/) [CGO](https://2026.cgo.org/) [STOC](https://acm-stoc.org/) [ICSE](https://conf.researchr.org/home/icse-2026)
+
 
 <h4 id="journals">Journals</h4>
+
 Impact Factor > 10
 + [Nature](https://www.nature.com/)
 + [Science](https://www.science.org/journal/science)
 + [Nature Physics](https://www.nature.com/nphys)  
 + [Nature Communications](https://www.nature.com/ncomms)
-+ [PRX Quantum](https://journals.aps.org/prxquantum) 
++ [PRX Quantum](https://journals.aps.org/prxquantum)
+  
 Impact Factor > 3
 + [npj Quantum Information](https://www.nature.com/npjqi)
 + [ACM TQC](https://dl.acm.org/journal/tqc)
