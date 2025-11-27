@@ -13,19 +13,20 @@ For those who are either new to or currently researching in the field of quantum
   - [Language & Logical IR](#language-logical-ir)
   - [Hardware-Agnostic Optimization](#hardware-agnostic-optimization)
   - [Hardware-Aware Compilation & Mapping](#hardware-aware-compilation--mapping)
-  - [Pulse-Level Compilation & Control](#pulse-level-compilation--control)
+  - [Pulse-Level Compilation & Control](#pulse-level-compile)
   - [Runtime & Dynamic Execution](#runtime--dynamic-execution)
 - [Part B: Quantum Compiler Ecosystem](#part-b-quantum-compiler-ecosystem)
   - [Quantum Testing and Debugging](#quantum-testing-and-debugging)
   - [Quantum Formal Verification](#quantum-formal-verification)
   - [QEC-aware Compilation](#qec-aware-compilation)
-  - [Quantum Secure Compilation](#quantum-secure-compilation)
   - [Quantum Circuit Analysis](#quantum-circuit-analysis)
-- [Part C: Quantum Compiler Niche Fields](#part-c-quantum-compiler-niche-fields)
-  - [Topological Quantum Compilation](#topological-quantum-compilation)
-  - [Qudit Compilation](#qudit-compilation)
-  - [Quantum Circuit Obfuscation](#quantum-circuit-obfuscation)
-  - [Measurement-Based Quantum Compilation](#measurement-based-quantum-compilation)
+  - [Quantum Compiler Niche Fields](#quantum-compiler-niche-fields)
+- [Part C: Hardware aware compile optimisation](#part-c-hardware-aware-compile-optimisation)
+  - [Superconducting QC](#superconducting-qc)
+  - [Trapped-ion QC](#trapped-ion-qc)
+  - [Photonics QC](#photonics-qc)
+  - [Neutral-atom QC](#neutral-atom-qc)
+  - [Topological QC](#topological-qc)
 - [Part D: Conference and Journal](#part-d-conference-and-journal) 
   - [Top-tier Conference Deadline](#conference-deadline)
   - [Journals](#journals)
@@ -42,6 +43,7 @@ For those who are either new to or currently researching in the field of quantum
 </br>
 
 
+  
 ## Part A: Compilation Flow — From Algorithm to Pulse
 
 <h4 id="language-logical-ir">Language & Logical IR</h4>
@@ -68,62 +70,27 @@ For those who are either new to or currently researching in the field of quantum
 + [SuperstaQ: Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) - Campbell et al., QCE 2023 - [GitHub](https://github.com/Infleqtion/client-superstaq)  
 + [Paulihedral: a generalized block-wise compiler optimization framework for Quantum simulation kernels](https://arxiv.org/abs/2109.03371) - Gushu Li et al., 2021
 + [Enabling Dataflow Optimization for Quantum Programs](https://arxiv.org/abs/2101.11030) - David Ittah et al., 2021
-+ [A Meet-in-the-Middle Algorithm for Fast Synthesis of Depth-Optimal Quantum Circuits](https://arxiv.org/abs/1206.0758) - Matthew Amy et al., 2021
-+ [Automated optimization of large quantum circuits with continuous parameters](https://arxiv.org/abs/1710.07345) - Yunseong Nam et al., 2017  - [GitHub](https://github.com/njross/optimizer)  
 + [A software methodology for compiling quantum programs](https://arxiv.org/abs/1604.01401) - Thomas Häner et al., 2016
-+ [Exact synthesis of single-qubit unitaries over Clifford-cyclotomic gate sets](https://arxiv.org/abs/1501.04944) - Simon Forest et al., 2015
-+ [Polynomial-Time T-Depth Optimization of Clifford+T Circuits Via Matroid Partitioning](https://arxiv.org/abs/1303.2042) - Matthew Amy et al., 2013
 + [Assertion-Based Optimization of Quantum Programs](https://arxiv.org/abs/1810.00375) - Häner, Hoefler, Troyer, OOPSLA 2013
 + [Repeat-until-Success: Non-Deterministic Decomposition of Single-Qubit Unitaries](https://arxiv.org/abs/1311.1074) - Adam Paetznick, Krysta Svore, 2013  - [GitHub (sample)](https://github.com/microsoft/Quantum/tree/main/samples/algorithms/repeat-until-success)  
 + [Circuit for Shor’s Algorithm Using 2n+3 Qubits](https://arxiv.org/abs/quant-ph/0205095) - Stephane Beauregard, 2002
 
 
-> Circuit Optimisation 
-+ [A Resource-Allocating Compiler for Lattice Surgery](https://arxiv.org/abs/2506.04620) - Alan Robertson, Haowen Gao, Yuval R. Sanders, 2025.  - [GitHub](https://github.com/latticesurgery-com/lattice-surgery-compiler)  
+> Circuit Optimisation (ML-based compile optimisation)
+ 
 + [Quantum circuit optimization with AlphaTensor](https://www.nature.com/articles/s42256-025-01001-1) - Francisco J. R. Ruiz, Nature Machine Intelligence, 2025. - [GitHub](https://github.com/google-deepmind/alphatensor_quantum)  
 + [Quarl: A Learning-Based Quantum Circuit Optimizer](https://dl.acm.org/doi/abs/10.1145/3649831) - Zikun Li et al., OOPSLA, 2024.  - [GitHub](https://github.com/quantum-compiler/Quarl) 
 + [Machine Learning Optimization of Quantum Circuit Layouts](https://dl.acm.org/doi/full/10.1145/3565271) - Alexandru Pale et al., ACM TQC, 2023.  - [GitHub](https://github.com/alexandrupaler/qxx)  
 + [Synthesizing Quantum-Circuit Optimizers](https://dl.acm.org/doi/abs/10.1145/3591254) - Amanda Xu et al., PLDI, 2023.  - [GitHub](https://github.com/qqq-wisc/queso)
 + [Monte Carlo Graph Search for Quantum Circuit Optimization](https://arxiv.org/abs/2307.07353) - Bodo Rosenhahn, Tobias J. Osborne, 2023
-
++ [A Meet-in-the-Middle Algorithm for Fast Synthesis of Depth-Optimal Quantum Circuits](https://arxiv.org/abs/1206.0758) - Matthew Amy et al., 2021
++ [Automated optimization of large quantum circuits with continuous parameters](https://arxiv.org/abs/1710.07345) - Yunseong Nam et al., 2017  - [GitHub](https://github.com/njross/optimizer)
++ [Exact synthesis of single-qubit unitaries over Clifford-cyclotomic gate sets](https://arxiv.org/abs/1501.04944) - Simon Forest et al., 2015
++ [Polynomial-Time T-Depth Optimization of Clifford+T Circuits Via Matroid Partitioning](https://arxiv.org/abs/1303.2042) - Matthew Amy et al., 2013
 
 
 <h4 id="hardware-aware-compilation-mapping">Hardware-Aware Compilation & Mapping</h4>
 
-Hardware Platforms
-> Superconducting QC
-+ [Selective Excitation of Superconducting Qubits with a Shared Control Line through Pulse Shaping](https://arxiv.org/pdf/2501.10710) - Ryo Matsuda et al., 2025
-+ [Virtual-Z Gates and Symmetric Gate Compilation](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.020348) - Arian Vezvaee et al., 2025
-+ [Qibosoq: RFSoC Control Software for Self-Hosted Quantum Hardware via QICK](https://arxiv.org/abs/2310.05851) - Andrea Pasquale et al., 2025 - [GitHub](https://github.com/qiboteam/qibosoq)
-+ [CCMap: Hardware-Aware Compilation for Chip-to-Chip Coupler-Connected QPUs](https://arxiv.org/abs/2505.09036) - Zefan Du et al., Arxiv, 2025
-+ [Pulse-Based Variational Quantum Optimization and Metalearning in Superconducting Circuits](https://arxiv.org/abs/2407.12636) - Yapeng Wang et al., 2024
-+ [Direct Pulse-Level Compilation of Arbitrary Quantum Logic Gates on Superconducting Qutrits](https://arxiv.org/abs/2303.04261) - Yujin Cho et al., , Physical Review Applied, 2024
-+ [Sensitivity-Adapted Closed-Loop Optimization for High-Fidelity CZ Gates](https://arxiv.org/abs/2412.17454) - Niklas J. Glaser et al., 2024
-+ [Implementing Fast and High-Fidelity Quantum Operations Using Open-Loop Optimal Control](https://arxiv.org/abs/2410.22603) - LBNL Collaboration, 2024
-+ [Qibolab: An Open-Source Hybrid Quantum Operating System](https://quantum-journal.org/papers/q-2024-02-12-1247/) - Stavros Efthymiou et al., Quantum Journal 2024, [GitHub](https://github.com/qiboteam/qibolab)
-+ [Qibocal: An Open-Source Framework for Calibration of Self-Hosted Quantum Devices](https://arxiv.org/abs/2410.00101) - Andrea Pasquale et al., 2024  - [GitHub](https://github.com/qiboteam/qibocal)
-+ [A Time Optimization Framework for Robust and Low-Latency Quantum Circuits](https://arxiv.org/abs/2412.18533) - Eduardo W. Lussi et al., Physical Review Applied, 2024
- 
-> Ion-Trap QC
-+ [Graph-Based Pulse Representation for Diverse Quantum Control Hardware](https://arxiv.org/abs/2409.08407) - Aniket S. Dalvi et al., 2024
-+ [Hybrid discrete-continuous compilation of trapped-ion quantum circuits with deep reinforcement learning](https://arxiv.org/abs/2307.05744) - Francesco Preti,. Quantum Journal, 2024
-+ [Automated Generation of Shuttling Sequences for a Linear Segmented Ion Trap Quantum Computer](https://arxiv.org/abs/2208.04881) - Jonathan Durandau, Quantum, 2023. [GitHub](https://github.com/cda-tum/mqt-ion-shuttler)  [oai_citation:2‡GitHub](https://github.com/cda-tum/mqt-ion-shuttler)
-+ [Quantum Circuit Compiler for a Shuttling-Based Trapped Ion Quantum Computer](https://arxiv.org/pdf/2207.01964v2.pdf) - Fabian Kreppel et al., 2022
-+ [Backend compiler phases for trapped-ion quantum computers](https://arxiv.org/abs/2206.00544) - T. Schmale et al., 2022
-  
-> Neutral-Atom QC
-+ [Pulse Family Optimization for Parametrized Quantum Gates Using Spectral Clustering](https://arxiv.org/abs/2408.00119) - Robert de Keijzer et al., Quantum Journal, 2024
-+ [Q-Pilot: Field Programmable Qubit Array Compilation with Flying Ancillas](https://arxiv.org/abs/2311.16190) - Hanrui Wang., DAC, 2024.
-+ [Quantum optimization of maximum independent set using Rydberg atom arrays](https://arxiv.org/abs/2202.09372) - S. Ebadi et al., Science(Journal), 2022.  - [GitHub]
-
-> Photonics QC
-+ [OneAdapt: Adaptive Compilation for Resource-Constrained Photonic One-Way Quantum Computing](https://arxiv.org/abs/2504.17116) - Hezi Zhang et al., 2025
-+ [A Scalable and Robust Compilation Framework for Emitter-Photonic Quantum Computing](https://arxiv.org/abs/2503.16346) - Xiangyu Ren et al., 2025
-+ [OnePerc: A Randomness-aware Compiler for Photonic Quantum Computing](https://arxiv.org/abs/2403.01829) - Hezi Zhang et al., 2024
-+ [OneQ: A Compilation Framework for Photonic One-Way Quantum Computation](https://arxiv.org/abs/2209.01545) - Hezi Zhang et al., ISCA, 2023
-+ [A Compiler for Universal Photonic Quantum Computers](https://arxiv.org/abs/2210.09251) - Felix Zilk et al., QCS, 2022
-
-Compilation Techniques
 > Circuit Scheduling 
 + [Scheduling of Operations in Quantum Compiler](https://arxiv.org/pdf/2011.04936) - Toshinari Itoko, Takashi Imamichi, QCE, 2020
 + [Two-step approach to scheduling quantum circuits](https://arxiv.org/abs/1708.00023) - Gian Giacomo Guerreschi, Jongsoo Park, Quantum Sci, 2017
@@ -136,11 +103,13 @@ Compilation Techniques
 + [QuCloud: A New Qubit Mapping Mechanism for Multi-programming Quantum Computing in Cloud Environment](https://ieeexplore.ieee.org/document/9407180) - Lei Liu, Xinglei Dou, HPCA, 2021
 + [Optimal mapping for near-term quantum architectures based on Rydberg atoms](https://arxiv.org/abs/2109.04179) - S.Brandhofer et al., ICCAD, 2021
 + [Time-optimal Qubit mapping](https://dl.acm.org/doi/pdf/10.1145/3445814.3446706) - Chi Zhang et al., ASPLOS, 2021
+
+
+> Noise aware allocation or compilation
 + [Not All Qubits Are Created Equal: A Case for Variability-Aware Policies for NISQ-Era Quantum Computers](https://dl.acm.org/doi/10.1145/3297858.3304007) - Swamit S. Tannu, Moinuddin K. Qureshi, ASPLOS, 2019
 + [Noise-adaptive compiler mappings for noisy intermediate-scale quantum computers.](https://arxiv.org/abs/1901.11054) - Prakash Murali, Jonathan M. Baker, Ali Javadi Abhari, Frederic T. Chong, Margaret Martonosi, ASPLOS, 2019
 
-
-<h4 id="pulse-level-compilation-control">Pulse-Level Compilation & Control</h4>
+<h4 id="pulse-level-compile">Pulse-Level Compilation & Control</h4>
 
 + [A Synergistic Compilation Workflow for Tackling Crosstalk in Quantum Machines](https://arxiv.org/abs/2207.05751) - Fei Hua et al., 2023
 + [Hybrid Gate-Pulse Model for Variational Quantum Algorithms](https://arxiv.org/abs/2212.00661) - Zhiding Liang et al. 2022
@@ -184,8 +153,13 @@ Compilation Techniques
 + [A Logic for Formal Verification of Quantum Programs](https://dl.acm.org/doi/10.1007/978-3-642-10622-4_7) — M. Ying, Y. Feng, R. Duan, Z. Ji (2009). Advances in Computer Science – ASIAN 2009 (Springer)
 + [Towards a Quantum Programming Language](https://dl.acm.org/doi/10.1017/S0960129504004256) — P. Selinger (2004). Mathematical Structures in Computer Science
 
-<h4 id="qec-aware compilation">QEC-Aware Compilation</h4>
+<h4 id="qec-aware compilation">QEC-aware Compilation</h4>
 
++ [A Resource-Allocating Compiler for Lattice Surgery](https://arxiv.org/abs/2506.04620) - Alan Robertson, Haowen Gao, Yuval R. Sanders, 2025 - [GitHub](https://github.com/latticesurgery-com/lattice-surgery-compiler)
++ [Dependency-Aware Compilation for Surface Code Quantum Architectures](https://arxiv.org/abs/2311.18042) - Abtin Molavi, Amanda Xu, Swamit Tannu, Aws Albarghouthi, OOPSLA, 2025.
++ [Lattice Surgery Compilation Beyond the Surface Code](https://arxiv.org/abs/2504.10591) - Laura S. Herzog, Lucas Berent, Aleksander Kubica, Robert Wille, 2025
++ [A High Performance Compiler for Very Large Scale Surface Code Computations](https://arxiv.org/abs/2302.02459) - George Watkins, Hoang Minh Nguyen, Keelan Watkins, Steven Pearce, Hoi-Kwan Lau, Alexandru Paler, Quantum, 2024.
++ [Lattice Surgery Translation for Quantum Computation](https://arxiv.org/abs/1608.05208) - Daniel Herr, Franco Nori, Simon J. Devitt, 2017, - [GitHub](https://github.com/herr-d/LS_translation)
 + [Resource-Efficient Context-Aware Dynamical Decoupling Embedding for Arbitrary Large-Scale Quantum Algorithms](https://link.aps.org/doi/10.1103/PRXQuantum.6.010332), Paul Coote et al., PRX Quantum, 2025
 + [Learning high-accuracy error decoding for quantum processors](https://www.nature.com/articles/s41586-024-08148-8) - Johannes Bausch et al., Nature, 2024
 + [Error Propagation-Aware Routing: A New Routing Strategy to Improve Success Rates of Quantum Circuits](https://dl.acm.org/doi/pdf/10.1145/3649476.3658790), Lu Fang et al., ICCAD, 2024 
@@ -194,7 +168,6 @@ Compilation Techniques
 + [TISCC: A Surface Code Compiler and Resource Estimator for Trapped-Ion Processors](https://dl.acm.org/doi/abs/10.1145/3624062.3624214) - Tyler Leblond, Ryan S. Bennink, Justin G. Lietz, and Christopher M. Seck, SC, 2023
 + [Qubit Mapping and Routing via MaxSAT](https://pages.cs.wisc.edu/~amolavi/files/micro22.pdf), Maryam Amiri et al., MICRO, 2022.
 + [VAQEM: A Variational Approach to Quantum Error Mitigation](https://www.computer.org/csdl/proceedings-article/hpca/2022/202700a288/1Ds0fvoYbCw) - Gokul S. Ravi et al., HPCA, 2022
-+ [Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Quantum Architectures](https://arxiv.org/pdf/2111.06469.pdf) - Jonathan M. Baker, et al., ISCA, 2021
 + [ADAPT: Mitigating Idling Errors in Qubits via Adaptive Dynamical Decoupling](https://dl.acm.org/doi/10.1145/3466752.3480059) - Poulami Das et al., MICRO, 2021
 + [A Noise-Aware Qubit Mapping Algorithm Evaluated via Qubit Interaction-Graph Criteria](https://www.researchgate.net/publication/350512755_A_Noise-Aware_Qubit_Mapping_Algorithm_Evaluated_via_Qubit_Interaction-Graph_Criteria) - Matthew Steinberg et al., arXiv, 2021.
 + [TILT: Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/pdf/2010.15876v3.pdf) - Xin-Chuan Wu, Dripto M Debroy, Yongshan Ding, Jonathan M Baker, Yuri Alexeev, Kenneth R Brown, and Frederic T Chong, HPCA, 2020
@@ -206,20 +179,6 @@ Compilation Techniques
 + [Error Mitigation for Short-Depth Quantum Circuits](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509), Kristan Temme et al., Phys. Rev. Lett., 2017.
 
 
-
-
-<h4 id="quantum-secure-compilation">Quantum Secure Compilation</h4>
-
-+ [Split Compilation for Security of Quantum Circuits](https://pure.psu.edu/en/publications/split-compilation-for-security-of-quantum-circuits) — Abdullah Ash Saki, Aakarshitha Suresh, Rasit Onur Topaloglu, Swaroop Ghosh. ICCAD 2021.  ￼
-+ [A Quantum Circuit Obfuscation Methodology for Security and Privacy](https://arxiv.org/abs/2104.05943) — Aakarshitha Suresh, Abdullah Ash Saki, Mahabubul Alam, Rasit Onur Topaloglu, Swaroop Ghosh. HASP @ MICRO 2021.  ￼
-+ [OpaQue: Program Output Obfuscation for Quantum Software Circuits in Quantum Clouds](https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-32.pdf) — Tirthak Patel, Aditya Ranjan, Daniel Silver, Harshitta Gandhi, William Cutler, Devesh Tiwari. ICS 2025.  ￼
-+ [TetrisLock: Quantum Circuit Split Compilation with Interlocking Patterns](https://arxiv.org/abs/2503.11982) — Qian Wang, Jayden John, Ben Dong, Yuntao Liu. arXiv 2025 (preprint).  ￼
-+ [OPAQUE: Obfuscating Phase in Quantum Circuit Compilation for Efficient IP Protection](https://www.arxiv.org/abs/2502.16605) — Anees Rehman, Vincent Langford, Yuntao Liu. ISQED 2025.  ￼
-+ [Encrypted-state quantum compilation scheme based on quantum circuit obfuscation](https://arxiv.org/abs/2507.17589) — Chenyi Zhang, Tao Shang, Xueyi Guo, Yuanjing Zhang. arXiv 2025.  ￼￼
-+ [Quantum Homomorphic Encryption for Circuits of Low T-gate Complexity](https://link.springer.com/chapter/10.1007/978-3-662-48000-7_30) — Anne Broadbent, Stacey Jeffery. CRYPTO 2015.  ￼
-+ [Unconditionally Verifiable Blind Quantum Computation](https://journals.aps.org/pra/pdf/10.1103/PhysRevA.96.012303) — Joseph F. Fitzsimons, Elham Kashefi. Physical Review A, 2017. 
-
-
 <h4 id="quantum-circuit-analysis">Quantum Circuit Analysis</h4>
 
 + [Character Complexity: A Novel Measure for Quantum Circuit Analysis](https://arxiv.org/abs/2408.09641) - Daksh Shami, 2024
@@ -227,9 +186,67 @@ Compilation Techniques
 + [Quantum Vulnerability Analysis to Guide Robust Quantum Computing System Design](https://arxiv.org/pdf/2207.14446) - Fang Qi et al., 2023
 
 
-<h2 id="part-c-quantum-compiler-niche-fields">Part C: Quantum Compiler Niche Fields</h2>
+<h4 id="part-c-quantum-compiler-niche-fields">Quantum Compiler Niche Fields</h4>
 
-<h4 id="topological-quantum-compilation">Topological Quantum Compilation</h4>
+> Quantum Secure Compilation
++ [OpaQue: Program Output Obfuscation for Quantum Software Circuits in Quantum Clouds](https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-32.pdf) — Tirthak Patel, Aditya Ranjan, Daniel Silver, Harshitta Gandhi, William Cutler, Devesh Tiwari. ICS 2025.  ￼
++ [TetrisLock: Quantum Circuit Split Compilation with Interlocking Patterns](https://arxiv.org/abs/2503.11982) — Qian Wang, Jayden John, Ben Dong, Yuntao Liu. arXiv 2025 (preprint).  ￼
++ [OPAQUE: Obfuscating Phase in Quantum Circuit Compilation for Efficient IP Protection](https://www.arxiv.org/abs/2502.16605) — Anees Rehman, Vincent Langford, Yuntao Liu. ISQED 2025. 
++ [Split Compilation for Security of Quantum Circuits](https://pure.psu.edu/en/publications/split-compilation-for-security-of-quantum-circuits) — Abdullah Ash Saki, Aakarshitha Suresh, Rasit Onur Topaloglu, Swaroop Ghosh. ICCAD 2021.
+  
+> Qudit Compilation
++ [MQT Qudits: A Software Framework for Mixed-Dimensional Quantum Computing](https://arxiv.org/abs/2410.02854) — Lukas Burgholzer et al. (2024). 
++ [Efficient, direct compilation of SU(N) operations into SNAP](https://arxiv.org/abs/2307.11900) — Vladislav D. Kurpas et al., Physical Review A, (2023). 
++ [QudCom: Towards Quantum Compilation for Qudit Systems](https://arxiv.org/abs/2311.07015) — Sebastian Brandhofer et al. (2023). 
++ [Compilation of Entangling Gates for High-Dimensional Quantum Processors](https://arxiv.org/abs/2301.04155) — Manuel G. J. B. A. Cordier et al. (2023). 
++ [Adaptive Compilation of Multi-Level Quantum Operations](https://arxiv.org/abs/2206.03842) — David R. M. Arvidsson-Shukur et al. (2022).
+
+> Measurement-Based Quantum Compilation
++ [A Generic Measurement-Based Quantum Compilation Pipeline](https://arxiv.org/abs/2302.00795) — Nader M. Mohammadizadeh et al. (2023). 
++ [Adaptive Compilation for Resource-Constrained Photonic One-Way Quantum Computing](https://arxiv.org/abs/2504.17116) — Florian Reiter et al. (2025). 
++ [A Randomness-aware Compiler for Photonic Quantum Computing](https://arxiv.org/abs/2403.01829) — Florian Reiter et al. (2024).
+  
+</br>
+
+<h2 id="part-c-hardware-aware-compile optimisation">Part C: Hardware aware compile optimisation</h2>
+
+<h4 id="superconducting-qc">Superconducting QC</h4>
+
++ [Selective Excitation of Superconducting Qubits with a Shared Control Line through Pulse Shaping](https://arxiv.org/pdf/2501.10710) - Ryo Matsuda et al., 2025
++ [Virtual-Z Gates and Symmetric Gate Compilation](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.020348) - Arian Vezvaee et al., 2025
++ [Qibosoq: RFSoC Control Software for Self-Hosted Quantum Hardware via QICK](https://arxiv.org/abs/2310.05851) - Andrea Pasquale et al., 2025 - [GitHub](https://github.com/qiboteam/qibosoq)
++ [CCMap: Hardware-Aware Compilation for Chip-to-Chip Coupler-Connected QPUs](https://arxiv.org/abs/2505.09036) - Zefan Du et al., Arxiv, 2025
++ [Pulse-Based Variational Quantum Optimization and Metalearning in Superconducting Circuits](https://arxiv.org/abs/2407.12636) - Yapeng Wang et al., 2024
++ [Direct Pulse-Level Compilation of Arbitrary Quantum Logic Gates on Superconducting Qutrits](https://arxiv.org/abs/2303.04261) - Yujin Cho et al., , Physical Review Applied, 2024
++ [Sensitivity-Adapted Closed-Loop Optimization for High-Fidelity CZ Gates](https://arxiv.org/abs/2412.17454) - Niklas J. Glaser et al., 2024
++ [Implementing Fast and High-Fidelity Quantum Operations Using Open-Loop Optimal Control](https://arxiv.org/abs/2410.22603) - LBNL Collaboration, 2024
++ [Qibolab: An Open-Source Hybrid Quantum Operating System](https://quantum-journal.org/papers/q-2024-02-12-1247/) - Stavros Efthymiou et al., Quantum Journal 2024, [GitHub](https://github.com/qiboteam/qibolab)
++ [Qibocal: An Open-Source Framework for Calibration of Self-Hosted Quantum Devices](https://arxiv.org/abs/2410.00101) - Andrea Pasquale et al., 2024  - [GitHub](https://github.com/qiboteam/qibocal)
++ [A Time Optimization Framework for Robust and Low-Latency Quantum Circuits](https://arxiv.org/abs/2412.18533) - Eduardo W. Lussi et al., Physical Review Applied, 2024
+
+<h4 id="trapped-ion-qc">Trapped ion QC</h4>
+
++ [Graph-Based Pulse Representation for Diverse Quantum Control Hardware](https://arxiv.org/abs/2409.08407) - Aniket S. Dalvi et al., 2024
++ [Hybrid discrete-continuous compilation of trapped-ion quantum circuits with deep reinforcement learning](https://arxiv.org/abs/2307.05744) - Francesco Preti,. Quantum Journal, 2024
++ [Automated Generation of Shuttling Sequences for a Linear Segmented Ion Trap Quantum Computer](https://arxiv.org/abs/2208.04881) - Jonathan Durandau, Quantum, 2023. [GitHub](https://github.com/cda-tum/mqt-ion-shuttler)  [oai_citation:2‡GitHub](https://github.com/cda-tum/mqt-ion-shuttler)
++ [Quantum Circuit Compiler for a Shuttling-Based Trapped Ion Quantum Computer](https://arxiv.org/pdf/2207.01964v2.pdf) - Fabian Kreppel et al., 2022
++ [Backend compiler phases for trapped-ion quantum computers](https://arxiv.org/abs/2206.00544) - T. Schmale et al., 2022
+
+<h4 id="neutral-atom-qc">Neutral-Atom QC</h4>
+
++ [Pulse Family Optimization for Parametrized Quantum Gates Using Spectral Clustering](https://arxiv.org/abs/2408.00119) - Robert de Keijzer et al., Quantum Journal, 2024
++ [Q-Pilot: Field Programmable Qubit Array Compilation with Flying Ancillas](https://arxiv.org/abs/2311.16190) - Hanrui Wang., DAC, 2024.
++ [Quantum optimization of maximum independent set using Rydberg atom arrays](https://arxiv.org/abs/2202.09372) - S. Ebadi et al., Science(Journal), 2022.  - [GitHub]
+
+<h4 id="photonics-qc">Photonics QC</h4>
+
++ [OneAdapt: Adaptive Compilation for Resource-Constrained Photonic One-Way Quantum Computing](https://arxiv.org/abs/2504.17116) - Hezi Zhang et al., 2025
++ [A Scalable and Robust Compilation Framework for Emitter-Photonic Quantum Computing](https://arxiv.org/abs/2503.16346) - Xiangyu Ren et al., 2025
++ [OnePerc: A Randomness-aware Compiler for Photonic Quantum Computing](https://arxiv.org/abs/2403.01829) - Hezi Zhang et al., 2024
++ [OneQ: A Compilation Framework for Photonic One-Way Quantum Computation](https://arxiv.org/abs/2209.01545) - Hezi Zhang et al., ISCA, 2023
++ [A Compiler for Universal Photonic Quantum Computers](https://arxiv.org/abs/2210.09251) - Felix Zilk et al., QCS, 2022
+
+<h4 id="topological-qc">Topological QC (theoretical stage)</h4>
 
 + [Topological quantum compilation of two-qubit gates](https://arxiv.org/abs/2408.07132) — Parsa Hosseini et al. (2024). 
 + [Topological quantum compilation of metaplectic anyons based on the genetic optimized algorithms](https://arxiv.org/abs/2501.01745) — Parsa Hosseini et al. (2025). 
@@ -238,30 +255,6 @@ Compilation Techniques
 + [Systematic Computation of Braid Generator Matrix in Topological Quantum Computation](https://arxiv.org/abs/2307.01892) — Parsa Hosseini et al. (2023). 
 + [Asymptotically Optimal Topological Quantum Compiling](https://arxiv.org/abs/1310.4150) — Michael Freedman et al., Mathematical Physics Journal (2013). 
 + [Provably Optimal Quantum Circuits with Mixed-Integer Programming](https://arxiv.org/abs/2510.00649) — Yufei Ding et al. (2025). 
-
-<h4 id="qudit-compilation">Qudit Compilation</h4>
-
-+ [Efficient, direct compilation of SU(N) operations into SNAP](https://arxiv.org/abs/2307.11900) — Vladislav D. Kurpas et al., Physical Review A, (2023). 
-+ [QudCom: Towards Quantum Compilation for Qudit Systems](https://arxiv.org/abs/2311.07015) — Sebastian Brandhofer et al. (2023). 
-+ [Adaptive Compilation of Multi-Level Quantum Operations](https://arxiv.org/abs/2206.03842) — David R. M. Arvidsson-Shukur et al. (2022). 
-+ [Compilation of Entangling Gates for High-Dimensional Quantum Processors](https://arxiv.org/abs/2301.04155) — Manuel G. J. B. A. Cordier et al. (2023). 
-+ [MQT Qudits: A Software Framework for Mixed-Dimensional Quantum Computing](https://arxiv.org/abs/2410.02854) — Lukas Burgholzer et al. (2024). 
-
-<h4 id="quantum-circuit-obfuscation">Quantum Circuit Obfuscation</h4>
-
-+ [Quantum state obfuscation from classical oracles](https://dl.acm.org/doi/abs/10.1145/3618260.3649673) - J. Bartusek, Z. Brakerski, V. Vaikuntanathan, CCS, 2024
-+ [Obfuscation of pseudo-deterministic quantum circuits](https://dl.acm.org/doi/abs/10.1145/3564246.3585179) - J. Bartusek, F. Kitagawa, R. Nishimaki, ACM Symposium on Theory of Computing (STOC), 2023  
-+ [Indistinguishability obfuscation of null quantum circuits and applications](https://arxiv.org/abs/2106.06094) - J. Bartusek, G. Malavolta, ITCS, 2021
-+ [A quantum circuit obfuscation methodology for security and privacy](https://dl.acm.org/doi/abs/10.1145/3505253.3505260) - A. Suresh, A.A. Saki, M. Alam, R. Onur Topaloglu, S. Ghosh, JETC, 2021  
-+ [On quantum obfuscation](https://arxiv.org/abs/1602.01771) - G. Alagic, B. Fefferman  arXiv (preprint),  2016  
-
-<h4 id="measurement-based-quantum-compilation">Measurement-Based Quantum Compilation</h4>
-
-+ [A Generic Measurement-Based Quantum Compilation Pipeline](https://arxiv.org/abs/2302.00795) — Nader M. Mohammadizadeh et al. (2023). 
-+ [Adaptive Compilation for Resource-Constrained Photonic One-Way Quantum Computing](https://arxiv.org/abs/2504.17116) — Florian Reiter et al. (2025). 
-+ [A Randomness-aware Compiler for Photonic Quantum Computing](https://arxiv.org/abs/2403.01829) — Florian Reiter et al. (2024).
-  
-</br>
 
 <h2 id="part-d-conference-and-journal">Part D: Conference and Journal</h2>
 
