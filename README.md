@@ -41,8 +41,6 @@ For those who are either new to or currently researching in the field of quantum
 + [Quantum Circuit Synthesis and Compilation Optimization: Overview and Prospects](https://arxiv.org/html/2407.00736v1) - Ge Yan et al., 2024.
 + [Quantum Compiling](https://arxiv.org/abs/2112.00187) - Marco Maronese, Lorenzo Moro, Lorenzo Rocutto, Enrico Prati, 2021
 + [Programming languages and compiler design for realistic quantum hardware](https://www.nature.com/articles/nature23459) - Frederic T. Chong, Diana Franklin, Margaret Martonosi, Nature, 2017
-</br>
-
 
   
 ## Part A: Compilation Flow — From Algorithm to Pulse
@@ -163,6 +161,7 @@ For those who are either new to or currently researching in the field of quantum
 
 
 <h4 id="error-aware-or-noise-aware-compilation">Error-Aware & Noise-Aware Compilation</h4>
+
 + [Resource-Efficient Context-Aware Dynamical Decoupling Embedding for Arbitrary Large-Scale Quantum Algorithms](https://link.aps.org/doi/10.1103/PRXQuantum.6.010332), Paul Coote et al., PRX Quantum, 2025
 + [Learning high-accuracy error decoding for quantum processors](https://www.nature.com/articles/s41586-024-08148-8) - Johannes Bausch et al., Nature, 2024
 + [Error Propagation-Aware Routing: A New Routing Strategy to Improve Success Rates of Quantum Circuits](https://dl.acm.org/doi/pdf/10.1145/3649476.3658790), Lu Fang et al., ICCAD, 2024 
