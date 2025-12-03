@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yucheol-choi/)
 
 ### Description
-As a student researching quantum compilers, I curate influential papers from top conferences and journals. I hope this collection supports your work as much as it supports mine. Let’s make a positive impact 🙂
+As a student researching quantum compilers, I curate influential papers from top conferences and journals. I hope this collection supports your work as much as it supports mine. Let’s make a positive impact - [Good together](https://youtu.be/E2vTXwQX1pE?si=14Vo7w75aTxBKI2k)🙂
 
 
 ## Table of Contents
@@ -69,10 +69,10 @@ As a student researching quantum compilers, I curate influential papers from top
 
 > Quantum Program Optimization 
 + [SuperstaQ: Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) Campbell et al. <img src="https://img.shields.io/badge/QCE-2023-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/Infleqtion/client-superstaq)  
-+ [Paulihedral: a generalized block-wise compiler optimization framework for Quantum simulation kernels](https://arxiv.org/abs/2109.03371) Gushu Li et al. <img src="https://img.shields.io/badge/ASPLOS-2022-green.svg" alt="13-pages" align="top"> 
++ [Paulihedral: a generalized block-wise compiler optimization framework for Quantum simulation kernels](https://arxiv.org/abs/2109.03371) Gushu Li et al. <img src="https://img.shields.io/badge/ASPLOS-2022-green.svg" alt="13-pages" align="top"> [Youtube](https://youtu.be/lXFVkBlh9_Q?si=y_d4SgUwWQPwerch)
 + [A software methodology for compiling quantum programs](https://arxiv.org/abs/1604.01401) Thomas Häner et al <img src="https://img.shields.io/badge/Quantum Sci-2016-green.svg" alt="13-pages" align="top">
 + [Repeat-until-Success: Non-Deterministic Decomposition of Single-Qubit Unitaries](https://arxiv.org/abs/1311.1074) Adam Paetznick, Krysta Svore <img src="https://img.shields.io/badge/Quantum Information & Computation-2014-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/microsoft/Quantum/tree/main/samples/algorithms/repeat-until-success)  
-+ [Assertion-Based Optimization of Quantum Programs](https://arxiv.org/abs/1810.00375) Häner, Hoefler, Troyer <img src="https://img.shields.io/badge/OOPSLA-2013-green.svg" alt="13-pages" align="top">
++ [Assertion-Based Optimization of Quantum Programs](https://arxiv.org/abs/1810.00375) Häner, Hoefler, Troyer <img src="https://img.shields.io/badge/OOPSLA-2013-green.svg" alt="13-pages" align="top"> [Youtube](https://youtu.be/v7PDw-zq_oE?si=qh1JzKWSm-JQ8VcR)
 
 > Circuit Optimisation (ML-based compile optimisation)
 
@@ -82,11 +82,11 @@ As a student researching quantum compilers, I curate influential papers from top
 + [Bosehedral: Compiler Optimization for Bosonic Quantum Computing](https://arxiv.org/pdf/2402.02279) Junyu Zhou et al <img src="https://img.shields.io/badge/ISCA-2024-green.svg" alt="13-pages" align="top">
 + [Fermihedral: On the Optimal Compilation for Fermion-to-Qubit Encoding](https://arxiv.org/pdf/2403.17794) Yuhao Liu et al <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg" alt="13-pages" align="top">
 + [Elivagar: Efficient Quantum Circuit Search for Classification](https://arxiv.org/pdf/2401.09393) Sashwat Anagolum et al <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg" alt="13-pages" align="top">
-+ [Quarl: A Learning-Based Quantum Circuit Optimizer](https://dl.acm.org/doi/abs/10.1145/3649831) Zikun Li et al <img src="https://img.shields.io/badge/OOPSLA-2024-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/quantum-compiler/Quarl) 
++ [Quarl: A Learning-Based Quantum Circuit Optimizer](https://dl.acm.org/doi/abs/10.1145/3649831) Zikun Li et al <img src="https://img.shields.io/badge/OOPSLA-2024-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/quantum-compiler/Quarl) [Youtube](https://youtu.be/DZjz88yDKC4?si=UTgp_1pQznhfs2Zs)
 + [Machine Learning Optimization of Quantum Circuit Layouts](https://dl.acm.org/doi/full/10.1145/3565271) Alexandru Pale et al <img src="https://img.shields.io/badge/ACM TQC-2023-green.svg" alt="13-pages" align="top">  [GitHub](https://github.com/alexandrupaler/qxx)  
-+ [Synthesizing Quantum-Circuit Optimizers](https://dl.acm.org/doi/abs/10.1145/3591254) Amanda Xu et al <img src="https://img.shields.io/badge/PLDI-2023-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/qqq-wisc/queso)
++ [Synthesizing Quantum-Circuit Optimizers](https://dl.acm.org/doi/abs/10.1145/3591254) Amanda Xu et al <img src="https://img.shields.io/badge/PLDI-2023-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/qqq-wisc/queso) [Youtube](https://youtu.be/hwGBeUcHFik?si=ESI7D4bJOiHgZZ1z)
 + [Monte Carlo Graph Search for Quantum Circuit Optimization](https://arxiv.org/abs/2307.07353) Bodo Rosenhahn, Tobias J. Osborne <img src="https://img.shields.io/badge/Physical Review Journal-2023-green.svg" alt="13-pages" align="top">
-+ [2QAN: A quantum compiler for 2-local qubit Hamiltonian simulation algorithms](arxiv.org/pdf/2108.02099) Lingling Lao, Dan E. Browne <img src="https://img.shields.io/badge/ISCA-2022-green.svg" alt="13-pages" align="top">
++ [2QAN: A quantum compiler for 2-local qubit Hamiltonian simulation algorithms](arxiv.org/pdf/2108.02099) Lingling Lao, Dan E. Browne <img src="https://img.shields.io/badge/ISCA-2022-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=rBThLSpNpVU)
 + [A Meet-in-the-Middle Algorithm for Fast Synthesis of Depth-Optimal Quantum Circuits](https://arxiv.org/abs/1206.0758) Matthew Amy et al <img src="https://img.shields.io/badge/IEEE TCAD-2021-green.svg" alt="13-pages" align="top">
 + [Automated optimization of large quantum circuits with continuous parameters](https://arxiv.org/abs/1710.07345) Yunseong Nam et al <img src="https://img.shields.io/badge/npj Quantum Information-2017-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/njross/optimizer)
 
@@ -102,11 +102,11 @@ As a student researching quantum compilers, I curate influential papers from top
 + [Compiling quantum circuits for dynamically field-programmable neutral atoms array processors](https://arxiv.org/pdf/2306.03487.pdf) Bochen Tan et al <img src="https://img.shields.io/badge/Quantum-2024-green.svg" alt="13-pages" align="top">
 + [AlphaRouter: Quantum Circuit Routing with Reinforcement Learning and Tree Search](https://arxiv.org/pdf/2410.05115) Wei Tang et al <img src="https://img.shields.io/badge/QCE-2024-green.svg" alt="13-pages" align="top">
 + [Quantum Circuit Mapping Based on Incremental and Parallel SAT Solving](https://www.cs.cmu.edu/~mheule/publications/SATmap.pdf) Jiong Yang et al <img src="https://img.shields.io/badge/SAT-2024-green.svg" alt="13-pages" align="top">
-+ [Qubit mapping for reconfigurable atom arrays](https://dl.acm.org/doi/abs/10.1145/3508352.3549331) Bochen Tan et al <img src="https://img.shields.io/badge/ICCAD-2022-green.svg" alt="13-pages" align="top">
++ [Qubit mapping for reconfigurable atom arrays](https://dl.acm.org/doi/abs/10.1145/3508352.3549331) Bochen Tan et al <img src="https://img.shields.io/badge/ICCAD-2022-green.svg" alt="13-pages" align="top"> [Youtube](https://youtu.be/-tr8KtDKKDU?si=l2SwrXNY3KWvLOPz)
 + [Qubit Mapping and Routing via MaxSAT](https://arxiv.org/abs/2208.13679v1) Abtin Molavi et al <img src="https://img.shields.io/badge/MICRO-2022-green.svg" alt="13-pages" align="top">
 + [QuCloud: A New Qubit Mapping Mechanism for Multi-programming Quantum Computing in Cloud Environment](https://ieeexplore.ieee.org/document/9407180) Lei Liu, Xinglei Dou <img src="https://img.shields.io/badge/HPCA-2021-green.svg" alt="13-pages" align="top">
 + [Optimal mapping for near-term quantum architectures based on Rydberg atoms](https://arxiv.org/abs/2109.04179) S.Brandhofer et al <img src="https://img.shields.io/badge/ICCAD-2021-green.svg" alt="13-pages" align="top">
-+ [Time-optimal Qubit mapping](https://dl.acm.org/doi/pdf/10.1145/3445814.3446706) Chi Zhang et al <img src="https://img.shields.io/badge/ASPLOS-2021-green.svg" alt="13-pages" align="top">
++ [Time-optimal Qubit mapping](https://dl.acm.org/doi/pdf/10.1145/3445814.3446706) Chi Zhang et al <img src="https://img.shields.io/badge/ASPLOS-2021-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=_557jSReORo)
 
 
   
@@ -115,7 +115,7 @@ As a student researching quantum compilers, I curate influential papers from top
 + [A Synergistic Compilation Workflow for Tackling Crosstalk in Quantum Machines](https://arxiv.org/abs/2207.05751) Fei Hua et al <img src="https://img.shields.io/badge/Arxiv-2023-green.svg" alt="13-pages" align="top">
 + [Hybrid Gate-Pulse Model for Variational Quantum Algorithms](https://arxiv.org/abs/2212.00661) Zhiding Liang et al <img src="https://img.shields.io/badge/Arxiv-2022-green.svg" alt="13-pages" align="top">
 + [Resource-Efficient Quantum Computing by Breaking Abstractions](https://arxiv.org/abs/2011.00028) Yunong Shi <img src="https://img.shields.io/badge/IEEE Journal-2020-green.svg" alt="13-pages" align="top">
-+ [Optimized Quantum Compilation for Near-Term Algorithms with OpenPulse](https://arxiv.org/abs/2004.11205) Pranav Gokhale et al <img src="https://img.shields.io/badge/Arxiv-2020-green.svg" alt="13-pages" align="top">
++ [Optimized Quantum Compilation for Near-Term Algorithms with OpenPulse](https://arxiv.org/abs/2004.11205) Pranav Gokhale et al <img src="https://img.shields.io/badge/Arxiv-2020-green.svg" alt="13-pages" align="top"> [Youtube](https://youtu.be/dtPaDmE89Yc?si=5z1tfMK7FSw-SRsw)
 
 <h4 id="runtime-dynamic-execution">Runtime & Dynamic Execution</h4>
 
@@ -173,7 +173,7 @@ As a student researching quantum compilers, I curate influential papers from top
 + [Digital Zero-Noise Extrapolation for Quantum Error Mitigation](https://arxiv.org/abs/2005.10921) Tudor Giurgica-Tiron et al <img src="https://img.shields.io/badge/IEEE QCE-2020-green.svg" alt="13-pages" align="top">
 + [A Noise-Aware Qubit Mapping Algorithm Evaluated via Qubit Interaction-Graph Criteria](https://www.researchgate.net/publication/350512755_A_Noise-Aware_Qubit_Mapping_Algorithm_Evaluated_via_Qubit_Interaction-Graph_Criteria) Matthew Steinberg et al <img src="https://img.shields.io/badge/QCS-2020-green.svg" alt="13-pages" align="top">
 + [Not All Qubits Are Created Equal: Variation-Aware Qubit Allocation in NISQ-Era Quantum Computers](https://dl.acm.org/doi/10.1145/3297858.3304007) Swamit Tannu & Moinuddin Qureshi  <img src="https://img.shields.io/badge/ASPLOS-2019-green.svg" alt="13-pages" align="top">
-+ [Noise-adaptive compiler mappings for noisy intermediate-scale quantum computers.](https://arxiv.org/abs/1901.11054) Prakash Murali et al <img src="https://img.shields.io/badge/ASPLOS-2019-green.svg" alt="13-pages" align="top">
++ [Noise-adaptive compiler mappings for noisy intermediate-scale quantum computers.](https://arxiv.org/abs/1901.11054) Prakash Murali et al <img src="https://img.shields.io/badge/ASPLOS-2019-green.svg" alt="13-pages" align="top"> [Youtube](https://youtu.be/4RlOaxYPkX8?si=CieyhIebX3hjo6rj)
 + [Practical Quantum Error Mitigation for Near-Future Applications](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509) Suguru Endo et al <img src="https://img.shields.io/badge/Phys Rev X-2018-green.svg" alt="13-pages" align="top">
 + [Error Mitigation for Short-Depth Quantum Circuits](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509) Kristan Temme et al <img src="https://img.shields.io/badge/Phys Rev Letter-2017-green.svg" alt="13-pages" align="top">
 
