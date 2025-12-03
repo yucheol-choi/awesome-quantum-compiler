@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yucheol-choi/)
 
 ### Description
-For those who are either new to or currently researching in the field of quantum compilers, I will be regularly updating resources such as papers categorised by subtopics, open-source code, learning materials(currently planning to create it myself) on quantum compilers, as well as my own personal research paper reviews. 
+As a student researching quantum compilers, I curate influential papers from top conferences and journals. I hope this collection supports your work as much as it supports mine. Let’s make a positive impact—[good together](https://youtu.be/E2vTXwQX1pE?si=z_tsjqj9T5hTD2rT) 😊
 
 
 ## Table of Contents
@@ -183,8 +183,7 @@ For those who are either new to or currently researching in the field of quantum
 + [Character Complexity: A Novel Measure for Quantum Circuit Analysis](https://arxiv.org/abs/2408.09641) Daksh Shami <img src="https://img.shields.io/badge/Arxiv-2024-green.svg" alt="13-pages" align="top">
 + [QuCT: A Framework for Analyzing Quantum Circuit by Extracting Contextual and Topological Features](https://dl.acm.org/doi/10.1145/3613424.3614274) Siwei Tan et al <img src="https://img.shields.io/badge/MICRO-2023-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/JanusQ/QuCT-Micro2023) 
 + [Quantum Vulnerability Analysis to Guide Robust Quantum Computing System Design](https://arxiv.org/pdf/2207.14446) Fang Qi et al <img src="https://img.shields.io/badge/IEEE TQE-2023-green.svg" alt="13-pages" align="top">
-
-Gleipnir: Toward Practical Error Analysis for Quantum Programs
++ [Gleipnir: Toward Practical Error Analysis for Quantum Programs](https://arxiv.org/abs/2104.06349) Runzhou Tao et al <img src="https://img.shields.io/badge/PLDI-2021-green.svg" alt="13-pages" align="top">
 
 
 <h4 id="quantum-compiler-emerging-topics">Emerging Topics</h4>
