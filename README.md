@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yucheol-choi/)
 
 ### Description
-As a student researching quantum compilers, I curate influential papers from top conferences and journals. I hope this collection supports your work as much as it supports mine. Let’s make a positive impact—[good together](https://youtu.be/E2vTXwQX1pE?si=z_tsjqj9T5hTD2rT) 😊
+As a student researching quantum compilers, I curate influential papers from top conferences and journals. I hope this collection supports your work as much as it supports mine. Let’s make a positive impact 🙂
 
 
 ## Table of Contents
