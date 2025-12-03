@@ -74,7 +74,7 @@ As a student researching quantum compilers, I curate influential papers from top
 + [Repeat-until-Success: Non-Deterministic Decomposition of Single-Qubit Unitaries](https://arxiv.org/abs/1311.1074) Adam Paetznick, Krysta Svore <img src="https://img.shields.io/badge/Quantum Information & Computation-2014-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/microsoft/Quantum/tree/main/samples/algorithms/repeat-until-success)  
 + [Assertion-Based Optimization of Quantum Programs](https://arxiv.org/abs/1810.00375) Häner, Hoefler, Troyer <img src="https://img.shields.io/badge/OOPSLA-2013-green.svg" alt="13-pages" align="top"> [Youtube](https://youtu.be/v7PDw-zq_oE?si=qh1JzKWSm-JQ8VcR)
 
-> Circuit Optimisation (ML-based compile optimisation)
+> Circuit Optimisation (ML-based Compile Optimisation)
 
 + [Optimizing Quantum Circuits, Fast and Slow](https://arxiv.org/pdf/2411.04104) Amanda Xu et al <img src="https://img.shields.io/badge/ASPLOS-2025-green.svg" alt="13-pages" align="top">
 + [Quantum circuit optimization with AlphaTensor](https://www.nature.com/articles/s42256-025-01001-1) Francisco J. R. Ruiz <img src="https://img.shields.io/badge/Nature Machine Intelligence-2025-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/google-deepmind/alphatensor_quantum)
@@ -131,20 +131,20 @@ As a student researching quantum compilers, I curate influential papers from top
 + [QuraTest: Automated Testing of Quantum Programs with Complex Input States](https://dl.acm.org/doi/10.1109/ASE56229.2023.00196) Jiaming Ye et al <img src="https://img.shields.io/badge/ASE-2023-green.svg" alt="13-pages" align="top">
 + [MorphQ: Metamorphic Testing for Quantum Programs](https://arxiv.org/abs/2206.01111) Matteo Paltenghi, Michael Pradel <img src="https://img.shields.io/badge/ICSE-2023-green.svg" alt="13-pages" align="top">
 + [QuCAT: Quantum Combinatorial Testing Framework](https://arxiv.org/abs/2309.00119) Xinying Wang et al <img src="https://img.shields.io/badge/ASE-2023-green.svg" alt="13-pages" align="top">
-+ [QuSBT: Search-Based Testing of Quantum Programs](https://dl.acm.org/doi/10.1145/3510454.3516839) Xinying Wang et al <img src="https://img.shields.io/badge/ICSE-2022-green.svg" alt="13-pages" align="top">
++ [QuSBT: Search-Based Testing of Quantum Programs](https://dl.acm.org/doi/10.1145/3510454.3516839) Xinying Wang et al <img src="https://img.shields.io/badge/ICSE-2022-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=Wh0FZ-kTglo)
 + [QMutPy: A Mutation Testing Tool for Quantum Algorithms and Applications in Qiskit](https://jose.github.io/assets/pdfs/ISSTA2022-tool-paper.pdf)  E. Fortunato et al <img src="https://img.shields.io/badge/ASE-2022-green.svg" alt="13-pages" align="top">
-+ [Quito: a coverage-guided test generator for quantum programs](https://dl.acm.org/doi/abs/10.1109/ASE51524.2021.9678798) Xinyi Wang et al <img src="https://img.shields.io/badge/ASE -2021-green.svg" alt="13-pages" align="top">
++ [Quito: A coverage-guided test generator for quantum programs](https://dl.acm.org/doi/abs/10.1109/ASE51524.2021.9678798) Xinyi Wang et al <img src="https://img.shields.io/badge/ASE -2021-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=kuI9QaCo8A8)
 + [Muskit: Mutation Testing for Qiskit Quantum Programs](https://ieeexplore.ieee.org/document/9678563) A. Mendiluze et al <img src="https://img.shields.io/badge/ASE-2021-green.svg" alt="13-pages" align="top">
-+ [Projection-based runtime assertions for testing and debugging Quantum programs](https://dl.acm.org/doi/10.1145/3428218) Gushu Li et al <img src="https://img.shields.io/badge/OOPSLA-2020-green.svg" alt="13-pages" align="top">
++ [Projection-based runtime assertions for testing and debugging Quantum programs](https://dl.acm.org/doi/10.1145/3428218) Gushu Li et al <img src="https://img.shields.io/badge/OOPSLA-2020-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=7GVNWMR1NX4)
 + [Assertion-Based Optimization of Quantum Programs](https://arxiv.org/pdf/1810.00375) Thomas Häner et al <img src="https://img.shields.io/badge/OOPSLA-2020-green.svg" alt="13-pages" align="top">
-+ [Statistical Assertions for Quantum Programs](https://arxiv.org/abs/1905.09721) Yipeng Huang, M. Martonosi <img src="https://img.shields.io/badge/ISCA-2019-green.svg" alt="13-pages" align="top">
++ [Statistical Assertions for Quantum Programs](https://arxiv.org/abs/1905.09721) Yipeng Huang, M. Martonosi <img src="https://img.shields.io/badge/ISCA-2019-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=Jic3OcJHmRg)
 
 <h4 id="quantum-formal-verification">Quantum Formal Verification</h4>
 
-+ [CoqQ: Foundational Verification of Quantum Programs](https://arxiv.org/abs/2207.11350) L. Zhou  <img src="https://img.shields.io/badge/POPL-2022-green.svg" alt="13-pages" align="top">
-+ [Twist: Sound Reasoning for Purity and Entanglement in Quantum Programs](https://arxiv.org/abs/2205.02287) Charles Yuan et al <img src="https://img.shields.io/badge/POPL-2022-green.svg" alt="13-pages" align="top">
-+ [Giallar: Push-Button Verification for the Qiskit Quantum Compiler](https://arxiv.org/pdf/2205.00661) Runzhou Tao at al <img src="https://img.shields.io/badge/PLDI-2022-green.svg" alt="13-pages" align="top">
-+ [Quantum Relational Hoare Logic](https://arxiv.org/abs/1802.03188) Dominique Unruh <img src="https://img.shields.io/badge/POPL-2019-green.svg" alt="13-pages" align="top">
++ [CoqQ: Foundational Verification of Quantum Programs](https://arxiv.org/abs/2207.11350) L. Zhou  <img src="https://img.shields.io/badge/POPL-2022-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=RjKCP8U-1Zg)
++ [Twist: Sound Reasoning for Purity and Entanglement in Quantum Programs](https://arxiv.org/abs/2205.02287) Charles Yuan et al <img src="https://img.shields.io/badge/POPL-2022-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=H3GIBgH5Ud4)
++ [Giallar: Push-Button Verification for the Qiskit Quantum Compiler](https://arxiv.org/pdf/2205.00661) Runzhou Tao at al <img src="https://img.shields.io/badge/PLDI-2022-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=m9pR53Zcj5w)
++ [Quantum Relational Hoare Logic](https://arxiv.org/abs/1802.03188) Dominique Unruh <img src="https://img.shields.io/badge/POPL-2019-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=U1-xP2SMDc0)
 + [QWIRE: A Core Language for Quantum Circuits](https://dl.acm.org/doi/10.1145/3009837.3009894) J. Paykin et al <img src="https://img.shields.io/badge/POPL-2017-green.svg" alt="13-pages" align="top">
 + [An Algebra of Quantum Processes](https://arxiv.org/abs/0707.0330) M. Ying et al <img src="https://img.shields.io/badge/TOCL-2019-green.svg" alt="13-pages" align="top">
 
