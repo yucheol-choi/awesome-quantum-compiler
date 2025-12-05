@@ -9,8 +9,8 @@ As a student researching quantum compilers, I curate influential papers from top
 
 ## Table of Contents
 - [Survey papers](#survey-papers)
-- [Part A: Compilation Flow — From Algorithm to Pulse](#part-a-compilation-flow--from-algorithm-to-pulse)
-  - [High-Level Languages & Intermediate Representation](#language-logical-ir)
+- [Part A: Quantum Compilation Pipeline: Algo to Pulse](#part-a-compilation-flow--from-algorithm-to-pulse)
+  - [High-Level Languages and Intermediate Representation](#language-logical-ir)
   - [Hardware-Agnostic Optimization](#hardware-agnostic-optimization)
   - [Hardware-Aware Compilation & Mapping](#hardware-aware-compilation--mapping)
   - [Pulse-Level Compilation & Control](#pulse-level-compile)
@@ -41,27 +41,29 @@ As a student researching quantum compilers, I curate influential papers from top
 + [Quantum Circuit Synthesis and Compilation Optimization: Overview and Prospects](https://arxiv.org/html/2407.00736v1) Ge Yan et al 2024
 + [Quantum Compiling](https://arxiv.org/abs/2112.00187) Marco Maronese 2021
 
-  
-## Part A: Compilation Flow — From Algorithm to Pulse
+<h2 id="part-a-compilation-flow--from-algorithm-to-pulse">Part A: Quantum Compilation Pipeline: Algo to Pulse</h2>
 
-<h4 id="language-logical-ir">Language & Logical IR</h4>
+<h4 id="language-logical-ir">High-Level Language and Logical Intermediate Representation</h4>
 
-> IR Design & Transpilation Frameworks 
+> Intermediate Representation and Quantum Transpilation
 + [PHOENIX: Pauli-Based High-Level Optimization Engine for Instruction Execution on NISQ Devices](https://arxiv.org/abs/2504.03529) Zhaohui Yang et al <img src="https://img.shields.io/badge/DAC-2025-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/iqubit-org/phoenix)  
 + [LinguaQuanta: Towards a Quantum Transpiler Between OpenQASM and Quipper](https://arxiv.org/pdf/2404.08147) Scott Wesley et al <img src="https://img.shields.io/badge/Reversible Computation-2024-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/onestruggler/qasm-quipper)
 + [QASMTrans: A QASM based Quantum Transpiler Framework for NISQ Devices](https://arxiv.org/abs/2308.07581) Fei Hua et al <img src="https://img.shields.io/badge/SC-2023-green.svg" alt="13-pages" align="top">
 + [QSSA: an SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) Anurudh Peduri, Siddharth Bhat <img src="https://img.shields.io/badge/CC-2022-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/opencompl/QMLIR)  
-+ [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) David Ittah et al <img src="https://img.shields.io/badge/CC-2022-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/dime10/QIRO)
-+ [ScaffCC: A Framework for Compilation and Analysis of Quantum Computing Programs](https://arxiv.org/abs/1507.01902) Ali JavadiAbhari et al <img src="https://img.shields.io/badge/CC-2022-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/epiqc/ScaffCC) 
++ [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) David Ittah et al <img src="https://img.shields.io/badge/TQC-2022-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/dime10/QIRO)
++ [ScaffCC: A Framework for Compilation and Analysis of Quantum Computing Programs](https://arxiv.org/abs/1507.01902) Ali JavadiAbhari et al <img src="https://img.shields.io/badge/Parallel Comput-2022-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/epiqc/ScaffCC) 
 + [A MLIR Dialect for Quantum Assembly Languages](https://arxiv.org/abs/2101.11365) Alexander McCaskey, Thien Nguyen <img src="https://img.shields.io/badge/QCE-2021-green.svg" alt="13-pages" align="top">
 + [Quantum Circuit Transformations with a Multi-Level Intermediate Representation Compiler](https://arxiv.org/abs/2112.10677) Thien Nguyen et al <img src="https://img.shields.io/badge/Arxiv-2021-green.svg" alt="13-pages" align="top"> 
 + [Programming languages and compiler design for realistic quantum hardware](https://www.nature.com/articles/nature23459) Frederic T. Chong <img src="https://img.shields.io/badge/Nature-2017-green.svg" alt="13-pages" align="top">
 
 
-> Loop & Control-Flow Transforms 
+> Quantum Loop Optimization and Control Flow Transformation
++ [A Denotational Semantics for Quantum Loops](https://arxiv.org/pdf/2506.23320) Nicola Assolini, Alessandra Di Pierro <img src="https://img.shields.io/badge/PLDI-2025-green.svg" alt="13-pages" align="top">
++ [Efficient Implementation of Quantum Recursive Programs](https://arxiv.org/pdf/2408.10054) Zhicheng Zhang, Mingsheng Ying <img src="https://img.shields.io/badge/PLDI-2025-green.svg" alt="13-pages" align="top">
++ [Quantum Control Machine: The Limits of Control Flow in Quantum Programming](https://arxiv.org/pdf/2304.15000) Charles Yuan et al <img src="https://img.shields.io/badge/OOPSLA-2024-green.svg" alt="13-pages" align="top">
 + [The Limits of Control Flow in Quantum Programming](https://arxiv.org/abs/2304.15000) Charles Yuan et al <img src="https://img.shields.io/badge/OOPSLA-2023-green.svg" alt="13-pages" align="top">
 + [Software Pipelining for Quantum Loop Programs](https://arxiv.org/abs/2012.12700) Jingzhe Guo, Mingsheng Ying <img src="https://img.shields.io/badge/TSE-2023-green.svg" alt="13-pages" align="top">
-+ [Exploring the Impact of Affine Loop Transformations in Qubit Allocation](https://arxiv.org/pdf/2010.11999) Martin Kong <img src="https://img.shields.io/badge/Arxiv-2020-green.svg" alt="13-pages" align="top">
++ [On the Impact of Affine Loop Transformations in Qubit Allocation](https://arxiv.org/pdf/2010.11999) Martin Kong <img src="https://img.shields.io/badge/TQC-2021-green.svg" alt="13-pages" align="top">
   
 
 
@@ -93,14 +95,15 @@ As a student researching quantum compilers, I curate influential papers from top
 
 <h4 id="hardware-aware-compilation-mapping">Hardware-Aware Compilation & Mapping</h4>
 
-> Circuit Scheduling 
-+ [Scheduling of Operations in Quantum Compiler](https://arxiv.org/pdf/2011.04936) Toshinari Itoko, Takashi Imamichi <img src="https://img.shields.io/badge/QCE-2020-green.svg" alt="13-pages" align="top">
-+ [Two-step approach to scheduling quantum circuits](https://arxiv.org/abs/1708.00023) Gian Giacomo Guerreschi, Jongsoo Park <img src="https://img.shields.io/badge/Quantum Sci-2017-green.svg" alt="13-pages" align="top">
+> Qubit Allocation
++ [Machine-Learning-Based Qubit Allocation for Error Reduction in Quantum Circuits](https://ieeexplore.ieee.org/document/10209261) Travis LeCompte et al <img src="https://img.shields.io/badge/TQE-2023-green.svg" alt="13-pages" align="top">
++ [Qubit Allocation for Distributed Quantum Computing](https://ieeexplore.ieee.org/document/10228915) Yingling Mao et al <img src="https://img.shields.io/badge/INFOCOM-2023-green.svg" alt="13-pages" align="top">
++ [Qubit Allocation](https://hal.science/hal-01655951/file/Siraichi_QubitAllocation_CGO18.pdf) Marcos Siraichi et al <img src="https://img.shields.io/badge/CGO-2018-green.svg" alt="13-pages" align="top">
 
-> Qubit Mapping & Routing 
+
+> Qubit Mapping 
 + [S-SYNC: Shuttle & SWAP Co-Optimisation in QCCD](https://arxiv.org/abs/2505.01316) Chenghong Zhu et al <img src="https://img.shields.io/badge/ISCA-2025-green.svg" alt="13-pages" align="top">
 + [Compiling quantum circuits for dynamically field-programmable neutral atoms array processors](https://arxiv.org/pdf/2306.03487.pdf) Bochen Tan et al <img src="https://img.shields.io/badge/Quantum-2024-green.svg" alt="13-pages" align="top">
-+ [AlphaRouter: Quantum Circuit Routing with Reinforcement Learning and Tree Search](https://arxiv.org/pdf/2410.05115) Wei Tang et al <img src="https://img.shields.io/badge/QCE-2024-green.svg" alt="13-pages" align="top">
 + [Quantum Circuit Mapping Based on Incremental and Parallel SAT Solving](https://www.cs.cmu.edu/~mheule/publications/SATmap.pdf) Jiong Yang et al <img src="https://img.shields.io/badge/SAT-2024-green.svg" alt="13-pages" align="top">
 + [Qubit mapping for reconfigurable atom arrays](https://dl.acm.org/doi/abs/10.1145/3508352.3549331) Bochen Tan et al <img src="https://img.shields.io/badge/ICCAD-2022-green.svg" alt="13-pages" align="top"> [Youtube](https://youtu.be/-tr8KtDKKDU?si=l2SwrXNY3KWvLOPz)
 + [Qubit Mapping and Routing via MaxSAT](https://arxiv.org/abs/2208.13679v1) Abtin Molavi et al <img src="https://img.shields.io/badge/MICRO-2022-green.svg" alt="13-pages" align="top">
@@ -108,14 +111,25 @@ As a student researching quantum compilers, I curate influential papers from top
 + [Optimal mapping for near-term quantum architectures based on Rydberg atoms](https://arxiv.org/abs/2109.04179) S.Brandhofer et al <img src="https://img.shields.io/badge/ICCAD-2021-green.svg" alt="13-pages" align="top">
 + [Time-optimal Qubit mapping](https://dl.acm.org/doi/pdf/10.1145/3445814.3446706) Chi Zhang et al <img src="https://img.shields.io/badge/ASPLOS-2021-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=_557jSReORo)
 
+> Qubit Routing
++ [Quantum Routing with Teleportation](https://arxiv.org/pdf/2204.04185) Dhruv Devulapalli et al <img src="https://img.shields.io/badge/Physical Review Research-2024-green.svg" alt="13-pages" align="top">
++ [AlphaRouter: Quantum Circuit Routing with Reinforcement Learning and Tree Search](https://arxiv.org/pdf/2410.05115) Wei Tang et al <img src="https://img.shields.io/badge/QCE-2024-green.svg" alt="13-pages" align="top">
++ [Efficient Qubit Routing for a Globally Connected Trapped Ion Quantum Computer](https://arxiv.org/pdf/2002.12782) Mark Webber et al <img src="https://img.shields.io/badge/Advanced Quantum Technologies-2020-green.svg" alt="13-pages" align="top">
++ [On the Qubit Routing Problem](https://arxiv.org/pdf/1902.08091) Alexander Cowtan et al <img src="https://img.shields.io/badge/TQC-2019-green.svg" alt="13-pages" align="top">
 
+> Circuit Scheduling 
++ [Scheduling of Operations in Quantum Compiler](https://arxiv.org/pdf/2011.04936) Toshinari Itoko, Takashi Imamichi <img src="https://img.shields.io/badge/QCE-2020-green.svg" alt="13-pages" align="top">
++ [Two-step approach to scheduling quantum circuits](https://arxiv.org/abs/1708.00023) Gian Giacomo Guerreschi, Jongsoo Park <img src="https://img.shields.io/badge/Quantum Sci-2017-green.svg" alt="13-pages" align="top">
   
 <h4 id="pulse-level-compile">Pulse-Level Compilation & Control</h4>
 
 + [A Synergistic Compilation Workflow for Tackling Crosstalk in Quantum Machines](https://arxiv.org/abs/2207.05751) Fei Hua et al <img src="https://img.shields.io/badge/Arxiv-2023-green.svg" alt="13-pages" align="top">
 + [Hybrid Gate-Pulse Model for Variational Quantum Algorithms](https://arxiv.org/abs/2212.00661) Zhiding Liang et al <img src="https://img.shields.io/badge/Arxiv-2022-green.svg" alt="13-pages" align="top">
++ [Enabling Pulse-Level Programming, Compilation, and Execution in XACC](https://arxiv.org/pdf/2003.11971) Thien Nguyen, Alexander McCaskey <img src="https://img.shields.io/badge/TC-2020-green.svg" alt="13-pages" align="top">
 + [Resource-Efficient Quantum Computing by Breaking Abstractions](https://arxiv.org/abs/2011.00028) Yunong Shi <img src="https://img.shields.io/badge/IEEE Journal-2020-green.svg" alt="13-pages" align="top">
 + [Optimized Quantum Compilation for Near-Term Algorithms with OpenPulse](https://arxiv.org/abs/2004.11205) Pranav Gokhale et al <img src="https://img.shields.io/badge/Arxiv-2020-green.svg" alt="13-pages" align="top"> [Youtube](https://youtu.be/dtPaDmE89Yc?si=5z1tfMK7FSw-SRsw)
++ [Software Mitigation of Crosstalk on Noisy Intermediate-Scale Quantum Computers](https://arxiv.org/pdf/2001.02826) Prakash Murali et al <img src="https://img.shields.io/badge/ASPLOS-2020-green.svg" alt="13-pages" align="top">
++ [Partial Compilation of Variational Algorithms for Near-term Quantum Machines](https://arxiv.org/pdf/1909.07522) Pranav Gokhale et al <img src="https://img.shields.io/badge/MICRO-2019-green.svg" alt="13-pages" align="top">
 
 <h4 id="runtime-dynamic-execution">Runtime & Dynamic Execution</h4>
 
@@ -209,7 +223,7 @@ As a student researching quantum compilers, I curate influential papers from top
 <h4 id="superconducting-qc">Superconducting QC</h4>
 
 + [Selective Excitation of Superconducting Qubits with a Shared Control Line through Pulse Shaping](https://arxiv.org/pdf/2501.10710) Ryo Matsuda et al <img src="https://img.shields.io/badge/Arxiv-2025-green.svg" alt="13-pages" align="top">
-+ [Virtual-Z Gates and Symmetric Gate Compilation](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.020348) Arian Vezvaee et al <img src="https://img.shields.io/badge/Arxiv-2025-green.svg" alt="13-pages" align="top">
++ [Virtual-Z Gates and Symmetric Gate Compilation](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.020348) Arian Vezvaee et al <img src="https://img.shields.io/badge/Phys. Rev. X Quantum-2025-green.svg" alt="13-pages" align="top">
 + [CCMap: Hardware-Aware Compilation for Chip-to-Chip Coupler-Connected QPUs](https://arxiv.org/abs/2505.09036) Zefan Du et al <img src="https://img.shields.io/badge/Arxiv-2025-green.svg" alt="13-pages" align="top">
 + [Pulse-Based Variational Quantum Optimization and Metalearning in Superconducting Circuits](https://arxiv.org/abs/2407.12636) Yapeng Wang et al <img src="https://img.shields.io/badge/Arxiv-2024-green.svg" alt="13-pages" align="top">
 + [Direct Pulse-Level Compilation of Arbitrary Quantum Logic Gates on Superconducting Qutrits](https://arxiv.org/abs/2303.04261) Yujin Cho et al <img src="https://img.shields.io/badge/Physical Review Applied-2024-green.svg" alt="13-pages" align="top">
