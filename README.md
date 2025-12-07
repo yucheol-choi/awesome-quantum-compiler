@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yucheol-choi/)
 
 ### Description
-As a student researching quantum compilers, I curate influential papers from top conferences and journals. I hope this collection supports your work as much as it supports mine. Let’s make a positive impact - [Good together](https://youtu.be/E2vTXwQX1pE?si=14Vo7w75aTxBKI2k)🙂
+As a student researching quantum compilers, I curate influential papers from top conferences and journals. I hope this collection supports your work as much as it supports mine.🙂
 
 
 ## Table of Contents
@@ -252,7 +252,7 @@ As a student researching quantum compilers, I curate influential papers from top
 + [Pulse Family Optimization for Parametrized Quantum Gates Using Spectral Clustering](https://arxiv.org/abs/2408.00119) Robert de Keijzer et al <img src="https://img.shields.io/badge/Quantum Journal-2024-green.svg" alt="13-pages" align="top">
 + [Q-Pilot: Field Programmable Qubit Array Compilation with Flying Ancillas](https://arxiv.org/abs/2311.16190) Hanrui Wang et al <img src="https://img.shields.io/badge/DAC-2024-green.svg" alt="13-pages" align="top">
 + [Compiling Quantum Circuits for Dynamically Field Programmable Neutral Atoms Array Processors](arxiv.org/pdf/2306.03487) Daniel Bochen Tan <img src="https://img.shields.io/badge/Quantum Journal-2024-green.svg" alt="13-pages" align="top">
-+ [Quantum optimization of maximum independent set using Rydberg atom arrays](https://arxiv.org/abs/2202.09372) S. Ebadi et al <img src="https://img.shields.io/badge/Science-2022-green.svg" alt="13-pages" align="top"> [GitHub]
++ [Quantum optimization of maximum independent set using Rydberg atom arrays](https://arxiv.org/abs/2202.09372) S. Ebadi et al <img src="https://img.shields.io/badge/Science-2022-green.svg" alt="13-pages" align="top">
   
 <h4 id="photonics-qc">Photonics QC</h4>
 
