@@ -77,19 +77,13 @@ As a student researching quantum compilers, I curate influential papers from top
 + [Repeat-until-Success: Non-Deterministic Decomposition of Single-Qubit Unitaries](https://arxiv.org/abs/1311.1074) Adam Paetznick, Krysta Svore <img src="https://img.shields.io/badge/Quantum Information & Computation-2014-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/microsoft/Quantum/tree/main/samples/algorithms/repeat-until-success)  
 + [Assertion-Based Optimization of Quantum Programs](https://arxiv.org/abs/1810.00375) Häner, Hoefler, Troyer <img src="https://img.shields.io/badge/OOPSLA-2013-green.svg" alt="13-pages" align="top"> [Youtube](https://youtu.be/v7PDw-zq_oE?si=qh1JzKWSm-JQ8VcR)
 
-> Circuit Optimisation (ML-based Compile Optimisation)
+> Circuit Optimisation (ML-based)
 
 + [Optimizing Quantum Circuits, Fast and Slow](https://arxiv.org/pdf/2411.04104) Amanda Xu et al <img src="https://img.shields.io/badge/ASPLOS-2025-green.svg" alt="13-pages" align="top">
 + [Quantum circuit optimization with AlphaTensor](https://www.nature.com/articles/s42256-025-01001-1) Francisco J. R. Ruiz <img src="https://img.shields.io/badge/Nature Machine Intelligence-2025-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/google-deepmind/alphatensor_quantum)
 + [MarQSim: Reconciling Determinism and Randomness in Compiler Optimization for Quantum Simulation](https://arxiv.org/pdf/2408.03429) Xiuqi Cao at el <img src="https://img.shields.io/badge/PLDI-2025-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=PHrpg42LKTk)
-+ [Bosehedral: Compiler Optimization for Bosonic Quantum Computing](https://arxiv.org/pdf/2402.02279) Junyu Zhou et al <img src="https://img.shields.io/badge/ISCA-2024-green.svg" alt="13-pages" align="top">
-+ [Fermihedral: On the Optimal Compilation for Fermion-to-Qubit Encoding](https://arxiv.org/pdf/2403.17794) Yuhao Liu et al <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=TLhNJRZUeas)
-+ [Elivagar: Efficient Quantum Circuit Search for Classification](https://arxiv.org/pdf/2401.09393) Sashwat Anagolum et al <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=Mxkrv7TbQqc)
 + [Quarl: A Learning-Based Quantum Circuit Optimizer](https://dl.acm.org/doi/abs/10.1145/3649831) Zikun Li et al <img src="https://img.shields.io/badge/OOPSLA-2024-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/quantum-compiler/Quarl) [Youtube](https://youtu.be/DZjz88yDKC4?si=UTgp_1pQznhfs2Zs)
-+ [Machine Learning Optimization of Quantum Circuit Layouts](https://dl.acm.org/doi/full/10.1145/3565271) Alexandru Pale et al <img src="https://img.shields.io/badge/ACM TQC-2023-green.svg" alt="13-pages" align="top">  [GitHub](https://github.com/alexandrupaler/qxx)  
-+ [Synthesizing Quantum-Circuit Optimizers](https://dl.acm.org/doi/abs/10.1145/3591254) Amanda Xu et al <img src="https://img.shields.io/badge/PLDI-2023-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/qqq-wisc/queso) [Youtube](https://youtu.be/hwGBeUcHFik?si=ESI7D4bJOiHgZZ1z)
 + [Monte Carlo Graph Search for Quantum Circuit Optimization](https://arxiv.org/abs/2307.07353) Bodo Rosenhahn, Tobias J. Osborne <img src="https://img.shields.io/badge/Physical Review Journal-2023-green.svg" alt="13-pages" align="top">
-+ [2QAN: A quantum compiler for 2-local qubit Hamiltonian simulation algorithms](arxiv.org/pdf/2108.02099) Lingling Lao, Dan E. Browne <img src="https://img.shields.io/badge/ISCA-2022-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=rBThLSpNpVU)
 + [A Meet-in-the-Middle Algorithm for Fast Synthesis of Depth-Optimal Quantum Circuits](https://arxiv.org/abs/1206.0758) Matthew Amy et al <img src="https://img.shields.io/badge/IEEE TCAD-2021-green.svg" alt="13-pages" align="top">
 + [Automated optimization of large quantum circuits with continuous parameters](https://arxiv.org/abs/1710.07345) Yunseong Nam et al <img src="https://img.shields.io/badge/npj Quantum Information-2017-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/njross/optimizer)
 
@@ -105,6 +99,7 @@ As a student researching quantum compilers, I curate influential papers from top
 + [S-SYNC: Shuttle & SWAP Co-Optimisation in QCCD](https://arxiv.org/abs/2505.01316) Chenghong Zhu et al <img src="https://img.shields.io/badge/ISCA-2025-green.svg" alt="13-pages" align="top">
 + [Compiling quantum circuits for dynamically field-programmable neutral atoms array processors](https://arxiv.org/pdf/2306.03487.pdf) Bochen Tan et al <img src="https://img.shields.io/badge/Quantum-2024-green.svg" alt="13-pages" align="top">
 + [Quantum Circuit Mapping Based on Incremental and Parallel SAT Solving](https://www.cs.cmu.edu/~mheule/publications/SATmap.pdf) Jiong Yang et al <img src="https://img.shields.io/badge/SAT-2024-green.svg" alt="13-pages" align="top">
++ [Fermihedral: On the Optimal Compilation for Fermion-to-Qubit Encoding](https://arxiv.org/pdf/2403.17794) Yuhao Liu et al <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=TLhNJRZUeas)
 + [Qubit mapping for reconfigurable atom arrays](https://dl.acm.org/doi/abs/10.1145/3508352.3549331) Bochen Tan et al <img src="https://img.shields.io/badge/ICCAD-2022-green.svg" alt="13-pages" align="top"> [Youtube](https://youtu.be/-tr8KtDKKDU?si=l2SwrXNY3KWvLOPz)
 + [Qubit Mapping and Routing via MaxSAT](https://arxiv.org/abs/2208.13679v1) Abtin Molavi et al <img src="https://img.shields.io/badge/MICRO-2022-green.svg" alt="13-pages" align="top">
 + [QuCloud: A New Qubit Mapping Mechanism for Multi-programming Quantum Computing in Cloud Environment](https://ieeexplore.ieee.org/document/9407180) Lei Liu, Xinglei Dou <img src="https://img.shields.io/badge/HPCA-2021-green.svg" alt="13-pages" align="top">
@@ -120,6 +115,12 @@ As a student researching quantum compilers, I curate influential papers from top
 > Circuit Scheduling 
 + [Scheduling of Operations in Quantum Compiler](https://arxiv.org/pdf/2011.04936) Toshinari Itoko, Takashi Imamichi <img src="https://img.shields.io/badge/QCE-2020-green.svg" alt="13-pages" align="top">
 + [Two-step approach to scheduling quantum circuits](https://arxiv.org/abs/1708.00023) Gian Giacomo Guerreschi, Jongsoo Park <img src="https://img.shields.io/badge/Quantum Sci-2017-green.svg" alt="13-pages" align="top">
+
+> Circuit Optimisation (HW-aware)
++ [Elivagar: Efficient Quantum Circuit Search for Classification](https://arxiv.org/pdf/2401.09393) Sashwat Anagolum et al <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=Mxkrv7TbQqc)
++ [Machine Learning Optimization of Quantum Circuit Layouts](https://dl.acm.org/doi/full/10.1145/3565271) Alexandru Pale et al <img src="https://img.shields.io/badge/ACM TQC-2023-green.svg" alt="13-pages" align="top">  [GitHub](https://github.com/alexandrupaler/qxx)  
++ [Synthesizing Quantum-Circuit Optimizers](https://dl.acm.org/doi/abs/10.1145/3591254) Amanda Xu et al <img src="https://img.shields.io/badge/PLDI-2023-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/qqq-wisc/queso) [Youtube](https://youtu.be/hwGBeUcHFik?si=ESI7D4bJOiHgZZ1z)
++ [2QAN: A quantum compiler for 2-local qubit Hamiltonian simulation algorithms](arxiv.org/pdf/2108.02099) Lingling Lao, Dan E. Browne <img src="https://img.shields.io/badge/ISCA-2022-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=rBThLSpNpVU)
 
 > Error-Aware & Noise-Aware Compilation
 
@@ -192,7 +193,6 @@ As a student researching quantum compilers, I curate influential papers from top
 
 
 
-
 <h4 id="quantum-circuit-analysis">Quantum Circuit Analysis</h4>
 
 + [Character Complexity: A Novel Measure for Quantum Circuit Analysis](https://arxiv.org/abs/2408.09641) Daksh Shami <img src="https://img.shields.io/badge/2024-green.svg" alt="13-pages" align="top">
@@ -227,6 +227,7 @@ As a student researching quantum compilers, I curate influential papers from top
 + [Selective Excitation of Superconducting Qubits with a Shared Control Line through Pulse Shaping](https://arxiv.org/pdf/2501.10710) Ryo Matsuda et al <img src="https://img.shields.io/badge/2025-green.svg" alt="13-pages" align="top">
 + [Virtual-Z Gates and Symmetric Gate Compilation](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.020348) Arian Vezvaee et al <img src="https://img.shields.io/badge/Physical Review X Quantum-2025-green.svg" alt="13-pages" align="top">
 + [CCMap: Hardware-Aware Compilation for Chip-to-Chip Coupler-Connected QPUs](https://arxiv.org/abs/2505.09036) Zefan Du et al <img src="https://img.shields.io/badge/2025-green.svg" alt="13-pages" align="top">
++ [Bosehedral: Compiler Optimization for Bosonic Quantum Computing](https://arxiv.org/pdf/2402.02279) Junyu Zhou et al <img src="https://img.shields.io/badge/ISCA-2024-green.svg" alt="13-pages" align="top">
 + [Pulse-Based Variational Quantum Optimization and Metalearning in Superconducting Circuits](https://arxiv.org/abs/2407.12636) Yapeng Wang et al <img src="https://img.shields.io/badge/Arxiv-2024-green.svg" alt="13-pages" align="top">
 + [Direct Pulse-Level Compilation of Arbitrary Quantum Logic Gates on Superconducting Qutrits](https://arxiv.org/abs/2303.04261) Yujin Cho et al <img src="https://img.shields.io/badge/Physical Review Applied-2024-green.svg" alt="13-pages" align="top">
 + [Sensitivity-Adapted Closed-Loop Optimization for High-Fidelity CZ Gates](https://arxiv.org/abs/2412.17454) Niklas J. Glaser et al <img src="https://img.shields.io/badge/2024-green.svg" alt="13-pages" align="top">
@@ -301,8 +302,11 @@ Impact Factor > 10
 + [Nature Physics](https://www.nature.com/nphys)  
 + [Nature Communications](https://www.nature.com/ncomms)
 + [PRX Quantum](https://journals.aps.org/prxquantum)
-  
++ [Progress in Quantum Electronics](https://www.sciencedirect.com/journal/progress-in-quantum-electronics)
+
 Impact Factor > 3
++ [Physical Review Letters](https://journals.aps.org/prl)
++ [IEEE TQE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8780569)
 + [npj Quantum Information](https://www.nature.com/npjqi)
 + [ACM TQC](https://dl.acm.org/journal/tqc)
 + [Quantum](https://quantum-journal.org/)
