@@ -47,7 +47,6 @@ As a student researching quantum compilers, I curate influential papers from top
 
 > Intermediate Representation and Quantum Transpilation
 + [PHOENIX: Pauli-Based High-Level Optimization Engine for Instruction Execution on NISQ Devices](https://arxiv.org/abs/2504.03529) Zhaohui Yang et al <img src="https://img.shields.io/badge/DAC-2025-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/iqubit-org/phoenix)  
-+ [LinguaQuanta: Towards a Quantum Transpiler Between OpenQASM and Quipper](https://arxiv.org/pdf/2404.08147) Scott Wesley et al <img src="https://img.shields.io/badge/Reversible Computation-2024-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/onestruggler/qasm-quipper)
 + [QASMTrans: A QASM based Quantum Transpiler Framework for NISQ Devices](https://arxiv.org/abs/2308.07581) Fei Hua et al <img src="https://img.shields.io/badge/SC-2023-green.svg" alt="13-pages" align="top">
 + [QSSA: an SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) Anurudh Peduri, Siddharth Bhat <img src="https://img.shields.io/badge/CC-2022-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/opencompl/QMLIR)  
 + [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) David Ittah et al <img src="https://img.shields.io/badge/TQC-2022-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/dime10/QIRO)
@@ -67,7 +66,7 @@ As a student researching quantum compilers, I curate influential papers from top
   
 
 
-<h4 id="hardware-agnostic-optimization">Hardware-Agnostic Optimization</h4>
+<h4 id="hardware-agnostic-optimization">Hardware-Agnostic Compilation</h4>
 
 > Quantum Program Optimization 
 + [SuperstaQ: Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) Campbell et al. <img src="https://img.shields.io/badge/QCE-2023-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/Infleqtion/client-superstaq)
@@ -88,7 +87,7 @@ As a student researching quantum compilers, I curate influential papers from top
 + [Automated optimization of large quantum circuits with continuous parameters](https://arxiv.org/abs/1710.07345) Yunseong Nam et al <img src="https://img.shields.io/badge/npj Quantum Information-2017-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/njross/optimizer)
 
 
-<h4 id="hardware-aware-compilation-mapping">Hardware-Aware Compilation & Mapping</h4>
+<h4 id="hardware-aware-compilation-mapping">Hardware-Aware Compilation</h4>
 
 > Qubit Allocation
 + [Machine-Learning-Based Qubit Allocation for Error Reduction in Quantum Circuits](https://ieeexplore.ieee.org/document/10209261) Travis LeCompte et al <img src="https://img.shields.io/badge/TQE-2023-green.svg" alt="13-pages" align="top">
@@ -139,7 +138,7 @@ As a student researching quantum compilers, I curate influential papers from top
 + [Practical Quantum Error Mitigation for Near-Future Applications](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509) Suguru Endo et al <img src="https://img.shields.io/badge/Physical Review X-2018-green.svg" alt="13-pages" align="top">
 + [Error Mitigation for Short-Depth Quantum Circuits](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509) Kristan Temme et al <img src="https://img.shields.io/badge/Physical Review Letter-2017-green.svg" alt="13-pages" align="top">
 
-<h4 id="pulse-level-compile">Pulse-Level Compilation & Control</h4>
+<h4 id="pulse-level-compile">Pulse-Level Compilation</h4>
 
 + [A Synergistic Compilation Workflow for Tackling Crosstalk in Quantum Machines](https://arxiv.org/abs/2207.05751) Fei Hua et al <img src="https://img.shields.io/badge/Arxiv-2023-green.svg" alt="13-pages" align="top">
 + [Hybrid Gate-Pulse Model for Variational Quantum Algorithms](https://arxiv.org/abs/2212.00661) Zhiding Liang et al <img src="https://img.shields.io/badge/Arxiv-2022-green.svg" alt="13-pages" align="top">
@@ -187,6 +186,8 @@ As a student researching quantum compilers, I curate influential papers from top
 + [Dependency-Aware Compilation for Surface Code Quantum Architectures](https://arxiv.org/abs/2311.18042) Abtin Molavi et al <img src="https://img.shields.io/badge/OOPSLA-2025-green.svg" alt="13-pages" align="top">
 + [Lattice Surgery Compilation Beyond the Surface Code](https://arxiv.org/abs/2504.10591) Laura S. Herzog et al <img src="https://img.shields.io/badge/-2025-green.svg" alt="13-pages" align="top">
 + [A High Performance Compiler for Very Large Scale Surface Code Computations](https://arxiv.org/abs/2302.02459) George Watkins et al <img src="https://img.shields.io/badge/Quantum-2024-green.svg" alt="13-pages" align="top">
++ [Realistic Cost to Execute Practical Quantum Circuits using Direct Clifford+T Lattice Surgery Compilation](https://arxiv.org/abs/2311.10686) Tyler LeBlond et al <img src="https://img.shields.io/badge/TQC-2024-green.svg" alt="13-pages" align="top">
++ [Surface code compilation via edge-disjoint paths](https://arxiv.org/abs/2110.11493) Michael Beverland et al <img src="https://img.shields.io/badge/PRX Quantum-2022-green.svg" alt="13-pages" align="top">
 + [A Resource-Allocating Compiler for Lattice Surgery](https://arxiv.org/abs/2506.04620) Alan Robertson et al <img src="https://img.shields.io/badge/QCS-2020-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/latticesurgery-com/lattice-surgery-compiler)
 + [Lattice Surgery Translation for Quantum Computation](https://arxiv.org/abs/1608.05208) Daniel Herr et al <img src="https://img.shields.io/badge/New Journal of Physics-2017-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/herr-d/LS_translation)
 + [Resource Optimized Quantum Architectures for Surface Code Implementations of Magic-State Distillation](https://arxiv.org/pdf/1904.11528) Adam Holmes et al
@@ -263,12 +264,12 @@ As a student researching quantum compilers, I curate influential papers from top
   
 <h4 id="photonics-qc">Photonics QC</h4>
 
-+ [OneAdapt: Adaptive Compilation for Resource-Constrained Photonic One-Way Quantum Computing](https://arxiv.org/abs/2504.17116) Hezi Zhang et al <img src="https://img.shields.io/badge/Micro-2025-green.svg" alt="13-pages" align="top">
++ [OneAdapt: Adaptive Compilation for Resource-Constrained Photonic One-Way Quantum Computing](https://arxiv.org/abs/2504.17116) Hezi Zhang et al <img src="https://img.shields.io/badge/MICRO-2025-green.svg" alt="13-pages" align="top">
 + [A Scalable and Robust Compilation Framework for Emitter-Photonic Quantum Computing](https://arxiv.org/abs/2503.16346) Xiangyu Ren et al <img src="https://img.shields.io/badge/DAC-2025-green.svg" alt="13-pages" align="top">
 + [OnePerc: A Randomness-aware Compiler for Photonic Quantum Computing](https://arxiv.org/abs/2403.01829) Hezi Zhang et al <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=TLhNJRZUeas)
 + [OneQ: A Compilation Framework for Photonic One-Way Quantum Computation](https://arxiv.org/abs/2209.01545) Hezi Zhang et al <img src="https://img.shields.io/badge/ISCA-2023-green.svg" alt="13-pages" align="top">
 + [A Compiler for Universal Photonic Quantum Computers](https://arxiv.org/abs/2210.09251) Felix Zilk et al <img src="https://img.shields.io/badge/QCS-2022-green.svg" alt="13-pages" align="top">
-+ [A Generic Measurement-Based Quantum Compilation Pipeline](https://arxiv.org/abs/2302.00795) Nader M. Mohammadizadeh et al <img src="https://img.shields.io/badge/Arxiv-2023-green.svg" alt="13-pages" align="top">
++ [A Generic Measurement-Based Quantum Compilation Pipeline](https://arxiv.org/abs/2302.00795) Nader M. Mohammadizadeh et al <img src="https://img.shields.io/badge/2023-green.svg" alt="13-pages" align="top">
 + [Strawberry Fields: A Software Platform for Photonic Quantum Computing](https://arxiv.org/pdf/1804.03159) Nathan Killoran et al <img src="https://img.shields.io/badge/Quantum Journal-2018-green.svg" alt="13-pages" align="top">
 
 
