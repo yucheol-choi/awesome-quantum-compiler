@@ -208,8 +208,14 @@ As a student researching quantum compilers, I curate influential papers from top
 + [OpaQue: Program Output Obfuscation for Quantum Software Circuits in Quantum Clouds](https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-32.pdf) Tirthak Patel et al <img src="https://img.shields.io/badge/ICS-2025-green.svg" alt="13-pages" align="top">
 + [TetrisLock: Quantum Circuit Split Compilation with Interlocking Patterns](https://arxiv.org/abs/2503.11982) Qian Wang et al <img src="https://img.shields.io/badge/DAC-2025-green.svg" alt="13-pages" align="top">  ￼
 + [OPAQUE: Obfuscating Phase in Quantum Circuit Compilation for Efficient IP Protection](https://www.arxiv.org/abs/2502.16605) Anees Rehman et al <img src="https://img.shields.io/badge/ISQED-2025-green.svg" alt="13-pages" align="top"> 
++ [E-loq: Enhanced locking for quantum circuit IP protection](https://arxiv.org/abs/2412.17101) Y Liu et al <img src="https://img.shields.io/badge/QCE-2025-green.svg" alt="IP-Protection" align="top">
++ [Obfuscating quantum hybrid-classical algorithms for security and privacy](https://arxiv.org/abs/2305.02379) S Upadhyay, S Ghosh <img src="https://img.shields.io/badge/QCE-2024-green.svg" alt="Hybrid-Algo" align="top">
++ [Leveraging Quantum Circuit Cutting for Obfuscation and Intellectual Property Protection](https://arxiv.org/pdf/2511.04842) G Typaldos, W Tang, J Szefer <img src="https://img.shields.io/badge/QCE-2024-green.svg" alt="Circuit-Cutting" align="top">
 + [Split Compilation for Security of Quantum Circuits](https://pure.psu.edu/en/publications/split-compilation-for-security-of-quantum-circuits) Abdullah Ash Saki et al <img src="https://img.shields.io/badge/ICCAD-2021-green.svg" alt="13-pages" align="top">
   
+
+
+
 > Qudit Compilation
 + [MQT Qudits: A Software Framework for Mixed-Dimensional Quantum Computing](https://arxiv.org/abs/2410.02854) Lukas Burgholzer et al <img src="https://img.shields.io/badge/-2024-green.svg" alt="13-pages" align="top">
 + [Efficient, direct compilation of SU(N) operations into SNAP](https://arxiv.org/abs/2307.11900) Vladislav D. Kurpas et al <img src="https://img.shields.io/badge/Physical Review A-2023-green.svg" alt="13-pages" align="top">
