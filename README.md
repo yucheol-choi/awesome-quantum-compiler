@@ -4,8 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yucheol-choi/)
 
 ### Description
-As a student researching quantum compilers, I curate influential papers from top conferences and journals. By studying Quantum Compilation written by Marco Maronese (2021), we are able to build a solid conceptual understanding of this field. Then, through [Quantum Compilation Process: A Survey](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) by Javier Cardama et al. (2025), we can gain a comprehensive view of the overall compilation workflow. I hope this collection supports your work as much as it supports mine.🙂
-
+By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by Marco Maronese (2021) and [Quantum Compilation Process](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) by Javier Cardama et al. (2025), we can get a clear sense of how to enter and navigate the field of quantum compilation. I hope this collection supports your work as much as it supports mine. 🙂
 
 ## Table of Contents
 - [Fundamental Papers](#fundamental-papers)
