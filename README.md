@@ -28,6 +28,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
   - [Topological QC](#topological-qc)
 - [Part D: Fault Tolenrant Quantum Compilation](#part-d-fault-tolerant-quantum-compilation)
   - [Error Correction](#error-correction)
+  - [Lattice Surgery & Surface Code Compilationh](#lattice-surgery-surface-code-compilation)
 - [Part E: Conference and Journal](#part-e-conference-and-journal) 
   - [Top-tier Conference Deadline](#conference-deadline)
   - [Journals](#journals)
@@ -142,12 +143,6 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Software Mitigation of Crosstalk on Noisy Intermediate-Scale Quantum Computers](https://arxiv.org/pdf/2001.02826) Prakash Murali et al <img src="https://img.shields.io/badge/ASPLOS-2020-green.svg" alt="13-pages" align="top">
 + [Partial Compilation of Variational Algorithms for Near-term Quantum Machines](https://arxiv.org/pdf/1909.07522) Pranav Gokhale et al <img src="https://img.shields.io/badge/MICRO-2019-green.svg" alt="13-pages" align="top">
 
-<h4 id="runtime-dynamic-execution">Runtime & Dynamic Execution</h4>
-
-+ [SCIM MILQ: An HPC Quantum Scheduler](https://arxiv.org/abs/2404.03512) Philipp Seitz et al <img src="https://img.shields.io/badge/QCE-2024-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/qc-tum/milq) 
-+ [Qibolab: An Open-Source Hybrid Quantum Operating System](https://quantum-journal.org/papers/q-2024-02-12-1247/) Stavros Efthymiou et al <img src="https://img.shields.io/badge/Quantum Journal-2024-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/qiboteam/qibolab) 
-+ [Combining Quantum Processors with Real-Time Classical Communication](https://www.nature.com/articles/s41586-024-08178-2) Almudena Carrera Vazquez et al <img src="https://img.shields.io/badge/Nature-2024-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/eggerdj/cut_graph_state_data) 
-
 <h2 id="part-b-quantum-compiler-ecosystem">Part B: Quantum Compiler Ecosystem</h2>
 
 <h4 id="quantum-testing-and-debugging">Quantum Testing and Debugging</h4>
@@ -172,19 +167,6 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Quantum Relational Hoare Logic](https://arxiv.org/abs/1802.03188) Dominique Unruh <img src="https://img.shields.io/badge/POPL-2019-green.svg" alt="13-pages" align="top"> [Youtube](https://www.youtube.com/watch?v=U1-xP2SMDc0)
 + [QWIRE: A Core Language for Quantum Circuits](https://dl.acm.org/doi/10.1145/3009837.3009894) J. Paykin et al <img src="https://img.shields.io/badge/POPL-2017-green.svg" alt="13-pages" align="top">
 + [An Algebra of Quantum Processes](https://arxiv.org/abs/0707.0330) M. Ying et al <img src="https://img.shields.io/badge/TOCL-2019-green.svg" alt="13-pages" align="top">
-
-
-<h4 id="lattice-surgery-surface-code-compilation">Lattice Surgery & Surface Code Compilation</h4>
-
-+ [CaliQEC: In-situ Qubit Calibration for Surface Code Quantum Error Correction](https://dl.acm.org/doi/pdf/10.1145/3695053.3731042) <img src="https://img.shields.io/badge/ISCA-2025-green.svg" alt="13-pages" align="top"> 
-+ [Dependency-Aware Compilation for Surface Code Quantum Architectures](https://arxiv.org/abs/2311.18042) Abtin Molavi et al <img src="https://img.shields.io/badge/OOPSLA-2025-green.svg" alt="13-pages" align="top">
-+ [Lattice Surgery Compilation Beyond the Surface Code](https://arxiv.org/abs/2504.10591) Laura S. Herzog et al <img src="https://img.shields.io/badge/-2025-green.svg" alt="13-pages" align="top">
-+ [A High Performance Compiler for Very Large Scale Surface Code Computations](https://arxiv.org/abs/2302.02459) George Watkins et al <img src="https://img.shields.io/badge/Quantum-2024-green.svg" alt="13-pages" align="top">
-+ [Realistic Cost to Execute Practical Quantum Circuits using Direct Clifford+T Lattice Surgery Compilation](https://arxiv.org/abs/2311.10686) Tyler LeBlond et al <img src="https://img.shields.io/badge/TQC-2024-green.svg" alt="13-pages" align="top">
-+ [Surface code compilation via edge-disjoint paths](https://arxiv.org/abs/2110.11493) Michael Beverland et al <img src="https://img.shields.io/badge/PRX Quantum-2022-green.svg" alt="13-pages" align="top">
-+ [A Resource-Allocating Compiler for Lattice Surgery](https://arxiv.org/abs/2506.04620) Alan Robertson et al <img src="https://img.shields.io/badge/QCS-2020-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/latticesurgery-com/lattice-surgery-compiler)
-+ [Lattice Surgery Translation for Quantum Computation](https://arxiv.org/abs/1608.05208) Daniel Herr et al <img src="https://img.shields.io/badge/New Journal of Physics-2017-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/herr-d/LS_translation)
-+ [Resource Optimized Quantum Architectures for Surface Code Implementations of Magic-State Distillation](https://arxiv.org/pdf/1904.11528) Adam Holmes et al
 
 
 <h4 id="quantum-os">Quantum Operating System</h4>
@@ -218,6 +200,7 @@ To be continue..
 + [Adaptive Compilation of Multi-Level Quantum Operations](https://arxiv.org/abs/2206.03842) David R. M. Arvidsson-Shukur et al <img src="https://img.shields.io/badge/QCE-2022-green.svg" alt="13-pages" align="top">
 
 > Distributed Quantum Compilation 
+
 To be continue..
 </br>
 
@@ -296,9 +279,6 @@ To be continue..
 + <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top"> [Error correcting codes in quantum theory](https://users.physics.ox.ac.uk/~Steane/qec/Steane_PRL95.pdf) A. M. Steane (Physical Review Letters, 1996) <img src="https://img.shields.io/badge/Citations-3700+-blue.svg" alt="Citations: 2500" align="top">
 + <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top"> [Fault-tolerant quantum computation](https://arxiv.org/abs/quant-ph/9712048) J. Preskill (Proceedings of the Royal Society A, 1998) <img src="https://img.shields.io/badge/Citations-670-blue.svg" alt="Citations: 670" align="top">
 
-
-
-
 <h4 id="error-correction">Error correction</h4>
 
 + [Resource-Efficient Context-Aware Dynamical Decoupling Embedding for Arbitrary Large-Scale Quantum Algorithms](https://link.aps.org/doi/10.1103/PRXQuantum.6.010332) Paul Coote et al <img src="https://img.shields.io/badge/PRX Quantum-2025-green.svg" alt="13-pages" align="top">
@@ -316,6 +296,18 @@ To be continue..
 + [Practical Quantum Error Mitigation for Near-Future Applications](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509) Suguru Endo et al <img src="https://img.shields.io/badge/Physical Review X-2018-green.svg" alt="13-pages" align="top">
 + [Error Mitigation for Short-Depth Quantum Circuits](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509) Kristan Temme et al <img src="https://img.shields.io/badge/Physical Review Letter-2017-green.svg" alt="13-pages" align="top">
 
+
+<h4 id="lattice-surgery-surface-code-compilation">Lattice Surgery & Surface Code Compilation</h4>
+
++ [CaliQEC: In-situ Qubit Calibration for Surface Code Quantum Error Correction](https://dl.acm.org/doi/pdf/10.1145/3695053.3731042) <img src="https://img.shields.io/badge/ISCA-2025-green.svg" alt="13-pages" align="top"> 
++ [Dependency-Aware Compilation for Surface Code Quantum Architectures](https://arxiv.org/abs/2311.18042) Abtin Molavi et al <img src="https://img.shields.io/badge/OOPSLA-2025-green.svg" alt="13-pages" align="top">
++ [Lattice Surgery Compilation Beyond the Surface Code](https://arxiv.org/abs/2504.10591) Laura S. Herzog et al <img src="https://img.shields.io/badge/-2025-green.svg" alt="13-pages" align="top">
++ [A High Performance Compiler for Very Large Scale Surface Code Computations](https://arxiv.org/abs/2302.02459) George Watkins et al <img src="https://img.shields.io/badge/Quantum-2024-green.svg" alt="13-pages" align="top">
++ [Realistic Cost to Execute Practical Quantum Circuits using Direct Clifford+T Lattice Surgery Compilation](https://arxiv.org/abs/2311.10686) Tyler LeBlond et al <img src="https://img.shields.io/badge/TQC-2024-green.svg" alt="13-pages" align="top">
++ [Surface code compilation via edge-disjoint paths](https://arxiv.org/abs/2110.11493) Michael Beverland et al <img src="https://img.shields.io/badge/PRX Quantum-2022-green.svg" alt="13-pages" align="top">
++ [A Resource-Allocating Compiler for Lattice Surgery](https://arxiv.org/abs/2506.04620) Alan Robertson et al <img src="https://img.shields.io/badge/QCS-2020-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/latticesurgery-com/lattice-surgery-compiler)
++ [Lattice Surgery Translation for Quantum Computation](https://arxiv.org/abs/1608.05208) Daniel Herr et al <img src="https://img.shields.io/badge/New Journal of Physics-2017-green.svg" alt="13-pages" align="top"> [GitHub](https://github.com/herr-d/LS_translation)
++ [Resource Optimized Quantum Architectures for Surface Code Implementations of Magic-State Distillation](https://arxiv.org/pdf/1904.11528) Adam Holmes et al
 
 
 <h2 id="part-e-conference-and-journal">Part E: Conference and Journal</h2>
