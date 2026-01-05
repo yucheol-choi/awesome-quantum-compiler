@@ -28,7 +28,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
   - [Topological](#topological-qc)
 - [Fault-Tolenrant Quantum Compilation](#part-d-fault-tolerant-quantum-compilation)
   - [Quantum Error Correction](#error-correction)
-  - [Lattice Surgery & Surface Code Compilationh](#lattice-surgery-surface-code-compilation)
+  - [Lattice Surgery & Surface Code Compilation](#lattice-surgery-surface-code-compilation)
 - [Conference and Journal](#part-e-conference-and-journal) 
   - [Top-tier Conference Deadline](#conference-deadline)
   - [Journals](#journals)
@@ -36,21 +36,28 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 <h2 id="fundamental-papers">Fundamental papers</h2>
 
-+ [Elementary gates for quantum computation](https://arxiv.org/abs/quant-ph/9503016) A. Barenco et al. <img src="https://img.shields.io/badge/Citations-4500+-blue.svg" alt="Citations: 3700" align="top">
-+ [A transformation-based algorithm for reversible logic synthesis](https://dl.acm.org/doi/10.1145/775832.775915) Miller, Maslov & Dueck <img src="https://img.shields.io/badge/Citations-500+-blue.svg" alt="Citations: 3700" align="top">
-+ [Minimal universal two-qubit controlled-NOT-based circuits](https://arxiv.org/abs/quant-ph/0308033) Miller, Maslov & Dueck <img src="https://img.shields.io/badge/Citations-300+-blue.svg" alt="Citations: 3700" align="top">
-+ [Logical reversibility of computation](https://dl.acm.org/doi/10.1147/rd.176.0525) Miller, Maslov & Dueck <img src="https://img.shields.io/badge/Citations-5200+-blue.svg" alt="Citations: 3700" align="top">
-+ [Conservative logic](https://link.springer.com/article/10.1007/BF01857727) Miller, Maslov & Dueck <img src="https://img.shields.io/badge/Citations-1980+-blue.svg" alt="Citations: 3700" align="top">
-+ [Two-bit gates are universal for quantum computation](https://arxiv.org/abs/cond-mat/9407022) D. P. DiVincenzo <img src="https://img.shields.io/badge/Citations-1000+-blue.svg" alt="Citations: 1000" align="top">
-+ [Approximation by quantum circuits](https://arxiv.org/abs/quant-ph/9508006) E. Knill <img src="https://img.shields.io/badge/Citations-300+-blue.svg" alt="Citations: 300" align="top">
-+ [Optimal Quantum Circuits for General Two-Qubit Gates](https://arxiv.org/abs/quant-ph/0308006) Farrokh Vatan, Colin Williams <img src="https://img.shields.io/badge/Citations-580+-blue.svg" alt="Citations: 300" align="top"> <img src="https://img.shields.io/badge/Qiskit-UnitarySynthesis()-yellow.svg" alt="Citations: 3700" align="top">
-+ [An Introduction to Cartan’s KAK Decomposition for QC Programmers](https://arxiv.org/abs/quant-ph/0507171) Robert R. Tucci <img src="https://img.shields.io/badge/Citations-580+-blue.svg" alt="Citations: 120+" align="top"> <img src="https://img.shields.io/badge/Cirq-KAKDecomposition()-yellow.svg" alt="Citations: 3700" align="top">
-+ [Nonlocal properties of two-qubit gates and mixed states](https://arxiv.org/abs/quant-ph/0002045) Yuriy Makhlin <img src="https://img.shields.io/badge/<t|ket>-NormaliseTK2()-yellow.svg" alt="Citations: 3700" align="top">
-+ [Improved simulation of stabilizer circuits](https://arxiv.org/abs/quant-ph/0406196) Scott Aaronson, Daniel Gottesman <img src="https://img.shields.io/badge/Citations-2100+-blue.svg" alt="Citations: 300" align="top"> <img src="https://img.shields.io/badge/<t|ket>-CliffordSimp()-yellow.svg" alt="Citations: 3700" align="top">
-+ [Methodology for quantum logic gate construction](https://arxiv.org/abs/quant-ph/0002039) H. Zhou, D. Y. Leung, and I. L. Chuang <img src="https://img.shields.io/badge/Citations-300+-blue.svg" alt="Citations: 300" align="top">
-+ [Quantum circuits for general multiqubit gates](https://arxiv.org/abs/quant-ph/0404089) M. Möttönen et al. <img src="https://img.shields.io/badge/Citations-200+-blue.svg" alt="Citations: 200" align="top">
-+ [Efficient decomposition of quantum gates](https://arxiv.org/abs/quant-ph/0312218) J. J. Vartiainen et al. <img src="https://img.shields.io/badge/Citations-300+-blue.svg" alt="Citations: 300" align="top">
-+ [Interacting Quantum Observables: Categorical Algebra and Diagrammatics](https://arxiv.org/abs/0906.4725) <img src="https://img.shields.io/badge/Citations-600+-blue.svg" alt="Citations: 300" align="top"> <img src="https://img.shields.io/badge/<t|ket>-ZXGraphlikeOptimisation()-yellow.svg" alt="Citations: 3700" align="top">
++ <img src="https://img.shields.io/badge/ Bible -lightblue.svg" alt="17-pages" align="top"> [Quantum Computation and Quantum Information](https://profmcruz.wordpress.com/wp-content/uploads/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf) Michael Nielsen and Isaac Chuang
++ [Two-bit gates are universal for quantum computation](https://arxiv.org/abs/cond-mat/9407022) D. P. DiVincenzo <img src="https://img.shields.io/badge/Citations-1000+-blue.svg" alt="Citations: 1000" align="top"> (1994)
++ [Elementary gates for quantum computation](https://arxiv.org/abs/quant-ph/9503016) A. Barenco et al. <img src="https://img.shields.io/badge/Citations-4500+-blue.svg" alt="Citations: 3700" align="top"> <img src="https://img.shields.io/badge/Qiskit-GatesInBasis()-yellow.svg" alt="Citations: 3700" align="top"> (1995)
++ [Approximation by quantum circuits](https://arxiv.org/abs/quant-ph/9508006) E. Knill <img src="https://img.shields.io/badge/Citations-300+-blue.svg" alt="Citations: 300" align="top"> (1995)
++ [Quantum logic gates in optical lattices](https://arxiv.org/abs/quant-ph/9806021) Gavin K. Brennen et al. <img src="https://img.shields.io/badge/Citations-1000+-blue.svg" alt="Citations: 3700" align="top"> (1997)
++ [Methodology for quantum logic gate construction](https://arxiv.org/abs/quant-ph/0002039) H. Zhou, D. Y. Leung, and I. L. Chuang <img src="https://img.shields.io/badge/Citations-300+-blue.svg" alt="Citations: 300" align="top"> (2000)
++ [Nonlocal properties of two-qubit gates and mixed states and optimization of quantum computations](https://arxiv.org/abs/quant-ph/0002045) Yuriy Makhlin <img src="https://img.shields.io/badge/tket-NormaliseTK2()-yellow.svg" alt="Citations: 3700" align="top"> <img src="https://img.shields.io/badge/tket-DecomposeTK2()-yellow.svg" alt="Citations: 3700" align="top"> <img src="https://img.shields.io/badge/Qiskit-GateDirection()-yellow.svg" alt="Citations: 3700" align="top"> (2000)
++ [A transformation-based algorithm for reversible logic synthesis](https://dl.acm.org/doi/10.1145/775832.775915) Miller, Maslov & Dueck <img src="https://img.shields.io/badge/Citations-500+-blue.svg" alt="Citations: 3700" align="top"> (2003)
++ [Optimal Quantum Circuits for General Two-Qubit Gates](https://arxiv.org/abs/quant-ph/0308006) Farrokh Vatan, Colin Williams <img src="https://img.shields.io/badge/Citations-580+-blue.svg" alt="Citations: 300" align="top"> <img src="https://img.shields.io/badge/Qiskit-UnitarySynthesis()-yellow.svg" alt="Citations: 3700" align="top"> (2003)
++ [Efficient decomposition of quantum gates](https://arxiv.org/abs/quant-ph/0312218) J. J. Vartiainen et al. <img src="https://img.shields.io/badge/Citations-300+-blue.svg" alt="Citations: 300" align="top"> (2003)
++ [Improved simulation of stabilizer circuits](https://arxiv.org/abs/quant-ph/0406196) Scott Aaronson, Daniel Gottesman <img src="https://img.shields.io/badge/Citations-2100+-blue.svg" alt="Citations: 300" align="top"> <img src="https://img.shields.io/badge/tket-CliffordSimp()-yellow.svg" alt="Citations: 3700" align="top"> (2004)
++ [Quantum circuits for general multiqubit gates](https://arxiv.org/abs/quant-ph/0404089) M. Möttönen et al. <img src="https://img.shields.io/badge/Citations-200+-blue.svg" alt="Citations: 200" align="top"> (2004)
++ [Synthesis of quantum-logic circuits](https://arxiv.org/abs/quant-ph/0406176) Vivek V. Shende et al. <img src="https://img.shields.io/badge/Citations-1000+-blue.svg" alt="Citations: 300" align="top"> <img src="https://img.shields.io/badge/Cirq-merge_single_qubit series-yellow.svg" alt="Citations: 3700" align="top"> (2004)
++ [Minimal universal two-qubit controlled-NOT-based circuits](https://arxiv.org/abs/quant-ph/0308033) Miller, Maslov & Dueck <img src="https://img.shields.io/badge/Citations-300+-blue.svg" alt="Citations: 3700" align="top"> (2004)
++ [An Introduction to Cartan’s KAK Decomposition for QC Programmers](https://arxiv.org/abs/quant-ph/0507171) Robert R. Tucci <img src="https://img.shields.io/badge/Citations-580+-blue.svg" alt="Citations: 120+" align="top"> <img src="https://img.shields.io/badge/Cirq-KAKDecomposition()-yellow.svg" alt="Citations: 3700" align="top"> (2005)
++ [The Solovay-Kitaev algorithm](https://arxiv.org/abs/quant-ph/0505030) Christopher M. Dawson, Michael A. Nielsen <img src="https://img.shields.io/badge/Citations-900+-blue.svg" alt="Citations: 300" align="top"> <img src="https://img.shields.io/badge/Qiskit-SolovayKitaev()-yellow.svg" alt="Citations: 3700" align="top"> (2005)
+
+
+
+
+
+
 
 <h2 id="part-a-compilation-flow--from-algorithm-to-pulse">Quantum Compilation Pipeline</h2>
 
@@ -58,14 +65,13 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 > Intermediate Representation and Quantum Transpilation
 + [PHOENIX: Pauli-Based High-Level Optimization Engine for Instruction Execution on NISQ Devices](https://arxiv.org/abs/2504.03529) Zhaohui Yang et al <img src="https://img.shields.io/badge/DAC-2025-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/iqubit-org/phoenix)  
-+ [QASMTrans: A QASM based Quantum Transpiler Framework for NISQ Devices](https://arxiv.org/abs/2308.07581) Fei Hua et al <img src="https://img.shields.io/badge/SC-2023-green.svg" alt="13-pages" align="top">
++ [QASMTrans: A QASM based Quantum Transpiler Framework for NISQ Devices](https://arxiv.org/abs/2308.07581) Fei Hua et al <img src="https://img.shields.io/badge/SC-2023-green.svg" alt="13-pages" align="top"> [[Github]](https://github.com/pnnl/qasmtrans)
 + [QSSA: an SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) Anurudh Peduri, Siddharth Bhat <img src="https://img.shields.io/badge/CC-2022-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/opencompl/QMLIR)  
 + [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) David Ittah et al <img src="https://img.shields.io/badge/TQC-2022-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/dime10/QIRO)
-+ [ScaffCC: A Framework for Compilation and Analysis of Quantum Computing Programs](https://arxiv.org/abs/1507.01902) Ali JavadiAbhari et al <img src="https://img.shields.io/badge/Parallel Comput-2022-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/epiqc/ScaffCC) 
++ [ScaffCC: A Framework for Compilation and Analysis of Quantum Computing Programs](https://arxiv.org/abs/1507.01902) Ali JavadiAbhari et al <img src="https://img.shields.io/badge/Parallel Comput-2022-green.svg" alt="13-pages" align="top"> <img src="https://img.shields.io/badge/Qiskit-UnrollForLoops()-yellow.svg" alt="Citations: 3700" align="top"> [[GitHub]](https://github.com/epiqc/ScaffCC)
 + [A MLIR Dialect for Quantum Assembly Languages](https://arxiv.org/abs/2101.11365) Alexander McCaskey, Thien Nguyen <img src="https://img.shields.io/badge/QCE-2021-green.svg" alt="13-pages" align="top">
 + [Quantum Circuit Transformations with a Multi-Level Intermediate Representation Compiler](https://arxiv.org/abs/2112.10677) Thien Nguyen et al <img src="https://img.shields.io/badge/Arxiv-2021-green.svg" alt="13-pages" align="top"> 
 + [Programming languages and compiler design for realistic quantum hardware](https://www.nature.com/articles/nature23459) Frederic T. Chong <img src="https://img.shields.io/badge/Nature-2017-green.svg" alt="13-pages" align="top">
-
 
 > Quantum Loop Optimization and Control Flow Transformation
 + [A Denotational Semantics for Quantum Loops](https://arxiv.org/pdf/2506.23320) Nicola Assolini, Alessandra Di Pierro <img src="https://img.shields.io/badge/PLDI-2025-green.svg" alt="13-pages" align="top">
@@ -81,7 +87,6 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 > Quantum Program Optimization 
 + [SuperstaQ: Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) Campbell et al. <img src="https://img.shields.io/badge/QCE-2023-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/Infleqtion/client-superstaq)
-+ [Advances in compilation for quantum hardware -- A demonstration of magic state distillation and repeat-until-success protocols](https://arxiv.org/pdf/2310.12106) Natalie C. Brown et al
 + [Paulihedral: a generalized block-wise compiler optimization framework for Quantum simulation kernels](https://arxiv.org/abs/2109.03371) Gushu Li et al. <img src="https://img.shields.io/badge/ASPLOS-2022-green.svg" alt="13-pages" align="top"> [[Youtube]](https://youtu.be/lXFVkBlh9_Q?si=y_d4SgUwWQPwerch)
 + [A software methodology for compiling quantum programs](https://arxiv.org/abs/1604.01401) Thomas Häner et al <img src="https://img.shields.io/badge/Quantum Sci-2016-green.svg" alt="13-pages" align="top">
 + [Repeat-until-Success: Non-Deterministic Decomposition of Single-Qubit Unitaries](https://arxiv.org/abs/1311.1074) Adam Paetznick, Krysta Svore <img src="https://img.shields.io/badge/Quantum Information & Computation-2014-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/microsoft/Quantum/tree/main/samples/algorithms/repeat-until-success)  
@@ -94,11 +99,10 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Quarl: A Learning-Based Quantum Circuit Optimizer](https://dl.acm.org/doi/abs/10.1145/3649831) Zikun Li et al <img src="https://img.shields.io/badge/OOPSLA-2024-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/quantum-compiler/Quarl) [[Youtube]](https://youtu.be/DZjz88yDKC4?si=UTgp_1pQznhfs2Zs)
 + [Monte Carlo Graph Search for Quantum Circuit Optimization](https://arxiv.org/abs/2307.07353) Bodo Rosenhahn, Tobias J. Osborne <img src="https://img.shields.io/badge/Physical Review Journal-2023-green.svg" alt="13-pages" align="top">
 + [A Meet-in-the-Middle Algorithm for Fast Synthesis of Depth-Optimal Quantum Circuits](https://arxiv.org/abs/1206.0758) Matthew Amy et al <img src="https://img.shields.io/badge/IEEE TCAD-2021-green.svg" alt="13-pages" align="top">
-+ [Phase Gadget Synthesis for Shallow Circuit](https://arxiv.org/abs/1906.01734) Alexander Cowtan <img src="https://img.shields.io/badge/<t|ket>-PauliSquash(), OptimisePhaseGadgets()-yellow.svg" alt="Citations: 3700" align="top">
++ [Phase Gadget Synthesis for Shallow Circuit](https://arxiv.org/abs/1906.01734) Alexander Cowtan <img src="https://img.shields.io/badge/tket-PauliSquash(), OptimisePhaseGadgets()-yellow.svg" alt="Citations: 3700" align="top">
 + [Exact and Practical Pattern Matching for Quantum Circuit Optimization](https://arxiv.org/abs/1909.05270) Raban Iten et al <img src="https://img.shields.io/badge/Qiskit-TemplateOptimization()-yellow.svg" alt="Citations: 3700" align="top">
 + [Optimizing Clifford Circuits with Quantomatic](https://arxiv.org/abs/1901.10114) Andrew Fagan, Ross Duncan <img src="https://img.shields.io/badge/Qiskit-OptimizeCliffordT()-yellow.svg" alt="Citations: 3700" align="top">
 + [Automated optimization of large quantum circuits with continuous parameters](https://arxiv.org/abs/1710.07345) Yunseong Nam et al <img src="https://img.shields.io/badge/npj Quantum Information-2017-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/njross/optimizer)
-
 
 <h4 id="hardware-aware-compilation-mapping">Hardware-Aware Compilation</h4>
 
@@ -128,8 +132,8 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [AlphaRouter: Quantum Circuit Routing with Reinforcement Learning and Tree Search](https://arxiv.org/pdf/2410.05115) Wei Tang et al <img src="https://img.shields.io/badge/QCE-2024-green.svg" alt="13-pages" align="top">
 + [Decomposing and Routing Quantum Circuits Under Constraints for Neutral Atom Architectures](https://arxiv.org/pdf/2307.14996) Natalia Nottingham et al <img src="https://img.shields.io/badge/Cirq-RouteCQC(), RoutingSwapTag()-yellow.svg" alt="Citations: 3700" align="top">
 + [Efficient Qubit Routing for a Globally Connected Trapped Ion Quantum Computer](https://arxiv.org/pdf/2002.12782) Mark Webber et al <img src="https://img.shields.io/badge/Advanced Quantum Technologies-2020-green.svg" alt="13-pages" align="top">
-+ [Tackling the Qubit Mapping Problem for NISQ-Era Quantum Devices](https://arxiv.org/abs/1809.02573) Gushu Li et al <img src="https://img.shields.io/badge/Qiskit-SabreSwap()-yellow.svg" alt="Citations: 3700" align="top">
-+ [On the Qubit Routing Problem](https://arxiv.org/pdf/1902.08091) Alexander Cowtan et al <img src="https://img.shields.io/badge/TQC-2019-green.svg" alt="13-pages" align="top"> <img src="https://img.shields.io/badge/<t|ket>-RoutingPass(), DefaultMappingPass(), CXMappingPass(), FullMappingPass()-yellow.svg" alt="Citations: 3700" align="top">
++ [Tackling the Qubit Mapping Problem for NISQ-Era Quantum Devices](https://arxiv.org/abs/1809.02573) Gushu Li et al <img src="https://img.shields.io/badge/Qiskit-SabreSwap()-yellow.svg" alt="Citations: 3700" align="top"> <img src="https://img.shields.io/badge/Qiskit-CheckMap()-yellow.svg" alt="Citations: 3700" align="top"> 
++ [On the Qubit Routing Problem](https://arxiv.org/pdf/1902.08091) Alexander Cowtan et al <img src="https://img.shields.io/badge/TQC-2019-green.svg" alt="13-pages" align="top"> <img src="https://img.shields.io/badge/tket-RoutingPass()-yellow.svg" alt="Citations: 3700" align="top">
 
 > Circuit Scheduling 
 + [Scheduling of Operations in Quantum Compiler](https://arxiv.org/pdf/2011.04936) Toshinari Itoko, Takashi Imamichi <img src="https://img.shields.io/badge/QCE-2020-green.svg" alt="13-pages" align="top">
@@ -139,7 +143,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Elivagar: Efficient Quantum Circuit Search for Classification](https://arxiv.org/pdf/2401.09393) Sashwat Anagolum et al <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/SashwatAnagolum/Elivagar) [[Youtube]](https://www.youtube.com/watch?v=Mxkrv7TbQqc) 
 + [Machine Learning Optimization of Quantum Circuit Layouts](https://dl.acm.org/doi/full/10.1145/3565271) Alexandru Pale et al <img src="https://img.shields.io/badge/ACM TQC-2023-green.svg" alt="13-pages" align="top">  [[GitHub]](https://github.com/alexandrupaler/qxx)  
 + [Synthesizing Quantum-Circuit Optimizers](https://dl.acm.org/doi/abs/10.1145/3591254) Amanda Xu et al <img src="https://img.shields.io/badge/PLDI-2023-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/qqq-wisc/queso) [[Youtube]](https://youtu.be/hwGBeUcHFik?si=ESI7D4bJOiHgZZ1z)
-+ [2QAN: A quantum compiler for 2-local qubit Hamiltonian simulation algorithms](arxiv.org/pdf/2108.02099) Lingling Lao, Dan E. Browne <img src="https://img.shields.io/badge/ISCA-2022-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/unitaryfoundation/ucc-2qan) [[Youtube]](https://www.youtube.com/watch?v=rBThLSpNpVU) 
++ [2QAN: A quantum compiler for 2-local qubit Hamiltonian simulation algorithms](arxiv.org/pdf/2108.02099) Lingling Lao, Dan E. Browne <img src="https://img.shields.io/badge/ISCA-2022-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/unitaryfoundation/ucc-2qan) [[Github]](https://github.com/lllingoo/2QAN) [[Youtube]](https://www.youtube.com/watch?v=rBThLSpNpVU) 
 
 
 
@@ -175,7 +179,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Twist: Sound Reasoning for Purity and Entanglement in Quantum Programs](https://arxiv.org/abs/2205.02287) Charles Yuan et al <img src="https://img.shields.io/badge/POPL-2022-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=H3GIBgH5Ud4)
 + [Giallar: Push-Button Verification for the Qiskit Quantum Compiler](https://arxiv.org/pdf/2205.00661) Runzhou Tao at al <img src="https://img.shields.io/badge/PLDI-2022-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=m9pR53Zcj5w)
 + [Quantum Relational Hoare Logic](https://arxiv.org/abs/1802.03188) Dominique Unruh <img src="https://img.shields.io/badge/POPL-2019-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=U1-xP2SMDc0)
-+ [QWIRE: A Core Language for Quantum Circuits](https://dl.acm.org/doi/10.1145/3009837.3009894) J. Paykin et al <img src="https://img.shields.io/badge/POPL-2017-green.svg" alt="13-pages" align="top">
++ [QWIRE: A Core Language for Quantum Circuits](https://dl.acm.org/doi/10.1145/3009837.3009894) J. Paykin et al <img src="https://img.shields.io/badge/POPL-2017-green.svg" alt="13-pages" align="top"> [[Github]](https://github.com/inQWIRE/QWIRE)
 + [An Algebra of Quantum Processes](https://arxiv.org/abs/0707.0330) M. Ying et al <img src="https://img.shields.io/badge/TOCL-2019-green.svg" alt="13-pages" align="top">
 + [Hoare Logic for Quantum Programs](https://arxiv.org/abs/0906.4586) Mingsheng Ying <img src="https://img.shields.io/badge/Qiskit-HoareOptimizer()-yellow.svg" alt="Citations: 3700" align="top">
 
@@ -233,7 +237,7 @@ To be continue..
 
 <h4 id="trapped-ion-qc">Trapped-Ion</h4>
 
-+ <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top"> [Quantum computations with cold trapped ions](https://www.fuw.edu.pl/~szczytko/NT/materialy/9_QC/Cirac_Zoller_PRL1995.pdf) J. I. Cirac and P. Zoller (Physical Review Letters, 1995) <img src="https://img.shields.io/badge/Citations-6200+-blue.svg" alt="Citations: 3500" align="top">
++ <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top"> [Quantum computations with cold trapped ions](https://www.fuw.edu.pl/~szczytko/NT/materialy/9_QC/Cirac_Zoller_PRL1995.pdf) J. I. Cirac and P. Zoller <img src="https://img.shields.io/badge/Citations-6200+-blue.svg" alt="Citations: 3500" align="top"> <img src="https://img.shields.io/badge/Qiskit-CheckGateDirection()-yellow.svg" alt="Citations: 3700" align="top">
 + [Graph-Based Pulse Representation for Diverse Quantum Control Hardware](https://arxiv.org/abs/2409.08407) Aniket S. Dalvi et al <img src="https://img.shields.io/badge/QCE-2024-green.svg" alt="13-pages" align="top">
 + [Hybrid discrete-continuous compilation of trapped-ion quantum circuits with deep reinforcement learning](https://arxiv.org/abs/2307.05744) Francesco Preti <img src="https://img.shields.io/badge/Quantum Journal-2024-green.svg" alt="13-pages" align="top">
 + [TISCC: A Surface Code Compiler and Resource Estimator for Trapped-Ion Processors](https://dl.acm.org/doi/abs/10.1145/3624062.3624214) Tyler Leblond et al <img src="https://img.shields.io/badge/SC-2023-green.svg" alt="13-pages" align="top">
@@ -276,7 +280,7 @@ To be continue..
 
 <h4 id="topological-qc">Topological</h4>
 
-+ <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top">Topological Quantum Compiling (APS Journal, 2007) <img src="https://img.shields.io/badge/Citations-150+-blue.svg" alt="Citations: 3500" align="top">
++ <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top"> Topological Quantum Compiling (APS Journal, 2007) <img src="https://img.shields.io/badge/Citations-150+-blue.svg" alt="Citations: 3500" align="top">
 + [Topological quantum compilation of metaplectic anyons based on the genetic optimized algorithms](https://arxiv.org/abs/2501.01745) Parsa Hosseini et al <img src="https://img.shields.io/badge/Physical Review Journals-2025-green.svg" alt="13-pages" align="top">
 + [Topological quantum compilation of two-qubit gates](https://arxiv.org/abs/2408.07132) Parsa Hosseini et al <img src="https://img.shields.io/badge/Physical Review Journals-2024-green.svg" alt="13-pages" align="top">
 + [Optimized Topological Quantum Compilation of Three-Qubit Controlled Gates in the Fibonacci Anyon Model](https://arxiv.org/abs/2311.17645) Parsa Hosseini et al <img src="https://img.shields.io/badge/Physical Review Journals-2023-green.svg" alt="13-pages" align="top">
