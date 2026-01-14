@@ -1,7 +1,5 @@
 ## Awesome Quantum Compiler
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yucheol-choi/)
 
 By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by Marco Maronese (2021) and [Quantum Compilation Process](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) by Javier Cardama et al. (2025), we can get a clear sense of how to enter and navigate the field of quantum compilation. I hope this collection supports your work as much as it supports mine. 🙂
 
@@ -26,7 +24,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
   - [Neutral-atom](#neutral-atom-qc)
   - [Silicon-Spin](#silicon-spin-qubit-qc)
   - [Topological](#topological-qc)
-- [Fault-Tolenrant Quantum Compilation](#part-d-fault-tolerant-quantum-compilation)
+- [Fault-Tolerant Quantum Compilation](#part-d-fault-tolerant-quantum-compilation)
   - [Quantum Error Correction](#error-correction)
   - [Lattice Surgery & Surface Code Compilation](#lattice-surgery-surface-code-compilation)
 - [Conference and Journal](#part-e-conference-and-journal) 
@@ -185,7 +183,10 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 
 <h4 id="quantum-os">Quantum Operating System</h4>
-To be continue..
+
++ [An operating system for executing applications on quantum network nodes](https://www.nature.com/articles/s41586-025-08704-w) C. Delle Donne et al. <img src="https://img.shields.io/badge/Nature-2025-green.svg" alt="13-pages" align="top">
++ [QOS: A Quantum Operating System](https://arxiv.org/abs/2406.19120) Emmanouil Giortamis et al. <img src="https://img.shields.io/badge/OSDI-2025-green.svg" alt="13-pages" align="top">
++ [Qibolab: an open-source hybrid quantum operating system](https://quantum-journal.org/papers/q-2024-02-12-1247/) Stavros Efthymiou et al. <img src="https://img.shields.io/badge/Quantum-2024-green.svg" alt="13-pages" align="top">
 
 <h4 id="quantum-circuit-analysis">Quantum Circuit Analysis</h4>
 
@@ -287,7 +288,7 @@ To be continue..
 + [Asymptotically Optimal Topological Quantum Compiling](https://arxiv.org/abs/1310.4150) — Michael Freedman et al <img src="https://img.shields.io/badge/Mathematical Physics Journal-2013-green.svg" alt="13-pages" align="top">
 
 
-<h2 id="part-d-fault-tolerant-quantum-compilation">Fault-Tolenrant Quantum Compilation</h2>
+<h2 id="part-d-fault-tolerant-quantum-compilation">Fault-Tolerant Quantum Compilation</h2>
 
 + <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top"> [Error correcting codes in quantum theory](https://users.physics.ox.ac.uk/~Steane/qec/Steane_PRL95.pdf) A. M. Steane (Physical Review Letters, 1996) <img src="https://img.shields.io/badge/Citations-3700+-blue.svg" alt="Citations: 2500" align="top">
 + <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top"> [Fault-tolerant quantum computation](https://arxiv.org/abs/quant-ph/9712048) J. Preskill (Proceedings of the Royal Society A, 1998) <img src="https://img.shields.io/badge/Citations-670-blue.svg" alt="Citations: 670" align="top">
