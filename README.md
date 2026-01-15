@@ -7,7 +7,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 ## Table of Contents
 - [Fundamental Papers](#fundamental-papers)
 - [Quantum Compilation Pipeline](#part-a-compilation-flow--from-algorithm-to-pulse)
-  - [Front-End](#language-logical-ir)
+  - [Front-End and IR](#language-logical-ir)
   - [HW-agnostic Circuit Compilation](#hardware-agnostic-compilation)
   - [HW-aware Circuit Compilation](#hardware-aware-compilation)
   - [Pulse-Level Compilation](#pulse-level-compile)
@@ -60,7 +60,12 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 <h2 id="part-a-compilation-flow--from-algorithm-to-pulse">Quantum Compilation Pipeline</h2>
 
-<h4 id="language-logical-ir">Languages and IR Design</h4>
+<h4 id="language-logical-ir">Front-End and IR</h4>
+
+> Quantum Parser
+
+To be continue..
+</br>
 
 > IR Design and Quantum Transpilation
 + [PHOENIX: Pauli-Based High-Level Optimization Engine for Instruction Execution on NISQ Devices](https://arxiv.org/abs/2504.03529) Zhaohui Yang et al <img src="https://img.shields.io/badge/DAC-2025-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/iqubit-org/phoenix)  
@@ -79,11 +84,6 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [The Limits of Control Flow in Quantum Programming](https://arxiv.org/abs/2304.15000) Charles Yuan et al <img src="https://img.shields.io/badge/OOPSLA-2023-green.svg" alt="13-pages" align="top">
 + [Software Pipelining for Quantum Loop Programs](https://arxiv.org/abs/2012.12700) Jingzhe Guo, Mingsheng Ying <img src="https://img.shields.io/badge/TSE-2023-green.svg" alt="13-pages" align="top">
 + [On the Impact of Affine Loop Transformations in Qubit Allocation](https://arxiv.org/pdf/2010.11999) Martin Kong <img src="https://img.shields.io/badge/TQC-2021-green.svg" alt="13-pages" align="top">
-
-> Quantum Parser
-
-To be continue..
-</br>
 
 
 <h4 id="hardware-agnostic-compilation">HW-agnostic Circuit Compilation</h4>
