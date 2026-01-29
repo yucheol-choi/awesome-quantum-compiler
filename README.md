@@ -1,5 +1,4 @@
-## Awesome Quantum Compiler
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+## Awesome Quantum Compiler   [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by Marco Maronese (2021) and [Quantum Compilation Process](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) by Javier Cardama et al. (2025), we can get a clear sense of how to enter and navigate the field of quantum compilation. I hope this collection supports your work as much as it supports mine. 🙂
 
@@ -16,8 +15,9 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
   - [Quantum Formal Verification](#quantum-formal-verification)
   - [Quantum Operating System](#quantum-os)
   - [Quantum Circuit Analysis](#quantum-circuit-analysis)
+  - [Ecosystem Niche Thema](#quantum-niche-thema)
   - [Emerging Topics](#quantum-compiler-emerging-topics)
-- [Hardware-Aware Quantum Compilation](#part-c-quantum-hardware-specific-compilation)
+- [Hardware-Specific Quantum Compilation](#part-c-quantum-hardware-specific-compilation)
   - [Superconducting](#superconducting-qc)
   - [Trapped-Ion](#trapped-ion-qc)
   - [Photonics](#photonics-qc)
@@ -32,7 +32,6 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 - [Conference and Journal](#part-e-conference-and-journal) 
   - [Top-Tier Conference Deadline](#conference-deadline)
   - [Journals](#journals)
-</br>
 
 <h2 id="fundamental-papers">Fundamental Papers</h2>
 
@@ -47,32 +46,9 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [The Solovay-Kitaev algorithm](https://arxiv.org/abs/quant-ph/0505030) Christopher M. Dawson, Michael A. Nielsen <img src="https://img.shields.io/badge/Citations-900+-blue.svg" alt="Citations: 300" align="top"> <img src="https://img.shields.io/badge/Qiskit-SolovayKitaev()-yellow.svg" alt="Citations: 3700" align="top"> (2005)
 
 
-
-
-
-
-
 <h2 id="part-a-compilation-flow--from-algorithm-to-pulse">Quantum Compilation Pipeline</h2>
 
 <h4 id="language-logical-ir">Front-End and IR</h4>
-
-> Quantum Assembly Languages and Parsers
-
-+ [Design and architecture of the IBM Quantum Engine Compiler](https://arxiv.org/abs/2408.06469) Michael B. Healy et al. (2024)
-+ [OpenQASM 3: A Broader and Deeper Quantum Assembly Language](https://arxiv.org/abs/2104.14722) Andrew W. Cross et al. (2021) [[Github]](https://github.com/openqasm/openqasm)
-+ [Open Quantum Assembly Language](https://arxiv.org/abs/1707.03429) Andrew W. Cross et al. (2017)
-+ [QASMTrans: A QASM based Quantum Transpiler Framework for NISQ Devices](https://arxiv.org/abs/2308.07581) Fei Hua et al <img src="https://img.shields.io/badge/SC-2023-green.svg" alt="13-pages" align="top"> [[Github]](https://github.com/pnnl/qasmtrans)
-+ [ScaffCC: Scalable Compilation and Analysis of Quantum Programs](https://arxiv.org/abs/1507.01902) Ali JavadiAbhari et al
-
-</br>
-
-> Quantum IR Design
-
-+ [QSSA: an SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) Anurudh Peduri, Siddharth Bhat <img src="https://img.shields.io/badge/CC-2022-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/opencompl/QMLIR)  
-+ [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) David Ittah et al <img src="https://img.shields.io/badge/TQC-2022-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/dime10/QIRO)
-+ [A MLIR Dialect for Quantum Assembly Languages](https://arxiv.org/abs/2101.11365) Alexander McCaskey, Thien Nguyen <img src="https://img.shields.io/badge/QCE-2021-green.svg" alt="13-pages" align="top">
-+ [Quantum Circuit Transformations with a Multi-Level Intermediate Representation Compiler](https://arxiv.org/abs/2112.10677) Thien Nguyen et al <img src="https://img.shields.io/badge/arxiv-2021-green.svg" alt="13-pages" align="top"> 
-</br>
 
 > Quantum Compiler Frameworks
 
@@ -82,6 +58,21 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [STAQ: A Full-Stack Quantum Processing Toolkit](https://arxiv.org/abs/1912.06070) Matthew Amy, Vlad Gheorghiu  [[Github]](https://github.com/softwareQinc/staq)
 + [Programming languages and compiler design for realistic quantum hardware](https://www.nature.com/articles/nature23459) Frederic T. Chong <img src="https://img.shields.io/badge/Nature-2017-green.svg" alt="13-pages" align="top">
 + [ProjectQ: An Open Source Software Framework for Quantum Computing](https://arxiv.org/abs/1612.08091) Damian S. Steiger et al.  [[Github]](https://github.com/ProjectQ-Framework/ProjectQ)
+  
+> Quantum Assembly Languages and Parsers
+
++ [Design and architecture of the IBM Quantum Engine Compiler](https://arxiv.org/abs/2408.06469) Michael B. Healy et al. (2024)
++ [OpenQASM 3: A Broader and Deeper Quantum Assembly Language](https://arxiv.org/abs/2104.14722) Andrew W. Cross et al. (2021) [[Github]](https://github.com/openqasm/openqasm)
++ [Open Quantum Assembly Language](https://arxiv.org/abs/1707.03429) Andrew W. Cross et al. (2017)
++ [QASMTrans: A QASM based Quantum Transpiler Framework for NISQ Devices](https://arxiv.org/abs/2308.07581) Fei Hua et al <img src="https://img.shields.io/badge/SC-2023-green.svg" alt="13-pages" align="top"> [[Github]](https://github.com/pnnl/qasmtrans)
++ [ScaffCC: Scalable Compilation and Analysis of Quantum Programs](https://arxiv.org/abs/1507.01902) Ali JavadiAbhari et al
+
+> Quantum IR Design
+
++ [QSSA: an SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) Anurudh Peduri, Siddharth Bhat <img src="https://img.shields.io/badge/CC-2022-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/opencompl/QMLIR)  
++ [QIRO: A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) David Ittah et al <img src="https://img.shields.io/badge/TQC-2022-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/dime10/QIRO)
++ [A MLIR Dialect for Quantum Assembly Languages](https://arxiv.org/abs/2101.11365) Alexander McCaskey, Thien Nguyen <img src="https://img.shields.io/badge/QCE-2021-green.svg" alt="13-pages" align="top">
++ [Quantum Circuit Transformations with a Multi-Level Intermediate Representation Compiler](https://arxiv.org/abs/2112.10677) Thien Nguyen et al <img src="https://img.shields.io/badge/arxiv-2021-green.svg" alt="13-pages" align="top"> 
 
 
 
@@ -145,10 +136,12 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 <h4 id="pulse-level-compile">Pulse-Level Compilation</h4>
 
-+ [A Synergistic Compilation Workflow for Tackling Crosstalk in Quantum Machines](https://arxiv.org/abs/2207.05751) Fei Hua et al <img src="https://img.shields.io/badge/Arxiv-2023-green.svg" alt="13-pages" align="top">
-+ [Hybrid Gate-Pulse Model for Variational Quantum Algorithms](https://arxiv.org/abs/2212.00661) Zhiding Liang et al <img src="https://img.shields.io/badge/Arxiv-2022-green.svg" alt="13-pages" align="top">
++ [Towards a pulse-level intermediate representation for diverse quantum control systems](https://arxiv.org/abs/2507.15995) Jude Alnas et al. <img src="https://img.shields.io/badge/2025-green.svg" alt="13-pages" align="top"> 
++ [Enhancing Noisy Quantum Sensing by GHZ State Partitioning](https://arxiv.org/pdf/2507.02829) Allen Zang et al. <img src="https://img.shields.io/badge/QCE-2025-green.svg" alt="13-pages" align="top">
++ [Graph-Based Pulse Representation for Diverse Quantum Control Hardware](https://arxiv.org/abs/2409.08407) Aniket S. Dalvi et al. <img src="https://img.shields.io/badge/Computer Society-2024-green.svg" alt="13-pages" align="top">
++ [Variational Quantum Pulse Learning](https://arxiv.org/abs/2203.17267) Zhiding Liang et al. <img src="https://img.shields.io/badge/QCE-2022-green.svg" alt="13-pages" align="top">
 + [Enabling Pulse-Level Programming, Compilation, and Execution in XACC](https://arxiv.org/pdf/2003.11971) Thien Nguyen, Alexander McCaskey <img src="https://img.shields.io/badge/TC-2020-green.svg" alt="13-pages" align="top">
-+ [Resource-Efficient Quantum Computing by Breaking Abstractions](https://arxiv.org/abs/2011.00028) Yunong Shi <img src="https://img.shields.io/badge/IEEE Journal-2020-green.svg" alt="13-pages" align="top">
++ [Resource-Efficient Quantum Computing by Breaking Abstractions](https://arxiv.org/abs/2011.00028) Yunong Shi <img src="https://img.shields.io/badge/IEEE-2020-green.svg" alt="13-pages" align="top">
 + [Optimized Quantum Compilation for Near-Term Algorithms with OpenPulse](https://arxiv.org/abs/2004.11205) Pranav Gokhale et al <img src="https://img.shields.io/badge/Arxiv-2020-green.svg" alt="13-pages" align="top"> [[Youtube]](https://youtu.be/dtPaDmE89Yc?si=5z1tfMK7FSw-SRsw)
 + [Software Mitigation of Crosstalk on Noisy Intermediate-Scale Quantum Computers](https://arxiv.org/pdf/2001.02826) Prakash Murali et al <img src="https://img.shields.io/badge/ASPLOS-2020-green.svg" alt="13-pages" align="top"> <img src="https://img.shields.io/badge/Qiskit-CrosstalkAdaptiveLayout()-yellow.svg" alt="Citations: 3700" align="top">
 + [Partial Compilation of Variational Algorithms for Near-term Quantum Machines](https://arxiv.org/pdf/1909.07522) Pranav Gokhale et al <img src="https://img.shields.io/badge/MICRO-2019-green.svg" alt="13-pages" align="top">
@@ -158,33 +151,31 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 <h4 id="quantum-testing-and-debugging">Quantum Testing and Debugging</h4>
 
 + [Testing and Debugging Quantum Programs: The Road to 2030](https://dl.acm.org/doi/10.1145/3715106) Neilson Carlos Leite Ramalho et al <img src="https://img.shields.io/badge/TOSEM-2025-green.svg" alt="13-pages" align="top">
-+ [QuraTest: Automated Testing of Quantum Programs with Complex Input States](https://dl.acm.org/doi/10.1109/ASE56229.2023.00196) Jiaming Ye et al <img src="https://img.shields.io/badge/ASE-2023-green.svg" alt="13-pages" align="top">
-+ [MorphQ: Metamorphic Testing for Quantum Programs](https://arxiv.org/abs/2206.01111) Matteo Paltenghi, Michael Pradel <img src="https://img.shields.io/badge/ICSE-2023-green.svg" alt="13-pages" align="top">
++ [QuraTest: Automated Testing of Quantum Programs with Complex Input States](https://dl.acm.org/doi/10.1109/ASE56229.2023.00196) Jiaming Ye et al <img src="https://img.shields.io/badge/ASE-2023-green.svg" alt="13-pages" align="top"> [[Github]](https://github.com/ToolmanInside/quratest-mutators)
++ [MorphQ: Metamorphic Testing for Quantum Programs](https://arxiv.org/abs/2206.01111) Matteo Paltenghi, Michael Pradel <img src="https://img.shields.io/badge/ICSE-2023-green.svg" alt="13-pages" align="top"> [[Github]](https://github.com/sola-st/MorphQ-Quantum-Qiskit-Testing-ICSE-23)
 + [QuCAT: Quantum Combinatorial Testing Framework](https://arxiv.org/abs/2309.00119) Xinying Wang et al <img src="https://img.shields.io/badge/ASE-2023-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=UsqgOudKLio)
 + [QuSBT: Search-Based Testing of Quantum Programs](https://dl.acm.org/doi/10.1145/3510454.3516839) Xinying Wang et al <img src="https://img.shields.io/badge/ICSE-2022-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=Wh0FZ-kTglo)
-+ [QMutPy: A Mutation Testing Tool for Quantum Algorithms and Applications in Qiskit](https://jose.github.io/assets/pdfs/ISSTA2022-tool-paper.pdf)  E. Fortunato et al <img src="https://img.shields.io/badge/ASE-2022-green.svg" alt="13-pages" align="top">
-+ [Quito: A coverage-guided test generator for quantum programs](https://dl.acm.org/doi/abs/10.1109/ASE51524.2021.9678798) Xinyi Wang et al <img src="https://img.shields.io/badge/ASE -2021-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=kuI9QaCo8A8)
-+ [Muskit: Mutation Testing for Qiskit Quantum Programs](https://ieeexplore.ieee.org/document/9678563) A. Mendiluze et al <img src="https://img.shields.io/badge/ASE-2021-green.svg" alt="13-pages" align="top">
++ [QMutPy: A Mutation Testing Tool for Quantum Algorithms and Applications in Qiskit](https://jose.github.io/assets/pdfs/ISSTA2022-tool-paper.pdf)  E. Fortunato et al <img src="https://img.shields.io/badge/ASE-2022-green.svg" alt="13-pages" align="top"> [[Github]](https://github.com/jose/qmutpy-experiments)
++ [Quito: A coverage-guided test generator for quantum programs](https://dl.acm.org/doi/abs/10.1109/ASE51524.2021.9678798) Xinyi Wang et al <img src="https://img.shields.io/badge/ASE -2021-green.svg" alt="13-pages" align="top"> [[Github]](https://github.com/Simula-COMPLEX/quito) [[Youtube]](https://www.youtube.com/watch?v=kuI9QaCo8A8) 
++ [Muskit: Mutation Testing for Qiskit Quantum Programs](https://ieeexplore.ieee.org/document/9678563) A. Mendiluze et al <img src="https://img.shields.io/badge/ASE-2021-green.svg" alt="13-pages" align="top"> [[Github]](https://github.com/Simula-COMPLEX/muskit)
 + [Projection-based runtime assertions for testing and debugging Quantum programs](https://dl.acm.org/doi/10.1145/3428218) Gushu Li et al <img src="https://img.shields.io/badge/OOPSLA-2020-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=7GVNWMR1NX4)
 + [Assertion-Based Optimization of Quantum Programs](https://arxiv.org/pdf/1810.00375) Thomas Häner et al <img src="https://img.shields.io/badge/OOPSLA-2020-green.svg" alt="13-pages" align="top">
 + [Statistical Assertions for Quantum Programs](https://arxiv.org/abs/1905.09721) Yipeng Huang, M. Martonosi <img src="https://img.shields.io/badge/ISCA-2019-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=Jic3OcJHmRg)
 
+
+
 <h4 id="quantum-formal-verification">Quantum Formal Verification</h4>
 
++ [Efficient Formal Verification of Quantum Error Correcting Programs](https://arxiv.org/abs/2504.07732) Qifan Huang et al. <img src="https://img.shields.io/badge/PLDI-2025-green.svg" alt="13-pages" align="top"> 
++ [QbC: Quantum Correctness by Construction](https://arxiv.org/abs/2307.15641) Anurudh Peduri et al. OOPSLA <img src="https://img.shields.io/badge/OOPSLA-2025-green.svg" alt="13-pages" align="top"> 
++ [Symbolic Execution for Quantum Error Correction Programs](https://arxiv.org/pdf/2311.11313) Wang Fang, Mingsheng Ying. PLDI <img src="https://img.shields.io/badge/PLDI-2024-green.svg" alt="13-pages" align="top"> 
++ [Quantum Probabilistic Model Checking for Time-Bounded Properties](https://dl.acm.org/doi/10.1145/3689731) Seungmin Jeon et al. <img src="https://img.shields.io/badge/OOPSLA-2024-green.svg" alt="13-pages" align="top"> 
 + [CoqQ: Foundational Verification of Quantum Programs](https://arxiv.org/abs/2207.11350) L. Zhou  <img src="https://img.shields.io/badge/POPL-2022-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=RjKCP8U-1Zg)
 + [Twist: Sound Reasoning for Purity and Entanglement in Quantum Programs](https://arxiv.org/abs/2205.02287) Charles Yuan et al <img src="https://img.shields.io/badge/POPL-2022-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=H3GIBgH5Ud4)
 + [Giallar: Push-Button Verification for the Qiskit Quantum Compiler](https://arxiv.org/pdf/2205.00661) Runzhou Tao at al <img src="https://img.shields.io/badge/PLDI-2022-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=m9pR53Zcj5w)
 + [Quantum Relational Hoare Logic](https://arxiv.org/abs/1802.03188) Dominique Unruh <img src="https://img.shields.io/badge/POPL-2019-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=U1-xP2SMDc0)
 + [QWIRE: A Core Language for Quantum Circuits](https://dl.acm.org/doi/10.1145/3009837.3009894) J. Paykin et al <img src="https://img.shields.io/badge/POPL-2017-green.svg" alt="13-pages" align="top"> [[Github]](https://github.com/inQWIRE/QWIRE)
-+ [An Algebra of Quantum Processes](https://arxiv.org/abs/0707.0330) M. Ying et al <img src="https://img.shields.io/badge/TOCL-2019-green.svg" alt="13-pages" align="top">
 + [Hoare Logic for Quantum Programs](https://arxiv.org/abs/0906.4586) Mingsheng Ying <img src="https://img.shields.io/badge/Qiskit-HoareOptimizer()-yellow.svg" alt="Citations: 3700" align="top">
-
-
-<h4 id="quantum-os">Quantum Operating System</h4>
-
-+ [An operating system for executing applications on quantum network nodes](https://www.nature.com/articles/s41586-025-08704-w) C. Delle Donne et al. <img src="https://img.shields.io/badge/Nature-2025-green.svg" alt="13-pages" align="top">
-+ [QOS: A Quantum Operating System](https://arxiv.org/abs/2406.19120) Emmanouil Giortamis et al. <img src="https://img.shields.io/badge/OSDI-2025-green.svg" alt="13-pages" align="top">
-+ [Qibolab: an open-source hybrid quantum operating system](https://quantum-journal.org/papers/q-2024-02-12-1247/) Stavros Efthymiou et al. <img src="https://img.shields.io/badge/Quantum-2024-green.svg" alt="13-pages" align="top">
 
 <h4 id="quantum-circuit-analysis">Quantum Circuit Analysis</h4>
 
@@ -193,6 +184,21 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Quantum Vulnerability Analysis to Guide Robust Quantum Computing System Design](https://arxiv.org/pdf/2207.14446) Fang Qi et al <img src="https://img.shields.io/badge/TQE-2023-green.svg" alt="13-pages" align="top">
 + [Gleipnir: Toward Practical Error Analysis for Quantum Programs](https://arxiv.org/abs/2104.06349) Runzhou Tao et al <img src="https://img.shields.io/badge/PLDI-2021-green.svg" alt="13-pages" align="top">
 
+
+<h4 id="quantum-os">Quantum Operating System</h4>
+
++ [An operating system for executing applications on quantum network nodes](https://www.nature.com/articles/s41586-025-08704-w) C. Delle Donne et al. <img src="https://img.shields.io/badge/Nature-2025-green.svg" alt="13-pages" align="top">
++ [QOS: A Quantum Operating System](https://arxiv.org/abs/2406.19120) Emmanouil Giortamis et al. <img src="https://img.shields.io/badge/OSDI-2025-green.svg" alt="13-pages" align="top">
++ [Qibolab: an open-source hybrid quantum operating system](https://quantum-journal.org/papers/q-2024-02-12-1247/) Stavros Efthymiou et al. <img src="https://img.shields.io/badge/Quantum-2024-green.svg" alt="13-pages" align="top">
+
+
+<h4 id="quantum-niche-thema">Ecosystem Niche Thema</h4>
+
++ <img src="https://img.shields.io/badge/Quantum Firmware-lightyellow.svg" alt="15-pages" align="top"> [Towards Quantum-Resistant Trusted Computing](https://www.arxiv.org/abs/2601.11095) Grazia D'Onghia, Antonio Lioy. 2026
++ <img src="https://img.shields.io/badge/Quantum Control System-lightyellow.svg" alt="15-pages" align="top"> [A Generator for Real-Time Quantum Control System-on-Chips Compatible with RISC-V](https://arxiv.org/abs/2505.14902) Junyi Liu et al. 2025
++ <img src="https://img.shields.io/badge/Quantum Runtime-lightyellow.svg" alt="15-pages" align="top"> [Recent quantum runtime (dis)advantages](https://arxiv.org/abs/2510.06337) J. Tuziemski et al. 2025
++ <img src="https://img.shields.io/badge/Quantum Internet-lightyellow.svg" alt="15-pages" align="top"> [The Quantum Internet (Technical Version)](https://arxiv.org/abs/2501.12107) Peter P. Rohde et al. 2025
++ <img src="https://img.shields.io/badge/Quantum Architecture Search-lightyellow.svg" alt="15-pages" align="top"> [Quantum Architecture Search: A Survey](https://arxiv.org/abs/2406.06210) Darya Martyniuk et al. 2024
 
 <h4 id="quantum-compiler-emerging-topics">Emerging Topics</h4>
 
@@ -213,17 +219,9 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Compilation of Entangling Gates for High-Dimensional Quantum Processors](https://arxiv.org/abs/2301.04155) Manuel G. J. B. A. Cordier et al <img src="https://img.shields.io/badge/ASP DAC-2023-green.svg" alt="13-pages" align="top">
 + [Adaptive Compilation of Multi-Level Quantum Operations](https://arxiv.org/abs/2206.03842) David R. M. Arvidsson-Shukur et al <img src="https://img.shields.io/badge/QCE-2022-green.svg" alt="13-pages" align="top">
 
-> Quantum Error Mitigation
-+ [VAQEM: A Variational Approach to Quantum Error Mitigation](https://www.computer.org/csdl/proceedings-article/hpca/2022/202700a288/1Ds0fvoYbCw) Gokul S. Ravi et al <img src="https://img.shields.io/badge/HPCA-2022-green.svg" alt="13-pages" align="top">
-+ [ADAPT: Mitigating Idling Errors in Qubits via Adaptive Dynamical Decoupling](https://dl.acm.org/doi/10.1145/3466752.3480059) Poulami Das et al <img src="https://img.shields.io/badge/MICRO-2021-green.svg" alt="13-pages" align="top">
-+ [Systematic Cross talk Mitigation for Superconducting Qubits via Frequency-Aware Compilation](https://arxiv.org/abs/2008.09503) Yongshan Ding et al <img src="https://img.shields.io/badge/MICRO-2020-green.svg" alt="13-pages" align="top">
-+ [Digital Zero-Noise Extrapolation for Quantum Error Mitigation](https://arxiv.org/abs/2005.10921) Tudor Giurgica-Tiron et al <img src="https://img.shields.io/badge/QCE-2020-green.svg" alt="13-pages" align="top">
-+ [Practical Quantum Error Mitigation for Near-Future Applications](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509) Suguru Endo et al <img src="https://img.shields.io/badge/Physical Review X-2018-green.svg" alt="13-pages" align="top">
-+ [Error Mitigation for Short-Depth Quantum Circuits](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509) Kristan Temme et al <img src="https://img.shields.io/badge/Physical Review Letter-2017-green.svg" alt="13-pages" align="top">
 
-</br>
 
-<h2 id="part-c-quantum-hardware-specific-compilation">Hardware-Aware Quantum Compilation</h2>
+<h2 id="part-c-quantum-hardware-specific-compilation">Hardware-Specific Quantum Compilation</h2>
 
 <h4 id="superconducting-qc">Superconducting</h4>
 
