@@ -46,6 +46,39 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [The Solovay-Kitaev algorithm](https://arxiv.org/abs/quant-ph/0505030) Christopher M. Dawson, Michael A. Nielsen <img src="https://img.shields.io/badge/Citations-900+-blue.svg" alt="Citations: 300" align="top"> <img src="https://img.shields.io/badge/Qiskit-SolovayKitaev()-yellow.svg" alt="Citations: 3700" align="top"> (2005)
 
 
+> Recommend Papers (for me)
+
++ [A survey on the complexity of learning quantum states](https://arxiv.org/abs/2305.20069) by Srinivasan Arunachalam and Ronald de Wolf (2023)
++ [Quantum Computational Complexity](https://arxiv.org/abs/0804.3401) by John Watrous (2009)
++ [A Survey of Quantum Complexity Theory](https://userpages.cs.umbc.edu/lomonaco/ams/lecturenotes/Vazirani.pdf) by Umesh Vazirani (1997)
+
+
+> BigTech Frontier Papers (alphabet sequance)
+  
+<img src="https://img.shields.io/badge/Google Quantum AI-lightyellow.svg" alt="15-pages" align="top">
+
++ [Demonstration of dynamic surface codes](https://www.nature.com/articles/s41567-025-03070-w) 2026.
++ [Quantum error correction below the surface code threshold](https://www.nature.com/articles/s41586-024-08449-y) 2025.
++ [Observation of constructive interference at the edge of quantum ergodicity](https://www.nature.com/articles/s41586-025-09526-6) 2025.
+
+<img src="https://img.shields.io/badge/IBM Quantum-lightyellow.svg" alt="15-pages" align="top">
+
++ [High-threshold and low-overhead fault-tolerant quantum memory](https://www.nature.com/articles/s41586-025-08737-1) 2024.
++ [Combining quantum processors with real-time classical communication](https://www.nature.com/articles/s41586-024-08178-2) 2024.
++ [Evidence for the utility of quantum computing before fault tolerance](https://www.nature.com/articles/s41586-023-06096-3) 2023.
+
+
+<img src="https://img.shields.io/badge/PsiQuantum-lightyellow.svg" alt="15-pages" align="top">
+
++ [A manufacturable platform for photonic quantum computing](https://www.nature.com/articles/s41586-025-08820-7) 2025.
++ [Scaling and networking a modular photonic quantum computer](https://www.nature.com/articles/s41586-024-08406-9) 2025.
++ [Fusion-based quantum computation](https://www.nature.com/articles/s41467-023-36493-1) 2023.
+  
+<img src="https://img.shields.io/badge/Quantinuum-lightyellow.svg" alt="15-pages" align="top">
+
++ [Certified randomness using a trapped-ion quantum processor](https://www.nature.com/articles/s41586-025-08737-1) (and JP Morgan) 2025.
++ [High-fidelity parallel entangling gates on a neutral-atom quantum computer](https://www.nature.com/articles/s41586-023-06481-y) 2023.
+  
 <h2 id="part-a-compilation-flow--from-algorithm-to-pulse">Quantum Compilation Pipeline</h2>
 
 <h4 id="language-logical-ir">Front-End and IR</h4>
