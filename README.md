@@ -8,13 +8,9 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 - [NISQ Compilation](#nisq-compilation)
   - [Language, Assembly and IR Design](#language-assembly-ir)
   - [HW-agnostic Circuit Compilation](#hw-agnostic-compilation)
-  - [Qubit Allocation](#qubit-allocation)
   - [Qubit Mapping and Routing](#qubit-mapping-and-routing)
-  - [HW-aware Quantum Compilation](#hw-aware-quantum-compilation)
-    - [Superconducting](#superconducting)
-    - [Trapped-ion](#trapped-ion)
-    - [Photonics](#photonics)
-    - [Neutral-atom](#neutral-atom)
+  - [HW-aware Compilation](#hw-aware-compilation)
+  - [Quantum Error Mitigation](#quantum-error-mitigation)
   - [Pulse-Level Compilation](#pulse-level-compile)
 - [Fault-Tolerant Compilation](#fault-tolerant-compilation)
   - [QEC-Aware Compilation](#error-correction)
@@ -84,7 +80,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Automated optimization of large quantum circuits with continuous parameters](https://arxiv.org/abs/1710.07345) Yunseong Nam et al <img src="https://img.shields.io/badge/npj Quantum Information-2017-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/njross/optimizer)
 
 
-<h4 id="qubit-allocation">Qubit Allocation</h4>
+> Qubit Allocation
 
 + [Machine-Learning-Based Qubit Allocation for Error Reduction in Quantum Circuits](https://ieeexplore.ieee.org/document/10209261) Travis LeCompte et al <img src="https://img.shields.io/badge/TQE-2023-green.svg" alt="13-pages" align="top">
 + [Qubit Allocation for Distributed Quantum Computing](https://ieeexplore.ieee.org/document/10228915) Yingling Mao et al <img src="https://img.shields.io/badge/INFOCOM-2023-green.svg" alt="13-pages" align="top">
@@ -112,14 +108,14 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [On the Qubit Routing Problem](https://arxiv.org/pdf/1902.08091) Alexander Cowtan et al <img src="https://img.shields.io/badge/TQC-2019-green.svg" alt="13-pages" align="top"> <img src="https://img.shields.io/badge/tket-RoutingPass()-yellow.svg" alt="Citations: 3700" align="top">
 
 
-<h4 id="qubit-scheduling">Qubit Scheduling</h4>
+> Qubit Scheduling
 
 + [Scheduling of Operations in Quantum Compiler](https://arxiv.org/pdf/2011.04936) Toshinari Itoko, Takashi Imamichi <img src="https://img.shields.io/badge/QCE-2020-green.svg" alt="13-pages" align="top">
 + [Two-step approach to scheduling quantum circuits](https://arxiv.org/abs/1708.00023) Gian Giacomo Guerreschi, Jongsoo Park <img src="https://img.shields.io/badge/Quantum Sci-2017-green.svg" alt="13-pages" align="top">
 
-<h3 id="hw-aware-quantum-compilation">HW-aware Quantum Compilation</h3>
+<h4 id="hw-aware-compilation">HW-aware Compilation</h4>
 
-<h4 id="superconducting">Superconducting</h4>
+> Superconducting
 
 + <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top"> [Strong coupling of a single photon to a superconducting qubit using circuit quantum electrodynamics](https://www.nature.com/articles/nature02851) A.Wallraff et al (Nature, 2004) <img src="https://img.shields.io/badge/Citations-5000+-blue.svg" alt="Citations: 2500" align="top">
 + [Selective Excitation of Superconducting Qubits with a Shared Control Line through Pulse Shaping](https://arxiv.org/pdf/2501.10710) Ryo Matsuda et al <img src="https://img.shields.io/badge/arxiv-2025-green.svg" alt="13-pages" align="top">
@@ -133,7 +129,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [A Time Optimization Framework for Robust and Low-Latency Quantum Circuits](https://arxiv.org/abs/2412.18533) Eduardo W. Lussi et al <img src="https://img.shields.io/badge/Physical Review Applied-2024-green.svg" alt="13-pages" align="top">
 + [Optimized Compilation of Aggregated Instructions for Realistic Quantum Computers](https://arxiv.org/pdf/1902.01474) Yunong Shi et al <img src="https://img.shields.io/badge/ASPLOS-2019-green.svg" alt="13-pages" align="top">
 
-<h4 id="trapped-ion">Trapped-Ion</h4>
+> Trapped-Ion
 
 + <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top"> [Quantum computations with cold trapped ions](https://www.fuw.edu.pl/~szczytko/NT/materialy/9_QC/Cirac_Zoller_PRL1995.pdf) J. I. Cirac and P. Zoller <img src="https://img.shields.io/badge/Citations-6200+-blue.svg" alt="Citations: 3500" align="top"> <img src="https://img.shields.io/badge/Qiskit-CheckGateDirection()-yellow.svg" alt="Citations: 3700" align="top">
 + [Graph-Based Pulse Representation for Diverse Quantum Control Hardware](https://arxiv.org/abs/2409.08407) Aniket S. Dalvi et al <img src="https://img.shields.io/badge/QCE-2024-green.svg" alt="13-pages" align="top">
@@ -144,7 +140,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Backend compiler phases for trapped-ion quantum computers](https://arxiv.org/abs/2206.00544) T. Schmale et al <img src="https://img.shields.io/badge/QSW-2022-green.svg" alt="13-pages" align="top">
 + [TILT: Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/pdf/2010.15876v3.pdf) Xin-Chuan Wu <img src="https://img.shields.io/badge/HPCA-2020-green.svg" alt="13-pages" align="top"> [[Youtube]](https://www.youtube.com/watch?v=SrcuokJUZp4)
   
-<h4 id="neutral-atom">Neutral-Atom</h4>
+> Neutral atom
 
 + <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top"> [Rydberg Blockade & Neutral Atoms for Quantum Information](https://arxiv.org/abs/quant-ph/0108118) M. Saffman et al (APS Journal, 2010) <img src="https://img.shields.io/badge/Citations-3700+-blue.svg" alt="Citations: 2500" align="top">
 + [Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures](https://arxiv.org/pdf/2409.07870) Oğuzcan Kırmemiş et al <img src="https://img.shields.io/badge/CGO-2025-green.svg" alt="13-pages" align="top">
@@ -155,7 +151,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Compiling Quantum Circuits for Dynamically Field Programmable Neutral Atoms Array Processors](arxiv.org/pdf/2306.03487) Daniel Bochen Tan <img src="https://img.shields.io/badge/Quantum-2024-green.svg" alt="13-pages" align="top">
 + [Quantum optimization of maximum independent set using Rydberg atom arrays](https://arxiv.org/abs/2202.09372) S. Ebadi et al <img src="https://img.shields.io/badge/Science-2022-green.svg" alt="13-pages" align="top">
   
-<h4 id="photonics">Photonics</h4>
+> Photonics
 
 + <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top"> [A scheme for efficient quantum computation with linear optics](https://arxiv.org/abs/quant-ph/0108118) E. Knill et al.(Nature, 2001) <img src="https://img.shields.io/badge/Citations-2500+-blue.svg" alt="Citations: 2500" align="top">
 + <img src="https://img.shields.io/badge/Classic-lightblue.svg" alt="17-pages" align="top"> [A one-way quantum computer](https://arxiv.org/abs/quant-ph/0108118) R. Raussendorf and H. J. Briegel (Physical Review Letters, 2001) <img src="https://img.shields.io/badge/Citations-2500+-blue.svg" alt="Citations: 2500" align="top">
@@ -167,7 +163,15 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [A Generic Measurement-Based Quantum Compilation Pipeline](https://arxiv.org/abs/2302.00795) Nader M. Mohammadizadeh et al <img src="https://img.shields.io/badge/2023-green.svg" alt="13-pages" align="top">
 + [Strawberry Fields: A Software Platform for Photonic Quantum Computing](https://arxiv.org/pdf/1804.03159) Nathan Killoran et al <img src="https://img.shields.io/badge/Quantum-2018-green.svg" alt="13-pages" align="top">
 
+ 
+<h4 id="quantum-error-mitigation">Quantum Error Mitigation</h4>
 
++ [VAQEM: A Variational Approach to Quantum Error Mitigation](https://www.computer.org/csdl/proceedings-article/hpca/2022/202700a288/1Ds0fvoYbCw) Gokul S. Ravi et al <img src="https://img.shields.io/badge/HPCA-2022-green.svg" alt="13-pages" align="top">
++ [ADAPT: Mitigating Idling Errors in Qubits via Adaptive Dynamical Decoupling](https://dl.acm.org/doi/10.1145/3466752.3480059) Poulami Das et al <img src="https://img.shields.io/badge/MICRO-2021-green.svg" alt="13-pages" align="top">
++ [Systematic Cross talk Mitigation for Superconducting Qubits via Frequency-Aware Compilation](https://arxiv.org/abs/2008.09503) Yongshan Ding et al <img src="https://img.shields.io/badge/MICRO-2020-green.svg" alt="13-pages" align="top">
++ [Digital Zero-Noise Extrapolation for Quantum Error Mitigation](https://arxiv.org/abs/2005.10921) Tudor Giurgica-Tiron et al <img src="https://img.shields.io/badge/QCE-2020-green.svg" alt="13-pages" align="top">
++ [Practical Quantum Error Mitigation for Near-Future Applications](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509) Suguru Endo et al <img src="https://img.shields.io/badge/Physical Review X-2018-green.svg" alt="13-pages" align="top">
++ [Error Mitigation for Short-Depth Quantum Circuits](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509) Kristan Temme et al <img src="https://img.shields.io/badge/Physical Review Letter-2017-green.svg" alt="13-pages" align="top">
 
 <h4 id="pulse-level-compile">Pulse-Level Compilation</h4>
 
@@ -226,15 +230,17 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 </br>
 
+> Ecosystem Niche Fields
+
 + <img src="https://img.shields.io/badge/Quantum OS-lightyellow.svg" alt="15-pages" align="top"> [An operating system for executing applications on quantum network nodes](https://www.nature.com/articles/s41586-025-08704-w) C. Delle Donne et al. <img src="https://img.shields.io/badge/Nature-2025-green.svg" alt="13-pages" align="top">
 + <img src="https://img.shields.io/badge/Quantum OS-lightyellow.svg" alt="15-pages" align="top"> [QOS: A Quantum Operating System](https://arxiv.org/abs/2406.19120) Emmanouil Giortamis et al. <img src="https://img.shields.io/badge/OSDI-2025-green.svg" alt="13-pages" align="top">
 + <img src="https://img.shields.io/badge/Quantum Firmware-lightyellow.svg" alt="15-pages" align="top"> [Towards Quantum-Resistant Trusted Computing](https://www.arxiv.org/abs/2601.11095) Grazia D'Onghia, Antonio Lioy. 2026
-+ <img src="https://img.shields.io/badge/Quantum Control System-lightyellow.svg" alt="15-pages" align="top"> [A Generator for Real-Time Quantum Control System-on-Chips Compatible with RISC-V](https://arxiv.org/abs/2505.14902) Junyi Liu et al. 2025
++ <img src="https://img.shields.io/badge/Control System-lightyellow.svg" alt="15-pages" align="top"> [A Generator for Real-Time Quantum Control System-on-Chips Compatible with RISC-V](https://arxiv.org/abs/2505.14902) Junyi Liu et al. 2025
 + <img src="https://img.shields.io/badge/Quantum Runtime-lightyellow.svg" alt="15-pages" align="top"> [Recent quantum runtime (dis)advantages](https://arxiv.org/abs/2510.06337) J. Tuziemski et al. 2025
 + <img src="https://img.shields.io/badge/Quantum Internet-lightyellow.svg" alt="15-pages" align="top"> [The Quantum Internet (Technical Version)](https://arxiv.org/abs/2501.12107) Peter P. Rohde et al. 2025
-+ <img src="https://img.shields.io/badge/Quantum Architecture Search-lightyellow.svg" alt="15-pages" align="top"> [Quantum Architecture Search: A Survey](https://arxiv.org/abs/2406.06210) Darya Martyniuk et al. 2024
-+ <img src="https://img.shields.io/badge/Quantum Circuit Analysis-lightyellow.svg" alt="15-pages" align="top"> [QuCT: A Framework for Analyzing Quantum Circuit by Extracting Contextual and Topological Features](https://dl.acm.org/doi/10.1145/3613424.3614274) Siwei Tan et al <img src="https://img.shields.io/badge/MICRO-2023-green.svg" alt="13-pages" align="top"> [[GitHub]](https://github.com/JanusQ/QuCT-Micro2023) 
-+ <img src="https://img.shields.io/badge/Quantum Circuit Analysis-lightyellow.svg" alt="15-pages" align="top"> [Gleipnir: Toward Practical Error Analysis for Quantum Programs](https://arxiv.org/abs/2104.06349) Runzhou Tao et al <img src="https://img.shields.io/badge/PLDI-2021-green.svg" alt="13-pages" align="top">
++ <img src="https://img.shields.io/badge/Architecture Search-lightyellow.svg" alt="15-pages" align="top"> [Quantum Architecture Search: A Survey](https://arxiv.org/abs/2406.06210) Darya Martyniuk et al. 2024
++ <img src="https://img.shields.io/badge/Circuit Analysis-lightyellow.svg" alt="15-pages" align="top"> [A Framework for Analyzing Quantum Circuit by Extracting Contextual and Topological Features](https://dl.acm.org/doi/10.1145/3613424.3614274) Siwei Tan et al 
++ <img src="https://img.shields.io/badge/Circuit Analysis-lightyellow.svg" alt="15-pages" align="top"> [Gleipnir: Toward Practical Error Analysis for Quantum Programs](https://arxiv.org/abs/2104.06349) Runzhou Tao et al <img src="https://img.shields.io/badge/PLDI-2021-green.svg" alt="13-pages" align="top">
 
 
 <h3 id="fault-tolerant-compilation">Fault-Tolerant Compilation</h3>
@@ -282,7 +288,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Optimized Compiler for Distributed Quantum Computing](https://arxiv.org/abs/2112.14139) Daniele Cuomo et al <img src="https://img.shields.io/badge/TQC-2023-green.svg" alt="paper" align="top">
 + [Compiler Design for Distributed Quantum Computing](https://ieeexplore.ieee.org/document/9334411) Davide Ferrari et al <img src="https://img.shields.io/badge/TQE-2021-green.svg" alt="20-pages" align="top">
 
-<h4 id="part-e-conference-and-journal">Conference and Journal</h4>
+<h3 id="conference-and-journal">Conference and Journal</h3>
 
 + January - [ICCAD](https://www.iccad-conf.com/) [CCS](https://www.sigsac.org/ccs/CCS2026/)
 + March - [OOPSLA](https://2025.splashcon.org/track/OOPSLA) [TQC](https://tqc-conference.org/) [QCE](https://easychair.org/cfp/QCE25)
