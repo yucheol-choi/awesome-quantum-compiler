@@ -32,7 +32,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 - terminology (a-to-z)
 - category of noise (superconducting, ion-trap, photonics, neutral atom, etc.)
-- domain specific compilation (cryptanalysis, chemisty, optimisation, finance, etc.)
+- [Quantum Cryptanalysis](spear-and-shield.md#Optimisation-Perspective-in-Quantum-Cryptanalysis) and Post-Quantum Cryptography
 
 > Survey Paper
 
@@ -77,7 +77,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [QIRopt: An Optimization Method for Quantum Intermediate Representation](https://www.computer.org/csdl/proceedings-article/qce/2025/573601a459/2c5MZ58q2je) Junjie Luo et al. <img src="https://img.shields.io/badge/Computer Society-2025-green.svg">
 + [Quantum Circuit Optimization for the Fault-Tolerance Era: Do We Have to Start from Scratch?](https://arxiv.org/abs/2509.02668) Tobias Forster et al.
 + [Optimizing Ancilla-Based Quantum Circuits with SPARE](https://dl.acm.org/doi/10.1145/3729253) Ritvik Sharma et al. <img src="https://img.shields.io/badge/PLDI-2025-green.svg">
-+ [MarQSim: Reconciling Determinism and Randomness in Compiler Optimization for Quantum Simulation] Xiuqi Cao et al. <img src="https://img.shields.io/badge/PLDI-2025-green.svg">
++ [MarQSim: Reconciling Determinism and Randomness in Compiler Optimization for Quantum Simulation](https://arxiv.org/abs/2408.03429) Xiuqi Cao et al. <img src="https://img.shields.io/badge/PLDI-2025-green.svg">
 + [Quantum circuit optimization with AlphaTensor](https://www.nature.com/articles/s42256-025-01001-1) Francisco J. R. Ruiz [[GitHub]](https://github.com/google-deepmind/alphatensor_quantum) <img src="https://img.shields.io/badge/Nature Machine Intelligence-2025-green.svg"> 
 + [Quarl: A Learning-Based Quantum Circuit Optimizer](https://dl.acm.org/doi/abs/10.1145/3649831) Zikun Li et al. [[GitHub]](https://github.com/quantum-compiler/Quarl) [[Youtube]](https://youtu.be/DZjz88yDKC4?si=UTgp_1pQznhfs2Zs) <img src="https://img.shields.io/badge/OOPSLA-2024-green.svg"> 
 + [Monte Carlo Graph Search for Quantum Circuit Optimization](https://arxiv.org/abs/2307.07353) Bodo Rosenhahn, Tobias J. Osborne <img src="https://img.shields.io/badge/APS Journal-2023-green.svg">
@@ -99,7 +99,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 + [Quantum Circuit Mapping Based on Incremental and Parallel SAT Solving](https://www.cs.cmu.edu/~mheule/publications/SATmap.pdf) Jiong Yang et al <img src="https://img.shields.io/badge/SAT-2024-green.svg">
 + [Fermihedral: On the Optimal Compilation for Fermion-to-Qubit Encoding](https://arxiv.org/pdf/2403.17794) Yuhao Liu et al. [[Github]](https://github.com/acasta-yhliu/fermihedral) [[Youtube]](https://www.youtube.com/watch?v=TLhNJRZUeas) <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg">
-+ [AlphaRouter: Quantum Circuit Routing with Reinforcement Learning and Tree Search](https://arxiv.org/pdf/2410.05115) Wei Tang et al <img src="https://img.shields.io/badge/QCE-2024-green.svg"> [[Github]](https://github.com/HYUIDSL/AlphaRouter)
++ [AlphaRouter: Quantum Circuit Routing with Reinforcement Learning and Tree Search](https://arxiv.org/pdf/2410.05115) Wei Tang et al [[Github]](https://github.com/HYUIDSL/AlphaRouter) <img src="https://img.shields.io/badge/QCE-2024-green.svg">
 + [2QAN: A quantum compiler for 2-local qubit Hamiltonian simulation algorithms](arxiv.org/pdf/2108.02099) Lingling Lao, Dan E. Browne [[Github]](https://github.com/lllingoo/2QAN) [[Youtube]](https://www.youtube.com/watch?v=rBThLSpNpVU) <img src="https://img.shields.io/badge/ISCA-2022-green.svg">
 + [Qubit Mapping and Routing via MaxSAT](https://arxiv.org/abs/2208.13679v1) Abtin Molavi et al <img src="https://img.shields.io/badge/MICRO-2022-green.svg">
 + [QuCloud: A New Qubit Mapping Mechanism for Multi-programming Quantum Computing in Cloud Environment](https://ieeexplore.ieee.org/document/9407180) Lei Liu, Xinglei Dou <img src="https://img.shields.io/badge/HPCA-2021-green.svg">
@@ -201,7 +201,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Dependency-Aware Compilation for Surface Code Quantum Architectures](https://arxiv.org/abs/2311.18042) Abtin Molavi et al <img src="https://img.shields.io/badge/OOPSLA-2025-green.svg">
 + [Lattice Surgery Compilation Beyond the Surface Code](https://arxiv.org/abs/2504.10591) Laura S. Herzog et al <img src="https://img.shields.io/badge/arXiv-2025-green.svg">
 + [Learning high-accuracy error decoding for quantum processors](https://www.nature.com/articles/s41586-024-08148-8) Johannes Bausch et al <img src="https://img.shields.io/badge/Nature-2024-green.svg">
-+ [Ecmas: Efficient Circuit Mapping and Scheduling for Surface Code] Mingzheng Zhu et al. <img src="https://img.shields.io/badge/CGO-2024-green.svg">
++ [Ecmas: Efficient Circuit Mapping and Scheduling for Surface Code](https://arxiv.org/abs/2312.15254) Mingzheng Zhu et al. <img src="https://img.shields.io/badge/CGO-2024-green.svg">
 + [Error Propagation-Aware Routing: A New Routing Strategy to Improve Success Rates of Quantum Circuits](https://dl.acm.org/doi/pdf/10.1145/3649476.3658790) Lu Fang et al <img src="https://img.shields.io/badge/ICCAD-2024-green.svg">
 + [Optimizing FTQC Programs through QEC Transpiler and Architecture Codesign](https://arxiv.org/abs/2412.15434) Meng Wang et al. <img src="https://img.shields.io/badge/TACO-2024-green.svg">
 + [A High Performance Compiler for Very Large Scale Surface Code Computations](https://arxiv.org/abs/2302.02459) George Watkins et al <img src="https://img.shields.io/badge/Quantum-2024-green.svg">
