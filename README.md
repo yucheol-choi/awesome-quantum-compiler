@@ -32,7 +32,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 - terminology (a-to-z)
 - category of noise (superconducting, ion-trap, photonics, neutral atom, etc.)
-- [Quantum Cryptanalysis](spear-and-shield.md#Optimisation-Perspective-in-Quantum-Cryptanalysis) and Post-Quantum Cryptography
+- [Quantum Cryptanalysis](spear-and-shield.md#Circuit-Optimisation-in-Quantum-Cryptanalysis) and [Post-Quantum Cryptography](spear-and-shield.md#Compiler-Optimisation-Post-Quantum-Cryptography) 
 
 > Survey Paper
 
