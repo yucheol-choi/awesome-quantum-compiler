@@ -75,25 +75,23 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Optimizing Quantum Circuits, Fast and Slow](https://arxiv.org/pdf/2411.04104) Amanda Xu et al <img src="https://img.shields.io/badge/ASPLOS-2025-green.svg">
 + [Linear and non-linear relational analyses for Quantum Program Optimization](https://arxiv.org/abs/2410.23493) Matthew Amy, Joseph Lunderville <img src="https://img.shields.io/badge/POPL-2025-green.svg">
 + [QIRopt: An Optimization Method for Quantum Intermediate Representation](https://www.computer.org/csdl/proceedings-article/qce/2025/573601a459/2c5MZ58q2je) Junjie Luo et al. <img src="https://img.shields.io/badge/Computer Society-2025-green.svg">
-+ [Quantum Circuit Optimization for the Fault-Tolerance Era: Do We Have to Start from Scratch?](https://arxiv.org/abs/2509.02668) Tobias Forster et al.
++ [Quantum Circuit Optimization for the Fault-Tolerance Era: Do We Have to Start from Scratch?](https://arxiv.org/abs/2509.02668) Tobias Forster et al. <img src="https://img.shields.io/badge/QCE-2025-green.svg">
 + [Optimizing Ancilla-Based Quantum Circuits with SPARE](https://dl.acm.org/doi/10.1145/3729253) Ritvik Sharma et al. <img src="https://img.shields.io/badge/PLDI-2025-green.svg">
++ [Reinforcement learning with learned gadgets to tackle hard quantum problems on real hardware](https://arxiv.org/abs/2411.00230) Akash Kundu, Leopoldo Sarra <img src="https://img.shields.io/badge/ICML-2025-green.svg">
 + [Reinforcement Learning for Quantum Control under Physical Constraints](https://arxiv.org/abs/2501.14372) Jan Ole Ernst et al. <img src="https://img.shields.io/badge/ICML-2025-green.svg">
 + [MarQSim: Reconciling Determinism and Randomness in Compiler Optimization for Quantum Simulation](https://arxiv.org/abs/2408.03429) Xiuqi Cao et al. <img src="https://img.shields.io/badge/PLDI-2025-green.svg">
 + [Quantum circuit optimization with AlphaTensor](https://www.nature.com/articles/s42256-025-01001-1) Francisco J. R. Ruiz [[GitHub]](https://github.com/google-deepmind/alphatensor_quantum) <img src="https://img.shields.io/badge/Nature Machine Intelligence-2025-green.svg">
++ [Quantum Optimization via Gradient-Based Hamiltonian Descent](https://arxiv.org/abs/2505.14670) Jiaqi Leng, Bin Shi <img src="https://img.shields.io/badge/ICML-2025-green.svg">
++ [A Sub-Problem Quantum Alternating Operator Ansatz for Correlation Clustering](https://raw.githubusercontent.com/mlresearch/v267/main/assets/naumann25a/naumann25a.pdf) Lucas Fabian Naumann et al. <img src="https://img.shields.io/badge/ICML-2025-green.svg">
 + [Quantum circuit synthesis with diffusion models](https://arxiv.org/html/2311.02041v2) Florian Fürrutter, Gorka Muñoz-Gil <img src="https://img.shields.io/badge/ICML-2024-green.svg">
++ [SA-DQAS: Self-attention Enhanced Differentiable Quantum Architecture Search](https://arxiv.org/abs/2406.08882) Yize Sun et al. <img src="https://img.shields.io/badge/ICML-2024-green.svg">
 + [Quarl: A Learning-Based Quantum Circuit Optimizer](https://dl.acm.org/doi/abs/10.1145/3649831) Zikun Li et al. [[GitHub]](https://github.com/quantum-compiler/Quarl) [[Youtube]](https://youtu.be/DZjz88yDKC4?si=UTgp_1pQznhfs2Zs) <img src="https://img.shields.io/badge/OOPSLA-2024-green.svg"> 
-+ [Monte Carlo Graph Search for Quantum Circuit Optimization](https://arxiv.org/abs/2307.07353) Bodo Rosenhahn, Tobias J. Osborne <img src="https://img.shields.io/badge/APS Journal-2023-green.svg">
 + [QuantumDARTS: Differentiable Quantum Architecture Search for Variational Quantum Algorithms](https://proceedings.mlr.press/v202/wu23v/wu23v.pdf) Wenjie Wu et al. <img src="https://img.shields.io/badge/ICML-2023-green.svg">
 + [SuperstaQ: Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) Campbell et al. [[GitHub]](https://github.com/Infleqtion/client-superstaq) <img src="https://img.shields.io/badge/QCE-2023-green.svg">
++ [Efficient Quantum Algorithms for Quantum Optimal Control](https://arxiv.org/abs/2304.02613) Xiantao Li, Chunhao Wang <img src="https://img.shields.io/badge/ICML-2023-green.svg">
 + [QAS-Bench: Rethinking Quantum Architecture Search and a Benchmark](https://proceedings.mlr.press/v202/lu23f/lu23f.pdf) Xudong Lu et al. <img src="https://img.shields.io/badge/ICML-2023-green.svg">
 + [Paulihedral: a generalized block-wise compiler optimization framework for Quantum simulation kernels](https://arxiv.org/abs/2109.03371) Gushu Li et al. [[Youtube]](https://youtu.be/lXFVkBlh9_Q?si=y_d4SgUwWQPwerch) <img src="https://img.shields.io/badge/ASPLOS-2022-green.svg">
-+ [Phase Gadget Synthesis for Shallow Circuit](https://arxiv.org/abs/1906.01734) Alexander Cowtan (2019) 
-+ [Exact and Practical Pattern Matching for Quantum Circuit Optimization](https://arxiv.org/abs/1909.05270) Raban Iten et al  <img src="https://img.shields.io/badge/TQC-2022-green.svg">
-+ [Optimizing Clifford Circuits with Quantomatic](https://arxiv.org/abs/1901.10114) Andrew Fagan, Ross Duncan (2019)
 + [Qubit Allocation](https://hal.science/hal-01655951/file/Siraichi_QubitAllocation_CGO18.pdf) Marcos Siraichi et al.  <img src="https://img.shields.io/badge/CGO-2018-green.svg"> 
-+ [Automated optimization of large quantum circuits with continuous parameters](https://arxiv.org/abs/1710.07345) Yunseong Nam et al. [[GitHub]](https://github.com/njross/optimizer) <img src="https://img.shields.io/badge/npj Quantum Information-2017-green.svg">
-+ [A software methodology for compiling quantum programs](https://arxiv.org/abs/1604.01401) Thomas Häner et al <img src="https://img.shields.io/badge/Quantum Sci-2016-green.svg">
-+ [Repeat-until-Success: Non-Deterministic Decomposition of Single-Qubit Unitaries](https://arxiv.org/abs/1311.1074) Adam Paetznick, Krysta Svore [[GitHub]](https://github.com/microsoft/Quantum/tree/main/samples/algorithms/repeat-until-success) <img src="https://img.shields.io/badge/QIC Journal-2014-green.svg">
 
 
 
@@ -162,6 +160,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
  
 <h4 id="compilation-with-error-mitigation">Compilation with Error Mitigation</h4>
 
++ [QEM-Bench: Benchmarking Learning-based Quantum Error Mitigation and QEMFormer as a Multi-ranged Context Learning Baseline](https://openreview.net/forum?id=PSNce503is) Tianyi Bao et al. <img src="https://img.shields.io/badge/ICML-2025-green.svg">
 + [On the Use of Calibration Data in Error-Aware Compilation Techniques for NISQ Devices](https://arxiv.org/html/2407.21462v1) Handy Kurniawan et al <img src="https://img.shields.io/badge/Computer Society-2024-green.svg">
 + [A Variational Approach to Quantum Error Mitigation](https://arxiv.org/abs/2112.05821) Gokul S. Ravi et al <img src="https://img.shields.io/badge/HPCA-2022-green.svg">
 + [Mitigating Idling Errors in Qubits via Adaptive Dynamical Decoupling](https://dl.acm.org/doi/10.1145/3466752.3480059) Poulami Das et al <img src="https://img.shields.io/badge/MICRO-2021-green.svg">
@@ -178,6 +177,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Tackling the Challenges of Adding Pulse-level Support to a Heterogeneous HPCQC Software Stack: MQSS Pulse](https://dl.acm.org/doi/10.1145/3731599.3767552) Jorge Echavarria et al. <img src="https://img.shields.io/badge/SC-2025-green.svg">
 + [Pulse-Level Simulation of Crosstalk Attacks on Superconducting Quantum HardwareVenue](https://www.arxiv.org/abs/2507.16181) Syed Emad Uddin Shubha, Tasnuva Farheen 
 + [Enhancing Noisy Quantum Sensing by GHZ State Partitioning](https://arxiv.org/pdf/2507.02829) Allen Zang et al. <img src="https://img.shields.io/badge/QCE-2025-green.svg">
++ [Reinforcement Learning for Quantum Control under Physical Constraints](https://arxiv.org/abs/2501.14372) Jan Ole Ernst et al. <img src="https://img.shields.io/badge/ICML-2025-green.svg">
 + [Graph-Based Pulse Representation for Diverse Quantum Control Hardware](https://arxiv.org/abs/2409.08407) Aniket S. Dalvi et al. <img src="https://img.shields.io/badge/Computer Society-2024-green.svg">
 + [Variational Quantum Pulse Learning](https://arxiv.org/abs/2203.17267) Zhiding Liang et al. <img src="https://img.shields.io/badge/QCE-2022-green.svg">
 + [Enabling Pulse-Level Programming, Compilation, and Execution in XACC](https://arxiv.org/pdf/2003.11971) Thien Nguyen, Alexander McCaskey [[Github]](https://github.com/eclipse/xacc) <img src="https://img.shields.io/badge/TC-2020-green.svg">
