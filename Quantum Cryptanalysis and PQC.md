@@ -1,10 +1,6 @@
-## Spear and Shield
-
-**Co-Evolving for 30 Years** 
-</br>
-Quantum cryptanalysis began with Shor’s factoring algorithm in **1994**, showing that quantum computers could break widely used public-key schemes and prompting the development of post-quantum cryptography as a defensive response. Historically high-impact papers on resource-efficient implementations of Shor’s algorithm and Grover-based attacks
+# Compiler-level of Crypto System
   
-#### Circuit Optimisation in Quantum Cryptanalysis
+#### Quantum Cryptanalysis
 
 + [Quantum Circuit Designs of Integer Division Optimizing T-Count and T-Depth](https://arxiv.org/abs/1809.09732) Himanshu Thapliyal et al. <img src="https://img.shields.io/badge/Computer Society-2018-green.svg">
 + [High Performance Quantum Modular Multipliers](https://arxiv.org/abs/1801.01081) Rich Rines et al. <img src="https://img.shields.io/badge/arXiv-2018-green.svg">
@@ -24,8 +20,19 @@ Quantum cryptanalysis began with Shor’s factoring algorithm in **1994**, showi
 + [Circuit for Shor's algorithm using 2n+3 qubits](https://arxiv.org/abs/quant-ph/0205095) Stéphane Beauregard <img src="https://img.shields.io/badge/QIC-2003-green.svg">
 
 
+#### Post Quantum Cryptography 
 
-</br>
++ [Optimized Vectorization Implementation of CRYSTALS-Dilithium](https://arxiv.org/abs/2306.01989) <img src="https://img.shields.io/badge/IACR-2003-green.svg">
++ [Faster Post-Quantum TLS 1.3 Based on ML-KEM: Implementation and Assessment](https://arxiv.org/abs/2404.13544) <img src="https://img.shields.io/badge/IACR-2003-green.svg">
++ [Memory-Efficient High-Speed Implementation of Kyber on Cortex-M4](https://eprint.iacr.org/2019/489) <img src="https://img.shields.io/badge/IACR-2003-green.svg">
++ [Faster Kyber and Dilithium on the Cortex-M4](https://eprint.iacr.org/2022/112) <img src="https://img.shields.io/badge/IACR-2003-green.svg">
++ [Formally verifying Kyber / Machine-checked IND-CCA security and correctness of ML-KEM in EasyCrypt](https://eprint.iacr.org/2024/843) <img src="https://img.shields.io/badge/IACR-2003-green.svg">
++ [Faster Dilithium, Kyber, and Saber on Cortex-A72 and Apple M1](https://eprint.iacr.org/2021/986)  <img src="https://img.shields.io/badge/IACR-2003-green.svg">
++ [Compact Implementations of Kyber on 64-bit ARM Cortex-A Processors](https://eprint.iacr.org/2021/561)  <img src="https://img.shields.io/badge/IACR-2003-green.svg">
++ [Optimized Software Implementation of Keccak, Kyber, and Dilithium on RISC-V](https://eprint.iacr.org/2024/1515)  <img src="https://img.shields.io/badge/IACR-2003-green.svg">
++ [Vectorized Implementation of Kyber and Dilithium on 32-bit Cortex-A Series](https://ieeexplore.ieee.org/document/10614163/)  <img src="https://img.shields.io/badge/IACR-2003-green.svg">
++ [Fun with flags: How Compilers Break and Fix Constant-Time Code](https://arxiv.org/abs/2507.06112)  <img src="https://img.shields.io/badge/IACR-2003-green.svg">
 
-#### Compiler Optimisation in Post-Quantum Cryptography 
-to be continue..
+
+
+#### Crypto Conference or Journal
