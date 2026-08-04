@@ -16,7 +16,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 - [Fault-Tolerant Compilation](#fault-tolerant-compilation)
   - [QEC-aware Compilation](#qec-aware-compilation)
   - [Magic State Distillation](#magic-state-distillation)
-  - [Recourse Estimation](#resource-estimation)
+  - [Quantum Recourse Estimation](#quantum-resource-estimation)
   - [Distributed FT Compilation](#distributed-ft-compilation)
 - [Quantum Compiler Ecosystem](#quantum-compiler-ecosystem)
   - [Quantum Testing and Debugging](#quantum-testing-and-debugging)
@@ -30,9 +30,8 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 > Background
 (To be continue..)
 
-- terminology (a-to-z)
-- category of noise (superconducting, ion-trap, photonics, neutral atom, etc.)
-- [Quantum Cryptanalysis](spear-and-shield.md#Circuit-Optimisation-in-Quantum-Cryptanalysis) and [Post-Quantum Cryptography](spear-and-shield.md#Compiler-Optimisation-Post-Quantum-Cryptography) 
+- Terminology (AtoZ)
+- Noise Category (superconducting, ion-trap, photonics, neutral atom, etc.)
 
 > Survey Paper
 
@@ -211,7 +210,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [A High Performance Compiler for Very Large Scale Surface Code Computations](https://arxiv.org/abs/2302.02459) George Watkins et al <img src="https://img.shields.io/badge/Quantum-2024-green.svg">
 + [Realistic Cost to Execute Practical Quantum Circuits using Direct Clifford+T Lattice Surgery Compilation](https://arxiv.org/abs/2311.10686) Tyler LeBlond et al. [[Github]](https://github.com/ORNL-QCI/TISCC) <img src="https://img.shields.io/badge/TQC-2024-green.svg">
 + [Surface code compilation via edge-disjoint paths](https://arxiv.org/abs/2110.11493) Michael Beverland et al <img src="https://img.shields.io/badge/APS Journal-2022-green.svg">
-+ [AutoBraid: A Framework for Enabling Efficient Surface Code Communication in Quantum Computing] Fei Hua et al. <img src="https://img.shields.io/badge/MICRO-2021-green.svg">
++ [AutoBraid: A Framework for Enabling Efficient Surface Code Communication in Quantum Computing](https://dl.acm.org/doi/10.1145/3466752.3480072) Fei Hua et al. <img src="https://img.shields.io/badge/MICRO-2021-green.svg">
 + [A Game of Surface Codes: Large-Scale Quantum Computing with Lattice Surgery](https://arxiv.org/abs/1808.02892) Daniel Litinski <img src="https://img.shields.io/badge/Quantum-2019-green.svg">
 + [Lattice Surgery Translation for Quantum Computation](https://arxiv.org/abs/1608.05208) Daniel Herr et al. [[GitHub]](https://github.com/latticesurgery-com/lattice-surgery-compiler) <img src="https://img.shields.io/badge/New Journal of Physics-2017-green.svg"> 
 
@@ -221,10 +220,10 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Orchestrating multi-level magic state distillation: a dynamic pipeline architecture](https://arxiv.org/abs/2509.24402) Junshi Wang and Prakash Murali <img src="https://img.shields.io/badge/arXiv-2025-green.svg">
 + [Locality-Aware Pauli-Based Computation for Local Magic State Preparation](https://arxiv.org/abs/2504.12091) Keita Kanno et al <img src="https://img.shields.io/badge/QCE-2025-green.svg">
 + [Magic state distillation: Not as costly as you thin](https://arxiv.org/abs/1905.06903) Daniel Litinski <img src="https://img.shields.io/badge/Quantum-2019-green.svg">
-+ [Magic-state functional units: mapping and scheduling multi-level distillation circuits for fault-tolerant quantum architectures](https://dl.acm.org/doi/10.1109/MICRO.2018.00072) yongshan ding et al. <img src="https://img.shields.io/badge/MIRCRO-2018-green.svg">
++ [Magic-state functional units: mapping and scheduling multi-level distillation circuits for fault-tolerant quantum architectures](https://dl.acm.org/doi/10.1109/MICRO.2018.00072) Yongshan Ding et al. <img src="https://img.shields.io/badge/MICRO-2018-green.svg">
 + [Fault-tolerant, high-level quantum circuits: form, compilation and description](https://arxiv.org/abs/1509.02004) Alexandru Paler et al <img src="https://img.shields.io/badge/QST-2017-green.svg">
 
-<h4 id="resource-estimation">Resource Estimation</h4>
+<h4 id="quantum-resource-estimation">Quantum Resource Estimation</h4>
 
 + [Resource Analysis of Low-Overhead Transversal Architectures for Reconfigurable Atom Arrays](https://arxiv.org/abs/2505.15907) Hengyun Zhou et al. <img src="https://img.shields.io/badge/ISCA-2025-green.svg">
 + [Quantum resource estimation for large scale quantum algorithms](https://www.sciencedirect.com/science/article/pii/S0167739X24004308) Vlad Gheorghiu and Michele Mosca <img src="https://img.shields.io/badge/Future Generation Computer Systems-2025-green.svg">
@@ -266,7 +265,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Symbolic Execution for Quantum Error Correction Programs](https://arxiv.org/pdf/2311.11313) Wang Fang, Mingsheng Ying. <img src="https://img.shields.io/badge/PLDI-2024-green.svg"> 
 + [Quantum Probabilistic Model Checking for Time-Bounded Properties](https://dl.acm.org/doi/10.1145/3689731) Seungmin Jeon et al. <img src="https://img.shields.io/badge/OOPSLA-2024-green.svg">
 + [Design by Contract Framework for Quantum Software](https://arxiv.org/abs/2303.17750) Masaomi Yamaguchi, Nobukazu Yoshioka <img src="https://img.shields.io/badge/QSE-2023-green.svg">
-+ [A Design of Software Architecture for Validate and Verification of Linear-Optical Quantum Computing Platform](https://ieeexplore.ieee.org/document/10313808) Duwon Lee et al <img src="https://img.shields.io/badge/QCE-2023-green.svg>
++ [A Design of Software Architecture for Validate and Verification of Linear-Optical Quantum Computing Platform](https://ieeexplore.ieee.org/document/10313808) Duwon Lee et al <img src="https://img.shields.io/badge/QCE-2023-green.svg">
 + [CoqQ: Foundational Verification of Quantum Programs](https://arxiv.org/abs/2207.11350) L. Zhou [[Youtube]](https://www.youtube.com/watch?v=RjKCP8U-1Zg) <img src="https://img.shields.io/badge/POPL-2022-green.svg"> 
 + [Twist: Sound Reasoning for Purity and Entanglement in Quantum Programs](https://arxiv.org/abs/2205.02287) Charles Yuan et al [[Github]](https://github.com/psg-mit/twist-popl22)[[Youtube]](https://www.youtube.com/watch?v=H3GIBgH5Ud4) <img src="https://img.shields.io/badge/POPL-2022-green.svg">
 + [Giallar: Push-Button Verification for the Qiskit Quantum Compiler](https://arxiv.org/pdf/2205.00661) Runzhou Tao at al. [[Github]](https://github.com/taorunz/Giallar) [[Youtube]](https://www.youtube.com/watch?v=m9pR53Zcj5w) <img src="https://img.shields.io/badge/PLDI-2022-green.svg"> 
@@ -286,9 +285,9 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 <h4 id="quantum-os">Quantum Operating System</h4>
 
-+ [An operating system for executing applications on quantum network nodes](https://www.nature.com/articles/s41586-025-08704-w) C. Delle Donne et al. <img src="https://img.shields.io/badge/Nature-2025-green.svg">
++ [An Operating System For Executing Applications On Quantum Network Nodes](https://www.nature.com/articles/s41586-025-08704-w) C. Delle Donne et al. <img src="https://img.shields.io/badge/Nature-2025-green.svg">
 + [QOS: A Quantum Operating System](https://arxiv.org/abs/2406.19120) Emmanouil Giortamis et al. <img src="https://img.shields.io/badge/OSDI-2025-green.svg"> 
-+ [Qibolab: an open-source hybrid quantum operating system](https://arxiv.org/abs/2308.06313) Stavros Efthymiou et al. [[Github]](ttps://github.com/qiboteam/qibolab) <img src="https://img.shields.io/badge/Quantum-2025-green.svg">
++ [Qibolab: An Open-Source Hybrid Quantum Operating System](https://arxiv.org/abs/2308.06313) Stavros Efthymiou et al. [[Github]](ttps://github.com/qiboteam/qibolab) <img src="https://img.shields.io/badge/Quantum-2025-green.svg">
 + [Quantum Operating Systems](https://people.eecs.berkeley.edu/~henrycg/files/academic/papers/hotos17quantum.pdf) Henry Corrigan-Gibbs et al <img src="https://img.shields.io/badge/HotOS-2017-green.svg">
 
 <h3 id="conference-deadline">Top Conference Deadline</h3>
