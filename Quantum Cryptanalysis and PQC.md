@@ -36,3 +36,8 @@
 
 
 #### Crypto Conference or Journal
+
++ [CRYPTO](https://crypto.iacr.org/2026/), [EUROCRYPT](https://eurocrypt.iacr.org/2027/), [ASIACRYPT](https://asiacrypt.iacr.org/2026/)
++ [Journal of Cryptology](https://www.iacr.org/jofc/)
+
+
