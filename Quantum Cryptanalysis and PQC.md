@@ -39,6 +39,16 @@
 + [Memory-Efficient High-Speed Implementation of Kyber on Cortex-M4](https://eprint.iacr.org/2019/489) Leon Botros et al. <img src="https://img.shields.io/badge/IACR-2019-green.svg">
 + [Formal Verification of a Constant-Time Preserving C Compiler](https://dl.acm.org/doi/10.1145/3371075) Gilles Barthe et al. <img src="https://img.shields.io/badge/POPL-2019-green.svg">
 
+# Quantum Lattice Algorithms and Cryptanalysis
+
++ [Generic Constructions of Compact and Tightly Selective-Opening Secure Public-Key Encryption Schemes](https://eprint.iacr.org/2023/1321) Jiaxin Pan et al. <img src="https://img.shields.io/badge/JoC-2026-green.svg">
++ [On Quantum Sieve Approaches to the Lattice Shortest Vector Problem](https://eprint.iacr.org/2024/712.pdf) Daniel Epelbaum <img src="https://img.shields.io/badge/PQCrypto-2026-green.svg">
++ [Quantum Algorithms for Lattice Problems](https://eprint.iacr.org/2024/555) Yilei Chen et al. <img src="https://img.shields.io/badge/IACR-2024-green.svg">
++ [Quantum Lattice Enumeration in Limited Depth](https://eprint.iacr.org/2023/1423) Nina Bindel et al. <img src="https://img.shields.io/badge/CRYPTO-2024-green.svg">
++ [Lattice Sieving via Quantum Random Walks](https://arxiv.org/abs/2105.05608) André Chailloux and Johanna Loyer <img src="https://img.shields.io/badge/ASIACRYPTO-2021-green.svg">
++ [Quantum Lightning Never Strikes the Same State Twice](https://arxiv.org/abs/1711.02276) Mark Zhandry <img src="https://img.shields.io/badge/JoC-2019-green.svg">
++ [Full Quantum Equivalence of Group Action DLog and CDH, and More](https://eprint.iacr.org/2022/1135) Hart Montgomery & Mark Zhandry <img src="https://img.shields.io/badge/JoC-2019-green.svg">
++ [Fine-grained cryptography revisited](https://eprint.iacr.org/2019/1488) Shohei Egashira et al. <img src="https://img.shields.io/badge/JoC-2019-green.svg">
 
 
 #### Top Conference or Journal
