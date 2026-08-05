@@ -71,6 +71,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 <h4 id="hw-agnostic-compilation">HW-agnostic Circuit Compilation</h4>
 
++ [Position: Quantum Program Generation Must Prioritize Validity Over Probabilistic Scaling](https://arxiv.org/abs/2607.15313) Junhao Song et al. <img src="https://img.shields.io/badge/ICML-2026-green.svg">
 + [Optimizing Quantum Circuits, Fast and Slow](https://arxiv.org/pdf/2411.04104) Amanda Xu et al <img src="https://img.shields.io/badge/ASPLOS-2025-green.svg">
 + [Linear and non-linear relational analyses for Quantum Program Optimization](https://arxiv.org/abs/2410.23493) Matthew Amy, Joseph Lunderville <img src="https://img.shields.io/badge/POPL-2025-green.svg">
 + [QIRopt: An Optimization Method for Quantum Intermediate Representation](https://www.computer.org/csdl/proceedings-article/qce/2025/573601a459/2c5MZ58q2je) Junjie Luo et al. <img src="https://img.shields.io/badge/Computer Society-2025-green.svg">
@@ -99,11 +100,11 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 > General
 
 + [Quantum Circuit Mapping Based on Incremental and Parallel SAT Solving](https://www.cs.cmu.edu/~mheule/publications/SATmap.pdf) Jiong Yang et al <img src="https://img.shields.io/badge/SAT-2024-green.svg">
-+ [Fermihedral: On the Optimal Compilation for Fermion-to-Qubit Encoding](https://arxiv.org/pdf/2403.17794) Yuhao Liu et al. [[Github]](https://github.com/acasta-yhliu/fermihedral) [[Youtube]](https://www.youtube.com/watch?v=TLhNJRZUeas) <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg">
++ [On the Optimal Compilation for Fermion-to-Qubit Encoding](https://arxiv.org/pdf/2403.17794) Yuhao Liu et al. [[Github]](https://github.com/acasta-yhliu/fermihedral) [[Youtube]](https://www.youtube.com/watch?v=TLhNJRZUeas) <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg">
 + [AlphaRouter: Quantum Circuit Routing with Reinforcement Learning and Tree Search](https://arxiv.org/pdf/2410.05115) Wei Tang et al [[Github]](https://github.com/HYUIDSL/AlphaRouter) <img src="https://img.shields.io/badge/QCE-2024-green.svg">
-+ [2QAN: A quantum compiler for 2-local qubit Hamiltonian simulation algorithms](arxiv.org/pdf/2108.02099) Lingling Lao, Dan E. Browne [[Github]](https://github.com/lllingoo/2QAN) [[Youtube]](https://www.youtube.com/watch?v=rBThLSpNpVU) <img src="https://img.shields.io/badge/ISCA-2022-green.svg">
++ [A quantum compiler for 2-local qubit Hamiltonian simulation algorithms](arxiv.org/pdf/2108.02099) Lingling Lao, Dan E. Browne [[Github]](https://github.com/lllingoo/2QAN) [[Youtube]](https://www.youtube.com/watch?v=rBThLSpNpVU) <img src="https://img.shields.io/badge/ISCA-2022-green.svg">
 + [Qubit Mapping and Routing via MaxSAT](https://arxiv.org/abs/2208.13679v1) Abtin Molavi et al <img src="https://img.shields.io/badge/MICRO-2022-green.svg">
-+ [QuCloud: A New Qubit Mapping Mechanism for Multi-programming Quantum Computing in Cloud Environment](https://ieeexplore.ieee.org/document/9407180) Lei Liu, Xinglei Dou <img src="https://img.shields.io/badge/HPCA-2021-green.svg">
++ [A New Qubit Mapping Mechanism for Multi-programming Quantum Computing in Cloud Environment](https://ieeexplore.ieee.org/document/9407180) Lei Liu, Xinglei Dou <img src="https://img.shields.io/badge/HPCA-2021-green.svg">
 + [Time-optimal Qubit mapping](https://dl.acm.org/doi/pdf/10.1145/3445814.3446706) Chi Zhang et al. [[Youtube]](https://www.youtube.com/watch?v=_557jSReORo) <img src="https://img.shields.io/badge/ASPLOS-2021-green.svg">
 + [Scheduling of Operations in Quantum Compiler](https://arxiv.org/pdf/2011.04936) Toshinari Itoko, Takashi Imamichi <img src="https://img.shields.io/badge/QCE-2020-green.svg">
 + [Tackling the Qubit Mapping Problem for NISQ-Era Quantum Devices](https://arxiv.org/abs/1809.02573) Gushu Li et al <img src="https://img.shields.io/badge/ASPLOS-2019-green.svg"> 
