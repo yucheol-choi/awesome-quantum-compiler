@@ -223,8 +223,9 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Magic-state functional units: mapping and scheduling multi-level distillation circuits for fault-tolerant quantum architectures](https://dl.acm.org/doi/10.1109/MICRO.2018.00072) Yongshan Ding et al. <img src="https://img.shields.io/badge/MICRO-2018-green.svg">
 + [Fault-tolerant, high-level quantum circuits: form, compilation and description](https://arxiv.org/abs/1509.02004) Alexandru Paler et al <img src="https://img.shields.io/badge/QST-2017-green.svg">
 
-<h4 id="quantum-resource-estimation">Quantum Resource Estimation</h4>
+<h4 id="quantum-resource-estimation">Quantum Resource Estimation</h4> 
 
++ [[Gidney Google Scholar]](https://scholar.google.com/citations?user=qKTv84IAAAAJ&hl=en) + [[Gidney Blog]](https://algassert.com/) '
 + [Resource Analysis of Low-Overhead Transversal Architectures for Reconfigurable Atom Arrays](https://arxiv.org/abs/2505.15907) Hengyun Zhou et al. <img src="https://img.shields.io/badge/ISCA-2025-green.svg">
 + [Quantum resource estimation for large scale quantum algorithms](https://www.sciencedirect.com/science/article/pii/S0167739X24004308) Vlad Gheorghiu and Michele Mosca <img src="https://img.shields.io/badge/Future Generation Computer Systems-2025-green.svg">
 + [Magic state cultivation: growing T states as cheap as CNOT gates](https://arxiv.org/abs/2409.17595) Craig Gidney et al. 
