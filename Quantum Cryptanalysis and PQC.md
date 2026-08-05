@@ -22,20 +22,26 @@
 
 #### Post Quantum Cryptography 
 
-+ [Optimized Vectorization Implementation of CRYSTALS-Dilithium](https://arxiv.org/abs/2306.01989) <img src="https://img.shields.io/badge/IACR-2003-green.svg">
-+ [Faster Post-Quantum TLS 1.3 Based on ML-KEM: Implementation and Assessment](https://arxiv.org/abs/2404.13544) <img src="https://img.shields.io/badge/IACR-2003-green.svg">
-+ [Memory-Efficient High-Speed Implementation of Kyber on Cortex-M4](https://eprint.iacr.org/2019/489) <img src="https://img.shields.io/badge/IACR-2003-green.svg">
-+ [Faster Kyber and Dilithium on the Cortex-M4](https://eprint.iacr.org/2022/112) <img src="https://img.shields.io/badge/IACR-2003-green.svg">
-+ [Formally verifying Kyber / Machine-checked IND-CCA security and correctness of ML-KEM in EasyCrypt](https://eprint.iacr.org/2024/843) <img src="https://img.shields.io/badge/IACR-2003-green.svg">
-+ [Faster Dilithium, Kyber, and Saber on Cortex-A72 and Apple M1](https://eprint.iacr.org/2021/986)  <img src="https://img.shields.io/badge/IACR-2003-green.svg">
-+ [Compact Implementations of Kyber on 64-bit ARM Cortex-A Processors](https://eprint.iacr.org/2021/561)  <img src="https://img.shields.io/badge/IACR-2003-green.svg">
-+ [Optimized Software Implementation of Keccak, Kyber, and Dilithium on RISC-V](https://eprint.iacr.org/2024/1515)  <img src="https://img.shields.io/badge/IACR-2003-green.svg">
-+ [Vectorized Implementation of Kyber and Dilithium on 32-bit Cortex-A Series](https://ieeexplore.ieee.org/document/10614163/)  <img src="https://img.shields.io/badge/IACR-2003-green.svg">
-+ [Fun with flags: How Compilers Break and Fix Constant-Time Code](https://arxiv.org/abs/2507.06112)  <img src="https://img.shields.io/badge/IACR-2003-green.svg">
++ [Automatic Large-Scale Constant-Time Analysis](https://arxiv.org/pdf/2501.04183) Zhiyuan Zhang, Gilles Barthe <img src="https://img.shields.io/badge/OOPSLA-2026-green.svg">
++ [Decompiling for Constant-Time Analysis](https://arxiv.org/abs/2501.04183) Santiago Arranz-Olmos et al. <img src="https://img.shields.io/badge/OOPSLA-2026-green.svg">
++ [How Compilers Break and Fix Constant-Time Code](https://arxiv.org/abs/2507.06112) Antoine Geimer, Clementine Maurice <img src="https://img.shields.io/badge/IACR-2025-green.svg">
++ [How Compilers Break Constant-Time Implementations](https://arxiv.org/abs/2410.13489) Moritz Schneider et al. <img src="https://img.shields.io/badge/CCS25-green.svg">
++ [Smooth, Integrated Proofs of Cryptographic Constant Time for Nondeterministic Programs and Compilers](https://arxiv.org/abs/2504.15550) Owen Conoly et al. <img src="https://img.shields.io/badge/PLDI-2025-green.svg">
++ [Preservation of Speculative Constant-Time by Compilation](https://dl.acm.org/doi/10.1145/3704880) Santiago Arranz Olmos et al. <img src="https://img.shields.io/badge/POPL-2024-green.svg">
++ [Vectorized Implementation of Kyber and Dilithium on 32-bit Cortex-A Series](https://ieeexplore.ieee.org/document/10614163/) Youngbeom Kim et al.  <img src="https://img.shields.io/badge/IEEE-2024-green.svg">
++ [Optimized Software Implementation of Keccak, Kyber, and Dilithium on RISC-V](https://eprint.iacr.org/2024/1515) Jipeng Zhang et al. <img src="https://img.shields.io/badge/IACR-2024-green.svg">
++ [Faster Post-Quantum TLS 1.3 Based on ML-KEM: Implementation and Assessment](https://arxiv.org/abs/2404.13544) Jieyu Zheng et al. <img src="https://img.shields.io/badge/IACR-2024-green.svg">
++ [Machine-checked IND-CCA security and correctness of ML-KEM in EasyCrypt](https://eprint.iacr.org/2024/843) José Bacelar Almeida et al. <img src="https://img.shields.io/badge/IACR-2024-green.svg">
++ [Optimized Vectorization Implementation of CRYSTALS-Dilithium](https://arxiv.org/abs/2306.01989) Jieyu Zheng et al. <img src="https://img.shields.io/badge/CRYPTO-2023-green.svg">
++ [Faster Kyber and Dilithium on the Cortex-M4](https://eprint.iacr.org/2022/112) Amin Abdulrahman et al. <img src="https://img.shields.io/badge/IACR-2022-green.svg"> [Github](https://github.com/FasterKyberDilithiumM4/FasterKyberDilithiumM4)
++ [Faster Dilithium, Kyber, and Saber on Cortex-A72 and Apple M1](https://eprint.iacr.org/2021/986) Hanno Becker et al. <img src="https://img.shields.io/badge/IACR-2021-green.svg"> [Github](https://github.com/neon-ntt/neon-ntt)
++ [Compact Implementations of Kyber on 64-bit ARM Cortex-A Processors](https://eprint.iacr.org/2021/561) Pakize Sanal et al. <img src="https://img.shields.io/badge/IACR-2021-green.svg">
++ [Memory-Efficient High-Speed Implementation of Kyber on Cortex-M4](https://eprint.iacr.org/2019/489) Leon Botros et al. <img src="https://img.shields.io/badge/IACR-2019-green.svg">
++ [Formal Verification of a Constant-Time Preserving C Compiler](https://dl.acm.org/doi/10.1145/3371075) Gilles Barthe et al. <img src="https://img.shields.io/badge/POPL-2019-green.svg">
 
 
 
-#### Crypto Conference or Journal
+#### Top Conference or Journal
 
 + [CRYPTO](https://crypto.iacr.org/2026/), [EUROCRYPT](https://eurocrypt.iacr.org/2027/), [ASIACRYPT](https://asiacrypt.iacr.org/2026/)
 + [Journal of Cryptology](https://www.iacr.org/jofc/)
