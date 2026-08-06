@@ -7,17 +7,18 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 ### Table of Contents
 - [Background and Survey](#background-and-survey)
-- [NISQ Compilation](#nisq-compilation)
+- [Quantum Compilation](#quantum-compilation)
   - [PL, Assembly, and IR Design](#language-assembly-ir)
   - [HW-agnostic Circuit Compilation](#hw-agnostic-compilation)
   - [HW-specific Compilation](#hw-specific-compilation)
-  - [Compilation with Error Mitigation](#compilation-with-error-mitigation)
+  - [Compilation with error mitigation](#compilation-with-error-mitigation)
   - [Pulse-level Compilation](#pulse-level-compilation)
-- [Fault-Tolerant Compilation](#fault-tolerant-compilation)
   - [QEC-aware Compilation](#qec-aware-compilation)
-  - [Non-Clifford Resource Management](#non-clifford-resource-management)
+- [Fault Tolerant Quantum Computing](#fault-tolerant-quantum-computing)
+  - [Quantum Error Correction](#quantum-error-correction) 
+  - [Magic State Factory](#magic-state-factory)
   - [Quantum Recourse Estimation](#quantum-resource-estimation)
-  - [Distributed FT Compilation](#distributed-ft-compilation)
+  - [Distributed Quantum Computing](#distributed-ft-compilation)
 - [Quantum System Software Infrastructure](#quantum-system-software-infrastructure)
   - [Quantum Testing and Debugging](#quantum-testing-and-debugging)
   - [Quantum Formal Verification](#quantum-formal-verification)
@@ -41,7 +42,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Quantum Circuit Synthesis and Compilation Optimization](https://arxiv.org/html/2407.00736v1) Ge Yan et al (2024).
 + [A Comprehensive Study of Quantum Arithmetic Circuits](https://arxiv.org/abs/2406.03867) Siyi Wang et al. (2024)
 
-<h3 id="nisq-compilation">NISQ Compilation</h3>
+<h3 id="quantum-compilation">Quantum Compilation</h3>
 
 + [Two-bit gates are universal for quantum computation](https://arxiv.org/abs/cond-mat/9407022) D. P. DiVincenzo <img src="https://img.shields.io/badge/Citations-1000+-blue.svg"> (1994)
 + [Elementary gates for quantum computation](https://arxiv.org/abs/quant-ph/9503016) A. Barenco et al. <img src="https://img.shields.io/badge/Citations-4500+-blue.svg"> (1995)
@@ -158,7 +159,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [A Compiler for Universal Photonic Quantum Computers](https://arxiv.org/abs/2210.09251) Felix Zilk et al <img src="https://img.shields.io/badge/QCS-2022-green.svg">
 
  
-<h4 id="compilation-with-error-mitigation">Compilation with Error Mitigation</h4>
+<h4 id="compilation-with-error-mitigation">Compilation with error mitigation</h4>
 
 + [QEM-Bench: Benchmarking Learning-based Quantum Error Mitigation and QEMFormer as a Multi-ranged Context Learning Baseline](https://openreview.net/forum?id=PSNce503is) Tianyi Bao et al. <img src="https://img.shields.io/badge/ICML-2025-green.svg">
 + [On the Use of Calibration Data in Error-Aware Compilation Techniques for NISQ Devices](https://arxiv.org/html/2407.21462v1) Handy Kurniawan et al <img src="https://img.shields.io/badge/Computer Society-2024-green.svg">
@@ -187,17 +188,6 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Partial Compilation of Variational Algorithms for Near-term Quantum Machines](https://arxiv.org/pdf/1909.07522) Pranav Gokhale et al. [[Github]](https://github.com/epiqc/PartialCompilation) <img src="https://img.shields.io/badge/MICRO-2019-green.svg">
 
 
-<h3 id="fault-tolerant-compilation">Fault-Tolerant Compilation</h3>
-
-+ [Fault-tolerant quantum computation](https://arxiv.org/abs/quant-ph/9605011) Peter Shor <img src="https://img.shields.io/badge/Citations-1700+-blue.svg"> (1996)
-+ [Fault-tolerant quantum computation by anyons](https://arxiv.org/abs/quant-ph/9707021) Alexei Kitaev <img src="https://img.shields.io/badge/Citations-10000+-blue.svg"> (1997)
-+ [Resilient Quantum Computation](https://arxiv.org/abs/quant-ph/9702058) Emanuel Knill et al <img src="https://img.shields.io/badge/Citations-670+-blue.svg"> (1998)
-+ [Theory of fault-tolerant quantum computation](https://arxiv.org/abs/quant-ph/9702029) Daniel Gottesman <img src="https://img.shields.io/badge/Citations-1300+-blue.svg"> (1998)
-+ [Fault-Tolerant Quantum Computation with Constant Error Rate](https://arxiv.org/abs/quant-ph/9906129) Dorit Aharonov, Michael Ben-Or <img src="https://img.shields.io/badge/Citations-1700+-blue.svg"> (1999) 
-+ [A One-Way Quantum Computer](https://arxiv.org/abs/quant-ph/0108118) Raussendorf and Briegel <img src="https://img.shields.io/badge/Citations-5900+-blue.svg"> (2001)
-+ [Universal quantum computation with ideal Clifford gates and noisy ancillas](https://arxiv.org/abs/quant-ph/0403025) Bravyi and Kitaev <img src="https://img.shields.io/badge/Citations-2200+-blue.svg"> (2005)
-+ [Fault-Tolerant Quantum Computation with High Threshold in Two Dimensions](https://arxiv.org/abs/quant-ph/0610082) Raussendorf et al. <img src="https://img.shields.io/badge/Citations-1100+-blue.svg"> (2007)
-
 <h4 id="qec-aware compilation">QEC-aware compilation</h4>
 
 + [In-situ Qubit Calibration for Surface Code Quantum Error Correction](https://dl.acm.org/doi/pdf/10.1145/3695053.3731042) <img src="https://img.shields.io/badge/ISCA-2025-green.svg">
@@ -210,34 +200,53 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Optimizing FTQC Programs through QEC Transpiler and Architecture Codesign](https://arxiv.org/abs/2412.15434) Meng Wang et al. <img src="https://img.shields.io/badge/TACO-2024-green.svg">
 + [A High Performance Compiler for Very Large Scale Surface Code Computations](https://arxiv.org/abs/2302.02459) George Watkins et al <img src="https://img.shields.io/badge/Quantum-2024-green.svg">
 + [Realistic Cost to Execute Practical Quantum Circuits using Direct Clifford+T Lattice Surgery Compilation](https://arxiv.org/abs/2311.10686) Tyler LeBlond et al. [[Github]](https://github.com/ORNL-QCI/TISCC) <img src="https://img.shields.io/badge/TQC-2024-green.svg">
-+ [Surface code compilation via edge-disjoint paths](https://arxiv.org/abs/2110.11493) Michael Beverland et al <img src="https://img.shields.io/badge/APS Journal-2022-green.svg">
++ [Surface code compilation via edge-disjoint paths](https://arxiv.org/abs/2110.11493) Michael Beverland et al <img src="https://img.shields.io/badge/APS-2022-green.svg">
 + [A Framework for Enabling Efficient Surface Code Communication in Quantum Computing](https://dl.acm.org/doi/10.1145/3466752.3480072) Fei Hua et al. <img src="https://img.shields.io/badge/MICRO-2021-green.svg">
 + [Lattice Surgery Translation for Quantum Computation](https://arxiv.org/abs/1608.05208) Daniel Herr et al. [[GitHub]](https://github.com/latticesurgery-com/lattice-surgery-compiler) <img src="https://img.shields.io/badge/New Journal of Physics-2017-green.svg"> 
 
-  
-<h4 id="non-clifford-resource-management">Non-Clifford Resource Management</h4>
+<h3 id="fault-tolerant-quantum-computing">Fault-Tolerant Quantum Computing</h3>
 
-+ [Orchestrating multi-level magic state distillation: a dynamic pipeline architecture](https://arxiv.org/abs/2509.24402) Junshi Wang and Prakash Murali <img src="https://img.shields.io/badge/arXiv-2025-green.svg">
++ [Fault-tolerant quantum computation](https://arxiv.org/abs/quant-ph/9605011) Peter Shor <img src="https://img.shields.io/badge/Citations-1700+-blue.svg"> (1996)
++ [Fault-tolerant quantum computation by anyons](https://arxiv.org/abs/quant-ph/9707021) Alexei Kitaev <img src="https://img.shields.io/badge/Citations-10000+-blue.svg"> (1997)
++ [Resilient Quantum Computation](https://arxiv.org/abs/quant-ph/9702058) Emanuel Knill et al <img src="https://img.shields.io/badge/Citations-670+-blue.svg"> (1998)
++ [Theory of fault-tolerant quantum computation](https://arxiv.org/abs/quant-ph/9702029) Daniel Gottesman <img src="https://img.shields.io/badge/Citations-1300+-blue.svg"> (1998)
++ [Fault-Tolerant Quantum Computation with Constant Error Rate](https://arxiv.org/abs/quant-ph/9906129) Dorit Aharonov, Michael Ben-Or <img src="https://img.shields.io/badge/Citations-1700+-blue.svg"> (1999) 
++ [A One-Way Quantum Computer](https://arxiv.org/abs/quant-ph/0108118) Raussendorf and Briegel <img src="https://img.shields.io/badge/Citations-5900+-blue.svg"> (2001)
++ [Universal quantum computation with ideal Clifford gates and noisy ancillas](https://arxiv.org/abs/quant-ph/0403025) Bravyi and Kitaev <img src="https://img.shields.io/badge/Citations-2200+-blue.svg"> (2005)
++ [Fault-Tolerant Quantum Computation with High Threshold in Two Dimensions](https://arxiv.org/abs/quant-ph/0610082) Raussendorf et al. <img src="https://img.shields.io/badge/Citations-1100+-blue.svg"> (2007)
+
+<h4 id="quantum-error-correction">Quantum Error Correction</h4>
+
++ [Surface codes: Towards practical large-scale quantum computation](https://arxiv.org/abs/1208.0928) Austin G. Fowler et al. <img src="https://img.shields.io/badge/APS-2012-green.svg">
+
+(To be continue..)
+  
+<h4 id="magic-state-factory">Magic State Factory</h4>
+
++ [Constant-overhead magic state distillation](https://arxiv.org/abs/2408.07764) Adam Wills et al. <img src="https://img.shields.io/badge/Nature-2024-green.svg"> 
++ [Experimental demonstration of logical magic state distillation](https://arxiv.org/abs/2412.15165) Pedro Sales Rodriguez et al. <img src="https://img.shields.io/badge/Nature-2024-green.svg"> 
++ [Encoding a magic state with beyond break-even fidelity](https://arxiv.org/abs/2305.13581) Riddhi S. Gupta et al. <img src="https://img.shields.io/badge/Nature-2023-green.svg"> 
++ [Magic state cultivation: growing T states as cheap as CNOT gates](https://arxiv.org/abs/2409.17595) Craig Gidney et al. 
++ [Logical Magic State Preparation with Fidelity beyond the Distillation Threshold on a Superconducting Quantum Processor](https://arxiv.org/abs/2305.15972) Yangsen Ye et al. <img src="https://img.shields.io/badge/APS-2023-green.svg"> 
++ [Unfolded distillation: very low-cost magic state preparation for biased-noise qubits](https://www.nature.com/articles/s41534-026-01197-z) Diego Ruiz et al. <img src="https://img.shields.io/badge/npj Quantum-2023-green.svg"> 
 + [Locality-Aware Pauli-Based Computation for Local Magic State Preparation](https://arxiv.org/abs/2504.12091) Keita Kanno et al <img src="https://img.shields.io/badge/QCE-2025-green.svg">
 + [Magic state distillation: Not as costly as you thin](https://arxiv.org/abs/1905.06903) Daniel Litinski <img src="https://img.shields.io/badge/Quantum-2019-green.svg">
++ [Quantum computation with realistic magic-state factories]()
 + [Magic-state functional units: mapping and scheduling multi-level distillation circuits for fault-tolerant quantum architectures](https://dl.acm.org/doi/10.1109/MICRO.2018.00072) Yongshan Ding et al. <img src="https://img.shields.io/badge/MICRO-2018-green.svg">
-+ [Fault-tolerant, high-level quantum circuits: form, compilation and description](https://arxiv.org/abs/1509.02004) Alexandru Paler et al <img src="https://img.shields.io/badge/QST-2017-green.svg">
 
 <h4 id="quantum-resource-estimation">Quantum Resource Estimation</h4> 
 
-+ [[Gidney Google Scholar]](https://scholar.google.com/citations?user=qKTv84IAAAAJ&hl=en) + [[Gidney Blog]](https://algassert.com/) '
++ [[Gidney Google Scholar]](https://scholar.google.com/citations?user=qKTv84IAAAAJ&hl=en) + [[Gidney Blog]](https://algassert.com/)
 + [Resource Analysis of Low-Overhead Transversal Architectures for Reconfigurable Atom Arrays](https://arxiv.org/abs/2505.15907) Hengyun Zhou et al. <img src="https://img.shields.io/badge/ISCA-2025-green.svg">
 + [Quantum resource estimation for large scale quantum algorithms](https://www.sciencedirect.com/science/article/pii/S0167739X24004308) Vlad Gheorghiu and Michele Mosca <img src="https://img.shields.io/badge/Future Generation Computer Systems-2025-green.svg">
-+ [Magic state cultivation: growing T states as cheap as CNOT gates](https://arxiv.org/abs/2409.17595) Craig Gidney et al. 
 + [How to factor 2048-bit RSA integers in 8 hours using 20 million noisy qubits](https://quantum-journal.org/papers/q-2021-04-15-433/) Craig Gidney and Martin Eke  <img src="https://img.shields.io/badge/Quantum-2021-green.svg">
 + [Factoring 2048-bit RSA Integers in 177 Days with 13 436 Qubits and a Multimode Memory](https://arxiv.org/abs/2103.06159) Élie Gouzien and Nicolas Sangouard <img src="https://img.shields.io/badge/APS-2021-green.svg">
 + [Efficient magic state factories with a catalyzed |CCZ⟩ to 2|T⟩ transformation](https://arxiv.org/abs/1812.01238) Craig Gidney, Austin G. Fowler <img src="https://img.shields.io/badge/Quantum-2019-green.svg">
 + [Large-Scale Quantum Computing with Lattice Surgery](https://arxiv.org/abs/1808.02892) Daniel Litinski <img src="https://img.shields.io/badge/Quantum-2019-green.svg">
 + [Windowed Quantum Arithmetic](https://arxiv.org/abs/1905.07682) Craig Gidney (2019)
-+ [Surface codes: Towards practical large-scale quantum computation](https://arxiv.org/abs/1208.0928) Austin G. Fowler et al. <img src="https://img.shields.io/badge/APS-2012-green.svg">
 
 
-<h4 id="distributed-ft-compilation">Distributed FT Compilation</h4>
+<h4 id="distributed-ft-compilation">Distributed Quantum Computing</h4>
 
 + [A Distributed Compilation Framework for Measurement-Based Quantum Computing](https://arxiv.org/abs/2601.00214) Yecheng Xue et al 
 + [SwitchQNet: Optimizing Distributed Quantum Computing for Quantum Data Centers with Switch Networks]() Hezi Zhang et al. <img src="https://img.shields.io/badge/ISCA-2025-green.svg">
@@ -282,7 +291,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 + [Obfuscation of Unitary Quantum Programs](https://arxiv.org/pdf/2507.11970) Mi-Ying Huang, Er-Cheng Tang <img src="https://img.shields.io/badge/arXiv-2025-green.svg">
 + [OpaQue: Program Output Obfuscation for Quantum Software Circuits in Quantum Clouds](https://hpcrl.github.io/ICS2025-webpage/program/ICS25/ics25-32.pdf) Tirthak Patel et al <img src="https://img.shields.io/badge/ICS-2025-green.svg">
-+ [TetrisLock: Quantum Circuit Split Compilation with Interlocking Patterns](https://arxiv.org/abs/2503.11982) Qian Wang et al <img src="https://img.shields.io/badge/DAC-2025-green.svg">  ￼
++ [TetrisLock: Quantum Circuit Split Compilation with Interlocking Patterns](https://arxiv.org/abs/2503.11982) Qian Wang et al <img src="https://img.shields.io/badge/DAC-2025-green.svg">  
 + [OPAQUE: Obfuscating Phase in Quantum Circuit Compilation for Efficient IP Protection](https://www.arxiv.org/abs/2502.16605) Anees Rehman et al <img src="https://img.shields.io/badge/ISQED-2025-green.svg"> 
 + [E-loq: Enhanced locking for quantum circuit IP protection](https://arxiv.org/abs/2412.17101) Y Liu et al <img src="https://img.shields.io/badge/QCE-2025-green.svg">
 + [Obfuscating quantum hybrid-classical algorithms for security and privacy](https://arxiv.org/abs/2305.02379) S Upadhyay, S Ghosh <img src="https://img.shields.io/badge/QCE-2024-green.svg">
