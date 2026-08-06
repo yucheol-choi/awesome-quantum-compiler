@@ -18,8 +18,8 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
   - [Magic State Factory](#magic-state-factory)
   - [Recourse Estimation](#resource-estimation)
   - [Distributed Quantum Computing](#distributed-ft-compilation)
-  - [Quantum Cryptanalysis and PQC](#quantum-cryptanalysis-and-pqc)
-  - [Papers and Blogs from Quantum Companies](#papers-of-quantum-company)
+  - [Compiler-level CryptoSystem](#quantum-cryptanalysis-and-pqc)
+  - [Papers from Quantum Companies](#papers-of-quantum-company)
 - [Quantum System Software Infrastructure](#quantum-system-software-infrastructure)
   - [Quantum Testing and Debugging](#quantum-testing-and-debugging)
   - [Quantum Formal Verification](#quantum-formal-verification)
@@ -250,7 +250,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Qubit Allocation for Distributed Quantum Computing](https://ieeexplore.ieee.org/document/10228915) Yingling Mao et al <img src="https://img.shields.io/badge/INFOCOM-2023-green.svg">
 
 
-<h4 id="quantum-cryptanalysis-and-pqc">Quantum Cryptanalysis and PQC</h4>
+<h4 id="quantum-cryptanalysis-and-pqc">Compiler-level Cryptosystem</h4>
 
 + [Quantum Circuit Designs of Integer Division Optimizing T-Count and T-Depth](https://arxiv.org/abs/1809.09732) Himanshu Thapliyal et al. <img src="https://img.shields.io/badge/Computer Society-2018-green.svg">
 + [High Performance Quantum Modular Multipliers](https://arxiv.org/abs/1801.01081) Rich Rines et al. <img src="https://img.shields.io/badge/arXiv-2018-green.svg">
@@ -290,7 +290,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Formal Verification of a Constant-Time Preserving C Compiler](https://dl.acm.org/doi/10.1145/3371075) Gilles Barthe et al. <img src="https://img.shields.io/badge/POPL-2019-green.svg">
 
 
-<h4 id="papers-of-quantum-company">Papers and Blogs from Quantum Companies</h4>
+<h4 id="papers-of-quantum-company">Papers from Quantum Companies</h4>
 
 + [Learning high-accuracy error decoding for quantum processors](https://www.nature.com/articles/s41586-024-08148-8) Johannes Bausch et al <img src="https://img.shields.io/badge/Nature-2024-green.svg">
 
