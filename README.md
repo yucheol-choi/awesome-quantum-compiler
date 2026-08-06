@@ -15,10 +15,11 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
   - [Pulse-level Compilation](#pulse-level-compilation)
   - [QEC-aware Compilation](#qec-aware-compilation)
 - [Fault Tolerant Quantum Computing](#fault-tolerant-quantum-computing)
-  - [Quantum Error Correction](#quantum-error-correction) 
   - [Magic State Factory](#magic-state-factory)
-  - [Quantum Recourse Estimation](#quantum-resource-estimation)
+  - [Recourse Estimation](#resource-estimation)
   - [Distributed Quantum Computing](#distributed-ft-compilation)
+  - [Quantum Cryptanalysis and PQC](#quantum-cryptanalysis-and-pqc)
+  - [Papers from Quantum Companies](#papers-of-quantum-company)
 - [Quantum System Software Infrastructure](#quantum-system-software-infrastructure)
   - [Quantum Testing and Debugging](#quantum-testing-and-debugging)
   - [Quantum Formal Verification](#quantum-formal-verification)
@@ -214,12 +215,6 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [A One-Way Quantum Computer](https://arxiv.org/abs/quant-ph/0108118) Raussendorf and Briegel <img src="https://img.shields.io/badge/Citations-5900+-blue.svg"> (2001)
 + [Universal quantum computation with ideal Clifford gates and noisy ancillas](https://arxiv.org/abs/quant-ph/0403025) Bravyi and Kitaev <img src="https://img.shields.io/badge/Citations-2200+-blue.svg"> (2005)
 + [Fault-Tolerant Quantum Computation with High Threshold in Two Dimensions](https://arxiv.org/abs/quant-ph/0610082) Raussendorf et al. <img src="https://img.shields.io/badge/Citations-1100+-blue.svg"> (2007)
-
-<h4 id="quantum-error-correction">Quantum Error Correction</h4>
-
-+ [Surface codes: Towards practical large-scale quantum computation](https://arxiv.org/abs/1208.0928) Austin G. Fowler et al. <img src="https://img.shields.io/badge/APS-2012-green.svg">
-
-(To be continue..)
   
 <h4 id="magic-state-factory">Magic State Factory</h4>
 
@@ -234,7 +229,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Quantum computation with realistic magic-state factories]()
 + [Magic-state functional units: mapping and scheduling multi-level distillation circuits for fault-tolerant quantum architectures](https://dl.acm.org/doi/10.1109/MICRO.2018.00072) Yongshan Ding et al. <img src="https://img.shields.io/badge/MICRO-2018-green.svg">
 
-<h4 id="quantum-resource-estimation">Quantum Resource Estimation</h4> 
+<h4 id="resource-estimation">Resource Estimation</h4> 
 
 + [[Gidney Google Scholar]](https://scholar.google.com/citations?user=qKTv84IAAAAJ&hl=en) + [[Gidney Blog]](https://algassert.com/)
 + [Resource Analysis of Low-Overhead Transversal Architectures for Reconfigurable Atom Arrays](https://arxiv.org/abs/2505.15907) Hengyun Zhou et al. <img src="https://img.shields.io/badge/ISCA-2025-green.svg">
@@ -255,6 +250,10 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Optimized Compiler for Distributed Quantum Computing](https://arxiv.org/abs/2112.14139) Daniele Cuomo et al <img src="https://img.shields.io/badge/TQC-2023-green.svg">
 + [Qubit Allocation for Distributed Quantum Computing](https://ieeexplore.ieee.org/document/10228915) Yingling Mao et al <img src="https://img.shields.io/badge/INFOCOM-2023-green.svg">
 
+
+<h4 id="quantum-cryptanalysis-and-pqc">Quantum Cryptanalysis and PQC</h4>
+
+<h4 id="papers-of-quantum-company">Papers from Quantum Companies</h4>
 
 <h3 id="quantum-system-software-infrastructure">Quantum System Software Infrastructure</h3>
 
