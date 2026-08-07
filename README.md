@@ -1,7 +1,7 @@
 ## Awesome Quantum Compiler 
 
 > [!NOTE]
-> I plan to re-examine the paper list from the beginning. Going forward, I will manage the repository anew while prioritizing only **rigorously verified** papers for research.
+> I plan to re-examine the paper list from the beginning. Going forward, I will manage the repository anew while prioritizing only **rigorously verified with strong future citation potential** papers for research.
 
 <img src="https://awesome.re/badge-flat.svg" alt="Awesome" style="vertical-align: bottom;">
 
