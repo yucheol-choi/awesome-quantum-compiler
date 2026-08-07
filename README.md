@@ -1,5 +1,8 @@
 ## Awesome Quantum Compiler 
 
+> [!NOTE]
+> I plan to re-examine the paper list from the beginning. Going forward, I will manage the repository anew while prioritizing only **rigorously verified** papers for research.
+
 <img src="https://awesome.re/badge-flat.svg" alt="Awesome" style="vertical-align: bottom;">
 
 By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by Marco Maronese (2021) and [Quantum Compilation Process](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) by Javier Cardama et al. (2025), as well as the classic [Nature Journal](https://www.nature.com/articles/nature23459) by Frederic T. Chong et al. (2017), we can get a clear sense of how to enter this field.
