@@ -41,6 +41,24 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Quantum Circuit Synthesis and Compilation Optimization](https://arxiv.org/html/2407.00736v1) Ge Yan et al (2024).
 + [A Comprehensive Study of Quantum Arithmetic Circuits](https://arxiv.org/abs/2406.03867) Siyi Wang et al. (2024)
 
+
+(Tag Plan)
+
+<img src="https://img.shields.io/badge/error correction-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/quantum circuit-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/ir-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/error mitigation-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/resource estimation-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/magic state factory-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/pulse-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/modular-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/testing-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/debugging-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/formal verification-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/operating systems-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/security-topic-brightgreen.svg">
+</br>
+
+<img src="https://img.shields.io/badge/Google-bigTech-yellow.svg"> <img src="https://img.shields.io/badge/Quantinuum-bigTech-yellow.svg"> <img src="https://img.shields.io/badge/PsiQuantum-bigTech-yellow.svg"> <img src="https://img.shields.io/badge/IBM Quantum-bigTech-yellow.svg"> <img src="https://img.shields.io/badge/Microsoft Quantum-bigTech-yellow.svg">
+</br>
+
+<img src="https://img.shields.io/badge/crypto-orange.svg"> <img src="https://img.shields.io/badge/finance-orange.svg"> <img src="https://img.shields.io/badge/chemical-orange.svg"> <img src="https://img.shields.io/badge/nuclear-orange.svg"> 
+</br>
+
+<img src="https://img.shields.io/badge/superconducting-lightgrey.svg"> <img src="https://img.shields.io/badge/ion trap-lightgrey.svg"> <img src="https://img.shields.io/badge/photonics-lightgrey.svg"> <img src="https://img.shields.io/badge/neutral atom-lightgrey.svg"> <img src="https://img.shields.io/badge/topological-lightgrey.svg"> <img src="https://img.shields.io/badge/agnositc-lightgrey.svg">
+
+</br>
+<img src="https://img.shields.io/badge/007-citations-skyblue.svg">
+
+
 <h3 id="quantum-compilation">Quantum Compilation</h3>
 
 + [Two-bit gates are universal for quantum computation](https://arxiv.org/abs/cond-mat/9407022) D. P. DiVincenzo <img src="https://img.shields.io/badge/Citations-1000+-blue.svg"> (1994)
@@ -87,7 +105,6 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 > General
 
-+ [Quantum Circuit Mapping Based on Incremental and Parallel SAT Solving](https://www.cs.cmu.edu/~mheule/publications/SATmap.pdf) Jiong Yang et al <img src="https://img.shields.io/badge/SAT-2024-green.svg">
 + [On the Optimal Compilation for Fermion-to-Qubit Encoding](https://arxiv.org/pdf/2403.17794) Yuhao Liu et al. [[Github]](https://github.com/acasta-yhliu/fermihedral) [[Youtube]](https://www.youtube.com/watch?v=TLhNJRZUeas) <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg">
 + [AlphaRouter: Quantum Circuit Routing with Reinforcement Learning and Tree Search](https://arxiv.org/pdf/2410.05115) Wei Tang et al [[Github]](https://github.com/HYUIDSL/AlphaRouter) <img src="https://img.shields.io/badge/QCE-2024-green.svg">
 + [A Quantum Compiler for 2-local Qubit Hamiltonian Simulation Algorithms](arxiv.org/pdf/2108.02099) Lingling Lao, Dan E. Browne [[Github]](https://github.com/lllingoo/2QAN) [[Youtube]](https://www.youtube.com/watch?v=rBThLSpNpVU) <img src="https://img.shields.io/badge/ISCA-2022-green.svg">
@@ -138,7 +155,9 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [A Compiler for Universal Photonic Quantum Computers](https://arxiv.org/abs/2210.09251) Felix Zilk et al <img src="https://img.shields.io/badge/QCS-2022-green.svg">
 
 
-> Topolocial Quantum + [[Microsoft Quantum]]([https://www.psiquantum.com/research](https://www.microsoft.com/en-us/research/research-area/quantum-computing/))
+> Topolocial Quantum + [[Microsoft Quantum]([https://www.psiquantum.com/research](https://www.microsoft.com/en-us/research/research-area/quantum-computing/)]
+
+
 
 <h4 id="compilation-with-error-mitigation">Compilation with error mitigation</h4>
 
