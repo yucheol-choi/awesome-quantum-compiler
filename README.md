@@ -5,43 +5,6 @@
 
 <img src="https://awesome.re/badge-flat.svg" alt="Awesome" style="vertical-align: bottom;">
 
-By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by Marco Maronese (2021) and [Quantum Compilation Process](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) by Javier Cardama et al. (2025), as well as the classic [Nature Journal](https://www.nature.com/articles/nature23459) by Frederic T. Chong et al. (2017), we can get a clear sense of how to enter this field.
-
-
-### Table of Contents
-- [Background and Survey](#background-and-survey)
-- [Quantum Compilation](#quantum-compilation)
-  - [PL, Assembly, and IR Design](#language-assembly-ir)
-  - [HW-agnostic Circuit Compilation](#hw-agnostic-compilation)
-  - [HW-specific Compilation](#hw-specific-compilation)
-  - [Compilation with error mitigation](#compilation-with-error-mitigation)
-  - [Pulse-level Compilation](#pulse-level-compilation)
-  - [QEC-aware Compilation](#qec-aware-compilation)
-- [Fault Tolerant Quantum Computing](#fault-tolerant-quantum-computing)
-  - [Magic State Factory](#magic-state-factory)
-  - [Recourse Estimation](#resource-estimation)
-  - [Distributed Quantum Computing](#distributed-ft-compilation)
-  - [Compiler-level Quantum Cryptanalysis](#compiler-level-quantum-cryptanalysis)
-  - [Compiler-level Quantum Cryptography](#compiler-level-pqc)
-- [Quantum System Software Infrastructure](#quantum-system-software-infrastructure)
-  - [Quantum Testing and Debugging](#quantum-testing-and-debugging)
-  - [Quantum Formal Verification](#quantum-formal-verification)
-  - [Quantum Operating System](#quantum-operating-system)  
-  - [Quantum Secure Compilation](#quantum-secure-compilation)
-- [Conference Deadline](#conference-deadline) 
-
-
-<h3 id="background-and-survey">Background and Survey</h3>
-
-> Survey Paper
-
-+ [Quantum Arithmetic Algorithms: Implementation, Resource Estimation, and Comparison](https://arxiv.org/abs/2509.07015) Dmytro Fedoriaka et al. (2025)
-+ [Quantum Compiler Design for Qubit Mapping and Routing](https://arxiv.org/pdf/2505.16891) Chenghong zhu et al (2025).
-+ [A Comprehensive Review of Quantum Circuit Optimization](https://www.mdpi.com/2624-960X/7/1/2) Krishnageetha Karuppasamy et al (2025).
-+ [Quantum Circuit Synthesis and Compilation Optimization](https://arxiv.org/html/2407.00736v1) Ge Yan et al (2024).
-+ [A Comprehensive Study of Quantum Arithmetic Circuits](https://arxiv.org/abs/2406.03867) Siyi Wang et al. (2024)
-
-
 (Tag Plan)
 
 <img src="https://img.shields.io/badge/error correction-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/quantum circuit-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/ir-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/error mitigation-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/resource estimation-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/magic state factory-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/pulse-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/modular-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/testing-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/debugging-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/formal verification-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/operating systems-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/security-topic-brightgreen.svg">
@@ -55,8 +18,26 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 <img src="https://img.shields.io/badge/superconducting-lightgrey.svg"> <img src="https://img.shields.io/badge/ion trap-lightgrey.svg"> <img src="https://img.shields.io/badge/photonics-lightgrey.svg"> <img src="https://img.shields.io/badge/neutral atom-lightgrey.svg"> <img src="https://img.shields.io/badge/topological-lightgrey.svg"> <img src="https://img.shields.io/badge/agnositc-lightgrey.svg">
 
-</br>
 <img src="https://img.shields.io/badge/007-citations-skyblue.svg">
+
+<img src="https://img.shields.io/badge/survey-type-yellowgreen.svg"> <img src="https://img.shields.io/badge/fundamental-type-yellowgreen.svg"> <img src="https://img.shields.io/badge/frontier-type-yellowgreen.svg"> 
+
+<img src="https://img.shields.io/badge/ICML-2026-green.svg"> <img src="https://img.shields.io/badge/Nature-2026-green.svg">
+
+</br>
+
+By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by Marco Maronese (2021) and [Quantum Compilation Process](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) by Javier Cardama et al. (2025), as well as the classic [Nature Journal](https://www.nature.com/articles/nature23459) by Frederic T. Chong et al. (2017), we can get a clear sense of how to enter this field.
+
+<h3 id="background-and-survey">Background and Survey</h3>
+
+> Survey Paper
+
++ [Quantum Arithmetic Algorithms: Implementation, Resource Estimation, and Comparison](https://arxiv.org/abs/2509.07015) Dmytro Fedoriaka et al. (2025)
++ [Quantum Compiler Design for Qubit Mapping and Routing](https://arxiv.org/pdf/2505.16891) Chenghong zhu et al (2025).
++ [A Comprehensive Review of Quantum Circuit Optimization](https://www.mdpi.com/2624-960X/7/1/2) Krishnageetha Karuppasamy et al (2025).
++ [Quantum Circuit Synthesis and Compilation Optimization](https://arxiv.org/html/2407.00736v1) Ge Yan et al (2024).
++ [A Comprehensive Study of Quantum Arithmetic Circuits](https://arxiv.org/abs/2406.03867) Siyi Wang et al. (2024)
+
 
 
 <h3 id="quantum-compilation">Quantum Compilation</h3>
