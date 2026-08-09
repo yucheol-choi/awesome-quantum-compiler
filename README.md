@@ -56,8 +56,9 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Pauli-Based High-Level Optimization Engine for Instruction Execution on NISQ Devices](https://arxiv.org/abs/2504.03529) Zhaohui Yang et al [[GitHub]](https://github.com/iqubit-org/phoenix) <img src="https://img.shields.io/badge/DAC-2025-green.svg">
 + [A QASM based Quantum Transpiler Framework for NISQ Devices](https://arxiv.org/abs/2308.07581) Fei Hua et al. [[Github]](https://github.com/pnnl/qasmtrans) <img src="https://img.shields.io/badge/SC-2023-green.svg">
 + [A Broader and Deeper Quantum Assembly Language](https://arxiv.org/abs/2104.14722) Andrew W. Cross et al. [[Github]](https://github.com/openqasm/openqasm) <img src="https://img.shields.io/badge/TQC-2022-green.svg">
-+ [An SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) Anurudh Peduri, Siddharth Bhat [[GitHub]](https://github.com/opencompl/QMLIR)  <img src="https://img.shields.io/badge/CC-2022-green.svg">
++ [QSSA: An SSA-based IR for Quantum computing](https://arxiv.org/abs/2109.02409) Anurudh Peduri, Siddharth Bhat, Tobias Grosser [[GitHub]](https://github.com/opencompl/QMLIR)  <img src="https://img.shields.io/badge/CC-2022-green.svg">
 + [A Static Single Assignment-based Quantum Program Representation for Optimization](https://dl.acm.org/doi/10.1145/3491247) David Ittah et al. [[GitHub]](https://github.com/dime10/QIRO) <img src="https://img.shields.io/badge/TQC-2022-green.svg">
++ [QRANE: Lifting QASM Programs to an Affine IR](https://dl.acm.org/doi/10.1145/3497776.3517775) Blake Gerard, Tobias Grosser, Martin Kong
 + [A MLIR Dialect for Quantum Assembly Languages](https://arxiv.org/abs/2101.11365) Alexander McCaskey, Thien Nguyen <img src="https://img.shields.io/badge/QCE-2021-green.svg">
 + [An Open Source Software Framework for Quantum Computing](https://arxiv.org/abs/1612.08091) Damian S. Steiger et al. [[Github]](https://github.com/ProjectQ-Framework/ProjectQ) 
 + [PennyLane: Automatic differentiation of hybrid quantum-classical computations](https://arxiv.org/abs/1811.04968) Ville Bergholm et al. [[Github]](https://github.com/PennyLaneAI/pennylane) 
