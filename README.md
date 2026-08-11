@@ -133,6 +133,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Adaptive Compilation for Resource-Constrained Photonic One-Way Quantum Computing](https://arxiv.org/abs/2504.17116) Hezi Zhang et al <img src="https://img.shields.io/badge/MICRO-2025-green.svg">
 + [A Scalable and Robust Compilation Framework for Emitter-Photonic Quantum Computing](https://arxiv.org/abs/2503.16346) Xiangyu Ren et al <img src="https://img.shields.io/badge/DAC-2025-green.svg">
 + [A Randomness-aware Compiler for Photonic Quantum Computing](https://arxiv.org/abs/2403.01829) Hezi Zhang et al [[Youtube]](https://www.youtube.com/watch?v=TLhNJRZUeas) <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg">
++ [Fusion-based quantum computation](https://arxiv.org/abs/2101.09310) Sara Bartolucci et al. <img src="https://img.shields.io/badge/PsiQuantum-bigTech-yellow.svg">
 + [A Compilation Framework for Photonic One-Way Quantum Computation](https://arxiv.org/abs/2209.01545) Hezi Zhang et al <img src="https://img.shields.io/badge/ISCA-2023-green.svg">
 + [A Compiler for Universal Photonic Quantum Computers](https://arxiv.org/abs/2210.09251) Felix Zilk et al <img src="https://img.shields.io/badge/QCS-2022-green.svg">
 
@@ -177,7 +178,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Optimizing FTQC Programs through QEC Transpiler and Architecture Codesign](https://arxiv.org/abs/2412.15434) Meng Wang et al. <img src="https://img.shields.io/badge/TACO-2024-green.svg">
 + [A High Performance Compiler for Very Large Scale Surface Code Computations](https://arxiv.org/abs/2302.02459) George Watkins et al <img src="https://img.shields.io/badge/Quantum-2024-green.svg">
 + [Realistic Cost to Execute Practical Quantum Circuits using Direct Clifford+T Lattice Surgery Compilation](https://arxiv.org/abs/2311.10686) Tyler LeBlond et al. [[Github]](https://github.com/ORNL-QCI/TISCC) <img src="https://img.shields.io/badge/TQC-2024-green.svg">
-+ [Surface code compilation via edge-disjoint paths](https://arxiv.org/abs/2110.11493) Michael Beverland et al <img src="https://img.shields.io/badge/APS-2022-green.svg">
++ [An architecture for efficient fault-tolerant quantum computers with limited non-local connections](https://arxiv.org/abs/2211.15465) Daniel Litinski, Naomi Nickerson <img src="https://img.shields.io/badge/PsiQuantum-bigTech-yellow.svg">
 + [A Framework for Enabling Efficient Surface Code Communication in Quantum Computing](https://dl.acm.org/doi/10.1145/3466752.3480072) Fei Hua et al. <img src="https://img.shields.io/badge/MICRO-2021-green.svg">
 
 
@@ -225,6 +226,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Optimizing Compilation for Distributed Quantum Computing via Clustering and Annealing](https://arxiv.org/abs/2508.15267) Ruilin Zhou et al <img src="https://img.shields.io/badge/QCE-2025-green.svg">
 + [Multi-Entry Communication Highway for Superconducting Quantum Chiplets](https://arxiv.org/abs/2305.05149) Hezi Zhang et al. <img src="https://img.shields.io/badge/ASPLOS-2024-green.svg">
 + [Qubit Allocation for Distributed Quantum Computing](https://ieeexplore.ieee.org/document/10228915) Yingling Mao et al <img src="https://img.shields.io/badge/INFOCOM-2023-green.svg">
++ [Modular architectures for fault-tolerant photonic quantum computing](https://arxiv.org/abs/2103.08612) Héctor Bombín et al. <img src="https://img.shields.io/badge/PsiQuantum-bigTech-yellow.svg">
 
 
 <h4 id="compiler-level-quantum-cryptanalysis">Compiler-level Quantum Cryptanalysis</h4>
