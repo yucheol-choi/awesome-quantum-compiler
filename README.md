@@ -248,6 +248,9 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 <h4 id="compiler-level-pqc">Compiler-level Quantum Cryptography</h4>  
 
+> My experiences I went through during my past year at university <br>
+inspired me to decide to pursue research on PQC as well
+
 + [[Survey] Post-Quantum Cryptography and Quantum-Safe Security: A Comprehensive Survey](https://arxiv.org/abs/2510.10436)
 + [Automatic Large-Scale Constant-Time Analysis](https://arxiv.org/pdf/2501.04183) Zhiyuan Zhang, Gilles Barthe <img src="https://img.shields.io/badge/OOPSLA-2026-green.svg">
 + [Decompiling for Constant-Time Analysis](https://arxiv.org/abs/2501.04183) Santiago Arranz-Olmos et al. <img src="https://img.shields.io/badge/OOPSLA-2026-green.svg">
