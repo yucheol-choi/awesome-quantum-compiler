@@ -1,8 +1,5 @@
 ## Awesome Quantum Compiler 
 
-> [!NOTE]
-> I plan to re-examine this paper list from the beginning. Going forward, I will manage my repository anew while prioritizing only **rigorously verified with strong future citation potential** papers for research. With the firm determination to become a unparalleled figure in the quantum computing, this repository will remain eternally maintained until **the end of my career**. 
-
 <img src="https://awesome.re/badge-flat.svg" alt="Awesome" style="vertical-align: bottom;">
 
 (Tag Plan)
