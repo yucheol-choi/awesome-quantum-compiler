@@ -2,27 +2,6 @@
 
 <img src="https://awesome.re/badge-flat.svg" alt="Awesome" style="vertical-align: bottom;">
 
-(Tag Plan)
-
-<img src="https://img.shields.io/badge/error correction-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/quantum circuit-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/ir-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/error mitigation-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/resource estimation-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/magic state factory-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/pulse-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/modular-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/testing-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/debugging-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/formal verification-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/operating systems-topic-brightgreen.svg"> <img src="https://img.shields.io/badge/security-topic-brightgreen.svg">
-</br>
-
-<img src="https://img.shields.io/badge/Google-bigTech-yellow.svg"> <img src="https://img.shields.io/badge/Quantinuum-bigTech-yellow.svg"> <img src="https://img.shields.io/badge/PsiQuantum-bigTech-yellow.svg"> <img src="https://img.shields.io/badge/IBM Quantum-bigTech-yellow.svg"> <img src="https://img.shields.io/badge/Microsoft Quantum-bigTech-yellow.svg">
-</br>
-
-<img src="https://img.shields.io/badge/crypto-orange.svg"> <img src="https://img.shields.io/badge/finance-orange.svg"> <img src="https://img.shields.io/badge/chemical-orange.svg"> <img src="https://img.shields.io/badge/nuclear-orange.svg"> 
-</br>
-
-<img src="https://img.shields.io/badge/superconducting-lightgrey.svg"> <img src="https://img.shields.io/badge/ion trap-lightgrey.svg"> <img src="https://img.shields.io/badge/photonics-lightgrey.svg"> <img src="https://img.shields.io/badge/neutral atom-lightgrey.svg"> <img src="https://img.shields.io/badge/topological-lightgrey.svg"> <img src="https://img.shields.io/badge/agnositc-lightgrey.svg">
-
-<img src="https://img.shields.io/badge/007-citations-skyblue.svg">
-
-<img src="https://img.shields.io/badge/survey-type-yellowgreen.svg"> <img src="https://img.shields.io/badge/fundamental-type-yellowgreen.svg"> <img src="https://img.shields.io/badge/frontier-type-yellowgreen.svg"> 
-
-<img src="https://img.shields.io/badge/ICML-2026-green.svg"> <img src="https://img.shields.io/badge/Nature-2026-green.svg">
-
-</br>
-
 By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by Marco Maronese (2021) and [Quantum Compilation Process](https://link.springer.com/chapter/10.1007/978-3-031-90200-0_9) by Javier Cardama et al. (2025), as well as the classic [Nature Journal](https://www.nature.com/articles/nature23459) by Frederic T. Chong et al. (2017), we can get a clear sense of how to enter this field.
 
 <h3 id="background-and-survey">Background and Survey</h3>
