@@ -45,13 +45,11 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 <h4 id="hw-agnostic-compilation">HW-agnostic Circuit Compilation</h4>
 
-+ [Quantum Program Generation Must Prioritize Validity Over Probabilistic Scaling](https://arxiv.org/abs/2607.15313) Junhao Song et al. <img src="https://img.shields.io/badge/ICML-2026-green.svg">
 + [Optimizing Quantum Circuits, Fast and Slow](https://arxiv.org/pdf/2411.04104) Amanda Xu et al <img src="https://img.shields.io/badge/ASPLOS-2025-green.svg">
 + [Linear and non-linear relational analyses for Quantum Program Optimization](https://arxiv.org/abs/2410.23493) Matthew Amy, Joseph Lunderville <img src="https://img.shields.io/badge/POPL-2025-green.svg">
 + [Quantum Circuit Optimization for the Fault-Tolerance Era: Do We Have to Start from Scratch?](https://arxiv.org/abs/2509.02668) Tobias Forster et al. <img src="https://img.shields.io/badge/QCE-2025-green.svg">
 + [Optimizing Ancilla-Based Quantum Circuits with SPARE](https://dl.acm.org/doi/10.1145/3729253) Ritvik Sharma et al. <img src="https://img.shields.io/badge/PLDI-2025-green.svg">
 + [Quantum circuit optimization with AlphaTensor](https://www.nature.com/articles/s42256-025-01001-1) Francisco J. R. Ruiz [[GitHub]](https://github.com/google-deepmind/alphatensor_quantum) <img src="https://img.shields.io/badge/Nature Machine Intelligence-2025-green.svg">
-+ [Quantum circuit synthesis with diffusion models](https://arxiv.org/html/2311.02041v2) Florian Fürrutter, Gorka Muñoz-Gil <img src="https://img.shields.io/badge/ICML-2024-green.svg">
 + [A Learning-Based Quantum Circuit Optimizer](https://dl.acm.org/doi/abs/10.1145/3649831) Zikun Li et al. [[GitHub]](https://github.com/quantum-compiler/Quarl) [[Youtube]](https://youtu.be/DZjz88yDKC4?si=UTgp_1pQznhfs2Zs) <img src="https://img.shields.io/badge/OOPSLA-2024-green.svg"> 
 + [Deep Optimization of Quantum Program](https://arxiv.org/abs/2309.05157) Campbell et al. [[GitHub]](https://github.com/Infleqtion/client-superstaq) <img src="https://img.shields.io/badge/QCE-2023-green.svg">
 + [A Generalized Block-wise Compiler Optimization Framework for Quantum Simulation Kernels](https://arxiv.org/abs/2109.03371) Gushu Li et al. [[Youtube]](https://youtu.be/lXFVkBlh9_Q?si=y_d4SgUwWQPwerch) <img src="https://img.shields.io/badge/ASPLOS-2022-green.svg">
@@ -120,7 +118,6 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 <h4 id="compilation-with-error-mitigation">Compilation with error mitigation</h4>
 
-+ [Benchmarking Learning-based Quantum Error Mitigation and QEMFormer as a Multi-ranged Context Learning Baseline](https://openreview.net/forum?id=PSNce503is) Tianyi Bao et al. <img src="https://img.shields.io/badge/ICML-2025-green.svg">
 + [A Variational Approach to Quantum Error Mitigation](https://arxiv.org/abs/2112.05821) Gokul S. Ravi et al <img src="https://img.shields.io/badge/HPCA-2022-green.svg">
 + [Mitigating Idling Errors in Qubits via Adaptive Dynamical Decoupling](https://dl.acm.org/doi/10.1145/3466752.3480059) Poulami Das et al <img src="https://img.shields.io/badge/MICRO-2021-green.svg">
 + [Systematic Cross talk Mitigation for Superconducting Qubits via Frequency-Aware Compilation](https://arxiv.org/abs/2008.09503) Yongshan Ding et al <img src="https://img.shields.io/badge/MICRO-2020-green.svg">
@@ -296,7 +293,7 @@ inspired me to decide to pursue research on PQC as well
 
 <h3 id="conference-deadline">Top Conference Deadline</h3>
 
-+ January - [ICCAD](https://www.iccad-conf.com/) [CCS](https://www.sigsac.org/ccs/CCS2026/) [ICML](https://icml.cc/)
++ January - [ICCAD](https://www.iccad-conf.com/) [CCS](https://www.sigsac.org/ccs/CCS2026/) 
 + March - [OOPSLA](https://2025.splashcon.org/track/OOPSLA) [TQC](https://tqc-conference.org/) [QCE](https://easychair.org/cfp/QCE25)
 + April - [QCE](https://qce.quantum.ieee.org/) [MICRO](https://www.microarch.org/)
 + July - [POPL](https://conf.researchr.org/home/POPL-2026)
