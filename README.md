@@ -293,6 +293,8 @@ inspired me to decide to pursue research on PQC as well
 
 <h3 id="conference-deadline">Top Conference Deadline</h3>
 
+For reference, **NeurIPS, ICLR, and ICML** are not particularly well aligned with this field.
+
 + January - [ICCAD](https://www.iccad-conf.com/) [CCS](https://www.sigsac.org/ccs/CCS2026/) 
 + March - [OOPSLA](https://2025.splashcon.org/track/OOPSLA) [TQC](https://tqc-conference.org/) [QCE](https://easychair.org/cfp/QCE25)
 + April - [QCE](https://qce.quantum.ieee.org/) [MICRO](https://www.microarch.org/)
@@ -301,5 +303,4 @@ inspired me to decide to pursue research on PQC as well
 + September - [HPCA](https://hpca-conf.org/) [QIP](https://qipconference.org/)
 + November - [CC](https://conf.researchr.org/series/cc) [ISCA](https://iscaconf.org/) [PLDI](https://conf.researchr.org/series/pldi) [DAC](https://www.dac.com/) [CGO](https://2026.cgo.org/) [STOC](https://acm-stoc.org/) [ICSE](https://conf.researchr.org/home/icse-2026)
 + CrytoSystem - [Journal of Cryptology](https://www.iacr.org/jofc/) [IACR](https://eprint.iacr.org/)
-
 
