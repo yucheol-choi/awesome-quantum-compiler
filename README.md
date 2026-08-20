@@ -73,19 +73,19 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 > Superconducting + [[Google Quantum AI]](https://quantumai.google/research) [[IBM Quantum]](https://research.ibm.com/publications)
 
 + [Virtual-Z Gates and Symmetric Gate Compilation](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.020348) Arian Vezvaee et al <img src="https://img.shields.io/badge/APS-2025-green.svg">
++ [Practical and efficient quantum circuit syntehesis and transpiling with Reinforcement Learning](https://arxiv.org/abs/2405.13196) <img src="https://img.shields.io/badge/IBM Quantum-bigTech-yellow.svg">
 + [Direct Pulse-Level Compilation of Arbitrary Quantum Logic Gates on Superconducting Qutrits](https://arxiv.org/abs/2303.04261) Yujin Cho et al <img src="https://img.shields.io/badge/APS-2024-green.svg">
-+ [A Time Optimization Framework for Robust and Low-Latency Quantum Circuits](https://arxiv.org/abs/2412.18533) Eduardo W. Lussi et al <img src="https://img.shields.io/badge/APS-2024-green.svg">
++ [A Compiler-Assisted Approach for Qubit Reuse through Dynamic Circuit](https://dl.acm.org/doi/10.1145/3582016.3582030) <img src="https://img.shields.io/badge/IBM Quantum-bigTech-yellow.svg">
 + [Optimized Compilation of Aggregated Instructions for Realistic Quantum Computers](https://arxiv.org/pdf/1902.01474) Yunong Shi et al <img src="https://img.shields.io/badge/ASPLOS-2019-green.svg">
 
 > Trapped-Ion + [[Quantinuum]](https://www.quantinuum.com/research/research-areas#publications) [[IonQ]](https://www.ionq.com/publications)
 
 + [Shuttle & SWAP Co-Optimisation in QCCD](https://arxiv.org/abs/2505.01316) Chenghong Zhu et al <img src="https://img.shields.io/badge/ISCA-2025-green.svg">
-+ [Graph-Based Pulse Representation for Diverse Quantum Control Hardware](https://arxiv.org/abs/2409.08407) Aniket S. Dalvi et al <img src="https://img.shields.io/badge/QCE-2024-green.svg">
 + [Hybrid discrete-continuous compilation of trapped-ion quantum circuits with deep reinforcement learning](https://arxiv.org/abs/2307.05744) Francesco Preti <img src="https://img.shields.io/badge/Quantum-2024-green.svg">
 + [A Surface Code Compiler and Resource Estimator for Trapped-Ion Processors](https://dl.acm.org/doi/abs/10.1145/3624062.3624214) Tyler Leblond et al. [[Github]](https://github.com/ORNL-QCI/TISCC) <img src="https://img.shields.io/badge/SC-2023-green.svg"> 
 + [Automated Generation of Shuttling Sequences for a Linear Segmented Ion Trap Quantum Computer](https://arxiv.org/abs/2208.04881) Jonathan Durandau <img src="https://img.shields.io/badge/Quantum-2023-green.svg"> [[GitHub]](https://github.com/cda-tum/mqt-ion-shuttler)  
 + [Quantum Circuit Compiler for a Shuttling-Based Trapped Ion Quantum Computer](https://arxiv.org/pdf/2207.01964v2.pdf) Fabian Kreppel et al <img src="https://img.shields.io/badge/Quantum-2022-green.svg">
-+ [Achieving Higher Fidelity on a Trapped-Ion Linear-Tape Quantum Computing Architecture](https://arxiv.org/pdf/2010.15876v3.pdf) Xin-Chuan Wu [[Youtube]](https://www.youtube.com/watch?v=SrcuokJUZp4) <img src="https://img.shields.io/badge/HPCA-2020-green.svg">
+
   
 > Neutral atom + [[PasQal]](https://www.pasqal.com/publications/)
 
@@ -112,27 +112,20 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [A Compiler for Universal Photonic Quantum Computers](https://arxiv.org/abs/2210.09251) Felix Zilk et al <img src="https://img.shields.io/badge/QCS-2022-green.svg">
 
 
-> Topolocial Quantum + [[Microsoft Quantum]([https://www.psiquantum.com/research](https://www.microsoft.com/en-us/research/research-area/quantum-computing/)]
+> Topolocial Quantum + [[Microsoft Quantum]([https://www.psiquantum.com/research](https://www.microsoft.com/en-us/research/research-area/quantum-computing/)
 
 
 
 <h4 id="compilation-with-error-mitigation">Compilation with error mitigation</h4>
 
-+ [A Variational Approach to Quantum Error Mitigation](https://arxiv.org/abs/2112.05821) Gokul S. Ravi et al <img src="https://img.shields.io/badge/HPCA-2022-green.svg">
 + [Mitigating Idling Errors in Qubits via Adaptive Dynamical Decoupling](https://dl.acm.org/doi/10.1145/3466752.3480059) Poulami Das et al <img src="https://img.shields.io/badge/MICRO-2021-green.svg">
 + [Systematic Cross talk Mitigation for Superconducting Qubits via Frequency-Aware Compilation](https://arxiv.org/abs/2008.09503) Yongshan Ding et al <img src="https://img.shields.io/badge/MICRO-2020-green.svg">
-+ [Digital Zero-Noise Extrapolation for Quantum Error Mitigation](https://arxiv.org/abs/2005.10921) Tudor Giurgica-Tiron et al <img src="https://img.shields.io/badge/QCE-2020-green.svg">
 + [Not All Qubits Are Created Equal: Variation-Aware Qubit Allocation in NISQ-Era Quantum Computers](https://dl.acm.org/doi/10.1145/3297858.3304007) Swamit Tannu & Moinuddin Qureshi <img src="https://img.shields.io/badge/ASPLOS-2019-green.svg">
 + [Noise-adaptive compiler mappings for noisy intermediate-scale quantum computers.](https://arxiv.org/abs/1901.11054) Prakash Murali et al. [[Github]](https://github.com/prakashmurali/TriQ) [[Youtube]](https://youtu.be/4RlOaxYPkX8?si=CieyhIebX3hjo6rj) <img src="https://img.shields.io/badge/ASPLOS-2019-green.svg" > 
-+ [Practical Quantum Error Mitigation for Near-Future Applications](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509) Suguru Endo et al <img src="https://img.shields.io/badge/APS-2018-green.svg">
-+ [Error Mitigation for Short-Depth Quantum Circuits](https://link.aps.org/doi/10.1103/PhysRevLett.119.180509) Kristan Temme et al <img src="https://img.shields.io/badge/APS-2017-green.svg">
 
 <h4 id="pulse-level-compilation">Pulse-level Compilation</h4>
 
 + [Towards a pulse-level intermediate representation for diverse quantum control systems](https://arxiv.org/abs/2507.15995) Jude Alnas et al. <img src="https://img.shields.io/badge/QCE-2025-green.svg">
-+ [Tackling the Challenges of Adding Pulse-level Support to a Heterogeneous HPCQC Software Stack: MQSS Pulse](https://dl.acm.org/doi/10.1145/3731599.3767552) Jorge Echavarria et al. <img src="https://img.shields.io/badge/SC-2025-green.svg">
-+ [Enhancing Noisy Quantum Sensing by GHZ State Partitioning](https://arxiv.org/pdf/2507.02829) Allen Zang et al. <img src="https://img.shields.io/badge/QCE-2025-green.svg">
-+ [Variational Quantum Pulse Learning](https://arxiv.org/abs/2203.17267) Zhiding Liang et al. <img src="https://img.shields.io/badge/QCE-2022-green.svg">
 + [Enabling Pulse-Level Programming, Compilation, and Execution in XACC](https://arxiv.org/pdf/2003.11971) Thien Nguyen, Alexander McCaskey [[Github]](https://github.com/eclipse/xacc) <img src="https://img.shields.io/badge/TC-2020-green.svg">
 + [Resource-Efficient Quantum Computing by Breaking Abstractions](https://arxiv.org/abs/2011.00028) Yunong Shi <img src="https://img.shields.io/badge/IEEE-2020-green.svg">
 + [Optimized Quantum Compilation for Near-Term Algorithms with OpenPulse](https://arxiv.org/abs/2004.11205) Pranav Gokhale et al. [[Github]](https://github.com/singular-value/optimizations_via_openpulse) [[Youtube]](https://youtu.be/dtPaDmE89Yc?si=5z1tfMK7FSw-SRsw) 
@@ -187,13 +180,12 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [Quantum resource estimation for large scale quantum algorithms](https://www.sciencedirect.com/science/article/pii/S0167739X24004308) Vlad Gheorghiu and Michele Mosca <img src="https://img.shields.io/badge/Future Generation Computer Systems-2025-green.svg">
 + [How to factor 2048-bit RSA integers in 8 hours using 20 million noisy qubits](https://quantum-journal.org/papers/q-2021-04-15-433/) Craig Gidney and Martin Eke  <img src="https://img.shields.io/badge/Quantum-2021-green.svg">
 + [Factoring 2048-bit RSA Integers in 177 Days with 13 436 Qubits and a Multimode Memory](https://arxiv.org/abs/2103.06159) Élie Gouzien and Nicolas Sangouard <img src="https://img.shields.io/badge/APS-2021-green.svg">
-+ [Efficient magic state factories with a catalyzed |CCZ⟩ to 2|T⟩ transformation](https://arxiv.org/abs/1812.01238) Craig Gidney, Austin G. Fowler <img src="https://img.shields.io/badge/Quantum-2019-green.svg">
 + [Large-Scale Quantum Computing with Lattice Surgery](https://arxiv.org/abs/1808.02892) Daniel Litinski <img src="https://img.shields.io/badge/Quantum-2019-green.svg">
-+ [Windowed Quantum Arithmetic](https://arxiv.org/abs/1905.07682) Craig Gidney (2019)
 
 
 <h4 id="distributed-ft-compilation">Distributed Quantum Computing</h4>
 
++ [A modular quantum computer based on bivariate bicycle codes](https://arxiv.org/abs/2506.03094) <img src="https://img.shields.io/badge/IBM Quantum-bigTech-yellow.svg">
 + [A Distributed Compilation Framework for Measurement-Based Quantum Computing](https://arxiv.org/abs/2601.00214) Yecheng Xue et al <img src="https://img.shields.io/badge/HPCA-2025-green.svg">
 + [Optimizing Distributed Quantum Computing for Quantum Data Centers with Switch Networks]() Hezi Zhang et al. <img src="https://img.shields.io/badge/ISCA-2025-green.svg">
 + [Optimizing Compilation for Distributed Quantum Computing via Clustering and Annealing](https://arxiv.org/abs/2508.15267) Ruilin Zhou et al <img src="https://img.shields.io/badge/QCE-2025-green.svg">
@@ -293,8 +285,6 @@ inspired me to decide to pursue research on PQC as well
 
 <h3 id="conference-deadline">Top Conference Deadline</h3>
 
-For reference, **NeurIPS, ICLR, and ICML** are not particularly well aligned with this field.
-
 + January - [ICCAD](https://www.iccad-conf.com/) [CCS](https://www.sigsac.org/ccs/CCS2026/) 
 + March - [OOPSLA](https://2025.splashcon.org/track/OOPSLA) [TQC](https://tqc-conference.org/) [QCE](https://easychair.org/cfp/QCE25)
 + April - [QCE](https://qce.quantum.ieee.org/) [MICRO](https://www.microarch.org/)
@@ -302,5 +292,5 @@ For reference, **NeurIPS, ICLR, and ICML** are not particularly well aligned wit
 + August - [ASPLOS](https://www.asplos-conference.org/) <summer cycle>
 + September - [HPCA](https://hpca-conf.org/) [QIP](https://qipconference.org/)
 + November - [CC](https://conf.researchr.org/series/cc) [ISCA](https://iscaconf.org/) [PLDI](https://conf.researchr.org/series/pldi) [DAC](https://www.dac.com/) [CGO](https://2026.cgo.org/) [STOC](https://acm-stoc.org/) [ICSE](https://conf.researchr.org/home/icse-2026)
-+ CrytoSystem - [Journal of Cryptology](https://www.iacr.org/jofc/) [IACR](https://eprint.iacr.org/)
++ CryptoSystem - [JoC](https://www.iacr.org/jofc/) [IACR](https://eprint.iacr.org/)
 
