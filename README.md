@@ -73,9 +73,9 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 > Superconducting + [[Google Quantum AI]](https://quantumai.google/research) [[IBM Quantum]](https://research.ibm.com/publications)
 
 + [Virtual-Z Gates and Symmetric Gate Compilation](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.020348) Arian Vezvaee et al <img src="https://img.shields.io/badge/APS-2025-green.svg">
-+ [Practical and efficient quantum circuit syntehesis and transpiling with Reinforcement Learning](https://arxiv.org/abs/2405.13196) <img src="https://img.shields.io/badge/IBM Quantum-bigTech-yellow.svg">
++ [Practical and efficient quantum circuit syntehesis and transpiling with Reinforcement Learning](https://arxiv.org/abs/2405.13196) <img src="https://img.shields.io/badge/IBM Quantum-bigTech-lightgrey.svg">
 + [Direct Pulse-Level Compilation of Arbitrary Quantum Logic Gates on Superconducting Qutrits](https://arxiv.org/abs/2303.04261) Yujin Cho et al <img src="https://img.shields.io/badge/APS-2024-green.svg">
-+ [A Compiler-Assisted Approach for Qubit Reuse through Dynamic Circuit](https://dl.acm.org/doi/10.1145/3582016.3582030) <img src="https://img.shields.io/badge/IBM Quantum-bigTech-yellow.svg">
++ [A Compiler-Assisted Approach for Qubit Reuse through Dynamic Circuit](https://dl.acm.org/doi/10.1145/3582016.3582030) <img src="https://img.shields.io/badge/IBM Quantum-bigTech-lightgrey.svg">
 + [Optimized Compilation of Aggregated Instructions for Realistic Quantum Computers](https://arxiv.org/pdf/1902.01474) Yunong Shi et al <img src="https://img.shields.io/badge/ASPLOS-2019-green.svg">
 
 > Trapped-Ion + [[Quantinuum]](https://www.quantinuum.com/research/research-areas#publications) [[IonQ]](https://www.ionq.com/publications)
@@ -112,7 +112,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 + [A Compiler for Universal Photonic Quantum Computers](https://arxiv.org/abs/2210.09251) Felix Zilk et al <img src="https://img.shields.io/badge/QCS-2022-green.svg">
 
 
-> Topolocial Quantum + [[Microsoft Quantum]([https://www.psiquantum.com/research](https://www.microsoft.com/en-us/research/research-area/quantum-computing/)
+> Topolocial Quantum + [Microsoft Quantum](https://www.microsoft.com/en-us/research/research-area/quantum-computing/)
 
 
 
@@ -185,7 +185,7 @@ By studying [Quantum Compilation](https://arxiv.org/abs/2112.00187) written by M
 
 <h4 id="distributed-ft-compilation">Distributed Quantum Computing</h4>
 
-+ [A modular quantum computer based on bivariate bicycle codes](https://arxiv.org/abs/2506.03094) <img src="https://img.shields.io/badge/IBM Quantum-bigTech-yellow.svg">
++ [A modular quantum computer based on bivariate bicycle codes](https://arxiv.org/abs/2506.03094) <img src="https://img.shields.io/badge/IBM Quantum-bigTech-lightgrey.svg">
 + [A Distributed Compilation Framework for Measurement-Based Quantum Computing](https://arxiv.org/abs/2601.00214) Yecheng Xue et al <img src="https://img.shields.io/badge/HPCA-2025-green.svg">
 + [Optimizing Distributed Quantum Computing for Quantum Data Centers with Switch Networks]() Hezi Zhang et al. <img src="https://img.shields.io/badge/ISCA-2025-green.svg">
 + [Optimizing Compilation for Distributed Quantum Computing via Clustering and Annealing](https://arxiv.org/abs/2508.15267) Ruilin Zhou et al <img src="https://img.shields.io/badge/QCE-2025-green.svg">
